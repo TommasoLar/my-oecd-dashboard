@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # OECDash
 
 **Live demo:** https://datathon26-five.vercel.app/
@@ -127,3 +128,6 @@ OECDash is designed to support expert review, not automate funding decisions.
 ## One-Liner
 
 **OECDash helps funders and policymakers go from OECD funding data to a first-pass strategy in minutes.**
+=======
+# my-oecd-dashboard
+>>>>>>> a2771820ad45c9d49d05d85fcef054a5e397e6f1
