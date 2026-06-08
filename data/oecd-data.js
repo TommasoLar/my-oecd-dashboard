@@ -1,14 +1,14 @@
 window.OECD_DATA = {
   "source": {
-    "file": "/Users/jominseo/Downloads/OECD Dataset.xlsx",
-    "sheet": "complete_p4d3_df",
+    "file": "C:\\Users\\Larghetti_T\\OneDrive\\my-oecd-dashboard\\data\\Complete_dataset.csv",
+    "sheet": null,
     "amountField": "usd_disbursements_defl",
     "amountUnit": "USD millions, deflated"
   },
   "metrics": {
-    "totalFunding": 68237.10386174193,
+    "totalFunding": 68247.01428251927,
     "totalFundingLabel": "$68.2B",
-    "recordCount": 116561,
+    "recordCount": 116467,
     "recordCountLabel": "116K+",
     "recipientCountries": 163,
     "donorOrganizations": 506
@@ -16,22 +16,22 @@ window.OECD_DATA = {
   "fundingByYear": [
     {
       "year": 2020,
-      "amount": 17170.555530731996,
+      "amount": 17177.260293223448,
       "amountLabel": "$17.2B"
     },
     {
       "year": 2021,
-      "amount": 17381.555882294524,
+      "amount": 17393.851568198992,
       "amountLabel": "$17.4B"
     },
     {
       "year": 2022,
-      "amount": 16679.54956744135,
+      "amount": 16675.363660943283,
       "amountLabel": "$16.7B"
     },
     {
       "year": 2023,
-      "amount": 16919.88543474208,
+      "amount": 16922.945030959556,
       "amountLabel": "$16.9B"
     }
   ],
@@ -43,100 +43,100 @@ window.OECD_DATA = {
     },
     {
       "label": "China (People's Republic of)",
-      "amount": 8846.911118517717,
+      "amount": 8845.92285317276,
       "amountLabel": "$8.8B"
     },
     {
       "label": "India",
-      "amount": 6174.581735230699,
+      "amount": 6212.2044220123,
       "amountLabel": "$6.2B"
     },
     {
       "label": "Mexico",
-      "amount": 3293.4206393331224,
+      "amount": 3274.4184240830177,
       "amountLabel": "$3.3B"
     },
     {
       "label": "South of Sahara, regional",
-      "amount": 3240.7812740617233,
+      "amount": 3240.781274062,
       "amountLabel": "$3.2B"
     },
     {
       "label": "Peru",
-      "amount": 2983.757057316656,
+      "amount": 2983.757057315,
       "amountLabel": "$3.0B"
     },
     {
       "label": "Africa, regional",
-      "amount": 2612.881731117461,
+      "amount": 2612.014108054,
       "amountLabel": "$2.6B"
     },
     {
       "label": "Colombia",
-      "amount": 1880.8236779429847,
+      "amount": 1880.823677949,
       "amountLabel": "$1.9B"
     },
     {
       "label": "Kenya",
-      "amount": 1617.9952668685196,
+      "amount": 1617.995266876,
       "amountLabel": "$1.6B"
     },
     {
       "label": "Nigeria",
-      "amount": 1508.7680140589234,
+      "amount": 1508.748409759,
       "amountLabel": "$1.5B"
     }
   ],
   "topSectors": [
     {
       "label": "Health",
-      "amount": 21843.614158113774,
-      "amountLabel": "$21.8B"
+      "amount": 22763.040177307445,
+      "amountLabel": "$22.8B"
     },
     {
       "label": "Education",
-      "amount": 7656.494826923276,
-      "amountLabel": "$7.7B"
+      "amount": 7895.200971797221,
+      "amountLabel": "$7.9B"
     },
     {
       "label": "Population Policies/Programmes & Reproductive Health",
-      "amount": 5257.974875343939,
+      "amount": 5262.7160537843,
       "amountLabel": "$5.3B"
     },
     {
       "label": "Government & Civil Society",
-      "amount": 5082.184036344014,
+      "amount": 5130.833504849166,
       "amountLabel": "$5.1B"
     },
     {
+      "label": "Agriculture, Forestry, Fishing",
+      "amount": 4851.2649163272,
+      "amountLabel": "$4.9B"
+    },
+    {
       "label": "Banking & Financial Services",
-      "amount": 4395.090217202107,
+      "amount": 4394.786213693,
       "amountLabel": "$4.4B"
     },
     {
-      "label": "Agriculture, Forestry, Fishing",
-      "amount": 4236.00737113659,
-      "amountLabel": "$4.2B"
-    },
-    {
       "label": "General Environment Protection",
-      "amount": 3699.585728086432,
-      "amountLabel": "$3.7B"
+      "amount": 3751.1423719731415,
+      "amountLabel": "$3.8B"
     },
     {
       "label": "Other Social Infrastructure & Services",
-      "amount": 3238.8074283545157,
-      "amountLabel": "$3.2B"
+      "amount": 3603.416434104803,
+      "amountLabel": "$3.6B"
     },
     {
       "label": "Other Multisector",
-      "amount": 1691.1463580029083,
-      "amountLabel": "$1.7B"
+      "amount": 2158.7230307841,
+      "amountLabel": "$2.2B"
     },
     {
-      "label": "Emergency Response",
-      "amount": 1455.6305888093234,
-      "amountLabel": "$1.5B"
+      "label": "Unallocated / Unspecified",
+      "amount": 1594.94824884,
+      "amountLabel": "$1.6B"
     }
   ],
   "topFunders": [
@@ -146,8 +146,8 @@ window.OECD_DATA = {
       "amountLabel": "$18.9B"
     },
     {
-      "label": "BBVAMF",
-      "amount": 5038.441774782421,
+      "label": "BBVA Microfinance Foundation",
+      "amount": 5038.441774778,
       "amountLabel": "$5.0B"
     },
     {
@@ -167,7 +167,7 @@ window.OECD_DATA = {
     },
     {
       "label": "Children's Investment Fund Foundation",
-      "amount": 1583.242231,
+      "amount": 1582.815925,
       "amountLabel": "$1.6B"
     },
     {
@@ -177,7 +177,7 @@ window.OECD_DATA = {
     },
     {
       "label": "Ford Foundation",
-      "amount": 1218.228814,
+      "amount": 1216.903384,
       "amountLabel": "$1.2B"
     },
     {
@@ -194,17 +194,17 @@ window.OECD_DATA = {
   "topDonorCountries": [
     {
       "label": "United States",
-      "amount": 32013.674005069544,
+      "amount": 32001.752427433,
       "amountLabel": "$32.0B"
     },
     {
       "label": "China (People's Republic of)",
-      "amount": 8702.883852840936,
+      "amount": 8701.89558748876,
       "amountLabel": "$8.7B"
     },
     {
       "label": "Spain",
-      "amount": 5130.919078782421,
+      "amount": 5130.459583778,
       "amountLabel": "$5.1B"
     },
     {
@@ -214,22 +214,22 @@ window.OECD_DATA = {
     },
     {
       "label": "United Kingdom",
-      "amount": 4681.692836028616,
+      "amount": 4681.258888731,
       "amountLabel": "$4.7B"
     },
     {
       "label": "India",
-      "amount": 4025.042183101959,
+      "amount": 3998.3744593518,
       "amountLabel": "$4.0B"
     },
     {
       "label": "Mexico",
-      "amount": 2927.510692544927,
+      "amount": 2920.482831490018,
       "amountLabel": "$2.9B"
     },
     {
       "label": "Switzerland",
-      "amount": 2079.0055984312494,
+      "amount": 2079.00559843,
       "amountLabel": "$2.1B"
     }
   ],
@@ -243,68 +243,68 @@ window.OECD_DATA = {
     "sectors": [
       {
         "label": "All sectors",
-        "amount": 36143.37557138865,
+        "amount": 36093.688751956775,
         "amountLabel": "$36.1B"
       },
       {
         "label": "Health",
-        "amount": 7247.197052904929,
-        "amountLabel": "$7.2B"
+        "amount": 8146.959188076446,
+        "amountLabel": "$8.1B"
       },
       {
         "label": "Education",
-        "amount": 5824.880236458547,
-        "amountLabel": "$5.8B"
+        "amount": 6057.698367649222,
+        "amountLabel": "$6.1B"
       },
       {
         "label": "Banking & Financial Services",
-        "amount": 3885.6345742112767,
+        "amount": 3885.330570703,
         "amountLabel": "$3.9B"
       },
       {
-        "label": "Unspecified",
-        "amount": 3246.710058392844,
-        "amountLabel": "$3.2B"
+        "label": "Agriculture, Forestry, Fishing",
+        "amount": 3144.2308506022,
+        "amountLabel": "$3.1B"
       },
       {
         "label": "Other Social Infrastructure & Services",
-        "amount": 2595.829400050269,
-        "amountLabel": "$2.6B"
-      },
-      {
-        "label": "Agriculture, Forestry, Fishing",
-        "amount": 2530.15168065042,
-        "amountLabel": "$2.5B"
+        "amount": 2936.9349663888033,
+        "amountLabel": "$2.9B"
       },
       {
         "label": "Government & Civil Society",
-        "amount": 2062.9968826551417,
+        "amount": 2100.016792973166,
         "amountLabel": "$2.1B"
       },
       {
         "label": "Population Policies/Programmes & Reproductive Health",
-        "amount": 1931.149005734255,
+        "amount": 1935.8767279583,
         "amountLabel": "$1.9B"
       },
       {
         "label": "Other Multisector",
-        "amount": 1119.8655232482324,
-        "amountLabel": "$1.1B"
-      },
-      {
-        "label": "Business & Other Services",
-        "amount": 1023.6558512611373,
-        "amountLabel": "$1.0B"
+        "amount": 1524.8251300966,
+        "amountLabel": "$1.5B"
       },
       {
         "label": "General Environment Protection",
-        "amount": 998.6676239138866,
-        "amountLabel": "$998.7M"
+        "amount": 1035.4603850991414,
+        "amountLabel": "$1.0B"
+      },
+      {
+        "label": "Business & Other Services",
+        "amount": 1026.6101701268,
+        "amountLabel": "$1.0B"
+      },
+      {
+        "label": "Unallocated / Unspecified",
+        "amount": 798.861547051,
+        "amountLabel": "$798.9M"
       },
       {
         "label": "Energy",
-        "amount": 760.9095146666932,
-        "amountLabel": "$760.9M"
+        "amount": 766.886208059,
+        "amountLabel": "$766.9M"
       }
     ],
     "recipients": [
@@ -314,18 +314,18 @@ window.OECD_DATA = {
         "lon": 103.0,
         "region": "Far East Asia",
         "regionMacro": "Asia",
-        "amount": 8846.911118517717,
+        "amount": 8845.92285317276,
         "amountLabel": "$8.8B",
         "rank": 1,
         "topDonors": [
           {
             "donorCountry": "China (People's Republic of)",
-            "amount": 8283.771529348774,
+            "amount": 8282.78326399576,
             "amountLabel": "$8.3B"
           },
           {
             "donorCountry": "United States",
-            "amount": 343.50251765777,
+            "amount": 343.502517667,
             "amountLabel": "$343.5M"
           },
           {
@@ -335,7 +335,7 @@ window.OECD_DATA = {
           },
           {
             "donorCountry": "Switzerland",
-            "amount": 94.8648659853,
+            "amount": 94.86486598500001,
             "amountLabel": "$94.9M"
           },
           {
@@ -352,33 +352,33 @@ window.OECD_DATA = {
         "topSectors": [
           {
             "sector": "Education",
-            "amount": 2258.870753425226,
-            "amountLabel": "$2.3B"
+            "amount": 2385.47618872166,
+            "amountLabel": "$2.4B"
           },
           {
             "sector": "Health",
-            "amount": 1693.30102014526,
-            "amountLabel": "$1.7B"
-          },
-          {
-            "sector": "Unspecified",
-            "amount": 1037.8672628468132,
-            "amountLabel": "$1.0B"
+            "amount": 1925.9565096602,
+            "amountLabel": "$1.9B"
           },
           {
             "sector": "Other Social Infrastructure & Services",
-            "amount": 1012.1751621357917,
-            "amountLabel": "$1.0B"
+            "amount": 1293.3655021647,
+            "amountLabel": "$1.3B"
           },
           {
             "sector": "Other Multisector",
-            "amount": 703.4952280142902,
-            "amountLabel": "$703.5M"
+            "amount": 979.1693848116,
+            "amountLabel": "$979.2M"
           },
           {
             "sector": "Energy",
-            "amount": 372.287068943335,
-            "amountLabel": "$372.3M"
+            "amount": 376.08633331,
+            "amountLabel": "$376.1M"
+          },
+          {
+            "sector": "Emergency Response",
+            "amount": 285.699578509,
+            "amountLabel": "$285.7M"
           }
         ],
         "topOrganizations": [
@@ -389,44 +389,44 @@ window.OECD_DATA = {
           },
           {
             "organization": "China Three Gorges Group Public Welfare Foundation",
-            "amount": 657.083832845626,
+            "amount": 657.083832863,
             "amountLabel": "$657.1M"
           },
           {
             "organization": "Heren Charity Foundation",
-            "amount": 483.241378096058,
+            "amount": 483.241378096,
             "amountLabel": "$483.2M"
           },
           {
             "organization": "Guangdong Guoqiang Charity Foundation",
-            "amount": 419.192335379364,
+            "amount": 419.192335382,
             "amountLabel": "$419.2M"
           },
           {
             "organization": "China Energy Group Public Welfare Foundation",
-            "amount": 296.249463214228,
+            "amount": 296.249463214,
             "amountLabel": "$296.2M"
           }
         ],
         "yearTrend": [
           {
             "year": 2020,
-            "amount": 2441.951592083771,
+            "amount": 2441.0960748612,
             "amountLabel": "$2.4B"
           },
           {
             "year": 2021,
-            "amount": 2134.0330953085827,
+            "amount": 2134.0330952775,
             "amountLabel": "$2.1B"
           },
           {
             "year": 2022,
-            "amount": 2025.7896917563842,
+            "amount": 2025.7896918060999,
             "amountLabel": "$2.0B"
           },
           {
             "year": 2023,
-            "amount": 2245.1367393689784,
+            "amount": 2245.00399122796,
             "amountLabel": "$2.2B"
           }
         ]
@@ -437,24 +437,24 @@ window.OECD_DATA = {
         "lon": 78.0,
         "region": "South & Central Asia",
         "regionMacro": "Asia",
-        "amount": 6174.5817352306985,
-        "amountLabel": "$6.2B",
+        "amount": 6145.5702669018,
+        "amountLabel": "$6.1B",
         "rank": 2,
         "topDonors": [
           {
             "donorCountry": "India",
-            "amount": 4025.042183101959,
+            "amount": 3998.3744593518,
             "amountLabel": "$4.0B"
           },
           {
             "donorCountry": "United States",
-            "amount": 1616.00041311509,
+            "amount": 1614.120061126,
             "amountLabel": "$1.6B"
           },
           {
             "donorCountry": "United Kingdom",
-            "amount": 192.6759731184,
-            "amountLabel": "$192.7M"
+            "amount": 192.249667118,
+            "amountLabel": "$192.2M"
           },
           {
             "donorCountry": "Netherlands",
@@ -463,45 +463,45 @@ window.OECD_DATA = {
           },
           {
             "donorCountry": "Switzerland",
-            "amount": 117.28515027869,
+            "amount": 117.285150279,
             "amountLabel": "$117.3M"
           },
           {
             "donorCountry": "Denmark",
-            "amount": 17.8458051218,
+            "amount": 17.845805122,
             "amountLabel": "$17.8M"
           }
         ],
         "topSectors": [
           {
             "sector": "Health",
-            "amount": 1329.651077036153,
-            "amountLabel": "$1.3B"
-          },
-          {
-            "sector": "Unspecified",
-            "amount": 1271.092864446578,
-            "amountLabel": "$1.3B"
+            "amount": 1725.999989141,
+            "amountLabel": "$1.7B"
           },
           {
             "sector": "Education",
-            "amount": 909.2898752627092,
-            "amountLabel": "$909.3M"
+            "amount": 1004.618642189,
+            "amountLabel": "$1.0B"
+          },
+          {
+            "sector": "Unallocated / Unspecified",
+            "amount": 496.732263655,
+            "amountLabel": "$496.7M"
           },
           {
             "sector": "Government & Civil Society",
-            "amount": 447.14097970440054,
-            "amountLabel": "$447.1M"
+            "amount": 474.2407574043,
+            "amountLabel": "$474.2M"
+          },
+          {
+            "sector": "Other Multisector",
+            "amount": 380.258443896,
+            "amountLabel": "$380.3M"
           },
           {
             "sector": "Agriculture, Forestry, Fishing",
-            "amount": 330.91315738287466,
-            "amountLabel": "$330.9M"
-          },
-          {
-            "sector": "Population Policies/Programmes & Reproductive Health",
-            "amount": 299.7921793446274,
-            "amountLabel": "$299.8M"
+            "amount": 342.8695293325,
+            "amountLabel": "$342.9M"
           }
         ],
         "topOrganizations": [
@@ -512,45 +512,45 @@ window.OECD_DATA = {
           },
           {
             "organization": "Reliance Industries Limited",
-            "amount": 446.320436994892,
+            "amount": 446.320436991,
             "amountLabel": "$446.3M"
           },
           {
             "organization": "Tata Trusts",
-            "amount": 399.944785038598,
-            "amountLabel": "$399.9M"
+            "amount": 431.43,
+            "amountLabel": "$431.4M"
           },
           {
             "organization": "Tata Consultancy Services Limited",
-            "amount": 393.025868749784,
+            "amount": 393.025868752,
             "amountLabel": "$393.0M"
           },
           {
             "organization": "Infosys Limited",
-            "amount": 203.64830548844301,
+            "amount": 203.648305494,
             "amountLabel": "$203.6M"
           }
         ],
         "yearTrend": [
           {
             "year": 2020,
-            "amount": 1563.7602937768472,
+            "amount": 1573.852843411,
             "amountLabel": "$1.6B"
           },
           {
             "year": 2021,
-            "amount": 1495.2251800254699,
+            "amount": 1495.0507357613,
             "amountLabel": "$1.5B"
           },
           {
             "year": 2022,
-            "amount": 1556.2445835898525,
-            "amountLabel": "$1.6B"
+            "amount": 1538.411371627,
+            "amountLabel": "$1.5B"
           },
           {
             "year": 2023,
-            "amount": 1559.3516778385297,
-            "amountLabel": "$1.6B"
+            "amount": 1538.2553161025,
+            "amountLabel": "$1.5B"
           }
         ]
       },
@@ -560,28 +560,28 @@ window.OECD_DATA = {
         "lon": -102.0,
         "region": "Central America",
         "regionMacro": "America",
-        "amount": 3293.4206393331224,
+        "amount": 3274.4184240830177,
         "amountLabel": "$3.3B",
         "rank": 3,
         "topDonors": [
           {
             "donorCountry": "Mexico",
-            "amount": 2927.510692544927,
+            "amount": 2920.482831490018,
             "amountLabel": "$2.9B"
           },
           {
             "donorCountry": "United States",
-            "amount": 275.700899598532,
-            "amountLabel": "$275.7M"
+            "amount": 265.65967386,
+            "amountLabel": "$265.7M"
           },
           {
             "donorCountry": "Denmark",
-            "amount": 41.761130945,
-            "amountLabel": "$41.8M"
+            "amount": 40.065072945,
+            "amountLabel": "$40.1M"
           },
           {
             "donorCountry": "Switzerland",
-            "amount": 22.8277598998,
+            "amount": 22.8277599,
             "amountLabel": "$22.8M"
           },
           {
@@ -591,89 +591,89 @@ window.OECD_DATA = {
           },
           {
             "donorCountry": "Qatar",
-            "amount": 3.5159528352000002,
+            "amount": 3.515952835,
             "amountLabel": "$3.5M"
           }
         ],
         "topSectors": [
           {
+            "sector": "Health",
+            "amount": 846.1611810230455,
+            "amountLabel": "$846.2M"
+          },
+          {
             "sector": "Other Social Infrastructure & Services",
-            "amount": 728.7781607590387,
-            "amountLabel": "$728.8M"
+            "amount": 729.0532786421032,
+            "amountLabel": "$729.1M"
           },
           {
             "sector": "Education",
-            "amount": 660.1866682001141,
-            "amountLabel": "$660.2M"
-          },
-          {
-            "sector": "Health",
-            "amount": 582.6293698658599,
-            "amountLabel": "$582.6M"
+            "amount": 655.8382442865613,
+            "amountLabel": "$655.8M"
           },
           {
             "sector": "Government & Civil Society",
-            "amount": 305.4920692381676,
-            "amountLabel": "$305.5M"
-          },
-          {
-            "sector": "Unspecified",
-            "amount": 272.578998984208,
-            "amountLabel": "$272.6M"
+            "amount": 304.20988205186626,
+            "amountLabel": "$304.2M"
           },
           {
             "sector": "Reconstruction Relief & Rehabilitation",
-            "amount": 134.31660310524092,
+            "amount": 134.316603103,
             "amountLabel": "$134.3M"
+          },
+          {
+            "sector": "Development Food Assistance",
+            "amount": 133.3458306656,
+            "amountLabel": "$133.3M"
           }
         ],
         "topOrganizations": [
           {
-            "organization": "Carlos Slim",
-            "amount": 640.9763949341,
+            "organization": "Carlos Slim Foundation",
+            "amount": 640.976394935,
             "amountLabel": "$641.0M"
           },
           {
             "organization": "Fundacion Bbva Mexico",
-            "amount": 249.5007221300645,
+            "amount": 249.500722137,
             "amountLabel": "$249.5M"
           },
           {
             "organization": "Fundacion Imss",
-            "amount": 105.37774561117673,
+            "amount": 105.37774558262431,
             "amountLabel": "$105.4M"
           },
           {
             "organization": "Fundacion Gonzalo Rio Arronte",
-            "amount": 92.08994534389,
-            "amountLabel": "$92.1M"
+            "amount": 91.289441229,
+            "amountLabel": "$91.3M"
           },
           {
             "organization": "Nacional Monte De Piedad",
-            "amount": 83.082641715482,
+            "amount": 83.08264172,
             "amountLabel": "$83.1M"
           }
         ],
         "yearTrend": [
           {
             "year": 2020,
-            "amount": 1293.6669479615068,
+            "amount": 1283.2790901962478,
             "amountLabel": "$1.3B"
           },
           {
             "year": 2021,
-            "amount": 826.4917449113217,
-            "amountLabel": "$826.5M"
+            "amount": 823.119303010692,
+            "amountLabel": "$823.1M"
           },
           {
             "year": 2022,
-            "amount": 774.1404848546631,
-            "amountLabel": "$774.1M"
+            "amount": 769.6912039599835,
+            "amountLabel": "$769.7M"
           },
           {
             "year": 2023,
-            "amount": 399.1214616056307,
-            "amountLabel": "$399.1M"
+            "amount": 398.3288269160947,
+            "amountLabel": "$398.3M"
           }
         ]
       },
@@ -683,18 +683,18 @@ window.OECD_DATA = {
         "lon": -75.0,
         "region": "South America",
         "regionMacro": "America",
-        "amount": 2983.757057316656,
+        "amount": 2983.7570573150006,
         "amountLabel": "$3.0B",
         "rank": 4,
         "topDonors": [
           {
             "donorCountry": "Spain",
-            "amount": 2886.599681919425,
+            "amount": 2886.599681919,
             "amountLabel": "$2.9B"
           },
           {
             "donorCountry": "United States",
-            "amount": 85.66535290373,
+            "amount": 85.665352906,
             "amountLabel": "$85.7M"
           },
           {
@@ -714,7 +714,7 @@ window.OECD_DATA = {
           },
           {
             "donorCountry": "Belgium",
-            "amount": 1.1052592406608,
+            "amount": 1.105259237,
             "amountLabel": "$1.1M"
           }
         ],
@@ -726,34 +726,34 @@ window.OECD_DATA = {
           },
           {
             "sector": "Business & Other Services",
-            "amount": 742.495450673412,
+            "amount": 742.495450673,
             "amountLabel": "$742.5M"
           },
           {
-            "sector": "Unspecified",
-            "amount": 598.3245682499329,
-            "amountLabel": "$598.3M"
+            "sector": "Agriculture, Forestry, Fishing",
+            "amount": 609.552504872,
+            "amountLabel": "$609.6M"
           },
           {
             "sector": "Government & Civil Society",
-            "amount": 113.08610481456,
+            "amount": 113.086104815,
             "amountLabel": "$113.1M"
           },
           {
             "sector": "General Environment Protection",
-            "amount": 49.297335401,
+            "amount": 49.2973354,
             "amountLabel": "$49.3M"
           },
           {
             "sector": "Education",
-            "amount": 12.3828290168446,
+            "amount": 12.382829016,
             "amountLabel": "$12.4M"
           }
         ],
         "topOrganizations": [
           {
-            "organization": "BBVAMF",
-            "amount": 2880.073344919425,
+            "organization": "BBVA Microfinance Foundation",
+            "amount": 2880.073344919,
             "amountLabel": "$2.9B"
           },
           {
@@ -780,22 +780,22 @@ window.OECD_DATA = {
         "yearTrend": [
           {
             "year": 2020,
-            "amount": 540.3581526653256,
+            "amount": 540.358152663,
             "amountLabel": "$540.4M"
           },
           {
             "year": 2021,
-            "amount": 791.045403592122,
+            "amount": 791.045403591,
             "amountLabel": "$791.0M"
           },
           {
             "year": 2022,
-            "amount": 834.1391687523179,
+            "amount": 834.139168754,
             "amountLabel": "$834.1M"
           },
           {
             "year": 2023,
-            "amount": 818.2143323068902,
+            "amount": 818.214332307,
             "amountLabel": "$818.2M"
           }
         ]
@@ -806,18 +806,18 @@ window.OECD_DATA = {
         "lon": -74.0,
         "region": "South America",
         "regionMacro": "America",
-        "amount": 1880.823677942985,
+        "amount": 1880.8236779489998,
         "amountLabel": "$1.9B",
         "rank": 5,
         "topDonors": [
           {
             "donorCountry": "Spain",
-            "amount": 1546.4824665332997,
+            "amount": 1546.482466533,
             "amountLabel": "$1.5B"
           },
           {
             "donorCountry": "United States",
-            "amount": 233.34561619726,
+            "amount": 233.345616202,
             "amountLabel": "$233.3M"
           },
           {
@@ -827,56 +827,56 @@ window.OECD_DATA = {
           },
           {
             "donorCountry": "Colombia",
-            "amount": 22.22549756092,
+            "amount": 22.22549756,
             "amountLabel": "$22.2M"
           },
           {
             "donorCountry": "Denmark",
-            "amount": 14.6211860839,
+            "amount": 14.621186084,
             "amountLabel": "$14.6M"
           },
           {
             "donorCountry": "United Kingdom",
-            "amount": 11.562977682756,
+            "amount": 11.562977683,
             "amountLabel": "$11.6M"
           }
         ],
         "topSectors": [
           {
             "sector": "Banking & Financial Services",
-            "amount": 1337.0083590727597,
+            "amount": 1337.008359074,
             "amountLabel": "$1.3B"
           },
           {
             "sector": "Agriculture, Forestry, Fishing",
-            "amount": 246.935850504966,
-            "amountLabel": "$246.9M"
+            "amount": 246.999982763,
+            "amountLabel": "$247.0M"
           },
           {
             "sector": "Government & Civil Society",
-            "amount": 77.670057553545,
-            "amountLabel": "$77.7M"
+            "amount": 78.45612499,
+            "amountLabel": "$78.5M"
           },
           {
             "sector": "General Environment Protection",
-            "amount": 70.55922478411,
+            "amount": 70.559224785,
             "amountLabel": "$70.6M"
           },
           {
             "sector": "Education",
-            "amount": 56.421837196426,
+            "amount": 56.421837196,
             "amountLabel": "$56.4M"
           },
           {
             "sector": "Other Social Infrastructure & Services",
-            "amount": 20.606386619424,
-            "amountLabel": "$20.6M"
+            "amount": 20.971316569,
+            "amountLabel": "$21.0M"
           }
         ],
         "topOrganizations": [
           {
-            "organization": "BBVAMF",
-            "amount": 1544.5050225332998,
+            "organization": "BBVA Microfinance Foundation",
+            "amount": 1544.505022533,
             "amountLabel": "$1.5B"
           },
           {
@@ -903,22 +903,22 @@ window.OECD_DATA = {
         "yearTrend": [
           {
             "year": 2020,
-            "amount": 358.306248893052,
+            "amount": 358.306248896,
             "amountLabel": "$358.3M"
           },
           {
             "year": 2021,
-            "amount": 494.925928421666,
+            "amount": 494.925928421,
             "amountLabel": "$494.9M"
           },
           {
             "year": 2022,
-            "amount": 564.444734125379,
+            "amount": 564.444734127,
             "amountLabel": "$564.4M"
           },
           {
             "year": 2023,
-            "amount": 463.1467665028877,
+            "amount": 463.146766505,
             "amountLabel": "$463.1M"
           }
         ]
@@ -929,13 +929,13 @@ window.OECD_DATA = {
         "lon": 37.9,
         "region": "Eastern Africa",
         "regionMacro": "Africa",
-        "amount": 1617.9952668685196,
+        "amount": 1617.995266876,
         "amountLabel": "$1.6B",
         "rank": 6,
         "topDonors": [
           {
             "donorCountry": "United States",
-            "amount": 700.4961342708165,
+            "amount": 700.496134279,
             "amountLabel": "$700.5M"
           },
           {
@@ -945,7 +945,7 @@ window.OECD_DATA = {
           },
           {
             "donorCountry": "United Kingdom",
-            "amount": 244.916290254767,
+            "amount": 244.916290255,
             "amountLabel": "$244.9M"
           },
           {
@@ -960,40 +960,40 @@ window.OECD_DATA = {
           },
           {
             "donorCountry": "Switzerland",
-            "amount": 25.55230457032,
+            "amount": 25.55230457,
             "amountLabel": "$25.6M"
           }
         ],
         "topSectors": [
           {
             "sector": "Health",
-            "amount": 449.5572583613125,
-            "amountLabel": "$449.6M"
+            "amount": 449.708143633,
+            "amountLabel": "$449.7M"
           },
           {
             "sector": "Education",
-            "amount": 214.228696344069,
+            "amount": 214.233747951,
             "amountLabel": "$214.2M"
           },
           {
             "sector": "Agriculture, Forestry, Fishing",
-            "amount": 203.58768130559,
+            "amount": 203.587681305,
             "amountLabel": "$203.6M"
           },
           {
             "sector": "Population Policies/Programmes & Reproductive Health",
-            "amount": 201.341894393651,
+            "amount": 201.341894396,
             "amountLabel": "$201.3M"
           },
           {
             "sector": "Other Social Infrastructure & Services",
-            "amount": 187.519442940116,
-            "amountLabel": "$187.5M"
+            "amount": 188.407755554,
+            "amountLabel": "$188.4M"
           },
           {
             "sector": "Government & Civil Society",
-            "amount": 125.77852274147,
-            "amountLabel": "$125.8M"
+            "amount": 126.209113151,
+            "amountLabel": "$126.2M"
           }
         ],
         "topOrganizations": [
@@ -1026,22 +1026,22 @@ window.OECD_DATA = {
         "yearTrend": [
           {
             "year": 2020,
-            "amount": 371.70640602262097,
+            "amount": 371.70640602,
             "amountLabel": "$371.7M"
           },
           {
             "year": 2021,
-            "amount": 286.349842505521,
+            "amount": 286.349842505,
             "amountLabel": "$286.3M"
           },
           {
             "year": 2022,
-            "amount": 356.9990664640875,
+            "amount": 356.999066473,
             "amountLabel": "$357.0M"
           },
           {
             "year": 2023,
-            "amount": 602.93995187629,
+            "amount": 602.939951878,
             "amountLabel": "$602.9M"
           }
         ]
@@ -1052,13 +1052,13 @@ window.OECD_DATA = {
         "lon": 8.0,
         "region": "Western Africa",
         "regionMacro": "Africa",
-        "amount": 1508.7680140589234,
+        "amount": 1508.748409759,
         "amountLabel": "$1.5B",
         "rank": 7,
         "topDonors": [
           {
             "donorCountry": "United States",
-            "amount": 1138.08617859888,
+            "amount": 1138.086178604,
             "amountLabel": "$1.1B"
           },
           {
@@ -1068,54 +1068,54 @@ window.OECD_DATA = {
           },
           {
             "donorCountry": "United Kingdom",
-            "amount": 44.59136029041,
+            "amount": 44.59136029,
             "amountLabel": "$44.6M"
           },
           {
             "donorCountry": "Japan",
-            "amount": 27.484153274416002,
+            "amount": 27.464548979000003,
             "amountLabel": "$27.5M"
           },
           {
             "donorCountry": "Nigeria",
-            "amount": 15.1804536282455,
+            "amount": 15.180453621,
             "amountLabel": "$15.2M"
           },
           {
             "donorCountry": "Switzerland",
-            "amount": 6.5903960581,
+            "amount": 6.590396058,
             "amountLabel": "$6.6M"
           }
         ],
         "topSectors": [
           {
             "sector": "Health",
-            "amount": 670.941444372406,
-            "amountLabel": "$670.9M"
+            "amount": 671.250219352,
+            "amountLabel": "$671.3M"
           },
           {
             "sector": "Agriculture, Forestry, Fishing",
-            "amount": 330.520374268233,
+            "amount": 330.542200228,
             "amountLabel": "$330.5M"
           },
           {
             "sector": "Government & Civil Society",
-            "amount": 174.005377764652,
+            "amount": 174.005377763,
             "amountLabel": "$174.0M"
           },
           {
             "sector": "Population Policies/Programmes & Reproductive Health",
-            "amount": 119.0291796904315,
-            "amountLabel": "$119.0M"
+            "amount": 119.076039484,
+            "amountLabel": "$119.1M"
           },
           {
             "sector": "Education",
-            "amount": 54.934565072916,
+            "amount": 54.924762923,
             "amountLabel": "$54.9M"
           },
           {
             "sector": "Energy",
-            "amount": 37.062543609070005,
+            "amount": 37.062543609,
             "amountLabel": "$37.1M"
           }
         ],
@@ -1149,22 +1149,22 @@ window.OECD_DATA = {
         "yearTrend": [
           {
             "year": 2020,
-            "amount": 344.52976740080203,
+            "amount": 344.529767404,
             "amountLabel": "$344.5M"
           },
           {
             "year": 2021,
-            "amount": 354.332718719465,
+            "amount": 354.31311442,
             "amountLabel": "$354.3M"
           },
           {
             "year": 2022,
-            "amount": 392.0596125454805,
+            "amount": 392.059612548,
             "amountLabel": "$392.1M"
           },
           {
             "year": 2023,
-            "amount": 417.845915393176,
+            "amount": 417.845915387,
             "amountLabel": "$417.8M"
           }
         ]
@@ -1175,13 +1175,13 @@ window.OECD_DATA = {
         "lon": 40.0,
         "region": "Eastern Africa",
         "regionMacro": "Africa",
-        "amount": 1435.3496413878202,
+        "amount": 1435.349641384,
         "amountLabel": "$1.4B",
         "rank": 8,
         "topDonors": [
           {
             "donorCountry": "United States",
-            "amount": 882.7611647292,
+            "amount": 882.761164729,
             "amountLabel": "$882.8M"
           },
           {
@@ -1201,7 +1201,7 @@ window.OECD_DATA = {
           },
           {
             "donorCountry": "Denmark",
-            "amount": 20.333602438499998,
+            "amount": 20.333602438,
             "amountLabel": "$20.3M"
           },
           {
@@ -1213,17 +1213,17 @@ window.OECD_DATA = {
         "topSectors": [
           {
             "sector": "Health",
-            "amount": 458.480384215493,
+            "amount": 458.4943638,
             "amountLabel": "$458.5M"
           },
           {
             "sector": "Agriculture, Forestry, Fishing",
-            "amount": 295.25462338762003,
+            "amount": 295.254623388,
             "amountLabel": "$295.3M"
           },
           {
             "sector": "Population Policies/Programmes & Reproductive Health",
-            "amount": 286.140982999923,
+            "amount": 286.140982999,
             "amountLabel": "$286.1M"
           },
           {
@@ -1233,12 +1233,12 @@ window.OECD_DATA = {
           },
           {
             "sector": "Education",
-            "amount": 88.959735351359,
-            "amountLabel": "$89.0M"
+            "amount": 93.230922431,
+            "amountLabel": "$93.2M"
           },
           {
             "sector": "Other Social Infrastructure & Services",
-            "amount": 50.52208403219,
+            "amount": 50.522084032,
             "amountLabel": "$50.5M"
           }
         ],
@@ -1272,22 +1272,22 @@ window.OECD_DATA = {
         "yearTrend": [
           {
             "year": 2020,
-            "amount": 278.915301062296,
+            "amount": 278.915301061,
             "amountLabel": "$278.9M"
           },
           {
             "year": 2021,
-            "amount": 334.833110411821,
+            "amount": 334.83311041,
             "amountLabel": "$334.8M"
           },
           {
             "year": 2022,
-            "amount": 355.10360921745,
+            "amount": 355.103609218,
             "amountLabel": "$355.1M"
           },
           {
             "year": 2023,
-            "amount": 466.497620696253,
+            "amount": 466.497620695,
             "amountLabel": "$466.5M"
           }
         ]
@@ -1298,7 +1298,7 @@ window.OECD_DATA = {
         "lon": 30.0,
         "region": "Eastern Africa",
         "regionMacro": "Africa",
-        "amount": 914.5172029306731,
+        "amount": 914.517202926,
         "amountLabel": "$914.5M",
         "rank": 9,
         "topDonors": [
@@ -1309,7 +1309,7 @@ window.OECD_DATA = {
           },
           {
             "donorCountry": "United States",
-            "amount": 309.292273920523,
+            "amount": 309.292273913,
             "amountLabel": "$309.3M"
           },
           {
@@ -1336,23 +1336,23 @@ window.OECD_DATA = {
         "topSectors": [
           {
             "sector": "Education",
-            "amount": 474.55994077429403,
-            "amountLabel": "$474.6M"
+            "amount": 478.746418774,
+            "amountLabel": "$478.7M"
           },
           {
             "sector": "Population Policies/Programmes & Reproductive Health",
-            "amount": 225.70814846092802,
+            "amount": 225.708148461,
             "amountLabel": "$225.7M"
           },
           {
             "sector": "Agriculture, Forestry, Fishing",
-            "amount": 84.905435462975,
-            "amountLabel": "$84.9M"
+            "amount": 84.962960394,
+            "amountLabel": "$85.0M"
           },
           {
             "sector": "Health",
-            "amount": 39.988423316312,
-            "amountLabel": "$40.0M"
+            "amount": 40.363782932,
+            "amountLabel": "$40.4M"
           },
           {
             "sector": "Banking & Financial Services",
@@ -1361,7 +1361,7 @@ window.OECD_DATA = {
           },
           {
             "sector": "Other Social Infrastructure & Services",
-            "amount": 18.010098518315,
+            "amount": 18.010098517,
             "amountLabel": "$18.0M"
           }
         ],
@@ -1395,22 +1395,22 @@ window.OECD_DATA = {
         "yearTrend": [
           {
             "year": 2020,
-            "amount": 368.323262209948,
+            "amount": 368.323262209,
             "amountLabel": "$368.3M"
           },
           {
             "year": 2021,
-            "amount": 169.333759417647,
+            "amount": 169.333759413,
             "amountLabel": "$169.3M"
           },
           {
             "year": 2022,
-            "amount": 138.207254770846,
+            "amount": 138.207254771,
             "amountLabel": "$138.2M"
           },
           {
             "year": 2023,
-            "amount": 238.652926532232,
+            "amount": 238.652926533,
             "amountLabel": "$238.7M"
           }
         ]
@@ -1421,7 +1421,7 @@ window.OECD_DATA = {
         "lon": -1.0,
         "region": "Western Africa",
         "regionMacro": "Africa",
-        "amount": 902.043790126959,
+        "amount": 902.043790133,
         "amountLabel": "$902.0M",
         "rank": 10,
         "topDonors": [
@@ -1432,17 +1432,17 @@ window.OECD_DATA = {
           },
           {
             "donorCountry": "United States",
-            "amount": 198.76486576906,
+            "amount": 198.764865773,
             "amountLabel": "$198.8M"
           },
           {
             "donorCountry": "Switzerland",
-            "amount": 44.6476408217,
+            "amount": 44.647640822,
             "amountLabel": "$44.6M"
           },
           {
             "donorCountry": "United Kingdom",
-            "amount": 26.207049087462,
+            "amount": 26.207049088,
             "amountLabel": "$26.2M"
           },
           {
@@ -1452,14 +1452,14 @@ window.OECD_DATA = {
           },
           {
             "donorCountry": "Belgium",
-            "amount": 2.002738017537,
+            "amount": 2.002738019,
             "amountLabel": "$2.0M"
           }
         ],
         "topSectors": [
           {
             "sector": "Education",
-            "amount": 471.804857220873,
+            "amount": 471.804857222,
             "amountLabel": "$471.8M"
           },
           {
@@ -1469,22 +1469,22 @@ window.OECD_DATA = {
           },
           {
             "sector": "Other Social Infrastructure & Services",
-            "amount": 85.72326642419401,
+            "amount": 85.723266425,
             "amountLabel": "$85.7M"
           },
           {
             "sector": "Agriculture, Forestry, Fishing",
-            "amount": 69.87568077633,
+            "amount": 69.875680778,
             "amountLabel": "$69.9M"
           },
           {
             "sector": "Water Supply & Sanitation",
-            "amount": 52.0079415452,
-            "amountLabel": "$52.0M"
+            "amount": 52.230696377,
+            "amountLabel": "$52.2M"
           },
           {
             "sector": "Population Policies/Programmes & Reproductive Health",
-            "amount": 32.44002604829,
+            "amount": 32.440026048,
             "amountLabel": "$32.4M"
           }
         ],
@@ -1518,22 +1518,22 @@ window.OECD_DATA = {
         "yearTrend": [
           {
             "year": 2020,
-            "amount": 143.01990150634,
+            "amount": 143.019901508,
             "amountLabel": "$143.0M"
           },
           {
             "year": 2021,
-            "amount": 206.82207352606002,
+            "amount": 206.822073528,
             "amountLabel": "$206.8M"
           },
           {
             "year": 2022,
-            "amount": 319.732016688646,
+            "amount": 319.732016691,
             "amountLabel": "$319.7M"
           },
           {
             "year": 2023,
-            "amount": 232.469798405913,
+            "amount": 232.469798406,
             "amountLabel": "$232.5M"
           }
         ]
@@ -1544,18 +1544,18 @@ window.OECD_DATA = {
         "lon": 24.0,
         "region": "Southern Africa",
         "regionMacro": "Africa",
-        "amount": 900.0227666646505,
+        "amount": 900.0202195801999,
         "amountLabel": "$900.0M",
         "rank": 11,
         "topDonors": [
           {
             "donorCountry": "United States",
-            "amount": 524.24950441562,
+            "amount": 524.249504424,
             "amountLabel": "$524.2M"
           },
           {
             "donorCountry": "United Kingdom",
-            "amount": 147.831046298488,
+            "amount": 147.828499198,
             "amountLabel": "$147.8M"
           },
           {
@@ -1565,7 +1565,7 @@ window.OECD_DATA = {
           },
           {
             "donorCountry": "South Africa",
-            "amount": 59.43015769279355,
+            "amount": 59.4301576972,
             "amountLabel": "$59.4M"
           },
           {
@@ -1582,33 +1582,33 @@ window.OECD_DATA = {
         "topSectors": [
           {
             "sector": "Health",
-            "amount": 306.74553478743763,
-            "amountLabel": "$306.7M"
+            "amount": 306.8558952592,
+            "amountLabel": "$306.9M"
           },
           {
             "sector": "Education",
-            "amount": 199.356194868573,
-            "amountLabel": "$199.4M"
+            "amount": 204.076976125,
+            "amountLabel": "$204.1M"
           },
           {
             "sector": "Population Policies/Programmes & Reproductive Health",
-            "amount": 129.39343596558,
+            "amount": 129.393435966,
             "amountLabel": "$129.4M"
           },
           {
             "sector": "Government & Civil Society",
-            "amount": 86.243709542149,
-            "amountLabel": "$86.2M"
+            "amount": 86.277688481,
+            "amountLabel": "$86.3M"
           },
           {
             "sector": "Other Social Infrastructure & Services",
-            "amount": 27.708716180588,
-            "amountLabel": "$27.7M"
+            "amount": 29.469924157,
+            "amountLabel": "$29.5M"
           },
           {
             "sector": "Energy",
-            "amount": 26.91485900468,
-            "amountLabel": "$26.9M"
+            "amount": 27.002451073,
+            "amountLabel": "$27.0M"
           }
         ],
         "topOrganizations": [
@@ -1633,30 +1633,30 @@ window.OECD_DATA = {
             "amountLabel": "$66.5M"
           },
           {
-            "organization": "SIOC",
-            "amount": 59.43015769279355,
+            "organization": "SIOC-Community Development Trust",
+            "amount": 59.4301576972,
             "amountLabel": "$59.4M"
           }
         ],
         "yearTrend": [
           {
             "year": 2020,
-            "amount": 159.526709675268,
+            "amount": 159.526709675,
             "amountLabel": "$159.5M"
           },
           {
             "year": 2021,
-            "amount": 170.016802206757,
+            "amount": 170.01680221,
             "amountLabel": "$170.0M"
           },
           {
             "year": 2022,
-            "amount": 220.18341458935734,
+            "amount": 220.1834145982,
             "amountLabel": "$220.2M"
           },
           {
             "year": 2023,
-            "amount": 350.2958401932682,
+            "amount": 350.293293097,
             "amountLabel": "$350.3M"
           }
         ]
@@ -1667,13 +1667,13 @@ window.OECD_DATA = {
         "lon": 32.0,
         "region": "Eastern Africa",
         "regionMacro": "Africa",
-        "amount": 774.0322811880549,
+        "amount": 774.0322811890001,
         "amountLabel": "$774.0M",
         "rank": 12,
         "topDonors": [
           {
             "donorCountry": "United States",
-            "amount": 332.286934658215,
+            "amount": 332.286934661,
             "amountLabel": "$332.3M"
           },
           {
@@ -1683,7 +1683,7 @@ window.OECD_DATA = {
           },
           {
             "donorCountry": "United Kingdom",
-            "amount": 71.664413731097,
+            "amount": 71.664413731,
             "amountLabel": "$71.7M"
           },
           {
@@ -1693,45 +1693,45 @@ window.OECD_DATA = {
           },
           {
             "donorCountry": "Denmark",
-            "amount": 35.0132798307,
+            "amount": 35.013279831,
             "amountLabel": "$35.0M"
           },
           {
             "donorCountry": "Switzerland",
-            "amount": 15.3295153829,
+            "amount": 15.329515382,
             "amountLabel": "$15.3M"
           }
         ],
         "topSectors": [
           {
             "sector": "Health",
-            "amount": 174.879452745804,
-            "amountLabel": "$174.9M"
+            "amount": 175.793427455,
+            "amountLabel": "$175.8M"
           },
           {
             "sector": "Education",
-            "amount": 135.2671049378418,
-            "amountLabel": "$135.3M"
+            "amount": 135.906174747,
+            "amountLabel": "$135.9M"
           },
           {
             "sector": "Agriculture, Forestry, Fishing",
-            "amount": 107.22045952276,
-            "amountLabel": "$107.2M"
+            "amount": 107.350459522,
+            "amountLabel": "$107.4M"
           },
           {
             "sector": "Population Policies/Programmes & Reproductive Health",
-            "amount": 72.015309485595,
+            "amount": 72.015309488,
             "amountLabel": "$72.0M"
           },
           {
             "sector": "Banking & Financial Services",
-            "amount": 67.7925570325,
+            "amount": 67.792557033,
             "amountLabel": "$67.8M"
           },
           {
             "sector": "Other Social Infrastructure & Services",
-            "amount": 60.186019238588,
-            "amountLabel": "$60.2M"
+            "amount": 60.742374123,
+            "amountLabel": "$60.7M"
           }
         ],
         "topOrganizations": [
@@ -1764,22 +1764,22 @@ window.OECD_DATA = {
         "yearTrend": [
           {
             "year": 2020,
-            "amount": 166.602058438379,
+            "amount": 166.60205844,
             "amountLabel": "$166.6M"
           },
           {
             "year": 2021,
-            "amount": 139.1042402778348,
+            "amount": 139.104240274,
             "amountLabel": "$139.1M"
           },
           {
             "year": 2022,
-            "amount": 202.77758648556,
+            "amount": 202.777586488,
             "amountLabel": "$202.8M"
           },
           {
             "year": 2023,
-            "amount": 265.548395986281,
+            "amount": 265.548395987,
             "amountLabel": "$265.5M"
           }
         ]
@@ -1790,18 +1790,18 @@ window.OECD_DATA = {
         "lon": 69.0,
         "region": "South & Central Asia",
         "regionMacro": "Asia",
-        "amount": 731.2554222348731,
+        "amount": 731.255422236,
         "amountLabel": "$731.3M",
         "rank": 13,
         "topDonors": [
           {
             "donorCountry": "United States",
-            "amount": 681.2717116412,
+            "amount": 681.271711641,
             "amountLabel": "$681.3M"
           },
           {
             "donorCountry": "Qatar",
-            "amount": 18.86995572223,
+            "amount": 18.869955722,
             "amountLabel": "$18.9M"
           },
           {
@@ -1816,19 +1816,19 @@ window.OECD_DATA = {
           },
           {
             "donorCountry": "France",
-            "amount": 1.1436899978000001,
+            "amount": 1.143689998,
             "amountLabel": "$1.1M"
           },
           {
             "donorCountry": "Denmark",
-            "amount": 1.0477679726,
+            "amount": 1.047767973,
             "amountLabel": "$1.0M"
           }
         ],
         "topSectors": [
           {
             "sector": "Health",
-            "amount": 563.623260117587,
+            "amount": 563.623260118,
             "amountLabel": "$563.6M"
           },
           {
@@ -1843,12 +1843,12 @@ window.OECD_DATA = {
           },
           {
             "sector": "Emergency Response",
-            "amount": 23.1292832505,
+            "amount": 23.129283251,
             "amountLabel": "$23.1M"
           },
           {
             "sector": "Education",
-            "amount": 14.195218218688,
+            "amount": 14.233893235,
             "amountLabel": "$14.2M"
           },
           {
@@ -1864,8 +1864,8 @@ window.OECD_DATA = {
             "amountLabel": "$644.8M"
           },
           {
-            "organization": "EAA",
-            "amount": 18.86995572223,
+            "organization": "Ecobank Foundation",
+            "amount": 18.869955722,
             "amountLabel": "$18.9M"
           },
           {
@@ -1887,22 +1887,22 @@ window.OECD_DATA = {
         "yearTrend": [
           {
             "year": 2020,
-            "amount": 155.45446141278998,
+            "amount": 155.454461413,
             "amountLabel": "$155.5M"
           },
           {
             "year": 2021,
-            "amount": 165.151214936345,
+            "amount": 165.151214936,
             "amountLabel": "$165.2M"
           },
           {
             "year": 2022,
-            "amount": 208.259560544074,
+            "amount": 208.259560545,
             "amountLabel": "$208.3M"
           },
           {
             "year": 2023,
-            "amount": 202.390185341664,
+            "amount": 202.390185342,
             "amountLabel": "$202.4M"
           }
         ]
@@ -1913,13 +1913,13 @@ window.OECD_DATA = {
         "lon": 32.0,
         "region": "Europe",
         "regionMacro": "Europe",
-        "amount": 663.0589072870439,
+        "amount": 663.05890729,
         "amountLabel": "$663.1M",
         "rank": 14,
         "topDonors": [
           {
             "donorCountry": "United States",
-            "amount": 542.125749529954,
+            "amount": 542.125749535,
             "amountLabel": "$542.1M"
           },
           {
@@ -1929,7 +1929,7 @@ window.OECD_DATA = {
           },
           {
             "donorCountry": "Denmark",
-            "amount": 29.432651849,
+            "amount": 29.432651848,
             "amountLabel": "$29.4M"
           },
           {
@@ -1939,7 +1939,7 @@ window.OECD_DATA = {
           },
           {
             "donorCountry": "United Kingdom",
-            "amount": 19.9394068154,
+            "amount": 19.939406815,
             "amountLabel": "$19.9M"
           },
           {
@@ -1951,13 +1951,13 @@ window.OECD_DATA = {
         "topSectors": [
           {
             "sector": "Unallocated / Unspecified",
-            "amount": 159.80932049599997,
-            "amountLabel": "$159.8M"
+            "amount": 160.09044207899998,
+            "amountLabel": "$160.1M"
           },
           {
             "sector": "Emergency Response",
-            "amount": 147.23947980634,
-            "amountLabel": "$147.2M"
+            "amount": 147.392644778,
+            "amountLabel": "$147.4M"
           },
           {
             "sector": "Agriculture, Forestry, Fishing",
@@ -1966,17 +1966,17 @@ window.OECD_DATA = {
           },
           {
             "sector": "Government & Civil Society",
-            "amount": 121.54652994986,
+            "amount": 121.546529951,
             "amountLabel": "$121.5M"
           },
           {
             "sector": "Education",
-            "amount": 38.919458257964,
+            "amount": 38.919458259,
             "amountLabel": "$38.9M"
           },
           {
             "sector": "Other Social Infrastructure & Services",
-            "amount": 16.72575882178,
+            "amount": 16.725758822,
             "amountLabel": "$16.7M"
           }
         ],
@@ -1997,35 +1997,35 @@ window.OECD_DATA = {
             "amountLabel": "$20.1M"
           },
           {
-            "organization": "Novonordik Fund",
-            "amount": 16.774640849,
+            "organization": "Novo Nordisk Foundation",
+            "amount": 16.774640848,
             "amountLabel": "$16.8M"
           },
           {
             "organization": "Lund Trust",
-            "amount": 16.0914508154,
+            "amount": 16.091450815,
             "amountLabel": "$16.1M"
           }
         ],
         "yearTrend": [
           {
             "year": 2020,
-            "amount": 2.1247079779,
+            "amount": 2.124707979,
             "amountLabel": "$2.1M"
           },
           {
             "year": 2021,
-            "amount": 6.788398289454,
+            "amount": 6.788398291,
             "amountLabel": "$6.8M"
           },
           {
             "year": 2022,
-            "amount": 274.97799358629,
+            "amount": 274.977993587,
             "amountLabel": "$275.0M"
           },
           {
             "year": 2023,
-            "amount": 379.1678074334,
+            "amount": 379.167807433,
             "amountLabel": "$379.2M"
           }
         ]
@@ -2036,18 +2036,18 @@ window.OECD_DATA = {
         "lon": -70.6,
         "region": "Caribbean",
         "regionMacro": "America",
-        "amount": 536.5671356402561,
+        "amount": 536.5671356360002,
         "amountLabel": "$536.6M",
         "rank": 15,
         "topDonors": [
           {
             "donorCountry": "Spain",
-            "amount": 533.290616121086,
+            "amount": 533.290616117,
             "amountLabel": "$533.3M"
           },
           {
             "donorCountry": "United States",
-            "amount": 2.43957451917,
+            "amount": 2.4395745189999998,
             "amountLabel": "$2.4M"
           },
           {
@@ -2059,39 +2059,39 @@ window.OECD_DATA = {
         "topSectors": [
           {
             "sector": "Banking & Financial Services",
-            "amount": 509.512596990482,
+            "amount": 509.51259698900003,
             "amountLabel": "$509.5M"
           },
           {
             "sector": "Other Social Infrastructure & Services",
-            "amount": 21.36006642317,
+            "amount": 21.360066423,
             "amountLabel": "$21.4M"
           },
           {
             "sector": "Health",
-            "amount": 1.7402910191199998,
+            "amount": 1.7402910189999998,
             "amountLabel": "$1.7M"
           },
           {
-            "sector": "Unspecified",
-            "amount": 1.33856068277,
+            "sector": "Agriculture, Forestry, Fishing",
+            "amount": 1.265400563,
             "amountLabel": "$1.3M"
           },
           {
             "sector": "Government & Civil Society",
-            "amount": 0.58026232915,
+            "amount": 0.580262328,
             "amountLabel": "$580K"
           },
           {
-            "sector": "Education",
-            "amount": 0.48644831252,
-            "amountLabel": "$486K"
+            "sector": "Business & Other Services",
+            "amount": 0.5026021190000001,
+            "amountLabel": "$503K"
           }
         ],
         "topOrganizations": [
           {
-            "organization": "BBVAMF",
-            "amount": 533.167263121086,
+            "organization": "BBVA Microfinance Foundation",
+            "amount": 533.1672631170001,
             "amountLabel": "$533.2M"
           },
           {
@@ -2118,22 +2118,22 @@ window.OECD_DATA = {
         "yearTrend": [
           {
             "year": 2020,
-            "amount": 112.922918629957,
+            "amount": 112.922918629,
             "amountLabel": "$112.9M"
           },
           {
             "year": 2021,
-            "amount": 130.69343897864002,
+            "amount": 130.69343897800002,
             "amountLabel": "$130.7M"
           },
           {
             "year": 2022,
-            "amount": 141.687185836717,
+            "amount": 141.68718583499998,
             "amountLabel": "$141.7M"
           },
           {
             "year": 2023,
-            "amount": 151.26359219494202,
+            "amount": 151.263592194,
             "amountLabel": "$151.3M"
           }
         ]
@@ -2144,28 +2144,28 @@ window.OECD_DATA = {
         "lon": -55.0,
         "region": "South America",
         "regionMacro": "America",
-        "amount": 533.4127031192927,
+        "amount": 533.4076089319999,
         "amountLabel": "$533.4M",
         "rank": 16,
         "topDonors": [
           {
             "donorCountry": "United States",
-            "amount": 317.1253827403,
+            "amount": 317.125382749,
             "amountLabel": "$317.1M"
           },
           {
             "donorCountry": "Switzerland",
-            "amount": 97.3391745478,
+            "amount": 97.339174548,
             "amountLabel": "$97.3M"
           },
           {
             "donorCountry": "United Kingdom",
-            "amount": 43.669388161345,
+            "amount": 43.664293962,
             "amountLabel": "$43.7M"
           },
           {
             "donorCountry": "Brazil",
-            "amount": 39.1495170265649,
+            "amount": 39.149517036,
             "amountLabel": "$39.1M"
           },
           {
@@ -2182,33 +2182,33 @@ window.OECD_DATA = {
         "topSectors": [
           {
             "sector": "Government & Civil Society",
-            "amount": 180.1750356254927,
-            "amountLabel": "$180.2M"
+            "amount": 181.351093718,
+            "amountLabel": "$181.4M"
           },
           {
             "sector": "General Environment Protection",
-            "amount": 138.4176793982295,
-            "amountLabel": "$138.4M"
-          },
-          {
-            "sector": "Agriculture, Forestry, Fishing",
-            "amount": 46.387014873504,
-            "amountLabel": "$46.4M"
+            "amount": 138.597052471,
+            "amountLabel": "$138.6M"
           },
           {
             "sector": "Other Social Infrastructure & Services",
-            "amount": 42.643830499215,
-            "amountLabel": "$42.6M"
+            "amount": 48.461032298,
+            "amountLabel": "$48.5M"
+          },
+          {
+            "sector": "Agriculture, Forestry, Fishing",
+            "amount": 46.387014876,
+            "amountLabel": "$46.4M"
           },
           {
             "sector": "Health",
-            "amount": 41.6798639270008,
-            "amountLabel": "$41.7M"
+            "amount": 44.940516076,
+            "amountLabel": "$44.9M"
           },
           {
             "sector": "Education",
-            "amount": 25.9688029237927,
-            "amountLabel": "$26.0M"
+            "amount": 27.041867074,
+            "amountLabel": "$27.0M"
           }
         ],
         "topOrganizations": [
@@ -2241,22 +2241,22 @@ window.OECD_DATA = {
         "yearTrend": [
           {
             "year": 2020,
-            "amount": 99.9851033207081,
+            "amount": 99.98510334,
             "amountLabel": "$100.0M"
           },
           {
             "year": 2021,
-            "amount": 122.241193733753,
+            "amount": 122.241193709,
             "amountLabel": "$122.2M"
           },
           {
             "year": 2022,
-            "amount": 150.4775626066393,
+            "amount": 150.477562622,
             "amountLabel": "$150.5M"
           },
           {
             "year": 2023,
-            "amount": 160.7088434581923,
+            "amount": 160.70374926099998,
             "amountLabel": "$160.7M"
           }
         ]
@@ -2267,13 +2267,13 @@ window.OECD_DATA = {
         "lon": 35.0,
         "region": "Eastern Africa",
         "regionMacro": "Africa",
-        "amount": 485.05946771951403,
-        "amountLabel": "$485.1M",
+        "amount": 485.033293572,
+        "amountLabel": "$485.0M",
         "rank": 17,
         "topDonors": [
           {
             "donorCountry": "United States",
-            "amount": 294.958327426854,
+            "amount": 294.958327429,
             "amountLabel": "$295.0M"
           },
           {
@@ -2288,12 +2288,12 @@ window.OECD_DATA = {
           },
           {
             "donorCountry": "United Kingdom",
-            "amount": 37.334210015578,
+            "amount": 37.334210016,
             "amountLabel": "$37.3M"
           },
           {
             "donorCountry": "Denmark",
-            "amount": 9.8394576904,
+            "amount": 9.83945769,
             "amountLabel": "$9.8M"
           },
           {
@@ -2305,33 +2305,33 @@ window.OECD_DATA = {
         "topSectors": [
           {
             "sector": "Health",
-            "amount": 132.69125708376401,
+            "amount": 132.711668724,
             "amountLabel": "$132.7M"
           },
           {
             "sector": "Agriculture, Forestry, Fishing",
-            "amount": 110.68842540241,
+            "amount": 110.688425402,
             "amountLabel": "$110.7M"
           },
           {
             "sector": "Education",
-            "amount": 81.019871909554,
-            "amountLabel": "$81.0M"
+            "amount": 81.12398831600001,
+            "amountLabel": "$81.1M"
           },
           {
             "sector": "Population Policies/Programmes & Reproductive Health",
-            "amount": 60.568969272242,
+            "amount": 60.568969272,
             "amountLabel": "$60.6M"
           },
           {
             "sector": "Banking & Financial Services",
-            "amount": 27.75307762782,
+            "amount": 27.753077628,
             "amountLabel": "$27.8M"
           },
           {
             "sector": "Government & Civil Society",
-            "amount": 25.630854560044,
-            "amountLabel": "$25.6M"
+            "amount": 26.311922243,
+            "amountLabel": "$26.3M"
           }
         ],
         "topOrganizations": [
@@ -2364,22 +2364,22 @@ window.OECD_DATA = {
         "yearTrend": [
           {
             "year": 2020,
-            "amount": 127.105846993048,
+            "amount": 127.10584699,
             "amountLabel": "$127.1M"
           },
           {
             "year": 2021,
-            "amount": 90.778098831058,
+            "amount": 90.778098826,
             "amountLabel": "$90.8M"
           },
           {
             "year": 2022,
-            "amount": 108.93317603132,
+            "amount": 108.933176038,
             "amountLabel": "$108.9M"
           },
           {
             "year": 2023,
-            "amount": 158.242345864088,
+            "amount": 158.216171718,
             "amountLabel": "$158.2M"
           }
         ]
@@ -2390,18 +2390,18 @@ window.OECD_DATA = {
         "lon": 118.0,
         "region": "Far East Asia",
         "regionMacro": "Asia",
-        "amount": 364.872898218662,
+        "amount": 364.872898225,
         "amountLabel": "$364.9M",
         "rank": 18,
         "topDonors": [
           {
             "donorCountry": "United States",
-            "amount": 276.73306005909,
+            "amount": 276.73306006400003,
             "amountLabel": "$276.7M"
           },
           {
             "donorCountry": "Switzerland",
-            "amount": 30.5494575363,
+            "amount": 30.549457537000002,
             "amountLabel": "$30.5M"
           },
           {
@@ -2416,7 +2416,7 @@ window.OECD_DATA = {
           },
           {
             "donorCountry": "China (People's Republic of)",
-            "amount": 2.2421521942,
+            "amount": 2.242152194,
             "amountLabel": "$2.2M"
           },
           {
@@ -2428,22 +2428,22 @@ window.OECD_DATA = {
         "topSectors": [
           {
             "sector": "General Environment Protection",
-            "amount": 111.43661275433,
-            "amountLabel": "$111.4M"
+            "amount": 111.830182971,
+            "amountLabel": "$111.8M"
           },
           {
             "sector": "Health",
-            "amount": 75.185095678519,
-            "amountLabel": "$75.2M"
+            "amount": 75.368254043,
+            "amountLabel": "$75.4M"
           },
           {
             "sector": "Government & Civil Society",
-            "amount": 53.5622048764,
+            "amount": 53.562204877,
             "amountLabel": "$53.6M"
           },
           {
             "sector": "Agriculture, Forestry, Fishing",
-            "amount": 39.84728679161,
+            "amount": 39.847286792,
             "amountLabel": "$39.8M"
           },
           {
@@ -2487,22 +2487,22 @@ window.OECD_DATA = {
         "yearTrend": [
           {
             "year": 2020,
-            "amount": 73.39606293113,
+            "amount": 73.396062933,
             "amountLabel": "$73.4M"
           },
           {
             "year": 2021,
-            "amount": 100.688586103449,
+            "amount": 100.688586104,
             "amountLabel": "$100.7M"
           },
           {
             "year": 2022,
-            "amount": 87.53990515427999,
+            "amount": 87.539905158,
             "amountLabel": "$87.5M"
           },
           {
             "year": 2023,
-            "amount": 103.24834402980301,
+            "amount": 103.24834403,
             "amountLabel": "$103.2M"
           }
         ]
@@ -2513,13 +2513,13 @@ window.OECD_DATA = {
         "lon": 90.0,
         "region": "South & Central Asia",
         "regionMacro": "Asia",
-        "amount": 321.20632875437,
+        "amount": 321.206328755,
         "amountLabel": "$321.2M",
         "rank": 19,
         "topDonors": [
           {
             "donorCountry": "United States",
-            "amount": 228.23460609736,
+            "amount": 228.234606098,
             "amountLabel": "$228.2M"
           },
           {
@@ -2529,7 +2529,7 @@ window.OECD_DATA = {
           },
           {
             "donorCountry": "Denmark",
-            "amount": 20.0268722078,
+            "amount": 20.026872208,
             "amountLabel": "$20.0M"
           },
           {
@@ -2551,7 +2551,7 @@ window.OECD_DATA = {
         "topSectors": [
           {
             "sector": "Health",
-            "amount": 123.7225466104,
+            "amount": 123.72254661,
             "amountLabel": "$123.7M"
           },
           {
@@ -2561,7 +2561,7 @@ window.OECD_DATA = {
           },
           {
             "sector": "Education",
-            "amount": 40.97187882747,
+            "amount": 40.971878828,
             "amountLabel": "$41.0M"
           },
           {
@@ -2571,12 +2571,12 @@ window.OECD_DATA = {
           },
           {
             "sector": "Water Supply & Sanitation",
-            "amount": 20.48971912308,
+            "amount": 20.489719123,
             "amountLabel": "$20.5M"
           },
           {
             "sector": "Other Social Infrastructure & Services",
-            "amount": 16.92122821445,
+            "amount": 16.921228214,
             "amountLabel": "$16.9M"
           }
         ],
@@ -2602,7 +2602,7 @@ window.OECD_DATA = {
             "amountLabel": "$14.9M"
           },
           {
-            "organization": "EAA",
+            "organization": "Ecobank Foundation",
             "amount": 13.713382077,
             "amountLabel": "$13.7M"
           }
@@ -2610,22 +2610,22 @@ window.OECD_DATA = {
         "yearTrend": [
           {
             "year": 2020,
-            "amount": 85.80173845089,
+            "amount": 85.80173845,
             "amountLabel": "$85.8M"
           },
           {
             "year": 2021,
-            "amount": 98.39011604434,
+            "amount": 98.390116044,
             "amountLabel": "$98.4M"
           },
           {
             "year": 2022,
-            "amount": 65.16257209271,
+            "amount": 65.162572094,
             "amountLabel": "$65.2M"
           },
           {
             "year": 2023,
-            "amount": 71.85190216643,
+            "amount": 71.851902167,
             "amountLabel": "$71.9M"
           }
         ]
@@ -2636,13 +2636,13 @@ window.OECD_DATA = {
         "lon": -14.5,
         "region": "Western Africa",
         "regionMacro": "Africa",
-        "amount": 295.87689631800026,
-        "amountLabel": "$295.9M",
+        "amount": 295.24544550999997,
+        "amountLabel": "$295.2M",
         "rank": 20,
         "topDonors": [
           {
             "donorCountry": "United States",
-            "amount": 141.5559177757,
+            "amount": 141.555917776,
             "amountLabel": "$141.6M"
           },
           {
@@ -2652,17 +2652,17 @@ window.OECD_DATA = {
           },
           {
             "donorCountry": "Switzerland",
-            "amount": 26.5169836821493,
+            "amount": 26.516983682,
             "amountLabel": "$26.5M"
           },
           {
             "donorCountry": "United Kingdom",
-            "amount": 5.027073099045,
+            "amount": 5.027073099,
             "amountLabel": "$5.0M"
           },
           {
             "donorCountry": "Belgium",
-            "amount": 2.482011201016,
+            "amount": 2.482011201,
             "amountLabel": "$2.5M"
           },
           {
@@ -2674,17 +2674,17 @@ window.OECD_DATA = {
         "topSectors": [
           {
             "sector": "Health",
-            "amount": 86.800566977686,
-            "amountLabel": "$86.8M"
+            "amount": 87.104143608,
+            "amountLabel": "$87.1M"
           },
           {
             "sector": "Population Policies/Programmes & Reproductive Health",
-            "amount": 49.242183861559006,
+            "amount": 49.242183862000005,
             "amountLabel": "$49.2M"
           },
           {
             "sector": "Agriculture, Forestry, Fishing",
-            "amount": 37.694868705750004,
+            "amount": 37.694868706,
             "amountLabel": "$37.7M"
           },
           {
@@ -2694,7 +2694,7 @@ window.OECD_DATA = {
           },
           {
             "sector": "Education",
-            "amount": 28.985992770268002,
+            "amount": 29.024667782,
             "amountLabel": "$29.0M"
           },
           {
@@ -2733,22 +2733,22 @@ window.OECD_DATA = {
         "yearTrend": [
           {
             "year": 2020,
-            "amount": 74.379932422826,
+            "amount": 74.379932422,
             "amountLabel": "$74.4M"
           },
           {
             "year": 2021,
-            "amount": 73.879170608177,
-            "amountLabel": "$73.9M"
+            "amount": 73.247719804,
+            "amountLabel": "$73.2M"
           },
           {
             "year": 2022,
-            "amount": 62.8977096059583,
+            "amount": 62.897709604,
             "amountLabel": "$62.9M"
           },
           {
             "year": 2023,
-            "amount": 84.720083681039,
+            "amount": 84.72008368,
             "amountLabel": "$84.7M"
           }
         ]
@@ -2759,7 +2759,7 @@ window.OECD_DATA = {
         "lon": 23.0,
         "region": "Middle Africa",
         "regionMacro": "Africa",
-        "amount": 277.87737051823086,
+        "amount": 277.87737052100005,
         "amountLabel": "$277.9M",
         "rank": 21,
         "topDonors": [
@@ -2770,7 +2770,7 @@ window.OECD_DATA = {
           },
           {
             "donorCountry": "Belgium",
-            "amount": 15.8461000866309,
+            "amount": 15.846100089,
             "amountLabel": "$15.8M"
           },
           {
@@ -2790,39 +2790,39 @@ window.OECD_DATA = {
           },
           {
             "donorCountry": "Denmark",
-            "amount": 1.5803704316,
+            "amount": 1.580370432,
             "amountLabel": "$1.6M"
           }
         ],
         "topSectors": [
           {
             "sector": "Health",
-            "amount": 119.7163382113081,
-            "amountLabel": "$119.7M"
+            "amount": 120.399528776,
+            "amountLabel": "$120.4M"
           },
           {
             "sector": "Population Policies/Programmes & Reproductive Health",
-            "amount": 59.559256969879,
+            "amount": 59.56120037,
             "amountLabel": "$59.6M"
           },
           {
             "sector": "General Environment Protection",
-            "amount": 43.98856315467,
+            "amount": 43.988563156,
             "amountLabel": "$44.0M"
           },
           {
             "sector": "Energy",
-            "amount": 17.84961045066,
+            "amount": 17.84961045,
             "amountLabel": "$17.8M"
           },
           {
             "sector": "Agriculture, Forestry, Fishing",
-            "amount": 10.152596412878001,
+            "amount": 10.229555657,
             "amountLabel": "$10.2M"
           },
           {
             "sector": "Education",
-            "amount": 9.5612988987169,
+            "amount": 9.602942533,
             "amountLabel": "$9.6M"
           }
         ],
@@ -2843,8 +2843,8 @@ window.OECD_DATA = {
             "amountLabel": "$17.2M"
           },
           {
-            "organization": "King Baudouin",
-            "amount": 15.8461000866309,
+            "organization": "King Baudouin Foundation",
+            "amount": 15.846100089,
             "amountLabel": "$15.8M"
           },
           {
@@ -2856,22 +2856,22 @@ window.OECD_DATA = {
         "yearTrend": [
           {
             "year": 2020,
-            "amount": 51.538595910856,
+            "amount": 51.538595911,
             "amountLabel": "$51.5M"
           },
           {
             "year": 2021,
-            "amount": 91.869773646946,
+            "amount": 91.869773642,
             "amountLabel": "$91.9M"
           },
           {
             "year": 2022,
-            "amount": 70.265005732057,
+            "amount": 70.265005741,
             "amountLabel": "$70.3M"
           },
           {
             "year": 2023,
-            "amount": 64.2039952283719,
+            "amount": 64.203995227,
             "amountLabel": "$64.2M"
           }
         ]
@@ -2882,13 +2882,13 @@ window.OECD_DATA = {
         "lon": -2.0,
         "region": "Western Africa",
         "regionMacro": "Africa",
-        "amount": 247.007896672068,
+        "amount": 247.00789667,
         "amountLabel": "$247.0M",
         "rank": 22,
         "topDonors": [
           {
             "donorCountry": "United States",
-            "amount": 230.80267750398,
+            "amount": 230.802677504,
             "amountLabel": "$230.8M"
           },
           {
@@ -2898,7 +2898,7 @@ window.OECD_DATA = {
           },
           {
             "donorCountry": "Denmark",
-            "amount": 2.2413679158999997,
+            "amount": 2.2413679159999997,
             "amountLabel": "$2.2M"
           },
           {
@@ -2913,34 +2913,34 @@ window.OECD_DATA = {
           },
           {
             "donorCountry": "Qatar",
-            "amount": 1.5174751303,
+            "amount": 1.51747513,
             "amountLabel": "$1.5M"
           }
         ],
         "topSectors": [
           {
             "sector": "Health",
-            "amount": 89.300034978553,
+            "amount": 89.32562000600001,
             "amountLabel": "$89.3M"
           },
           {
             "sector": "Population Policies/Programmes & Reproductive Health",
-            "amount": 71.82121250398001,
+            "amount": 71.821212504,
             "amountLabel": "$71.8M"
           },
           {
             "sector": "Agriculture, Forestry, Fishing",
-            "amount": 48.802928167382,
+            "amount": 48.802928167,
             "amountLabel": "$48.8M"
           },
           {
             "sector": "Water Supply & Sanitation",
-            "amount": 11.35555539518,
+            "amount": 11.355555395,
             "amountLabel": "$11.4M"
           },
           {
             "sector": "Education",
-            "amount": 8.6520981876,
+            "amount": 8.652098187,
             "amountLabel": "$8.7M"
           },
           {
@@ -2979,22 +2979,22 @@ window.OECD_DATA = {
         "yearTrend": [
           {
             "year": 2020,
-            "amount": 80.43492569134,
+            "amount": 80.434925691,
             "amountLabel": "$80.4M"
           },
           {
             "year": 2021,
-            "amount": 62.311039641402,
+            "amount": 62.31103964,
             "amountLabel": "$62.3M"
           },
           {
             "year": 2022,
-            "amount": 52.5183479774,
+            "amount": 52.518347978,
             "amountLabel": "$52.5M"
           },
           {
             "year": 2023,
-            "amount": 51.743583361926,
+            "amount": 51.743583361,
             "amountLabel": "$51.7M"
           }
         ]
@@ -3005,13 +3005,13 @@ window.OECD_DATA = {
         "lon": 28.0,
         "region": "Eastern Africa",
         "regionMacro": "Africa",
-        "amount": 229.756672671713,
+        "amount": 229.75667267,
         "amountLabel": "$229.8M",
         "rank": 23,
         "topDonors": [
           {
             "donorCountry": "United States",
-            "amount": 171.36095069818,
+            "amount": 171.360950698,
             "amountLabel": "$171.4M"
           },
           {
@@ -3036,14 +3036,14 @@ window.OECD_DATA = {
           },
           {
             "donorCountry": "Qatar",
-            "amount": 2.8764498714,
+            "amount": 2.876449871,
             "amountLabel": "$2.9M"
           }
         ],
         "topSectors": [
           {
             "sector": "Health",
-            "amount": 81.635558664798,
+            "amount": 81.648461556,
             "amountLabel": "$81.6M"
           },
           {
@@ -3053,22 +3053,22 @@ window.OECD_DATA = {
           },
           {
             "sector": "Water Supply & Sanitation",
-            "amount": 28.759042256614,
+            "amount": 28.759042256999997,
             "amountLabel": "$28.8M"
           },
           {
             "sector": "General Environment Protection",
-            "amount": 19.70600860803,
+            "amount": 19.706008607999998,
             "amountLabel": "$19.7M"
           },
           {
             "sector": "Education",
-            "amount": 18.96589902521,
+            "amount": 18.965899025,
             "amountLabel": "$19.0M"
           },
           {
             "sector": "Agriculture, Forestry, Fishing",
-            "amount": 13.1563870459,
+            "amount": 13.156387046,
             "amountLabel": "$13.2M"
           }
         ],
@@ -3102,22 +3102,22 @@ window.OECD_DATA = {
         "yearTrend": [
           {
             "year": 2020,
-            "amount": 66.091751929774,
+            "amount": 66.091751928,
             "amountLabel": "$66.1M"
           },
           {
             "year": 2021,
-            "amount": 50.464125211047,
+            "amount": 50.464125212,
             "amountLabel": "$50.5M"
           },
           {
             "year": 2022,
-            "amount": 45.993311969574,
+            "amount": 45.993311969,
             "amountLabel": "$46.0M"
           },
           {
             "year": 2023,
-            "amount": 67.207483561318,
+            "amount": 67.207483561,
             "amountLabel": "$67.2M"
           }
         ]
@@ -3128,18 +3128,18 @@ window.OECD_DATA = {
         "lon": 34.0,
         "region": "Eastern Africa",
         "regionMacro": "Africa",
-        "amount": 225.20068066784302,
+        "amount": 225.20068067100001,
         "amountLabel": "$225.2M",
         "rank": 24,
         "topDonors": [
           {
             "donorCountry": "United States",
-            "amount": 160.643652082531,
+            "amount": 160.643652087,
             "amountLabel": "$160.6M"
           },
           {
             "donorCountry": "United Kingdom",
-            "amount": 29.983528431211,
+            "amount": 29.98352843,
             "amountLabel": "$30.0M"
           },
           {
@@ -3154,7 +3154,7 @@ window.OECD_DATA = {
           },
           {
             "donorCountry": "Qatar",
-            "amount": 7.4322578474,
+            "amount": 7.432257847000001,
             "amountLabel": "$7.4M"
           },
           {
@@ -3166,32 +3166,32 @@ window.OECD_DATA = {
         "topSectors": [
           {
             "sector": "Health",
-            "amount": 97.543771327474,
-            "amountLabel": "$97.5M"
+            "amount": 97.683219006,
+            "amountLabel": "$97.7M"
           },
           {
             "sector": "Population Policies/Programmes & Reproductive Health",
-            "amount": 70.596584994144,
+            "amount": 70.603584997,
             "amountLabel": "$70.6M"
           },
           {
             "sector": "Agriculture, Forestry, Fishing",
-            "amount": 23.38981941354,
+            "amount": 23.393351352,
             "amountLabel": "$23.4M"
           },
           {
             "sector": "Education",
-            "amount": 16.537577304945,
-            "amountLabel": "$16.5M"
+            "amount": 16.660990364,
+            "amountLabel": "$16.7M"
           },
           {
             "sector": "Government & Civil Society",
-            "amount": 5.29554205238,
+            "amount": 5.295542049,
             "amountLabel": "$5.3M"
           },
           {
             "sector": "Other Social Infrastructure & Services",
-            "amount": 3.914463229011,
+            "amount": 3.930734302,
             "amountLabel": "$3.9M"
           }
         ],
@@ -3225,22 +3225,22 @@ window.OECD_DATA = {
         "yearTrend": [
           {
             "year": 2020,
-            "amount": 51.073040743927,
+            "amount": 51.073040748000004,
             "amountLabel": "$51.1M"
           },
           {
             "year": 2021,
-            "amount": 59.186131762877,
+            "amount": 59.186131762,
             "amountLabel": "$59.2M"
           },
           {
             "year": 2022,
-            "amount": 54.322532421487,
+            "amount": 54.322532421,
             "amountLabel": "$54.3M"
           },
           {
             "year": 2023,
-            "amount": 60.618975739552,
+            "amount": 60.618975739999996,
             "amountLabel": "$60.6M"
           }
         ]
@@ -3251,14 +3251,14 @@ window.OECD_DATA = {
         "country": "Belgium",
         "lat": 50.5,
         "lon": 4.5,
-        "amount": 57.21194776851821,
+        "amount": 57.185773612999995,
         "amountLabel": "$57.2M"
       },
       {
         "country": "Brazil",
         "lat": -10.0,
         "lon": -55.0,
-        "amount": 39.149517026564894,
+        "amount": 39.149517036,
         "amountLabel": "$39.1M"
       },
       {
@@ -3272,29 +3272,29 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "lat": 35.0,
         "lon": 103.0,
-        "amount": 8286.034395433735,
+        "amount": 8285.04613008076,
         "amountLabel": "$8.3B"
       },
       {
         "country": "Colombia",
         "lat": 4.0,
         "lon": -74.0,
-        "amount": 22.22549756092,
+        "amount": 22.22549756,
         "amountLabel": "$22.2M"
       },
       {
         "country": "Denmark",
         "lat": 56.0,
         "lon": 10.0,
-        "amount": 328.1057449892,
-        "amountLabel": "$328.1M"
+        "amount": 326.409686989,
+        "amountLabel": "$326.4M"
       },
       {
         "country": "France",
         "lat": 46.0,
         "lon": 2.0,
-        "amount": 17.102175567747,
-        "amountLabel": "$17.1M"
+        "amount": 16.865105106999998,
+        "amountLabel": "$16.9M"
       },
       {
         "country": "Germany",
@@ -3307,28 +3307,28 @@ window.OECD_DATA = {
         "country": "India",
         "lat": 21.0,
         "lon": 78.0,
-        "amount": 4025.0421831019594,
+        "amount": 3998.3744593518004,
         "amountLabel": "$4.0B"
       },
       {
         "country": "Ireland",
         "lat": 53.0,
         "lon": -8.0,
-        "amount": 1.857608108442,
+        "amount": 1.8576081070000001,
         "amountLabel": "$1.9M"
       },
       {
         "country": "Japan",
         "lat": 36.0,
         "lon": 138.0,
-        "amount": 32.066818432176,
-        "amountLabel": "$32.1M"
+        "amount": 32.047214137000005,
+        "amountLabel": "$32.0M"
       },
       {
         "country": "Mexico",
         "lat": 23.0,
         "lon": -102.0,
-        "amount": 2927.5106925449277,
+        "amount": 2920.482831490018,
         "amountLabel": "$2.9B"
       },
       {
@@ -3342,35 +3342,28 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "lat": 9.0,
         "lon": 8.0,
-        "amount": 15.1804536282455,
+        "amount": 15.180453621000002,
         "amountLabel": "$15.2M"
-      },
-      {
-        "country": "Portugal",
-        "lat": 39.5,
-        "lon": -8.0,
-        "amount": 0.6685373893700001,
-        "amountLabel": "$669K"
       },
       {
         "country": "Qatar",
         "lat": 25.3,
         "lon": 51.2,
-        "amount": 105.329206151202,
+        "amount": 105.329206145,
         "amountLabel": "$105.3M"
       },
       {
         "country": "South Africa",
         "lat": -30.0,
         "lon": 24.0,
-        "amount": 59.43015769279354,
+        "amount": 59.4301576972,
         "amountLabel": "$59.4M"
       },
       {
         "country": "Spain",
         "lat": 40.0,
         "lon": -4.0,
-        "amount": 4996.158230573811,
+        "amount": 4996.158230569,
         "amountLabel": "$5.0B"
       },
       {
@@ -3384,21 +3377,21 @@ window.OECD_DATA = {
         "country": "Switzerland",
         "lat": 47.0,
         "lon": 8.0,
-        "amount": 758.6310745240593,
+        "amount": 758.6310745239999,
         "amountLabel": "$758.6M"
       },
       {
         "country": "United Kingdom",
         "lat": 55.0,
         "lon": -3.0,
-        "amount": 1238.839194985959,
+        "amount": 1238.405247685,
         "amountLabel": "$1.2B"
       },
       {
         "country": "United States",
         "lat": 39.0,
         "lon": -98.0,
-        "amount": 9923.940634909015,
+        "amount": 9912.019057244,
         "amountLabel": "$9.9B"
       }
     ],
@@ -3406,34 +3399,42 @@ window.OECD_DATA = {
       {
         "donorCountry": "China (People's Republic of)",
         "country": "China (People's Republic of)",
-        "sector": "Education",
-        "year": 2023,
-        "amount": 673.2792863125825,
-        "amountLabel": "$673.3M"
-      },
-      {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
         "sector": "Health",
         "year": 2020,
-        "amount": 544.275374812631,
-        "amountLabel": "$544.3M"
+        "amount": 730.9452931412,
+        "amountLabel": "$730.9M"
       },
       {
         "donorCountry": "China (People's Republic of)",
         "country": "China (People's Republic of)",
         "sector": "Education",
-        "year": 2020,
-        "amount": 541.3209834102952,
-        "amountLabel": "$541.3M"
+        "year": 2023,
+        "amount": 703.46740951726,
+        "amountLabel": "$703.5M"
       },
       {
         "donorCountry": "China (People's Republic of)",
         "country": "China (People's Republic of)",
         "sector": "Education",
         "year": 2022,
-        "amount": 521.1322008378866,
-        "amountLabel": "$521.1M"
+        "amount": 583.0497008911,
+        "amountLabel": "$583.0M"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Education",
+        "year": 2020,
+        "amount": 557.1872066078,
+        "amountLabel": "$557.2M"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Education",
+        "year": 2021,
+        "amount": 517.4178006465,
+        "amountLabel": "$517.4M"
       },
       {
         "donorCountry": "Spain",
@@ -3442,14 +3443,6 @@ window.OECD_DATA = {
         "year": 2023,
         "amount": 499.294930907,
         "amountLabel": "$499.3M"
-      },
-      {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Education",
-        "year": 2021,
-        "amount": 498.78421180554193,
-        "amountLabel": "$498.8M"
       },
       {
         "donorCountry": "Spain",
@@ -3470,34 +3463,18 @@ window.OECD_DATA = {
       {
         "donorCountry": "China (People's Republic of)",
         "country": "China (People's Republic of)",
-        "sector": "Unspecified",
-        "year": 2020,
-        "amount": 399.71521984268037,
-        "amountLabel": "$399.7M"
+        "sector": "Health",
+        "year": 2022,
+        "amount": 395.124150565,
+        "amountLabel": "$395.1M"
       },
       {
         "donorCountry": "Spain",
         "country": "Colombia",
         "sector": "Banking & Financial Services",
         "year": 2022,
-        "amount": 387.3776125888,
+        "amount": 387.377612589,
         "amountLabel": "$387.4M"
-      },
-      {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Health",
-        "year": 2022,
-        "amount": 375.5839171388328,
-        "amountLabel": "$375.6M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Unspecified",
-        "year": 2020,
-        "amount": 364.570397569575,
-        "amountLabel": "$364.6M"
       },
       {
         "donorCountry": "Spain",
@@ -3512,48 +3489,112 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Banking & Financial Services",
         "year": 2021,
-        "amount": 358.101715640709,
+        "amount": 358.10171564,
         "amountLabel": "$358.1M"
       },
       {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
+        "donorCountry": "Mexico",
+        "country": "Mexico",
         "sector": "Health",
-        "year": 2023,
-        "amount": 324.7832206556177,
-        "amountLabel": "$324.8M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Unspecified",
-        "year": 2022,
-        "amount": 311.5973191906463,
-        "amountLabel": "$311.6M"
-      },
-      {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Health",
-        "year": 2021,
-        "amount": 305.4398469279386,
-        "amountLabel": "$305.4M"
+        "year": 2020,
+        "amount": 354.85986127828414,
+        "amountLabel": "$354.9M"
       },
       {
         "donorCountry": "China (People's Republic of)",
         "country": "China (People's Republic of)",
         "sector": "Other Social Infrastructure & Services",
         "year": 2021,
-        "amount": 298.82229605284994,
-        "amountLabel": "$298.8M"
+        "amount": 346.179703252,
+        "amountLabel": "$346.2M"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2023,
+        "amount": 341.14004512869997,
+        "amountLabel": "$341.1M"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Health",
+        "year": 2023,
+        "amount": 336.829177067,
+        "amountLabel": "$336.8M"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Other Multisector",
+        "year": 2020,
+        "amount": 329.4003932366,
+        "amountLabel": "$329.4M"
+      },
+      {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Health",
+        "year": 2021,
+        "amount": 325.492752075,
+        "amountLabel": "$325.5M"
+      },
+      {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Health",
+        "year": 2020,
+        "amount": 323.667229969,
+        "amountLabel": "$323.7M"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Health",
+        "year": 2021,
+        "amount": 319.839228277,
+        "amountLabel": "$319.8M"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2022,
+        "amount": 303.409729433,
+        "amountLabel": "$303.4M"
       },
       {
         "donorCountry": "Spain",
         "country": "Colombia",
         "sector": "Banking & Financial Services",
         "year": 2023,
-        "amount": 297.9619485968807,
+        "amount": 297.961948597,
         "amountLabel": "$298.0M"
+      },
+      {
+        "donorCountry": "Mexico",
+        "country": "Mexico",
+        "sector": "Health",
+        "year": 2021,
+        "amount": 297.4419642455259,
+        "amountLabel": "$297.4M"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2020,
+        "amount": 293.356331177,
+        "amountLabel": "$293.4M"
+      },
+      {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Education",
+        "year": 2023,
+        "amount": 292.170115937,
+        "amountLabel": "$292.2M"
       },
       {
         "donorCountry": "Canada",
@@ -3568,104 +3609,56 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Banking & Financial Services",
         "year": 2020,
-        "amount": 289.42834824637,
+        "amount": 289.428348248,
         "amountLabel": "$289.4M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 288.3992124090903,
-        "amountLabel": "$288.4M"
-      },
-      {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Other Multisector",
-        "year": 2020,
-        "amount": 283.96227247029174,
-        "amountLabel": "$284.0M"
       },
       {
         "donorCountry": "Mexico",
         "country": "Mexico",
         "sector": "Education",
         "year": 2020,
-        "amount": 283.390554811003,
-        "amountLabel": "$283.4M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Unspecified",
-        "year": 2021,
-        "amount": 281.315012440083,
-        "amountLabel": "$281.3M"
-      },
-      {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2023,
-        "amount": 272.35934195317725,
-        "amountLabel": "$272.4M"
-      },
-      {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2022,
-        "amount": 270.7773532492988,
-        "amountLabel": "$270.8M"
+        "amount": 282.1381458647,
+        "amountLabel": "$282.1M"
       },
       {
         "donorCountry": "Mexico",
         "country": "Mexico",
         "sector": "Other Social Infrastructure & Services",
         "year": 2022,
-        "amount": 268.63676985650693,
+        "amount": 268.636769854237,
         "amountLabel": "$268.6M"
       },
       {
         "donorCountry": "India",
         "country": "India",
         "sector": "Education",
-        "year": 2023,
-        "amount": 266.889739340623,
-        "amountLabel": "$266.9M"
-      },
-      {
-        "donorCountry": "Mexico",
-        "country": "Mexico",
-        "sector": "Health",
-        "year": 2020,
-        "amount": 249.50479741958551,
-        "amountLabel": "$249.5M"
+        "year": 2022,
+        "amount": 266.415685191,
+        "amountLabel": "$266.4M"
       },
       {
         "donorCountry": "China (People's Republic of)",
         "country": "China (People's Republic of)",
-        "sector": "Unspecified",
+        "sector": "Other Multisector",
         "year": 2023,
-        "amount": 245.36470228480331,
-        "amountLabel": "$245.4M"
+        "amount": 249.448542394,
+        "amountLabel": "$249.4M"
       },
       {
         "donorCountry": "Mexico",
         "country": "Mexico",
         "sector": "Other Social Infrastructure & Services",
         "year": 2020,
-        "amount": 241.26329867241333,
-        "amountLabel": "$241.3M"
+        "amount": 239.69879740463023,
+        "amountLabel": "$239.7M"
       },
       {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Education",
-        "year": 2022,
-        "amount": 238.368594418795,
-        "amountLabel": "$238.4M"
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Other Multisector",
+        "year": 2021,
+        "amount": 233.34249390000002,
+        "amountLabel": "$233.3M"
       },
       {
         "donorCountry": "Canada",
@@ -3680,87 +3673,55 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Health",
         "year": 2023,
-        "amount": 217.05981,
-        "amountLabel": "$217.1M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Health",
-        "year": 2021,
-        "amount": 216.7819881445641,
-        "amountLabel": "$216.8M"
-      },
-      {
-        "donorCountry": "Mexico",
-        "country": "Mexico",
-        "sector": "Health",
-        "year": 2021,
-        "amount": 195.53019010309313,
-        "amountLabel": "$195.5M"
-      },
-      {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Unspecified",
-        "year": 2022,
-        "amount": 192.8808180871411,
-        "amountLabel": "$192.9M"
-      },
-      {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Unspecified",
-        "year": 2021,
-        "amount": 190.1524388649145,
-        "amountLabel": "$190.2M"
+        "amount": 217.22681,
+        "amountLabel": "$217.2M"
       },
       {
         "donorCountry": "United States",
         "country": "India",
         "sector": "Health",
         "year": 2021,
-        "amount": 182.12683757756,
-        "amountLabel": "$182.1M"
+        "amount": 186.512334278,
+        "amountLabel": "$186.5M"
       },
       {
         "donorCountry": "India",
         "country": "India",
         "sector": "Health",
-        "year": 2020,
-        "amount": 174.56922148484898,
-        "amountLabel": "$174.6M"
+        "year": 2022,
+        "amount": 179.074632586,
+        "amountLabel": "$179.1M"
+      },
+      {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Health",
+        "year": 2023,
+        "amount": 169.882666704,
+        "amountLabel": "$169.9M"
       },
       {
         "donorCountry": "United States",
         "country": "Pakistan",
         "sector": "Health",
         "year": 2022,
-        "amount": 169.2595060943,
+        "amount": 169.25950609400002,
         "amountLabel": "$169.3M"
       },
       {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2020,
-        "amount": 160.93647770802158,
-        "amountLabel": "$160.9M"
-      },
-      {
         "donorCountry": "Spain",
         "country": "Peru",
-        "sector": "Unspecified",
+        "sector": "Agriculture, Forestry, Fishing",
         "year": 2021,
-        "amount": 158.0483589,
-        "amountLabel": "$158.0M"
+        "amount": 158.051493166,
+        "amountLabel": "$158.1M"
       },
       {
         "donorCountry": "Spain",
         "country": "Peru",
-        "sector": "Unspecified",
+        "sector": "Agriculture, Forestry, Fishing",
         "year": 2022,
-        "amount": 157.981155,
+        "amount": 158.038592,
         "amountLabel": "$158.0M"
       },
       {
@@ -3768,8 +3729,16 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Education",
         "year": 2021,
-        "amount": 157.61409353994802,
-        "amountLabel": "$157.6M"
+        "amount": 156.8961558179,
+        "amountLabel": "$156.9M"
+      },
+      {
+        "donorCountry": "Spain",
+        "country": "Peru",
+        "sector": "Agriculture, Forestry, Fishing",
+        "year": 2023,
+        "amount": 153.964660311,
+        "amountLabel": "$154.0M"
       },
       {
         "donorCountry": "United States",
@@ -3788,36 +3757,28 @@ window.OECD_DATA = {
         "amountLabel": "$152.6M"
       },
       {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Other Multisector",
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Education",
         "year": 2021,
-        "amount": 150.0569545396484,
-        "amountLabel": "$150.1M"
+        "amount": 151.98942935,
+        "amountLabel": "$152.0M"
       },
       {
-        "donorCountry": "Spain",
-        "country": "Peru",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 145.845148,
-        "amountLabel": "$145.8M"
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Education",
+        "year": 2020,
+        "amount": 147.477491351,
+        "amountLabel": "$147.5M"
       },
       {
         "donorCountry": "Spain",
         "country": "Dominican Republic",
         "sector": "Banking & Financial Services",
         "year": 2023,
-        "amount": 145.208859672292,
+        "amount": 145.208859672,
         "amountLabel": "$145.2M"
-      },
-      {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Other Multisector",
-        "year": 2023,
-        "amount": 144.8966401688799,
-        "amountLabel": "$144.9M"
       },
       {
         "donorCountry": "United States",
@@ -3828,11 +3789,19 @@ window.OECD_DATA = {
         "amountLabel": "$143.8M"
       },
       {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Unallocated / Unspecified",
+        "year": 2022,
+        "amount": 143.25339016,
+        "amountLabel": "$143.3M"
+      },
+      {
         "donorCountry": "United States",
         "country": "India",
         "sector": "Health",
         "year": 2020,
-        "amount": 142.6413299493,
+        "amount": 142.641329949,
         "amountLabel": "$142.6M"
       },
       {
@@ -3848,21 +3817,29 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Health",
         "year": 2022,
-        "amount": 136.75102746098,
-        "amountLabel": "$136.8M"
+        "amount": 138.035625055,
+        "amountLabel": "$138.0M"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Other Multisector",
+        "year": 2022,
+        "amount": 137.315479428,
+        "amountLabel": "$137.3M"
       },
       {
         "donorCountry": "Spain",
         "country": "Peru",
         "sector": "Business & Other Services",
         "year": 2021,
-        "amount": 135.798261083312,
+        "amount": 135.798261083,
         "amountLabel": "$135.8M"
       },
       {
         "donorCountry": "Spain",
         "country": "Peru",
-        "sector": "Unspecified",
+        "sector": "Agriculture, Forestry, Fishing",
         "year": 2020,
         "amount": 135.7633226,
         "amountLabel": "$135.8M"
@@ -3880,7 +3857,7 @@ window.OECD_DATA = {
         "country": "Dominican Republic",
         "sector": "Banking & Financial Services",
         "year": 2022,
-        "amount": 133.18093646543,
+        "amount": 133.180936465,
         "amountLabel": "$133.2M"
       },
       {
@@ -3890,14 +3867,6 @@ window.OECD_DATA = {
         "year": 2021,
         "amount": 132.705452,
         "amountLabel": "$132.7M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Education",
-        "year": 2020,
-        "amount": 131.2800300860061,
-        "amountLabel": "$131.3M"
       },
       {
         "donorCountry": "United States",
@@ -3912,8 +3881,16 @@ window.OECD_DATA = {
         "country": "Pakistan",
         "sector": "Health",
         "year": 2021,
-        "amount": 130.0722528742,
+        "amount": 130.07225287400001,
         "amountLabel": "$130.1M"
+      },
+      {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Unallocated / Unspecified",
+        "year": 2020,
+        "amount": 127.307097034,
+        "amountLabel": "$127.3M"
       },
       {
         "donorCountry": "Canada",
@@ -3924,19 +3901,11 @@ window.OECD_DATA = {
         "amountLabel": "$126.5M"
       },
       {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Education",
-        "year": 2021,
-        "amount": 126.1209203748351,
-        "amountLabel": "$126.1M"
-      },
-      {
         "donorCountry": "Mexico",
         "country": "Mexico",
         "sector": "Other Social Infrastructure & Services",
         "year": 2021,
-        "amount": 124.66439806626103,
+        "amount": 124.664398060726,
         "amountLabel": "$124.7M"
       },
       {
@@ -3944,7 +3913,7 @@ window.OECD_DATA = {
         "country": "Dominican Republic",
         "sector": "Banking & Financial Services",
         "year": 2021,
-        "amount": 124.4485329271,
+        "amount": 124.448532927,
         "amountLabel": "$124.4M"
       },
       {
@@ -3956,19 +3925,11 @@ window.OECD_DATA = {
         "amountLabel": "$122.6M"
       },
       {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Health",
-        "year": 2022,
-        "amount": 119.027730169251,
-        "amountLabel": "$119.0M"
-      },
-      {
         "donorCountry": "United States",
         "country": "Nigeria",
         "sector": "Health",
         "year": 2020,
-        "amount": 114.7400191848,
+        "amount": 114.74001918500001,
         "amountLabel": "$114.7M"
       },
       {
@@ -3980,12 +3941,28 @@ window.OECD_DATA = {
         "amountLabel": "$114.0M"
       },
       {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Unallocated / Unspecified",
+        "year": 2023,
+        "amount": 111.65490568,
+        "amountLabel": "$111.7M"
+      },
+      {
         "donorCountry": "United States",
         "country": "Ukraine",
         "sector": "Government & Civil Society",
         "year": 2023,
         "amount": 111.446243,
         "amountLabel": "$111.4M"
+      },
+      {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Unallocated / Unspecified",
+        "year": 2021,
+        "amount": 109.49432089,
+        "amountLabel": "$109.5M"
       },
       {
         "donorCountry": "United States",
@@ -4000,16 +3977,24 @@ window.OECD_DATA = {
         "country": "Dominican Republic",
         "sector": "Banking & Financial Services",
         "year": 2020,
-        "amount": 106.67426792566,
+        "amount": 106.674267925,
         "amountLabel": "$106.7M"
       },
       {
         "donorCountry": "Mexico",
         "country": "Mexico",
-        "sector": "Unspecified",
-        "year": 2020,
-        "amount": 105.3728423,
-        "amountLabel": "$105.4M"
+        "sector": "Health",
+        "year": 2022,
+        "amount": 105.26298338792371,
+        "amountLabel": "$105.3M"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Reconstruction Relief & Rehabilitation",
+        "year": 2021,
+        "amount": 104.604391846,
+        "amountLabel": "$104.6M"
       },
       {
         "donorCountry": "United States",
@@ -4020,12 +4005,12 @@ window.OECD_DATA = {
         "amountLabel": "$104.2M"
       },
       {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Reconstruction Relief & Rehabilitation",
-        "year": 2021,
-        "amount": 103.605669786462,
-        "amountLabel": "$103.6M"
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Other Multisector",
+        "year": 2023,
+        "amount": 104.130689172,
+        "amountLabel": "$104.1M"
       },
       {
         "donorCountry": "Spain",
@@ -4036,51 +4021,27 @@ window.OECD_DATA = {
         "amountLabel": "$102.7M"
       },
       {
-        "donorCountry": "Mexico",
-        "country": "Mexico",
-        "sector": "Unspecified",
-        "year": 2021,
-        "amount": 102.0220668,
-        "amountLabel": "$102.0M"
-      },
-      {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Other Multisector",
-        "year": 2022,
-        "amount": 101.1606890379942,
-        "amountLabel": "$101.2M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Health",
-        "year": 2023,
-        "amount": 98.691543006836,
-        "amountLabel": "$98.7M"
-      },
-      {
         "donorCountry": "China (People's Republic of)",
         "country": "China (People's Republic of)",
         "sector": "Energy",
         "year": 2021,
-        "amount": 98.193044429289,
-        "amountLabel": "$98.2M"
+        "amount": 98.67952795800001,
+        "amountLabel": "$98.7M"
       },
       {
         "donorCountry": "China (People's Republic of)",
         "country": "China (People's Republic of)",
         "sector": "Emergency Response",
         "year": 2022,
-        "amount": 97.6025033823248,
-        "amountLabel": "$97.6M"
+        "amount": 98.672490894,
+        "amountLabel": "$98.7M"
       },
       {
         "donorCountry": "Mexico",
         "country": "Mexico",
         "sector": "Education",
         "year": 2022,
-        "amount": 97.03004846133855,
+        "amount": 97.0300484917614,
         "amountLabel": "$97.0M"
       },
       {
@@ -4088,7 +4049,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Health",
         "year": 2023,
-        "amount": 96.3776110272,
+        "amount": 96.377611027,
         "amountLabel": "$96.4M"
       },
       {
@@ -4100,20 +4061,20 @@ window.OECD_DATA = {
         "amountLabel": "$96.3M"
       },
       {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Reconstruction Relief & Rehabilitation",
+        "year": 2023,
+        "amount": 94.205518608,
+        "amountLabel": "$94.2M"
+      },
+      {
         "donorCountry": "Canada",
         "country": "Rwanda",
         "sector": "Education",
         "year": 2021,
         "amount": 93.268176,
         "amountLabel": "$93.3M"
-      },
-      {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Reconstruction Relief & Rehabilitation",
-        "year": 2023,
-        "amount": 92.5256933071955,
-        "amountLabel": "$92.5M"
       },
       {
         "donorCountry": "Canada",
@@ -4128,8 +4089,24 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Health",
         "year": 2020,
-        "amount": 90.9092933543,
+        "amount": 90.909293354,
         "amountLabel": "$90.9M"
+      },
+      {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Government & Civil Society",
+        "year": 2020,
+        "amount": 90.824698258,
+        "amountLabel": "$90.8M"
+      },
+      {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Other Multisector",
+        "year": 2022,
+        "amount": 89.03672249499999,
+        "amountLabel": "$89.0M"
       },
       {
         "donorCountry": "United States",
@@ -4140,59 +4117,51 @@ window.OECD_DATA = {
         "amountLabel": "$87.3M"
       },
       {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Other Multisector",
+        "year": 2020,
+        "amount": 85.151197406,
+        "amountLabel": "$85.2M"
+      },
+      {
         "donorCountry": "China (People's Republic of)",
         "country": "China (People's Republic of)",
         "sector": "Emergency Response",
         "year": 2020,
-        "amount": 85.09737247848419,
+        "amount": 85.11077713499999,
         "amountLabel": "$85.1M"
+      },
+      {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Government & Civil Society",
+        "year": 2022,
+        "amount": 83.92134232,
+        "amountLabel": "$83.9M"
       },
       {
         "donorCountry": "Spain",
         "country": "Colombia",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2022,
-        "amount": 81.4838291255,
+        "amount": 81.483829125,
         "amountLabel": "$81.5M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Government & Civil Society",
-        "year": 2020,
-        "amount": 78.561864275283,
-        "amountLabel": "$78.6M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Government & Civil Society",
-        "year": 2022,
-        "amount": 76.0877435472376,
-        "amountLabel": "$76.1M"
       },
       {
         "donorCountry": "United States",
         "country": "India",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2020,
-        "amount": 76.05756890264,
+        "amount": 76.057568903,
         "amountLabel": "$76.1M"
-      },
-      {
-        "donorCountry": "Mexico",
-        "country": "Mexico",
-        "sector": "Health",
-        "year": 2022,
-        "amount": 74.25074932291037,
-        "amountLabel": "$74.3M"
       },
       {
         "donorCountry": "Mexico",
         "country": "Mexico",
         "sector": "Other Social Infrastructure & Services",
         "year": 2023,
-        "amount": 71.99311137319434,
+        "amount": 71.99311136051,
         "amountLabel": "$72.0M"
       },
       {
@@ -4200,7 +4169,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Reconstruction Relief & Rehabilitation",
         "year": 2020,
-        "amount": 71.92173048330001,
+        "amount": 71.921730483,
         "amountLabel": "$71.9M"
       },
       {
@@ -4216,24 +4185,32 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Education",
         "year": 2023,
-        "amount": 70.3628855985125,
+        "amount": 70.36288560519999,
         "amountLabel": "$70.4M"
       },
       {
         "donorCountry": "India",
         "country": "India",
-        "sector": "Other Multisector",
+        "sector": "Other Social Infrastructure & Services",
         "year": 2023,
-        "amount": 69.854258513813,
-        "amountLabel": "$69.9M"
+        "amount": 67.98526618300001,
+        "amountLabel": "$68.0M"
       },
       {
         "donorCountry": "Mexico",
         "country": "Mexico",
         "sector": "Development Food Assistance",
         "year": 2020,
-        "amount": 67.64875496915607,
+        "amount": 67.6487549837,
         "amountLabel": "$67.6M"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Emergency Response",
+        "year": 2021,
+        "amount": 67.259733253,
+        "amountLabel": "$67.3M"
       },
       {
         "donorCountry": "United States",
@@ -4248,32 +4225,56 @@ window.OECD_DATA = {
         "country": "Ethiopia",
         "sector": "Health",
         "year": 2020,
-        "amount": 66.1197842739,
+        "amount": 66.119784274,
         "amountLabel": "$66.1M"
+      },
+      {
+        "donorCountry": "Mexico",
+        "country": "Mexico",
+        "sector": "Health",
+        "year": 2023,
+        "amount": 65.8166678043117,
+        "amountLabel": "$65.8M"
       },
       {
         "donorCountry": "China (People's Republic of)",
         "country": "China (People's Republic of)",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2023,
-        "amount": 65.0777782953916,
-        "amountLabel": "$65.1M"
+        "amount": 65.545304314,
+        "amountLabel": "$65.5M"
+      },
+      {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Other Multisector",
+        "year": 2021,
+        "amount": 64.951504158,
+        "amountLabel": "$65.0M"
       },
       {
         "donorCountry": "Mexico",
         "country": "Mexico",
         "sector": "Government & Civil Society",
         "year": 2020,
-        "amount": 64.00104234031787,
-        "amountLabel": "$64.0M"
+        "amount": 63.37628299792227,
+        "amountLabel": "$63.4M"
       },
       {
         "donorCountry": "China (People's Republic of)",
         "country": "China (People's Republic of)",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2020,
-        "amount": 62.9908459984332,
-        "amountLabel": "$63.0M"
+        "amount": 63.209021485,
+        "amountLabel": "$63.2M"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Agriculture, Forestry, Fishing",
+        "year": 2022,
+        "amount": 62.869356726,
+        "amountLabel": "$62.9M"
       },
       {
         "donorCountry": "Canada",
@@ -4284,52 +4285,52 @@ window.OECD_DATA = {
         "amountLabel": "$62.0M"
       },
       {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Agriculture, Forestry, Fishing",
-        "year": 2022,
-        "amount": 61.8029625101533,
-        "amountLabel": "$61.8M"
-      },
-      {
         "donorCountry": "India",
         "country": "India",
-        "sector": "Other Multisector",
+        "sector": "Water Supply & Sanitation",
         "year": 2022,
-        "amount": 60.963283799504,
-        "amountLabel": "$61.0M"
+        "amount": 60.80952232,
+        "amountLabel": "$60.8M"
       },
       {
         "donorCountry": "China (People's Republic of)",
         "country": "China (People's Republic of)",
         "sector": "Energy",
         "year": 2023,
-        "amount": 59.134353628298,
-        "amountLabel": "$59.1M"
+        "amount": 59.753985186,
+        "amountLabel": "$59.8M"
       },
       {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Other Social Infrastructure & Services",
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Energy",
+        "year": 2022,
+        "amount": 59.040064353,
+        "amountLabel": "$59.0M"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Industry, Mining, Construction",
         "year": 2023,
-        "amount": 58.398652209555,
-        "amountLabel": "$58.4M"
+        "amount": 58.552659289,
+        "amountLabel": "$58.6M"
       },
       {
         "donorCountry": "United States",
         "country": "India",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2021,
-        "amount": 57.607833,
-        "amountLabel": "$57.6M"
+        "amount": 57.052911,
+        "amountLabel": "$57.1M"
       },
       {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Energy",
-        "year": 2022,
-        "amount": 56.744523781072,
-        "amountLabel": "$56.7M"
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Government & Civil Society",
+        "year": 2021,
+        "amount": 56.7564915293,
+        "amountLabel": "$56.8M"
       },
       {
         "donorCountry": "United States",
@@ -4344,16 +4345,24 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Government & Civil Society",
         "year": 2023,
-        "amount": 55.9837782781326,
-        "amountLabel": "$56.0M"
+        "amount": 55.472727014,
+        "amountLabel": "$55.5M"
       },
       {
         "donorCountry": "Spain",
         "country": "Colombia",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2023,
-        "amount": 55.299346825066,
+        "amount": 55.299346825,
         "amountLabel": "$55.3M"
+      },
+      {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2020,
+        "amount": 55.206715948,
+        "amountLabel": "$55.2M"
       },
       {
         "donorCountry": "Canada",
@@ -4382,17 +4391,9 @@ window.OECD_DATA = {
       {
         "donorCountry": "China (People's Republic of)",
         "country": "China (People's Republic of)",
-        "sector": "Emergency Response",
-        "year": 2021,
-        "amount": 53.273125055112104,
-        "amountLabel": "$53.3M"
-      },
-      {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2021,
-        "amount": 52.98768424287,
+        "amount": 53.009146755,
         "amountLabel": "$53.0M"
       },
       {
@@ -4400,7 +4401,7 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2022,
-        "amount": 52.965696660412995,
+        "amount": 52.96569666,
         "amountLabel": "$53.0M"
       },
       {
@@ -4408,7 +4409,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Government & Civil Society",
         "year": 2021,
-        "amount": 52.6925868998,
+        "amount": 52.6925869,
         "amountLabel": "$52.7M"
       },
       {
@@ -4416,7 +4417,15 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Health",
         "year": 2022,
-        "amount": 51.6713271918325,
+        "amount": 51.693712219,
+        "amountLabel": "$51.7M"
+      },
+      {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Emergency Response",
+        "year": 2020,
+        "amount": 51.681512346,
         "amountLabel": "$51.7M"
       },
       {
@@ -4432,7 +4441,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Reconstruction Relief & Rehabilitation",
         "year": 2022,
-        "amount": 50.9995225552109,
+        "amount": 50.999522554,
         "amountLabel": "$51.0M"
       },
       {
@@ -4442,22 +4451,6 @@ window.OECD_DATA = {
         "year": 2023,
         "amount": 50.894071,
         "amountLabel": "$50.9M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Emergency Response",
-        "year": 2020,
-        "amount": 50.847080901997,
-        "amountLabel": "$50.8M"
-      },
-      {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Industry, Mining, Construction",
-        "year": 2023,
-        "amount": 50.714460530301004,
-        "amountLabel": "$50.7M"
       },
       {
         "donorCountry": "United States",
@@ -4480,7 +4473,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Health",
         "year": 2020,
-        "amount": 49.91588767993,
+        "amount": 49.91588768,
         "amountLabel": "$49.9M"
       },
       {
@@ -4508,19 +4501,27 @@ window.OECD_DATA = {
         "amountLabel": "$49.7M"
       },
       {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Water Supply & Sanitation",
+        "year": 2023,
+        "amount": 48.6531506285,
+        "amountLabel": "$48.7M"
+      },
+      {
         "donorCountry": "China (People's Republic of)",
         "country": "China (People's Republic of)",
         "sector": "Disaster Prevention & Preparedness",
         "year": 2021,
-        "amount": 48.592848894283996,
+        "amount": 48.592848893,
         "amountLabel": "$48.6M"
       },
       {
         "donorCountry": "India",
         "country": "India",
-        "sector": "Other Multisector",
-        "year": 2020,
-        "amount": 48.493975171303,
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2022,
+        "amount": 48.496760356,
         "amountLabel": "$48.5M"
       },
       {
@@ -4532,35 +4533,19 @@ window.OECD_DATA = {
         "amountLabel": "$48.2M"
       },
       {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Government & Civil Society",
-        "year": 2021,
-        "amount": 48.07808386284641,
-        "amountLabel": "$48.1M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Water Supply & Sanitation",
-        "year": 2022,
-        "amount": 47.530223601075,
-        "amountLabel": "$47.5M"
-      },
-      {
         "donorCountry": "United States",
         "country": "China (People's Republic of)",
         "sector": "Energy",
         "year": 2021,
-        "amount": 47.5233516333,
-        "amountLabel": "$47.5M"
+        "amount": 47.692024583,
+        "amountLabel": "$47.7M"
       },
       {
         "donorCountry": "United States",
         "country": "Kenya",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2022,
-        "amount": 47.11719045203,
+        "amount": 47.117190455,
         "amountLabel": "$47.1M"
       },
       {
@@ -4580,6 +4565,14 @@ window.OECD_DATA = {
         "amountLabel": "$47.1M"
       },
       {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Water Supply & Sanitation",
+        "year": 2021,
+        "amount": 46.681015926,
+        "amountLabel": "$46.7M"
+      },
+      {
         "donorCountry": "Canada",
         "country": "Ghana",
         "sector": "Education",
@@ -4592,7 +4585,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Health",
         "year": 2021,
-        "amount": 46.302057483060004,
+        "amount": 46.302057483,
         "amountLabel": "$46.3M"
       },
       {
@@ -4600,16 +4593,8 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Government & Civil Society",
         "year": 2021,
-        "amount": 46.18625312563818,
-        "amountLabel": "$46.2M"
-      },
-      {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Water Supply & Sanitation",
-        "year": 2021,
-        "amount": 46.1517504648664,
-        "amountLabel": "$46.2M"
+        "amount": 46.14078989766,
+        "amountLabel": "$46.1M"
       },
       {
         "donorCountry": "United States",
@@ -4620,19 +4605,19 @@ window.OECD_DATA = {
         "amountLabel": "$45.0M"
       },
       {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Government & Civil Society",
+        "year": 2020,
+        "amount": 44.856754045,
+        "amountLabel": "$44.9M"
+      },
+      {
         "donorCountry": "Canada",
         "country": "Ethiopia",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2021,
         "amount": 44.735135,
-        "amountLabel": "$44.7M"
-      },
-      {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Government & Civil Society",
-        "year": 2020,
-        "amount": 44.6744340023574,
         "amountLabel": "$44.7M"
       },
       {
@@ -4656,7 +4641,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2021,
-        "amount": 43.682424782416,
+        "amount": 43.682424783,
         "amountLabel": "$43.7M"
       },
       {
@@ -4669,6 +4654,14 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
+        "country": "India",
+        "sector": "Agriculture, Forestry, Fishing",
+        "year": 2022,
+        "amount": 43.494434048,
+        "amountLabel": "$43.5M"
+      },
+      {
+        "donorCountry": "United States",
         "country": "Ethiopia",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2021,
@@ -4676,20 +4669,12 @@ window.OECD_DATA = {
         "amountLabel": "$43.2M"
       },
       {
-        "donorCountry": "United States",
-        "country": "India",
-        "sector": "Agriculture, Forestry, Fishing",
-        "year": 2022,
-        "amount": 43.1820848278,
-        "amountLabel": "$43.2M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "India",
-        "sector": "Government & Civil Society",
-        "year": 2023,
-        "amount": 42.441693,
-        "amountLabel": "$42.4M"
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Transport & Storage",
+        "year": 2020,
+        "amount": 42.726510467,
+        "amountLabel": "$42.7M"
       },
       {
         "donorCountry": "United States",
@@ -4704,16 +4689,16 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2021,
-        "amount": 42.2203045683,
+        "amount": 42.220304569,
         "amountLabel": "$42.2M"
       },
       {
-        "donorCountry": "India",
+        "donorCountry": "United States",
         "country": "India",
-        "sector": "Other Multisector",
-        "year": 2021,
-        "amount": 42.155771924004995,
-        "amountLabel": "$42.2M"
+        "sector": "Government & Civil Society",
+        "year": 2023,
+        "amount": 42.075693,
+        "amountLabel": "$42.1M"
       },
       {
         "donorCountry": "United Kingdom",
@@ -4726,26 +4711,10 @@ window.OECD_DATA = {
       {
         "donorCountry": "China (People's Republic of)",
         "country": "China (People's Republic of)",
-        "sector": "Transport & Storage",
-        "year": 2020,
-        "amount": 41.759891921728,
-        "amountLabel": "$41.8M"
-      },
-      {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
         "sector": "Water Supply & Sanitation",
         "year": 2020,
-        "amount": 41.175827853082,
-        "amountLabel": "$41.2M"
-      },
-      {
-        "donorCountry": "Mexico",
-        "country": "Mexico",
-        "sector": "Health",
-        "year": 2023,
-        "amount": 40.957304389570886,
-        "amountLabel": "$41.0M"
+        "amount": 41.381165318,
+        "amountLabel": "$41.4M"
       },
       {
         "donorCountry": "Canada",
@@ -4780,12 +4749,12 @@ window.OECD_DATA = {
         "amountLabel": "$40.1M"
       },
       {
-        "donorCountry": "United States",
+        "donorCountry": "India",
         "country": "India",
-        "sector": "Government & Civil Society",
-        "year": 2022,
-        "amount": 39.838844813,
-        "amountLabel": "$39.8M"
+        "sector": "Emergency Response",
+        "year": 2021,
+        "amount": 40.020407379,
+        "amountLabel": "$40.0M"
       },
       {
         "donorCountry": "United States",
@@ -4805,19 +4774,19 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
+        "country": "India",
+        "sector": "Government & Civil Society",
+        "year": 2022,
+        "amount": 39.459674814,
+        "amountLabel": "$39.5M"
+      },
+      {
+        "donorCountry": "United States",
         "country": "Brazil",
         "sector": "Government & Civil Society",
         "year": 2021,
-        "amount": 39.2214981744,
-        "amountLabel": "$39.2M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2022,
-        "amount": 39.013443339481,
-        "amountLabel": "$39.0M"
+        "amount": 39.390171125,
+        "amountLabel": "$39.4M"
       },
       {
         "donorCountry": "Canada",
@@ -4844,27 +4813,27 @@ window.OECD_DATA = {
         "amountLabel": "$38.4M"
       },
       {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Emergency Response",
-        "year": 2021,
-        "amount": 37.7830778341711,
-        "amountLabel": "$37.8M"
-      },
-      {
         "donorCountry": "United States",
         "country": "South Africa",
         "sector": "Health",
         "year": 2022,
-        "amount": 37.70323815041,
+        "amount": 37.703238151,
         "amountLabel": "$37.7M"
       },
       {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Water Supply & Sanitation",
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Government & Civil Society",
+        "year": 2021,
+        "amount": 37.632396741,
+        "amountLabel": "$37.6M"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Government & Civil Society",
         "year": 2023,
-        "amount": 36.81419446799793,
+        "amount": 36.825706247,
         "amountLabel": "$36.8M"
       },
       {
@@ -4884,28 +4853,12 @@ window.OECD_DATA = {
         "amountLabel": "$36.3M"
       },
       {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Government & Civil Society",
-        "year": 2023,
-        "amount": 36.233563130608,
-        "amountLabel": "$36.2M"
-      },
-      {
         "donorCountry": "Canada",
         "country": "Ethiopia",
         "sector": "Education",
         "year": 2023,
         "amount": 36.00321,
         "amountLabel": "$36.0M"
-      },
-      {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Government & Civil Society",
-        "year": 2021,
-        "amount": 35.6977305960855,
-        "amountLabel": "$35.7M"
       },
       {
         "donorCountry": "United States",
@@ -4917,19 +4870,19 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "India",
-        "sector": "Government & Civil Society",
-        "year": 2020,
-        "amount": 35.3880248217,
-        "amountLabel": "$35.4M"
-      },
-      {
-        "donorCountry": "United States",
         "country": "Colombia",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2023,
         "amount": 35.15969,
         "amountLabel": "$35.2M"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Government & Civil Society",
+        "year": 2022,
+        "amount": 35.073018433,
+        "amountLabel": "$35.1M"
       },
       {
         "donorCountry": "United States",
@@ -4940,35 +4893,51 @@ window.OECD_DATA = {
         "amountLabel": "$34.8M"
       },
       {
-        "donorCountry": "Mexico",
-        "country": "Mexico",
+        "donorCountry": "United States",
+        "country": "India",
         "sector": "Government & Civil Society",
+        "year": 2020,
+        "amount": 34.807764822,
+        "amountLabel": "$34.8M"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Emergency Response",
         "year": 2023,
-        "amount": 34.13784285365781,
-        "amountLabel": "$34.1M"
+        "amount": 34.509922953,
+        "amountLabel": "$34.5M"
       },
       {
         "donorCountry": "United States",
         "country": "Kenya",
         "sector": "Government & Civil Society",
         "year": 2023,
-        "amount": 34.096735,
-        "amountLabel": "$34.1M"
+        "amount": 34.206735,
+        "amountLabel": "$34.2M"
       },
       {
         "donorCountry": "India",
         "country": "India",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2020,
-        "amount": 33.9634688077721,
-        "amountLabel": "$34.0M"
+        "sector": "Agriculture, Forestry, Fishing",
+        "year": 2023,
+        "amount": 34.1567234655,
+        "amountLabel": "$34.2M"
+      },
+      {
+        "donorCountry": "Mexico",
+        "country": "Mexico",
+        "sector": "Government & Civil Society",
+        "year": 2023,
+        "amount": 34.137842852284,
+        "amountLabel": "$34.1M"
       },
       {
         "donorCountry": "United States",
         "country": "Kenya",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2020,
-        "amount": 33.854844136275,
+        "amount": 33.854844135,
         "amountLabel": "$33.9M"
       },
       {
@@ -4980,19 +4949,11 @@ window.OECD_DATA = {
         "amountLabel": "$33.7M"
       },
       {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Agriculture, Forestry, Fishing",
-        "year": 2023,
-        "amount": 33.649455099156626,
-        "amountLabel": "$33.6M"
-      },
-      {
         "donorCountry": "Mexico",
         "country": "Mexico",
         "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 33.4651273013317,
+        "amount": 33.465127308999996,
         "amountLabel": "$33.5M"
       },
       {
@@ -5040,7 +5001,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Government & Civil Society",
         "year": 2020,
-        "amount": 32.82158122771,
+        "amount": 32.821581228,
         "amountLabel": "$32.8M"
       },
       {
@@ -5048,8 +5009,24 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2021,
-        "amount": 32.81563940323,
+        "amount": 32.815639403,
         "amountLabel": "$32.8M"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Business & Other Services",
+        "year": 2020,
+        "amount": 32.706390516,
+        "amountLabel": "$32.7M"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "General Environment Protection",
+        "year": 2022,
+        "amount": 32.597910395999996,
+        "amountLabel": "$32.6M"
       },
       {
         "donorCountry": "Canada",
@@ -5058,14 +5035,6 @@ window.OECD_DATA = {
         "year": 2023,
         "amount": 32.586278,
         "amountLabel": "$32.6M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "General Environment Protection",
-        "year": 2022,
-        "amount": 32.174562735483,
-        "amountLabel": "$32.2M"
       },
       {
         "donorCountry": "United States",
@@ -5088,7 +5057,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 31.82268245008,
+        "amount": 31.822682453,
         "amountLabel": "$31.8M"
       },
       {
@@ -5096,7 +5065,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Government & Civil Society",
         "year": 2021,
-        "amount": 31.64941233662,
+        "amount": 31.649412338,
         "amountLabel": "$31.6M"
       },
       {
@@ -5104,16 +5073,8 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Health",
         "year": 2020,
-        "amount": 31.57326015662,
+        "amount": 31.573260157,
         "amountLabel": "$31.6M"
-      },
-      {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Government & Civil Society",
-        "year": 2022,
-        "amount": 31.354641314498,
-        "amountLabel": "$31.4M"
       },
       {
         "donorCountry": "Canada",
@@ -5124,27 +5085,19 @@ window.OECD_DATA = {
         "amountLabel": "$31.2M"
       },
       {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Business & Other Services",
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "General Environment Protection",
         "year": 2020,
-        "amount": 31.195518930697997,
-        "amountLabel": "$31.2M"
-      },
-      {
-        "donorCountry": "Mexico",
-        "country": "Mexico",
-        "sector": "Unspecified",
-        "year": 2022,
-        "amount": 31.02811689,
-        "amountLabel": "$31.0M"
+        "amount": 31.080534606,
+        "amountLabel": "$31.1M"
       },
       {
         "donorCountry": "United States",
         "country": "Tanzania",
         "sector": "Health",
         "year": 2022,
-        "amount": 30.90852425008,
+        "amount": 30.918935891,
         "amountLabel": "$30.9M"
       },
       {
@@ -5156,6 +5109,14 @@ window.OECD_DATA = {
         "amountLabel": "$30.5M"
       },
       {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "General Environment Protection",
+        "year": 2023,
+        "amount": 30.188502546,
+        "amountLabel": "$30.2M"
+      },
+      {
         "donorCountry": "Spain",
         "country": "Peru",
         "sector": "Government & Civil Society",
@@ -5165,18 +5126,18 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
+        "country": "Mexico",
+        "sector": "Government & Civil Society",
+        "year": 2022,
+        "amount": 30.174564073,
+        "amountLabel": "$30.2M"
+      },
+      {
+        "donorCountry": "United States",
         "country": "Nigeria",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2021,
         "amount": 30.007737,
-        "amountLabel": "$30.0M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Mexico",
-        "sector": "Government & Civil Society",
-        "year": 2022,
-        "amount": 30.002775124065,
         "amountLabel": "$30.0M"
       },
       {
@@ -5204,11 +5165,11 @@ window.OECD_DATA = {
         "amountLabel": "$29.7M"
       },
       {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Emergency Response",
-        "year": 2023,
-        "amount": 29.5832332507827,
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Water Supply & Sanitation",
+        "year": 2021,
+        "amount": 29.556806446,
         "amountLabel": "$29.6M"
       },
       {
@@ -5224,8 +5185,16 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2020,
-        "amount": 29.256355725149998,
+        "amount": 29.256355725,
         "amountLabel": "$29.3M"
+      },
+      {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "General Environment Protection",
+        "year": 2022,
+        "amount": 29.215486165,
+        "amountLabel": "$29.2M"
       },
       {
         "donorCountry": "United States",
@@ -5245,6 +5214,22 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
+        "country": "Kenya",
+        "sector": "Government & Civil Society",
+        "year": 2022,
+        "amount": 28.963532858,
+        "amountLabel": "$29.0M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "India",
+        "sector": "Education",
+        "year": 2022,
+        "amount": 28.913742501,
+        "amountLabel": "$28.9M"
+      },
+      {
+        "donorCountry": "United States",
         "country": "Nigeria",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2021,
@@ -5252,28 +5237,12 @@ window.OECD_DATA = {
         "amountLabel": "$28.7M"
       },
       {
-        "donorCountry": "United States",
-        "country": "Mexico",
-        "sector": "Government & Civil Society",
-        "year": 2020,
-        "amount": 28.67258389959,
-        "amountLabel": "$28.7M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Kenya",
-        "sector": "Government & Civil Society",
-        "year": 2022,
-        "amount": 28.65118363502,
-        "amountLabel": "$28.7M"
-      },
-      {
-        "donorCountry": "United States",
+        "donorCountry": "India",
         "country": "India",
-        "sector": "Education",
-        "year": 2022,
-        "amount": 28.58057,
-        "amountLabel": "$28.6M"
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2021,
+        "amount": 28.449660746,
+        "amountLabel": "$28.4M"
       },
       {
         "donorCountry": "United States",
@@ -5296,7 +5265,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Development Food Assistance",
         "year": 2022,
-        "amount": 28.21485731261889,
+        "amount": 28.2148573081,
         "amountLabel": "$28.2M"
       },
       {
@@ -5308,11 +5277,19 @@ window.OECD_DATA = {
         "amountLabel": "$28.0M"
       },
       {
-        "donorCountry": "Mexico",
+        "donorCountry": "United States",
         "country": "Mexico",
-        "sector": "General Environment Protection",
+        "sector": "Government & Civil Society",
         "year": 2020,
-        "amount": 27.9352716229642,
+        "amount": 27.888830327,
+        "amountLabel": "$27.9M"
+      },
+      {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Water Supply & Sanitation",
+        "year": 2020,
+        "amount": 27.883478485,
         "amountLabel": "$27.9M"
       },
       {
@@ -5324,19 +5301,19 @@ window.OECD_DATA = {
         "amountLabel": "$27.8M"
       },
       {
-        "donorCountry": "India",
-        "country": "India",
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
         "sector": "General Environment Protection",
         "year": 2023,
-        "amount": 27.6532902757763,
-        "amountLabel": "$27.7M"
+        "amount": 27.47251326,
+        "amountLabel": "$27.5M"
       },
       {
         "donorCountry": "United States",
         "country": "Kenya",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2022,
-        "amount": 27.4595496894,
+        "amount": 27.45954969,
         "amountLabel": "$27.5M"
       },
       {
@@ -5356,35 +5333,35 @@ window.OECD_DATA = {
         "amountLabel": "$27.3M"
       },
       {
-        "donorCountry": "United States",
-        "country": "South Africa",
-        "sector": "Population Policies/Programmes & Reproductive Health",
-        "year": 2022,
-        "amount": 27.22757003983,
-        "amountLabel": "$27.2M"
-      },
-      {
         "donorCountry": "China (People's Republic of)",
         "country": "China (People's Republic of)",
         "sector": "Transport & Storage",
         "year": 2022,
-        "amount": 27.184595977693,
-        "amountLabel": "$27.2M"
+        "amount": 27.281832269000002,
+        "amountLabel": "$27.3M"
       },
       {
-        "donorCountry": "Denmark",
-        "country": "Mexico",
-        "sector": "Education",
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2023,
-        "amount": 27.003428,
-        "amountLabel": "$27.0M"
+        "amount": 27.264161489,
+        "amountLabel": "$27.3M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "South Africa",
+        "sector": "Population Policies/Programmes & Reproductive Health",
+        "year": 2022,
+        "amount": 27.22757004,
+        "amountLabel": "$27.2M"
       },
       {
         "donorCountry": "China (People's Republic of)",
         "country": "China (People's Republic of)",
         "sector": "Communications",
         "year": 2022,
-        "amount": 26.966837363264002,
+        "amount": 27.008931627,
         "amountLabel": "$27.0M"
       },
       {
@@ -5392,8 +5369,24 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 26.88183073582,
+        "amount": 26.881830738,
         "amountLabel": "$26.9M"
+      },
+      {
+        "donorCountry": "Mexico",
+        "country": "Mexico",
+        "sector": "General Environment Protection",
+        "year": 2020,
+        "amount": 26.861965415,
+        "amountLabel": "$26.9M"
+      },
+      {
+        "donorCountry": "Denmark",
+        "country": "Mexico",
+        "sector": "Education",
+        "year": 2023,
+        "amount": 26.828428,
+        "amountLabel": "$26.8M"
       },
       {
         "donorCountry": "United States",
@@ -5410,14 +5403,6 @@ window.OECD_DATA = {
         "year": 2023,
         "amount": 26.75551,
         "amountLabel": "$26.8M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Population Policies/Programmes & Reproductive Health",
-        "year": 2023,
-        "amount": 26.655197313037,
-        "amountLabel": "$26.7M"
       },
       {
         "donorCountry": "United States",
@@ -5448,7 +5433,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Communications",
         "year": 2022,
-        "amount": 26.2244415438,
+        "amount": 26.224441543,
         "amountLabel": "$26.2M"
       },
       {
@@ -5456,7 +5441,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Communications",
         "year": 2023,
-        "amount": 26.11624238813,
+        "amount": 26.116242387,
         "amountLabel": "$26.1M"
       },
       {
@@ -5464,7 +5449,7 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Disaster Prevention & Preparedness",
         "year": 2023,
-        "amount": 25.9451490923345,
+        "amount": 25.945149093999998,
         "amountLabel": "$25.9M"
       },
       {
@@ -5472,7 +5457,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "General Environment Protection",
         "year": 2021,
-        "amount": 25.94430798022755,
+        "amount": 25.93421513518,
         "amountLabel": "$25.9M"
       },
       {
@@ -5480,23 +5465,23 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2020,
-        "amount": 25.810213397284997,
+        "amount": 25.810213398000002,
         "amountLabel": "$25.8M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "General Environment Protection",
-        "year": 2020,
-        "amount": 25.570715468423,
-        "amountLabel": "$25.6M"
       },
       {
         "donorCountry": "United States",
         "country": "Brazil",
         "sector": "Government & Civil Society",
         "year": 2020,
-        "amount": 25.51188824587,
+        "amount": 25.806216432,
+        "amountLabel": "$25.8M"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "General Environment Protection",
+        "year": 2021,
+        "amount": 25.510917174,
         "amountLabel": "$25.5M"
       },
       {
@@ -5504,7 +5489,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Energy",
         "year": 2021,
-        "amount": 25.5006518998,
+        "amount": 25.5006519,
         "amountLabel": "$25.5M"
       },
       {
@@ -5512,15 +5497,23 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Government & Civil Society",
         "year": 2021,
-        "amount": 25.47313658318,
+        "amount": 25.473136583,
         "amountLabel": "$25.5M"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Transport & Storage",
+        "year": 2021,
+        "amount": 25.411451458,
+        "amountLabel": "$25.4M"
       },
       {
         "donorCountry": "United States",
         "country": "Kenya",
         "sector": "Government & Civil Society",
         "year": 2021,
-        "amount": 25.295917412488,
+        "amount": 25.295917411,
         "amountLabel": "$25.3M"
       },
       {
@@ -5528,7 +5521,7 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Health",
         "year": 2020,
-        "amount": 25.17451289884,
+        "amount": 25.174512899,
         "amountLabel": "$25.2M"
       },
       {
@@ -5567,17 +5560,9 @@ window.OECD_DATA = {
         "donorCountry": "China (People's Republic of)",
         "country": "China (People's Republic of)",
         "sector": "Transport & Storage",
-        "year": 2021,
-        "amount": 24.9106595936314,
-        "amountLabel": "$24.9M"
-      },
-      {
-        "donorCountry": "Mexico",
-        "country": "Mexico",
-        "sector": "Unspecified",
         "year": 2023,
-        "amount": 24.8763532,
-        "amountLabel": "$24.9M"
+        "amount": 24.747596862,
+        "amountLabel": "$24.7M"
       },
       {
         "donorCountry": "United States",
@@ -5588,22 +5573,6 @@ window.OECD_DATA = {
         "amountLabel": "$24.7M"
       },
       {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Transport & Storage",
-        "year": 2023,
-        "amount": 24.66360559722,
-        "amountLabel": "$24.7M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Water Supply & Sanitation",
-        "year": 2021,
-        "amount": 24.518677604939,
-        "amountLabel": "$24.5M"
-      },
-      {
         "donorCountry": "Canada",
         "country": "Ethiopia",
         "sector": "Other Social Infrastructure & Services",
@@ -5612,19 +5581,19 @@ window.OECD_DATA = {
         "amountLabel": "$24.4M"
       },
       {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "General Environment Protection",
-        "year": 2021,
-        "amount": 24.201232341954,
-        "amountLabel": "$24.2M"
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Unallocated / Unspecified",
+        "year": 2020,
+        "amount": 24.317842237,
+        "amountLabel": "$24.3M"
       },
       {
         "donorCountry": "Mexico",
         "country": "Mexico",
         "sector": "Development Food Assistance",
         "year": 2021,
-        "amount": 24.0605430641164,
+        "amount": 24.060543059,
         "amountLabel": "$24.1M"
       },
       {
@@ -5636,19 +5605,19 @@ window.OECD_DATA = {
         "amountLabel": "$24.0M"
       },
       {
+        "donorCountry": "United States",
+        "country": "Kenya",
+        "sector": "Government & Civil Society",
+        "year": 2020,
+        "amount": 23.811485184,
+        "amountLabel": "$23.8M"
+      },
+      {
         "donorCountry": "United Kingdom",
         "country": "China (People's Republic of)",
         "sector": "General Environment Protection",
         "year": 2023,
         "amount": 23.806739,
-        "amountLabel": "$23.8M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Kenya",
-        "sector": "Government & Civil Society",
-        "year": 2020,
-        "amount": 23.80324399585,
         "amountLabel": "$23.8M"
       },
       {
@@ -5685,10 +5654,18 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
+        "country": "Colombia",
+        "sector": "Government & Civil Society",
+        "year": 2022,
+        "amount": 23.249250803,
+        "amountLabel": "$23.2M"
+      },
+      {
+        "donorCountry": "United States",
         "country": "Tanzania",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2022,
-        "amount": 23.20680769163,
+        "amount": 23.206807692,
         "amountLabel": "$23.2M"
       },
       {
@@ -5697,14 +5674,6 @@ window.OECD_DATA = {
         "sector": "Education",
         "year": 2021,
         "amount": 22.935924,
-        "amountLabel": "$22.9M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Colombia",
-        "sector": "Government & Civil Society",
-        "year": 2022,
-        "amount": 22.89525501966,
         "amountLabel": "$22.9M"
       },
       {
@@ -5725,6 +5694,14 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
+        "country": "South Africa",
+        "sector": "Education",
+        "year": 2022,
+        "amount": 22.509761962,
+        "amountLabel": "$22.5M"
+      },
+      {
+        "donorCountry": "United States",
         "country": "India",
         "sector": "Education",
         "year": 2023,
@@ -5741,18 +5718,10 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "South Africa",
-        "sector": "Education",
-        "year": 2022,
-        "amount": 22.3535873479,
-        "amountLabel": "$22.4M"
-      },
-      {
-        "donorCountry": "United States",
         "country": "Peru",
         "sector": "General Environment Protection",
         "year": 2021,
-        "amount": 22.0541650081,
+        "amount": 22.054165008000002,
         "amountLabel": "$22.1M"
       },
       {
@@ -5760,7 +5729,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Other Multisector",
         "year": 2022,
-        "amount": 22.0165534128424,
+        "amount": 22.016553414,
         "amountLabel": "$22.0M"
       },
       {
@@ -5772,28 +5741,20 @@ window.OECD_DATA = {
         "amountLabel": "$21.9M"
       },
       {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2021,
-        "amount": 21.8396066614141,
-        "amountLabel": "$21.8M"
-      },
-      {
         "donorCountry": "United States",
         "country": "Brazil",
         "sector": "General Environment Protection",
         "year": 2022,
-        "amount": 21.739925050380002,
-        "amountLabel": "$21.7M"
+        "amount": 21.896099662,
+        "amountLabel": "$21.9M"
       },
       {
         "donorCountry": "China (People's Republic of)",
         "country": "China (People's Republic of)",
         "sector": "Communications",
         "year": 2023,
-        "amount": 21.610857447648,
-        "amountLabel": "$21.6M"
+        "amount": 21.65285308,
+        "amountLabel": "$21.7M"
       },
       {
         "donorCountry": "Canada",
@@ -5808,7 +5769,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Banking & Financial Services",
         "year": 2020,
-        "amount": 21.5486875478,
+        "amount": 21.548687548,
         "amountLabel": "$21.5M"
       },
       {
@@ -5824,7 +5785,15 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Health",
         "year": 2020,
-        "amount": 21.42953248468,
+        "amount": 21.429532485,
+        "amountLabel": "$21.4M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "China (People's Republic of)",
+        "sector": "General Environment Protection",
+        "year": 2021,
+        "amount": 21.379010603,
         "amountLabel": "$21.4M"
       },
       {
@@ -5836,36 +5805,12 @@ window.OECD_DATA = {
         "amountLabel": "$21.4M"
       },
       {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "General Environment Protection",
-        "year": 2021,
-        "amount": 21.245506634985,
-        "amountLabel": "$21.2M"
-      },
-      {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Unallocated / Unspecified",
-        "year": 2020,
-        "amount": 21.1594373114557,
-        "amountLabel": "$21.2M"
-      },
-      {
         "donorCountry": "United States",
         "country": "Malawi",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2020,
-        "amount": 21.119755594296,
+        "amount": 21.119755596,
         "amountLabel": "$21.1M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "China (People's Republic of)",
-        "sector": "General Environment Protection",
-        "year": 2021,
-        "amount": 20.98544038682,
-        "amountLabel": "$21.0M"
       },
       {
         "donorCountry": "United States",
@@ -5888,7 +5833,7 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Reconstruction Relief & Rehabilitation",
         "year": 2022,
-        "amount": 20.581395777658,
+        "amount": 20.581395779,
         "amountLabel": "$20.6M"
       },
       {
@@ -5904,7 +5849,7 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Health",
         "year": 2022,
-        "amount": 20.463071711399998,
+        "amount": 20.463071710999998,
         "amountLabel": "$20.5M"
       },
       {
@@ -5924,6 +5869,14 @@ window.OECD_DATA = {
         "amountLabel": "$20.4M"
       },
       {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "General Environment Protection",
+        "year": 2020,
+        "amount": 20.4156457906,
+        "amountLabel": "$20.4M"
+      },
+      {
         "donorCountry": "Switzerland",
         "country": "China (People's Republic of)",
         "sector": "Health",
@@ -5940,6 +5893,14 @@ window.OECD_DATA = {
         "amountLabel": "$20.4M"
       },
       {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Agriculture, Forestry, Fishing",
+        "year": 2022,
+        "amount": 20.349752579,
+        "amountLabel": "$20.3M"
+      },
+      {
         "donorCountry": "United States",
         "country": "Bangladesh",
         "sector": "Health",
@@ -5952,7 +5913,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Communications",
         "year": 2021,
-        "amount": 20.29958486318,
+        "amount": 20.299584865,
         "amountLabel": "$20.3M"
       },
       {
@@ -5968,7 +5929,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2021,
-        "amount": 20.28695290663,
+        "amount": 20.286952907,
         "amountLabel": "$20.3M"
       },
       {
@@ -5976,7 +5937,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Government & Civil Society",
         "year": 2021,
-        "amount": 20.25492689646,
+        "amount": 20.254926897,
         "amountLabel": "$20.3M"
       },
       {
@@ -5984,7 +5945,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Water Supply & Sanitation",
         "year": 2020,
-        "amount": 20.2498549566346,
+        "amount": 20.249854958,
         "amountLabel": "$20.2M"
       },
       {
@@ -6020,6 +5981,14 @@ window.OECD_DATA = {
         "amountLabel": "$20.0M"
       },
       {
+        "donorCountry": "Denmark",
+        "country": "Ukraine",
+        "sector": "Emergency Response",
+        "year": 2022,
+        "amount": 20.001770673,
+        "amountLabel": "$20.0M"
+      },
+      {
         "donorCountry": "Canada",
         "country": "Ethiopia",
         "sector": "Banking & Financial Services",
@@ -6032,16 +6001,8 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Water Supply & Sanitation",
         "year": 2021,
-        "amount": 19.9533920749,
+        "amount": 19.953392075,
         "amountLabel": "$20.0M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Agriculture, Forestry, Fishing",
-        "year": 2022,
-        "amount": 19.925781088164,
-        "amountLabel": "$19.9M"
       },
       {
         "donorCountry": "Canada",
@@ -6052,19 +6013,11 @@ window.OECD_DATA = {
         "amountLabel": "$19.9M"
       },
       {
-        "donorCountry": "Denmark",
-        "country": "Ukraine",
-        "sector": "Emergency Response",
-        "year": 2022,
-        "amount": 19.8486057008,
-        "amountLabel": "$19.8M"
-      },
-      {
         "donorCountry": "United States",
         "country": "India",
         "sector": "Energy",
         "year": 2022,
-        "amount": 19.7401247156,
+        "amount": 19.740124716,
         "amountLabel": "$19.7M"
       },
       {
@@ -6072,15 +6025,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "General Environment Protection",
         "year": 2022,
-        "amount": 19.715166386803013,
-        "amountLabel": "$19.7M"
-      },
-      {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "General Environment Protection",
-        "year": 2023,
-        "amount": 19.70003886624,
+        "amount": 19.7151663883614,
         "amountLabel": "$19.7M"
       },
       {
@@ -6128,7 +6073,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2022,
-        "amount": 19.40069264065,
+        "amount": 19.400692641,
         "amountLabel": "$19.4M"
       },
       {
@@ -6136,7 +6081,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Unallocated / Unspecified",
         "year": 2020,
-        "amount": 19.329984871242,
+        "amount": 19.329984871,
         "amountLabel": "$19.3M"
       },
       {
@@ -6144,8 +6089,16 @@ window.OECD_DATA = {
         "country": "Indonesia",
         "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 19.2779846098,
+        "amount": 19.27798461,
         "amountLabel": "$19.3M"
+      },
+      {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "General Environment Protection",
+        "year": 2021,
+        "amount": 19.238562139,
+        "amountLabel": "$19.2M"
       },
       {
         "donorCountry": "United States",
@@ -6164,11 +6117,19 @@ window.OECD_DATA = {
         "amountLabel": "$19.2M"
       },
       {
+        "donorCountry": "United States",
+        "country": "Indonesia",
+        "sector": "General Environment Protection",
+        "year": 2021,
+        "amount": 19.120449148,
+        "amountLabel": "$19.1M"
+      },
+      {
         "donorCountry": "Mexico",
         "country": "Mexico",
         "sector": "Water Supply & Sanitation",
         "year": 2021,
-        "amount": 19.03703786349837,
+        "amount": 19.037037863800002,
         "amountLabel": "$19.0M"
       },
       {
@@ -6185,6 +6146,14 @@ window.OECD_DATA = {
         "sector": "Health",
         "year": 2023,
         "amount": 19.012054,
+        "amountLabel": "$19.0M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "South Africa",
+        "sector": "Education",
+        "year": 2020,
+        "amount": 19.002447142,
         "amountLabel": "$19.0M"
       },
       {
@@ -6208,15 +6177,7 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2021,
-        "amount": 18.87370962016,
-        "amountLabel": "$18.9M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "South Africa",
-        "sector": "Education",
-        "year": 2020,
-        "amount": 18.87029378694,
+        "amount": 18.87370962,
         "amountLabel": "$18.9M"
       },
       {
@@ -6232,7 +6193,15 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Health",
         "year": 2021,
-        "amount": 18.831936723814,
+        "amount": 18.831936724,
+        "amountLabel": "$18.8M"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Unallocated / Unspecified",
+        "year": 2022,
+        "amount": 18.795738167,
         "amountLabel": "$18.8M"
       },
       {
@@ -6245,26 +6214,10 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Indonesia",
-        "sector": "General Environment Protection",
-        "year": 2021,
-        "amount": 18.7268789322,
-        "amountLabel": "$18.7M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Water Supply & Sanitation",
-        "year": 2020,
-        "amount": 18.711346841578,
-        "amountLabel": "$18.7M"
-      },
-      {
-        "donorCountry": "United States",
         "country": "Rwanda",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2022,
-        "amount": 18.672216820324998,
+        "amount": 18.67221682,
         "amountLabel": "$18.7M"
       },
       {
@@ -6296,15 +6249,23 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Disaster Prevention & Preparedness",
         "year": 2023,
-        "amount": 18.4649066611091,
+        "amount": 18.46490666,
         "amountLabel": "$18.5M"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Water Supply & Sanitation",
+        "year": 2023,
+        "amount": 18.436843357,
+        "amountLabel": "$18.4M"
       },
       {
         "donorCountry": "United States",
         "country": "Colombia",
         "sector": "General Environment Protection",
         "year": 2022,
-        "amount": 18.4126074065,
+        "amount": 18.412607407,
         "amountLabel": "$18.4M"
       },
       {
@@ -6312,7 +6273,7 @@ window.OECD_DATA = {
         "country": "Indonesia",
         "sector": "General Environment Protection",
         "year": 2020,
-        "amount": 18.39409100913,
+        "amount": 18.394091009,
         "amountLabel": "$18.4M"
       },
       {
@@ -6320,7 +6281,15 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Health",
         "year": 2021,
-        "amount": 18.33679118545,
+        "amount": 18.336791186,
+        "amountLabel": "$18.3M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Malawi",
+        "sector": "Population Policies/Programmes & Reproductive Health",
+        "year": 2023,
+        "amount": 18.3082,
         "amountLabel": "$18.3M"
       },
       {
@@ -6333,11 +6302,11 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Malawi",
-        "sector": "Population Policies/Programmes & Reproductive Health",
-        "year": 2023,
-        "amount": 18.3012,
-        "amountLabel": "$18.3M"
+        "country": "Uganda",
+        "sector": "Government & Civil Society",
+        "year": 2022,
+        "amount": 18.145604077,
+        "amountLabel": "$18.1M"
       },
       {
         "donorCountry": "Netherlands",
@@ -6368,7 +6337,15 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2020,
-        "amount": 18.0845849491,
+        "amount": 18.084584949,
+        "amountLabel": "$18.1M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Uganda",
+        "sector": "Education",
+        "year": 2022,
+        "amount": 18.05925657,
         "amountLabel": "$18.1M"
       },
       {
@@ -6384,7 +6361,7 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Health",
         "year": 2023,
-        "amount": 17.93944,
+        "amount": 17.94944,
         "amountLabel": "$17.9M"
       },
       {
@@ -6400,7 +6377,7 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Disaster Prevention & Preparedness",
         "year": 2022,
-        "amount": 17.802586731211,
+        "amount": 17.802586730999998,
         "amountLabel": "$17.8M"
       },
       {
@@ -6409,6 +6386,14 @@ window.OECD_DATA = {
         "sector": "Banking & Financial Services",
         "year": 2021,
         "amount": 17.802166,
+        "amountLabel": "$17.8M"
+      },
+      {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Energy",
+        "year": 2022,
+        "amount": 17.774045273,
         "amountLabel": "$17.8M"
       },
       {
@@ -6430,26 +6415,10 @@ window.OECD_DATA = {
       {
         "donorCountry": "United States",
         "country": "Uganda",
-        "sector": "Government & Civil Society",
-        "year": 2022,
-        "amount": 17.624176621118,
-        "amountLabel": "$17.6M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Uganda",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2021,
-        "amount": 17.56865501235,
+        "amount": 17.568655013,
         "amountLabel": "$17.6M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Uganda",
-        "sector": "Education",
-        "year": 2022,
-        "amount": 17.51785125551,
-        "amountLabel": "$17.5M"
       },
       {
         "donorCountry": "United States",
@@ -6464,7 +6433,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Communications",
         "year": 2020,
-        "amount": 17.37961294263,
+        "amount": 17.379612944,
         "amountLabel": "$17.4M"
       },
       {
@@ -6472,7 +6441,15 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2021,
-        "amount": 17.3007695264,
+        "amount": 17.300769526,
+        "amountLabel": "$17.3M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "South Africa",
+        "sector": "Education",
+        "year": 2023,
+        "amount": 17.290594,
         "amountLabel": "$17.3M"
       },
       {
@@ -6482,14 +6459,6 @@ window.OECD_DATA = {
         "year": 2022,
         "amount": 17.266399,
         "amountLabel": "$17.3M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "South Africa",
-        "sector": "Education",
-        "year": 2023,
-        "amount": 17.140594,
-        "amountLabel": "$17.1M"
       },
       {
         "donorCountry": "United Kingdom",
@@ -6504,7 +6473,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "General Environment Protection",
         "year": 2020,
-        "amount": 17.06465424832,
+        "amount": 17.064654248,
         "amountLabel": "$17.1M"
       },
       {
@@ -6520,16 +6489,8 @@ window.OECD_DATA = {
         "country": "Malawi",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2022,
-        "amount": 16.96462874126,
+        "amount": 16.964628742000002,
         "amountLabel": "$17.0M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Energy",
-        "year": 2022,
-        "amount": 16.9440452725,
-        "amountLabel": "$16.9M"
       },
       {
         "donorCountry": "Canada",
@@ -6544,7 +6505,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2022,
-        "amount": 16.89979946263581,
+        "amount": 16.8997994496,
         "amountLabel": "$16.9M"
       },
       {
@@ -6564,14 +6525,6 @@ window.OECD_DATA = {
         "amountLabel": "$16.8M"
       },
       {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Water Supply & Sanitation",
-        "year": 2023,
-        "amount": 16.660203928023,
-        "amountLabel": "$16.7M"
-      },
-      {
         "donorCountry": "United States",
         "country": "Burkina Faso",
         "sector": "Health",
@@ -6584,8 +6537,24 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Health",
         "year": 2022,
-        "amount": 16.56223891118,
+        "amount": 16.562238911,
         "amountLabel": "$16.6M"
+      },
+      {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Emergency Response",
+        "year": 2022,
+        "amount": 16.549992321,
+        "amountLabel": "$16.5M"
+      },
+      {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Population Policies/Programmes & Reproductive Health",
+        "year": 2020,
+        "amount": 16.507140001,
+        "amountLabel": "$16.5M"
       },
       {
         "donorCountry": "United Kingdom",
@@ -6624,7 +6593,7 @@ window.OECD_DATA = {
         "country": "Zambia",
         "sector": "Health",
         "year": 2020,
-        "amount": 16.34955781848,
+        "amount": 16.349557818,
         "amountLabel": "$16.3M"
       },
       {
@@ -6632,7 +6601,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Disaster Prevention & Preparedness",
         "year": 2020,
-        "amount": 16.32927079301,
+        "amount": 16.329270793,
         "amountLabel": "$16.3M"
       },
       {
@@ -6640,15 +6609,7 @@ window.OECD_DATA = {
         "country": "Indonesia",
         "sector": "Government & Civil Society",
         "year": 2021,
-        "amount": 16.2880542666,
-        "amountLabel": "$16.3M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Population Policies/Programmes & Reproductive Health",
-        "year": 2020,
-        "amount": 16.279062075052,
+        "amount": 16.288054267,
         "amountLabel": "$16.3M"
       },
       {
@@ -6656,7 +6617,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2020,
-        "amount": 16.23805401912,
+        "amount": 16.238054019,
         "amountLabel": "$16.2M"
       },
       {
@@ -6664,7 +6625,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Education",
         "year": 2020,
-        "amount": 16.2342560956,
+        "amount": 16.234256096,
         "amountLabel": "$16.2M"
       },
       {
@@ -6673,6 +6634,14 @@ window.OECD_DATA = {
         "sector": "Banking & Financial Services",
         "year": 2022,
         "amount": 16.109158,
+        "amountLabel": "$16.1M"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Unallocated / Unspecified",
+        "year": 2023,
+        "amount": 16.106727553000002,
         "amountLabel": "$16.1M"
       },
       {
@@ -6688,7 +6657,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Government & Civil Society",
         "year": 2020,
-        "amount": 16.02794320882,
+        "amount": 16.027943209,
         "amountLabel": "$16.0M"
       },
       {
@@ -6724,6 +6693,14 @@ window.OECD_DATA = {
         "amountLabel": "$15.8M"
       },
       {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Energy",
+        "year": 2023,
+        "amount": 15.804252995,
+        "amountLabel": "$15.8M"
+      },
+      {
         "donorCountry": "Canada",
         "country": "Uganda",
         "sector": "Agriculture, Forestry, Fishing",
@@ -6740,20 +6717,20 @@ window.OECD_DATA = {
         "amountLabel": "$15.7M"
       },
       {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Energy",
-        "year": 2023,
-        "amount": 15.604252993549999,
-        "amountLabel": "$15.6M"
-      },
-      {
         "donorCountry": "United Kingdom",
         "country": "Ethiopia",
         "sector": "Health",
         "year": 2020,
         "amount": 15.55532,
         "amountLabel": "$15.6M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "China (People's Republic of)",
+        "sector": "General Environment Protection",
+        "year": 2022,
+        "amount": 15.509794938,
+        "amountLabel": "$15.5M"
       },
       {
         "donorCountry": "United States",
@@ -6776,7 +6753,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Health",
         "year": 2022,
-        "amount": 15.3374782518,
+        "amount": 15.337478252,
         "amountLabel": "$15.3M"
       },
       {
@@ -6792,7 +6769,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2020,
-        "amount": 15.291866261265,
+        "amount": 15.291866261,
         "amountLabel": "$15.3M"
       },
       {
@@ -6820,11 +6797,11 @@ window.OECD_DATA = {
         "amountLabel": "$15.1M"
       },
       {
-        "donorCountry": "Mexico",
-        "country": "Mexico",
-        "sector": "Water Supply & Sanitation",
-        "year": 2022,
-        "amount": 15.0416457437491,
+        "donorCountry": "United States",
+        "country": "South Africa",
+        "sector": "Education",
+        "year": 2021,
+        "amount": 15.017754782,
         "amountLabel": "$15.0M"
       },
       {
@@ -6853,18 +6830,10 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "China (People's Republic of)",
-        "sector": "General Environment Protection",
-        "year": 2022,
-        "amount": 14.92674305688,
-        "amountLabel": "$14.9M"
-      },
-      {
-        "donorCountry": "United States",
         "country": "Uganda",
         "sector": "Health",
         "year": 2020,
-        "amount": 14.92409785395,
+        "amount": 14.924097854,
         "amountLabel": "$14.9M"
       },
       {
@@ -6885,18 +6854,10 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "South Africa",
-        "sector": "Education",
-        "year": 2021,
-        "amount": 14.89299302447,
-        "amountLabel": "$14.9M"
-      },
-      {
-        "donorCountry": "United States",
         "country": "Ukraine",
         "sector": "Emergency Response",
         "year": 2022,
-        "amount": 14.878111439,
+        "amount": 14.87811144,
         "amountLabel": "$14.9M"
       },
       {
@@ -6904,7 +6865,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2020,
-        "amount": 14.85923861386,
+        "amount": 14.859238614,
         "amountLabel": "$14.9M"
       },
       {
@@ -6924,6 +6885,14 @@ window.OECD_DATA = {
         "amountLabel": "$14.7M"
       },
       {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Population Policies/Programmes & Reproductive Health",
+        "year": 2022,
+        "amount": 14.654255201,
+        "amountLabel": "$14.7M"
+      },
+      {
         "donorCountry": "Switzerland",
         "country": "Brazil",
         "sector": "Agriculture, Forestry, Fishing",
@@ -6936,7 +6905,15 @@ window.OECD_DATA = {
         "country": "Malawi",
         "sector": "Health",
         "year": 2021,
-        "amount": 14.58880997106,
+        "amount": 14.58880997,
+        "amountLabel": "$14.6M"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Administrative Costs of Donors",
+        "year": 2022,
+        "amount": 14.583504753000001,
         "amountLabel": "$14.6M"
       },
       {
@@ -6948,19 +6925,11 @@ window.OECD_DATA = {
         "amountLabel": "$14.5M"
       },
       {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Administrative Costs of Donors",
-        "year": 2022,
-        "amount": 14.50730273942,
-        "amountLabel": "$14.5M"
-      },
-      {
         "donorCountry": "United States",
         "country": "Malawi",
         "sector": "Health",
         "year": 2021,
-        "amount": 14.455582991471,
+        "amount": 14.455582992,
         "amountLabel": "$14.5M"
       },
       {
@@ -6976,7 +6945,15 @@ window.OECD_DATA = {
         "country": "Zambia",
         "sector": "Water Supply & Sanitation",
         "year": 2020,
-        "amount": 14.33970925478,
+        "amount": 14.339709254999999,
+        "amountLabel": "$14.3M"
+      },
+      {
+        "donorCountry": "Mexico",
+        "country": "Mexico",
+        "sector": "Water Supply & Sanitation",
+        "year": 2022,
+        "amount": 14.334595981,
         "amountLabel": "$14.3M"
       },
       {
@@ -6996,19 +6973,19 @@ window.OECD_DATA = {
         "amountLabel": "$14.2M"
       },
       {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "General Environment Protection",
-        "year": 2020,
-        "amount": 14.17259030702087,
-        "amountLabel": "$14.2M"
-      },
-      {
         "donorCountry": "United States",
         "country": "Pakistan",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2021,
         "amount": 14.138847,
+        "amountLabel": "$14.1M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "China (People's Republic of)",
+        "sector": "Energy",
+        "year": 2022,
+        "amount": 14.090789220000001,
         "amountLabel": "$14.1M"
       },
       {
@@ -7024,7 +7001,15 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Water Supply & Sanitation",
         "year": 2020,
-        "amount": 14.0240057399,
+        "amount": 14.02400574,
+        "amountLabel": "$14.0M"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Water Supply & Sanitation",
+        "year": 2022,
+        "amount": 14.010308385,
         "amountLabel": "$14.0M"
       },
       {
@@ -7037,18 +7022,10 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "China (People's Republic of)",
-        "sector": "Energy",
-        "year": 2022,
-        "amount": 13.986672813,
-        "amountLabel": "$14.0M"
-      },
-      {
-        "donorCountry": "United States",
         "country": "Mexico",
         "sector": "General Environment Protection",
         "year": 2020,
-        "amount": 13.938158676330001,
+        "amount": 13.90129466,
         "amountLabel": "$13.9M"
       },
       {
@@ -7060,11 +7037,19 @@ window.OECD_DATA = {
         "amountLabel": "$13.9M"
       },
       {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Energy",
+        "year": 2021,
+        "amount": 13.889299549,
+        "amountLabel": "$13.9M"
+      },
+      {
         "donorCountry": "United States",
         "country": "Indonesia",
         "sector": "General Environment Protection",
         "year": 2022,
-        "amount": 13.880875813,
+        "amount": 13.880875814,
         "amountLabel": "$13.9M"
       },
       {
@@ -7072,16 +7057,8 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2020,
-        "amount": 13.858577252809999,
+        "amount": 13.858577252,
         "amountLabel": "$13.9M"
-      },
-      {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "General Environment Protection",
-        "year": 2022,
-        "amount": 13.834074156395,
-        "amountLabel": "$13.8M"
       },
       {
         "donorCountry": "United States",
@@ -7100,27 +7077,19 @@ window.OECD_DATA = {
         "amountLabel": "$13.8M"
       },
       {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Energy",
-        "year": 2021,
-        "amount": 13.659299547157,
-        "amountLabel": "$13.7M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Population Policies/Programmes & Reproductive Health",
-        "year": 2022,
-        "amount": 13.6511345521,
-        "amountLabel": "$13.7M"
-      },
-      {
         "donorCountry": "United Kingdom",
         "country": "Kenya",
         "sector": "Health",
         "year": 2022,
         "amount": 13.617723,
+        "amountLabel": "$13.6M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "China (People's Republic of)",
+        "sector": "General Environment Protection",
+        "year": 2023,
+        "amount": 13.600853,
         "amountLabel": "$13.6M"
       },
       {
@@ -7136,7 +7105,7 @@ window.OECD_DATA = {
         "country": "Burkina Faso",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2021,
-        "amount": 13.480704863329999,
+        "amount": 13.480704863,
         "amountLabel": "$13.5M"
       },
       {
@@ -7152,7 +7121,7 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Energy",
         "year": 2020,
-        "amount": 13.4363745478,
+        "amount": 13.436374548,
         "amountLabel": "$13.4M"
       },
       {
@@ -7172,12 +7141,12 @@ window.OECD_DATA = {
         "amountLabel": "$13.4M"
       },
       {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Water Supply & Sanitation",
-        "year": 2022,
-        "amount": 13.3417111475112,
-        "amountLabel": "$13.3M"
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Agriculture, Forestry, Fishing",
+        "year": 2021,
+        "amount": 13.38629139,
+        "amountLabel": "$13.4M"
       },
       {
         "donorCountry": "United Kingdom",
@@ -7192,7 +7161,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Development Food Assistance",
         "year": 2023,
-        "amount": 13.22141442166741,
+        "amount": 13.2214144178,
         "amountLabel": "$13.2M"
       },
       {
@@ -7216,32 +7185,16 @@ window.OECD_DATA = {
         "country": "Indonesia",
         "sector": "Health",
         "year": 2022,
-        "amount": 13.007917321099999,
+        "amount": 13.007917321999999,
         "amountLabel": "$13.0M"
       },
       {
         "donorCountry": "India",
         "country": "India",
-        "sector": "Agriculture, Forestry, Fishing",
-        "year": 2021,
-        "amount": 12.969281949176,
+        "sector": "Transport & Storage",
+        "year": 2022,
+        "amount": 12.953631327,
         "amountLabel": "$13.0M"
-      },
-      {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Unallocated / Unspecified",
-        "year": 2023,
-        "amount": 12.9467668439699,
-        "amountLabel": "$12.9M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "China (People's Republic of)",
-        "sector": "General Environment Protection",
-        "year": 2023,
-        "amount": 12.920853,
-        "amountLabel": "$12.9M"
       },
       {
         "donorCountry": "United Kingdom",
@@ -7284,6 +7237,14 @@ window.OECD_DATA = {
         "amountLabel": "$12.7M"
       },
       {
+        "donorCountry": "United States",
+        "country": "India",
+        "sector": "Other Multisector",
+        "year": 2022,
+        "amount": 12.686838245,
+        "amountLabel": "$12.7M"
+      },
+      {
         "donorCountry": "Netherlands",
         "country": "Kenya",
         "sector": "Agriculture, Forestry, Fishing",
@@ -7296,7 +7257,7 @@ window.OECD_DATA = {
         "country": "Burkina Faso",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2022,
-        "amount": 12.65140864065,
+        "amount": 12.651408641,
         "amountLabel": "$12.7M"
       },
       {
@@ -7304,7 +7265,7 @@ window.OECD_DATA = {
         "country": "Ghana",
         "sector": "Water Supply & Sanitation",
         "year": 2020,
-        "amount": 12.6023559932,
+        "amount": 12.602355993,
         "amountLabel": "$12.6M"
       },
       {
@@ -7333,6 +7294,14 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
+        "country": "China (People's Republic of)",
+        "sector": "General Environment Protection",
+        "year": 2020,
+        "amount": 12.38793247,
+        "amountLabel": "$12.4M"
+      },
+      {
+        "donorCountry": "United States",
         "country": "Ethiopia",
         "sector": "Government & Civil Society",
         "year": 2021,
@@ -7342,17 +7311,17 @@ window.OECD_DATA = {
       {
         "donorCountry": "India",
         "country": "India",
-        "sector": "Transport & Storage",
-        "year": 2022,
-        "amount": 12.2527843668,
-        "amountLabel": "$12.3M"
+        "sector": "Agriculture, Forestry, Fishing",
+        "year": 2020,
+        "amount": 12.222442761,
+        "amountLabel": "$12.2M"
       },
       {
         "donorCountry": "United States",
         "country": "Brazil",
         "sector": "General Environment Protection",
         "year": 2021,
-        "amount": 12.12908180924,
+        "amount": 12.129081809,
         "amountLabel": "$12.1M"
       },
       {
@@ -7360,7 +7329,7 @@ window.OECD_DATA = {
         "country": "Malawi",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2021,
-        "amount": 12.092682658588,
+        "amount": 12.092682659,
         "amountLabel": "$12.1M"
       },
       {
@@ -7378,14 +7347,6 @@ window.OECD_DATA = {
         "year": 2020,
         "amount": 12.074681,
         "amountLabel": "$12.1M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "China (People's Republic of)",
-        "sector": "General Environment Protection",
-        "year": 2020,
-        "amount": 12.034738647000001,
-        "amountLabel": "$12.0M"
       },
       {
         "donorCountry": "Denmark",
@@ -7408,7 +7369,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2021,
-        "amount": 11.84828553532,
+        "amount": 11.848285535,
         "amountLabel": "$11.8M"
       },
       {
@@ -7448,16 +7409,8 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2023,
-        "amount": 11.717884999999999,
+        "amount": 11.736385,
         "amountLabel": "$11.7M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Agriculture, Forestry, Fishing",
-        "year": 2020,
-        "amount": 11.556288329937,
-        "amountLabel": "$11.6M"
       },
       {
         "donorCountry": "Switzerland",
@@ -7472,7 +7425,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Reconstruction Relief & Rehabilitation",
         "year": 2021,
-        "amount": 11.378015630299998,
+        "amount": 11.378015629999998,
         "amountLabel": "$11.4M"
       },
       {
@@ -7488,7 +7441,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2022,
-        "amount": 11.306328585280001,
+        "amount": 11.306328587,
         "amountLabel": "$11.3M"
       },
       {
@@ -7520,7 +7473,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Unallocated / Unspecified",
         "year": 2021,
-        "amount": 11.234080281105,
+        "amount": 11.234080279999999,
         "amountLabel": "$11.2M"
       },
       {
@@ -7528,7 +7481,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2022,
-        "amount": 11.2288848439,
+        "amount": 11.228884844,
         "amountLabel": "$11.2M"
       },
       {
@@ -7549,26 +7502,10 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "India",
-        "sector": "Other Multisector",
-        "year": 2022,
-        "amount": 11.1523977165,
-        "amountLabel": "$11.2M"
-      },
-      {
-        "donorCountry": "United States",
         "country": "Ghana",
         "sector": "Water Supply & Sanitation",
         "year": 2022,
         "amount": 11.120038552,
-        "amountLabel": "$11.1M"
-      },
-      {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Unallocated / Unspecified",
-        "year": 2022,
-        "amount": 11.114378187215001,
         "amountLabel": "$11.1M"
       },
       {
@@ -7592,7 +7529,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "General Environment Protection",
         "year": 2023,
-        "amount": 11.0833196149914,
+        "amount": 11.07150068,
         "amountLabel": "$11.1M"
       },
       {
@@ -7617,6 +7554,14 @@ window.OECD_DATA = {
         "sector": "Education",
         "year": 2020,
         "amount": 10.987333,
+        "amountLabel": "$11.0M"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Trade Policies & Regulations",
+        "year": 2022,
+        "amount": 10.98594843,
         "amountLabel": "$11.0M"
       },
       {
@@ -7656,7 +7601,7 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2021,
-        "amount": 10.790023432944,
+        "amount": 10.790023432,
         "amountLabel": "$10.8M"
       },
       {
@@ -7704,7 +7649,7 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2022,
-        "amount": 10.599791937920001,
+        "amount": 10.599791939,
         "amountLabel": "$10.6M"
       },
       {
@@ -7712,7 +7657,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "General Environment Protection",
         "year": 2020,
-        "amount": 10.57306437761,
+        "amount": 10.573064378000002,
         "amountLabel": "$10.6M"
       },
       {
@@ -7725,10 +7670,18 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
+        "country": "Mexico",
+        "sector": "Agriculture, Forestry, Fishing",
+        "year": 2020,
+        "amount": 10.442033675,
+        "amountLabel": "$10.4M"
+      },
+      {
+        "donorCountry": "United States",
         "country": "Uganda",
         "sector": "Water Supply & Sanitation",
         "year": 2022,
-        "amount": 10.438947281299999,
+        "amount": 10.438947281,
         "amountLabel": "$10.4M"
       },
       {
@@ -7744,15 +7697,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2021,
-        "amount": 10.420418771182,
-        "amountLabel": "$10.4M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Mexico",
-        "sector": "Agriculture, Forestry, Fishing",
-        "year": 2020,
-        "amount": 10.4122076335,
+        "amount": 10.420418772,
         "amountLabel": "$10.4M"
       },
       {
@@ -7792,8 +7737,24 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Government & Civil Society",
         "year": 2020,
-        "amount": 10.18215263283,
+        "amount": 10.205698888,
         "amountLabel": "$10.2M"
+      },
+      {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Transport & Storage",
+        "year": 2020,
+        "amount": 10.191189344,
+        "amountLabel": "$10.2M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Uganda",
+        "sector": "Government & Civil Society",
+        "year": 2023,
+        "amount": 10.107503,
+        "amountLabel": "$10.1M"
       },
       {
         "donorCountry": "United States",
@@ -7816,15 +7777,7 @@ window.OECD_DATA = {
         "country": "Indonesia",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2022,
-        "amount": 10.0796700162,
-        "amountLabel": "$10.1M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Uganda",
-        "sector": "Government & Civil Society",
-        "year": 2023,
-        "amount": 10.078503,
+        "amount": 10.079670016,
         "amountLabel": "$10.1M"
       },
       {
@@ -7852,6 +7805,22 @@ window.OECD_DATA = {
         "amountLabel": "$10.0M"
       },
       {
+        "donorCountry": "United States",
+        "country": "China (People's Republic of)",
+        "sector": "Other Multisector",
+        "year": 2020,
+        "amount": 10.031001039,
+        "amountLabel": "$10.0M"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Industry, Mining, Construction",
+        "year": 2022,
+        "amount": 9.994195106,
+        "amountLabel": "$10.0M"
+      },
+      {
         "donorCountry": "United Kingdom",
         "country": "Kenya",
         "sector": "Population Policies/Programmes & Reproductive Health",
@@ -7872,7 +7841,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Unallocated / Unspecified",
         "year": 2022,
-        "amount": 9.90667290634,
+        "amount": 9.906672906,
         "amountLabel": "$9.9M"
       },
       {
@@ -7882,14 +7851,6 @@ window.OECD_DATA = {
         "year": 2020,
         "amount": 9.852962,
         "amountLabel": "$9.9M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Transport & Storage",
-        "year": 2020,
-        "amount": 9.7878808159,
-        "amountLabel": "$9.8M"
       },
       {
         "donorCountry": "United States",
@@ -7918,7 +7879,7 @@ window.OECD_DATA = {
       {
         "donorCountry": "Denmark",
         "country": "India",
-        "sector": "Unspecified",
+        "sector": "Agriculture, Forestry, Fishing",
         "year": 2023,
         "amount": 9.629619,
         "amountLabel": "$9.6M"
@@ -7973,6 +7934,14 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
+        "country": "China (People's Republic of)",
+        "sector": "Other Multisector",
+        "year": 2022,
+        "amount": 9.282365516999999,
+        "amountLabel": "$9.3M"
+      },
+      {
+        "donorCountry": "United States",
         "country": "Ukraine",
         "sector": "Transport & Storage",
         "year": 2023,
@@ -8008,7 +7977,7 @@ window.OECD_DATA = {
         "country": "Ghana",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2022,
-        "amount": 9.13836830488,
+        "amount": 9.138368305,
         "amountLabel": "$9.1M"
       },
       {
@@ -8052,14 +8021,6 @@ window.OECD_DATA = {
         "amountLabel": "$9.0M"
       },
       {
-        "donorCountry": "United States",
-        "country": "China (People's Republic of)",
-        "sector": "Other Multisector",
-        "year": 2022,
-        "amount": 9.022074500799999,
-        "amountLabel": "$9.0M"
-      },
-      {
         "donorCountry": "Canada",
         "country": "Senegal",
         "sector": "Health",
@@ -8081,6 +8042,14 @@ window.OECD_DATA = {
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2022,
         "amount": 8.92136,
+        "amountLabel": "$8.9M"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Unallocated / Unspecified",
+        "year": 2021,
+        "amount": 8.918182752,
         "amountLabel": "$8.9M"
       },
       {
@@ -8212,19 +8181,11 @@ window.OECD_DATA = {
         "amountLabel": "$8.4M"
       },
       {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Trade Policies & Regulations",
-        "year": 2022,
-        "amount": 8.4089375410549,
-        "amountLabel": "$8.4M"
-      },
-      {
         "donorCountry": "United States",
         "country": "Colombia",
         "sector": "Government & Civil Society",
         "year": 2020,
-        "amount": 8.4053782739,
+        "amount": 8.405378274,
         "amountLabel": "$8.4M"
       },
       {
@@ -8237,14 +8198,6 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United Kingdom",
-        "country": "Colombia",
-        "sector": "General Environment Protection",
-        "year": 2023,
-        "amount": 8.333333,
-        "amountLabel": "$8.3M"
-      },
-      {
-        "donorCountry": "United Kingdom",
         "country": "Indonesia",
         "sector": "General Environment Protection",
         "year": 2023,
@@ -8253,10 +8206,26 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United Kingdom",
+        "country": "Colombia",
+        "sector": "General Environment Protection",
+        "year": 2023,
+        "amount": 8.333333,
+        "amountLabel": "$8.3M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Tanzania",
+        "sector": "Government & Civil Society",
+        "year": 2022,
+        "amount": 8.322942796,
+        "amountLabel": "$8.3M"
+      },
+      {
+        "donorCountry": "United Kingdom",
         "country": "Kenya",
         "sector": "Health",
         "year": 2021,
-        "amount": 8.3172501751,
+        "amount": 8.317250175,
         "amountLabel": "$8.3M"
       },
       {
@@ -8264,7 +8233,7 @@ window.OECD_DATA = {
         "country": "Ethiopia",
         "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 8.3057120163,
+        "amount": 8.305712016,
         "amountLabel": "$8.3M"
       },
       {
@@ -8280,7 +8249,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Disaster Prevention & Preparedness",
         "year": 2022,
-        "amount": 8.2844366256,
+        "amount": 8.284436627,
         "amountLabel": "$8.3M"
       },
       {
@@ -8300,19 +8269,19 @@ window.OECD_DATA = {
         "amountLabel": "$8.3M"
       },
       {
-        "donorCountry": "Mexico",
-        "country": "Mexico",
-        "sector": "Banking & Financial Services",
-        "year": 2020,
-        "amount": 8.170182840519999,
-        "amountLabel": "$8.2M"
-      },
-      {
         "donorCountry": "United States",
         "country": "Uganda",
         "sector": "Government & Civil Society",
         "year": 2021,
-        "amount": 8.16471104961,
+        "amount": 8.216999664,
+        "amountLabel": "$8.2M"
+      },
+      {
+        "donorCountry": "Mexico",
+        "country": "Mexico",
+        "sector": "Banking & Financial Services",
+        "year": 2020,
+        "amount": 8.170182838999999,
         "amountLabel": "$8.2M"
       },
       {
@@ -8324,19 +8293,19 @@ window.OECD_DATA = {
         "amountLabel": "$8.1M"
       },
       {
-        "donorCountry": "Spain",
-        "country": "Peru",
-        "sector": "Agriculture, Forestry, Fishing",
-        "year": 2023,
-        "amount": 8.119512311,
-        "amountLabel": "$8.1M"
-      },
-      {
         "donorCountry": "United States",
         "country": "Peru",
         "sector": "Government & Civil Society",
         "year": 2021,
-        "amount": 8.08615653311,
+        "amount": 8.086156533,
+        "amountLabel": "$8.1M"
+      },
+      {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Transport & Storage",
+        "year": 2021,
+        "amount": 8.084127299,
         "amountLabel": "$8.1M"
       },
       {
@@ -8345,6 +8314,14 @@ window.OECD_DATA = {
         "sector": "Health",
         "year": 2021,
         "amount": 8.04711,
+        "amountLabel": "$8.0M"
+      },
+      {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Transport & Storage",
+        "year": 2023,
+        "amount": 8.029126065,
         "amountLabel": "$8.0M"
       },
       {
@@ -8376,7 +8353,7 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 7.9680888,
+        "amount": 7.968088801,
         "amountLabel": "$8.0M"
       },
       {
@@ -8392,15 +8369,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Education",
         "year": 2022,
-        "amount": 7.9542854065,
-        "amountLabel": "$8.0M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Transport & Storage",
-        "year": 2021,
-        "amount": 7.95029308404,
+        "amount": 7.954285407,
         "amountLabel": "$8.0M"
       },
       {
@@ -8408,7 +8377,7 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Government & Civil Society",
         "year": 2020,
-        "amount": 7.9064602739000005,
+        "amount": 7.9064602740000005,
         "amountLabel": "$7.9M"
       },
       {
@@ -8420,36 +8389,12 @@ window.OECD_DATA = {
         "amountLabel": "$7.9M"
       },
       {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Industry, Mining, Construction",
-        "year": 2022,
-        "amount": 7.895735169459,
-        "amountLabel": "$7.9M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Tanzania",
-        "sector": "Government & Civil Society",
-        "year": 2022,
-        "amount": 7.87680399192,
-        "amountLabel": "$7.9M"
-      },
-      {
         "donorCountry": "Switzerland",
         "country": "Tanzania",
         "sector": "Health",
         "year": 2020,
         "amount": 7.856537,
         "amountLabel": "$7.9M"
-      },
-      {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Unallocated / Unspecified",
-        "year": 2021,
-        "amount": 7.812051278148,
-        "amountLabel": "$7.8M"
       },
       {
         "donorCountry": "Denmark",
@@ -8464,7 +8409,7 @@ window.OECD_DATA = {
         "country": "Malawi",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2022,
-        "amount": 7.7249811526,
+        "amount": 7.724981153,
         "amountLabel": "$7.7M"
       },
       {
@@ -8476,11 +8421,19 @@ window.OECD_DATA = {
         "amountLabel": "$7.7M"
       },
       {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Energy",
+        "year": 2020,
+        "amount": 7.715380735,
+        "amountLabel": "$7.7M"
+      },
+      {
         "donorCountry": "United States",
-        "country": "Mexico",
-        "sector": "General Environment Protection",
-        "year": 2021,
-        "amount": 7.70496735379,
+        "country": "Brazil",
+        "sector": "Health",
+        "year": 2020,
+        "amount": 7.695780918,
         "amountLabel": "$7.7M"
       },
       {
@@ -8496,7 +8449,7 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Government & Civil Society",
         "year": 2021,
-        "amount": 7.6834479661,
+        "amount": 7.683447966,
         "amountLabel": "$7.7M"
       },
       {
@@ -8505,6 +8458,14 @@ window.OECD_DATA = {
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2023,
         "amount": 7.68126,
+        "amountLabel": "$7.7M"
+      },
+      {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Industry, Mining, Construction",
+        "year": 2022,
+        "amount": 7.664759261,
         "amountLabel": "$7.7M"
       },
       {
@@ -8520,23 +8481,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Disaster Prevention & Preparedness",
         "year": 2021,
-        "amount": 7.612381797015,
-        "amountLabel": "$7.6M"
-      },
-      {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Energy",
-        "year": 2020,
-        "amount": 7.5905613837759995,
-        "amountLabel": "$7.6M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Industry, Mining, Construction",
-        "year": 2022,
-        "amount": 7.5764846447,
+        "amount": 7.612381797,
         "amountLabel": "$7.6M"
       },
       {
@@ -8544,8 +8489,16 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2020,
-        "amount": 7.56689942265592,
+        "amount": 7.5668994198,
         "amountLabel": "$7.6M"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Industry, Mining, Construction",
+        "year": 2020,
+        "amount": 7.535260674,
+        "amountLabel": "$7.5M"
       },
       {
         "donorCountry": "United States",
@@ -8553,6 +8506,14 @@ window.OECD_DATA = {
         "sector": "Education",
         "year": 2020,
         "amount": 7.534708999999999,
+        "amountLabel": "$7.5M"
+      },
+      {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Energy",
+        "year": 2020,
+        "amount": 7.526905302,
         "amountLabel": "$7.5M"
       },
       {
@@ -8568,7 +8529,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Banking & Financial Services",
         "year": 2022,
-        "amount": 7.3157920325,
+        "amount": 7.315792033,
         "amountLabel": "$7.3M"
       },
       {
@@ -8632,7 +8593,7 @@ window.OECD_DATA = {
         "country": "Indonesia",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2020,
-        "amount": 7.1897367479000005,
+        "amount": 7.1897367480000005,
         "amountLabel": "$7.2M"
       },
       {
@@ -8642,14 +8603,6 @@ window.OECD_DATA = {
         "year": 2023,
         "amount": 7.1551,
         "amountLabel": "$7.2M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Energy",
-        "year": 2020,
-        "amount": 7.14690530136,
-        "amountLabel": "$7.1M"
       },
       {
         "donorCountry": "Denmark",
@@ -8669,6 +8622,14 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
+        "country": "Rwanda",
+        "sector": "Agriculture, Forestry, Fishing",
+        "year": 2020,
+        "amount": 7.0947996909999995,
+        "amountLabel": "$7.1M"
+      },
+      {
+        "donorCountry": "United States",
         "country": "Ethiopia",
         "sector": "Banking & Financial Services",
         "year": 2021,
@@ -8676,19 +8637,11 @@ window.OECD_DATA = {
         "amountLabel": "$7.1M"
       },
       {
-        "donorCountry": "United States",
-        "country": "Rwanda",
-        "sector": "Agriculture, Forestry, Fishing",
-        "year": 2020,
-        "amount": 7.07714,
-        "amountLabel": "$7.1M"
-      },
-      {
         "donorCountry": "Mexico",
         "country": "Mexico",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2021,
-        "amount": 7.05955388936411,
+        "amount": 7.0595538859,
         "amountLabel": "$7.1M"
       },
       {
@@ -8700,11 +8653,27 @@ window.OECD_DATA = {
         "amountLabel": "$7.0M"
       },
       {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Population Policies/Programmes & Reproductive Health",
+        "year": 2021,
+        "amount": 6.999275644,
+        "amountLabel": "$7.0M"
+      },
+      {
         "donorCountry": "United States",
         "country": "Ethiopia",
         "sector": "Government & Civil Society",
         "year": 2020,
         "amount": 6.982342,
+        "amountLabel": "$7.0M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Indonesia",
+        "sector": "Health",
+        "year": 2020,
+        "amount": 6.976760056,
         "amountLabel": "$7.0M"
       },
       {
@@ -8740,11 +8709,19 @@ window.OECD_DATA = {
         "amountLabel": "$6.9M"
       },
       {
-        "donorCountry": "United States",
-        "country": "Indonesia",
-        "sector": "Health",
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2020,
-        "amount": 6.8169010000000005,
+        "amount": 6.827369701,
+        "amountLabel": "$6.8M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Ghana",
+        "sector": "Government & Civil Society",
+        "year": 2022,
+        "amount": 6.813460997,
         "amountLabel": "$6.8M"
       },
       {
@@ -8752,7 +8729,15 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2020,
-        "amount": 6.8107157691,
+        "amount": 6.810715769,
+        "amountLabel": "$6.8M"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Population Policies/Programmes & Reproductive Health",
+        "year": 2022,
+        "amount": 6.751038931,
         "amountLabel": "$6.8M"
       },
       {
@@ -8777,14 +8762,6 @@ window.OECD_DATA = {
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2020,
         "amount": 6.724276,
-        "amountLabel": "$6.7M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Administrative Costs of Donors",
-        "year": 2020,
-        "amount": 6.7236847027721005,
         "amountLabel": "$6.7M"
       },
       {
@@ -8820,14 +8797,6 @@ window.OECD_DATA = {
         "amountLabel": "$6.6M"
       },
       {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Unallocated / Unspecified",
-        "year": 2022,
-        "amount": 6.63491002088,
-        "amountLabel": "$6.6M"
-      },
-      {
         "donorCountry": "Netherlands",
         "country": "India",
         "sector": "Health",
@@ -8848,7 +8817,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Other Social Infrastructure & Services",
         "year": 2021,
-        "amount": 6.6214170853,
+        "amount": 6.621417086,
         "amountLabel": "$6.6M"
       },
       {
@@ -8869,14 +8838,6 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Ghana",
-        "sector": "Government & Civil Society",
-        "year": 2022,
-        "amount": 6.6052281828799995,
-        "amountLabel": "$6.6M"
-      },
-      {
-        "donorCountry": "United States",
         "country": "India",
         "sector": "General Environment Protection",
         "year": 2022,
@@ -8888,23 +8849,15 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Health",
         "year": 2022,
-        "amount": 6.5572044065,
+        "amount": 6.557204407,
         "amountLabel": "$6.6M"
-      },
-      {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Population Policies/Programmes & Reproductive Health",
-        "year": 2022,
-        "amount": 6.533495771147,
-        "amountLabel": "$6.5M"
       },
       {
         "donorCountry": "United States",
         "country": "Malawi",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2020,
-        "amount": 6.52845276434,
+        "amount": 6.531984702,
         "amountLabel": "$6.5M"
       },
       {
@@ -8936,7 +8889,15 @@ window.OECD_DATA = {
         "country": "Malawi",
         "sector": "Health",
         "year": 2020,
-        "amount": 6.438142,
+        "amount": 6.441673938,
+        "amountLabel": "$6.4M"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Industry, Mining, Construction",
+        "year": 2021,
+        "amount": 6.422724017,
         "amountLabel": "$6.4M"
       },
       {
@@ -8944,15 +8905,7 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Health",
         "year": 2022,
-        "amount": 6.4174236846,
-        "amountLabel": "$6.4M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Transport & Storage",
-        "year": 2023,
-        "amount": 6.382622530481,
+        "amount": 6.417423685,
         "amountLabel": "$6.4M"
       },
       {
@@ -9032,7 +8985,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Unallocated / Unspecified",
         "year": 2023,
-        "amount": 6.3021891962349,
+        "amount": 6.302189191,
         "amountLabel": "$6.3M"
       },
       {
@@ -9040,7 +8993,7 @@ window.OECD_DATA = {
         "country": "Peru",
         "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 6.2946699617499995,
+        "amount": 6.294669963,
         "amountLabel": "$6.3M"
       },
       {
@@ -9048,31 +9001,39 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Other Social Infrastructure & Services",
         "year": 2020,
-        "amount": 6.28416279276,
-        "amountLabel": "$6.3M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Population Policies/Programmes & Reproductive Health",
-        "year": 2021,
-        "amount": 6.271974557429,
+        "amount": 6.284162792,
         "amountLabel": "$6.3M"
       },
       {
         "donorCountry": "United States",
-        "country": "China (People's Republic of)",
-        "sector": "Unspecified",
+        "country": "India",
+        "sector": "Other Multisector",
         "year": 2020,
-        "amount": 6.2633037716,
-        "amountLabel": "$6.3M"
+        "amount": 6.2299611939999995,
+        "amountLabel": "$6.2M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Mexico",
+        "sector": "Agriculture, Forestry, Fishing",
+        "year": 2022,
+        "amount": 6.18353123,
+        "amountLabel": "$6.2M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Mexico",
+        "sector": "General Environment Protection",
+        "year": 2021,
+        "amount": 6.180659101,
+        "amountLabel": "$6.2M"
       },
       {
         "donorCountry": "United States",
         "country": "Kenya",
         "sector": "Education",
         "year": 2022,
-        "amount": 6.17781804603,
+        "amount": 6.177818046,
         "amountLabel": "$6.2M"
       },
       {
@@ -9089,6 +9050,14 @@ window.OECD_DATA = {
         "sector": "General Environment Protection",
         "year": 2023,
         "amount": 6.164979,
+        "amountLabel": "$6.2M"
+      },
+      {
+        "donorCountry": "South Africa",
+        "country": "South Africa",
+        "sector": "Education",
+        "year": 2021,
+        "amount": 6.163652398,
         "amountLabel": "$6.2M"
       },
       {
@@ -9112,7 +9081,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Health",
         "year": 2021,
-        "amount": 6.1216497997,
+        "amount": 6.1216498,
         "amountLabel": "$6.1M"
       },
       {
@@ -9133,10 +9102,26 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
+        "country": "Mexico",
+        "sector": "Health",
+        "year": 2022,
+        "amount": 6.1036075929999996,
+        "amountLabel": "$6.1M"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Population Policies/Programmes & Reproductive Health",
+        "year": 2021,
+        "amount": 6.095105522,
+        "amountLabel": "$6.1M"
+      },
+      {
+        "donorCountry": "United States",
         "country": "Peru",
         "sector": "General Environment Protection",
         "year": 2020,
-        "amount": 6.0876649109,
+        "amount": 6.087664911,
         "amountLabel": "$6.1M"
       },
       {
@@ -9144,7 +9129,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Education",
         "year": 2020,
-        "amount": 6.08715981416,
+        "amount": 6.087159814,
         "amountLabel": "$6.1M"
       },
       {
@@ -9164,20 +9149,20 @@ window.OECD_DATA = {
         "amountLabel": "$6.1M"
       },
       {
+        "donorCountry": "United States",
+        "country": "Rwanda",
+        "sector": "Agriculture, Forestry, Fishing",
+        "year": 2021,
+        "amount": 6.066481103,
+        "amountLabel": "$6.1M"
+      },
+      {
         "donorCountry": "Switzerland",
         "country": "Brazil",
         "sector": "Other Social Infrastructure & Services",
         "year": 2022,
         "amount": 6.0610360000000005,
         "amountLabel": "$6.1M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Rwanda",
-        "sector": "Agriculture, Forestry, Fishing",
-        "year": 2021,
-        "amount": 6.04511586333,
-        "amountLabel": "$6.0M"
       },
       {
         "donorCountry": "Netherlands",
@@ -9248,7 +9233,7 @@ window.OECD_DATA = {
         "country": "Ukraine",
         "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 5.9232057911,
+        "amount": 5.923205792,
         "amountLabel": "$5.9M"
       },
       {
@@ -9264,7 +9249,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Other Multisector",
         "year": 2022,
-        "amount": 5.903768608198,
+        "amount": 5.903768608,
         "amountLabel": "$5.9M"
       },
       {
@@ -9273,22 +9258,6 @@ window.OECD_DATA = {
         "sector": "Education",
         "year": 2020,
         "amount": 5.900686,
-        "amountLabel": "$5.9M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Mexico",
-        "sector": "Health",
-        "year": 2022,
-        "amount": 5.89712914102,
-        "amountLabel": "$5.9M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Mexico",
-        "sector": "General Environment Protection",
-        "year": 2022,
-        "amount": 5.8963479122599995,
         "amountLabel": "$5.9M"
       },
       {
@@ -9304,7 +9273,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Reconstruction Relief & Rehabilitation",
         "year": 2020,
-        "amount": 5.86744375689,
+        "amount": 5.867443757,
         "amountLabel": "$5.9M"
       },
       {
@@ -9328,7 +9297,15 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Health",
         "year": 2020,
-        "amount": 5.8133457002,
+        "amount": 5.8133457,
+        "amountLabel": "$5.8M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Mexico",
+        "sector": "General Environment Protection",
+        "year": 2022,
+        "amount": 5.797437327,
         "amountLabel": "$5.8M"
       },
       {
@@ -9361,14 +9338,6 @@ window.OECD_DATA = {
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2020,
         "amount": 5.7470609999999995,
-        "amountLabel": "$5.7M"
-      },
-      {
-        "donorCountry": "Mexico",
-        "country": "Mexico",
-        "sector": "Industry, Mining, Construction",
-        "year": 2020,
-        "amount": 5.73796828393508,
         "amountLabel": "$5.7M"
       },
       {
@@ -9444,14 +9413,6 @@ window.OECD_DATA = {
         "amountLabel": "$5.7M"
       },
       {
-        "donorCountry": "South Africa",
-        "country": "South Africa",
-        "sector": "Education",
-        "year": 2021,
-        "amount": 5.68870871582,
-        "amountLabel": "$5.7M"
-      },
-      {
         "donorCountry": "United States",
         "country": "Ghana",
         "sector": "Agriculture, Forestry, Fishing",
@@ -9460,11 +9421,19 @@ window.OECD_DATA = {
         "amountLabel": "$5.6M"
       },
       {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Trade Policies & Regulations",
+        "year": 2023,
+        "amount": 5.647133993,
+        "amountLabel": "$5.6M"
+      },
+      {
         "donorCountry": "United States",
         "country": "Pakistan",
         "sector": "Emergency Response",
         "year": 2022,
-        "amount": 5.6463722032499994,
+        "amount": 5.646372202999999,
         "amountLabel": "$5.6M"
       },
       {
@@ -9473,14 +9442,6 @@ window.OECD_DATA = {
         "sector": "Business & Other Services",
         "year": 2020,
         "amount": 5.639373,
-        "amountLabel": "$5.6M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Mexico",
-        "sector": "Agriculture, Forestry, Fishing",
-        "year": 2022,
-        "amount": 5.637655158958,
         "amountLabel": "$5.6M"
       },
       {
@@ -9516,6 +9477,14 @@ window.OECD_DATA = {
         "amountLabel": "$5.6M"
       },
       {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Administrative Costs of Donors",
+        "year": 2020,
+        "amount": 5.582346348000001,
+        "amountLabel": "$5.6M"
+      },
+      {
         "donorCountry": "United States",
         "country": "Tanzania",
         "sector": "Banking & Financial Services",
@@ -9529,6 +9498,14 @@ window.OECD_DATA = {
         "sector": "Education",
         "year": 2022,
         "amount": 5.562287,
+        "amountLabel": "$5.6M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "China (People's Republic of)",
+        "sector": "Agriculture, Forestry, Fishing",
+        "year": 2020,
+        "amount": 5.551562822,
         "amountLabel": "$5.6M"
       },
       {
@@ -9552,7 +9529,7 @@ window.OECD_DATA = {
         "country": "Bangladesh",
         "sector": "Water Supply & Sanitation",
         "year": 2021,
-        "amount": 5.5393948781999995,
+        "amount": 5.5393948779999995,
         "amountLabel": "$5.5M"
       },
       {
@@ -9580,6 +9557,14 @@ window.OECD_DATA = {
         "amountLabel": "$5.5M"
       },
       {
+        "donorCountry": "South Africa",
+        "country": "South Africa",
+        "sector": "Education",
+        "year": 2020,
+        "amount": 5.477807961,
+        "amountLabel": "$5.5M"
+      },
+      {
         "donorCountry": "United States",
         "country": "Ethiopia",
         "sector": "Banking & Financial Services",
@@ -9593,6 +9578,22 @@ window.OECD_DATA = {
         "sector": "Banking & Financial Services",
         "year": 2021,
         "amount": 5.449089,
+        "amountLabel": "$5.4M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "India",
+        "sector": "Other Multisector",
+        "year": 2023,
+        "amount": 5.448735,
+        "amountLabel": "$5.4M"
+      },
+      {
+        "donorCountry": "South Africa",
+        "country": "South Africa",
+        "sector": "Education",
+        "year": 2023,
+        "amount": 5.443237477,
         "amountLabel": "$5.4M"
       },
       {
@@ -9612,19 +9613,11 @@ window.OECD_DATA = {
         "amountLabel": "$5.4M"
       },
       {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Population Policies/Programmes & Reproductive Health",
-        "year": 2021,
-        "amount": 5.415459419603,
-        "amountLabel": "$5.4M"
-      },
-      {
         "donorCountry": "India",
         "country": "India",
         "sector": "Disaster Prevention & Preparedness",
         "year": 2023,
-        "amount": 5.409945529633,
+        "amount": 5.409945531,
         "amountLabel": "$5.4M"
       },
       {
@@ -9636,11 +9629,11 @@ window.OECD_DATA = {
         "amountLabel": "$5.4M"
       },
       {
-        "donorCountry": "United States",
-        "country": "China (People's Republic of)",
-        "sector": "Agriculture, Forestry, Fishing",
+        "donorCountry": "Mexico",
+        "country": "Mexico",
+        "sector": "Industry, Mining, Construction",
         "year": 2020,
-        "amount": 5.3749659109,
+        "amount": 5.382407735,
         "amountLabel": "$5.4M"
       },
       {
@@ -9649,14 +9642,6 @@ window.OECD_DATA = {
         "sector": "Government & Civil Society",
         "year": 2023,
         "amount": 5.369872,
-        "amountLabel": "$5.4M"
-      },
-      {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Trade Policies & Regulations",
-        "year": 2023,
-        "amount": 5.36716311,
         "amountLabel": "$5.4M"
       },
       {
@@ -9680,7 +9665,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2020,
-        "amount": 5.34739350052594,
+        "amount": 5.3473934987,
         "amountLabel": "$5.3M"
       },
       {
@@ -9704,7 +9689,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Emergency Response",
         "year": 2023,
-        "amount": 5.3003296476274,
+        "amount": 5.300329648,
         "amountLabel": "$5.3M"
       },
       {
@@ -9720,7 +9705,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "General Environment Protection",
         "year": 2021,
-        "amount": 5.2958825846,
+        "amount": 5.295882585,
         "amountLabel": "$5.3M"
       },
       {
@@ -9752,7 +9737,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Industry, Mining, Construction",
         "year": 2021,
-        "amount": 5.2444823218389995,
+        "amount": 5.244482324,
         "amountLabel": "$5.2M"
       },
       {
@@ -9776,7 +9761,7 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Health",
         "year": 2021,
-        "amount": 5.2266714288,
+        "amount": 5.226671429,
         "amountLabel": "$5.2M"
       },
       {
@@ -9809,14 +9794,6 @@ window.OECD_DATA = {
         "sector": "Health",
         "year": 2020,
         "amount": 5.211050999999999,
-        "amountLabel": "$5.2M"
-      },
-      {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Population Policies/Programmes & Reproductive Health",
-        "year": 2020,
-        "amount": 5.203306817358,
         "amountLabel": "$5.2M"
       },
       {
@@ -9854,9 +9831,9 @@ window.OECD_DATA = {
       {
         "donorCountry": "United States",
         "country": "Brazil",
-        "sector": "Health",
-        "year": 2020,
-        "amount": 5.1763316565,
+        "sector": "Education",
+        "year": 2021,
+        "amount": 5.179216586,
         "amountLabel": "$5.2M"
       },
       {
@@ -9884,19 +9861,11 @@ window.OECD_DATA = {
         "amountLabel": "$5.2M"
       },
       {
-        "donorCountry": "United States",
-        "country": "India",
-        "sector": "Other Multisector",
-        "year": 2020,
-        "amount": 5.141089,
-        "amountLabel": "$5.1M"
-      },
-      {
         "donorCountry": "China (People's Republic of)",
         "country": "China (People's Republic of)",
         "sector": "Business & Other Services",
         "year": 2021,
-        "amount": 5.139359897877,
+        "amount": 5.139359897,
         "amountLabel": "$5.1M"
       },
       {
@@ -9944,7 +9913,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "General Environment Protection",
         "year": 2020,
-        "amount": 5.09364963357,
+        "amount": 5.093649634,
         "amountLabel": "$5.1M"
       },
       {
@@ -9976,7 +9945,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Health",
         "year": 2022,
-        "amount": 5.05601,
+        "amount": 5.0676239999999995,
         "amountLabel": "$5.1M"
       },
       {
@@ -9984,7 +9953,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Business & Other Services",
         "year": 2022,
-        "amount": 5.0542563756,
+        "amount": 5.054256376,
         "amountLabel": "$5.1M"
       },
       {
@@ -10016,7 +9985,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Other Multisector",
         "year": 2021,
-        "amount": 5.0207170577280005,
+        "amount": 5.0207170560000005,
         "amountLabel": "$5.0M"
       },
       {
@@ -10024,23 +9993,7 @@ window.OECD_DATA = {
         "country": "Malawi",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2021,
-        "amount": 5.0114464966,
-        "amountLabel": "$5.0M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Brazil",
-        "sector": "Education",
-        "year": 2021,
-        "amount": 5.0105436361999995,
-        "amountLabel": "$5.0M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Administrative Costs of Donors",
-        "year": 2021,
-        "amount": 5.00589751163333,
+        "amount": 5.011446497,
         "amountLabel": "$5.0M"
       },
       {
@@ -10056,7 +10009,7 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Other Multisector",
         "year": 2021,
-        "amount": 4.9931832666,
+        "amount": 4.993183267,
         "amountLabel": "$5.0M"
       },
       {
@@ -10064,15 +10017,15 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Education",
         "year": 2021,
-        "amount": 4.982365415449,
+        "amount": 4.982365415,
         "amountLabel": "$5.0M"
       },
       {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Industry, Mining, Construction",
-        "year": 2021,
-        "amount": 4.98037193682,
+        "donorCountry": "South Africa",
+        "country": "South Africa",
+        "sector": "Education",
+        "year": 2022,
+        "amount": 4.981712113,
         "amountLabel": "$5.0M"
       },
       {
@@ -10089,6 +10042,14 @@ window.OECD_DATA = {
         "sector": "General Environment Protection",
         "year": 2023,
         "amount": 4.954865,
+        "amountLabel": "$5.0M"
+      },
+      {
+        "donorCountry": "United Kingdom",
+        "country": "Malawi",
+        "sector": "Health",
+        "year": 2022,
+        "amount": 4.952922512,
         "amountLabel": "$5.0M"
       },
       {
@@ -10160,7 +10121,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Education",
         "year": 2021,
-        "amount": 4.84969252776,
+        "amount": 4.849692528,
         "amountLabel": "$4.8M"
       },
       {
@@ -10172,19 +10133,11 @@ window.OECD_DATA = {
         "amountLabel": "$4.8M"
       },
       {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Administrative Costs of Donors",
-        "year": 2022,
-        "amount": 4.8222058925938995,
-        "amountLabel": "$4.8M"
-      },
-      {
-        "donorCountry": "United Kingdom",
-        "country": "Malawi",
-        "sector": "Health",
-        "year": 2022,
-        "amount": 4.81700677088,
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Banking & Financial Services",
+        "year": 2021,
+        "amount": 4.819378582,
         "amountLabel": "$4.8M"
       },
       {
@@ -10217,14 +10170,6 @@ window.OECD_DATA = {
         "sector": "General Environment Protection",
         "year": 2022,
         "amount": 4.794373,
-        "amountLabel": "$4.8M"
-      },
-      {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Banking & Financial Services",
-        "year": 2021,
-        "amount": 4.7929575608679995,
         "amountLabel": "$4.8M"
       },
       {
@@ -10336,7 +10281,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Water Supply & Sanitation",
         "year": 2023,
-        "amount": 4.650611026494739,
+        "amount": 4.650611028189,
         "amountLabel": "$4.7M"
       },
       {
@@ -10344,7 +10289,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Energy",
         "year": 2020,
-        "amount": 4.6457093349,
+        "amount": 4.645709335,
         "amountLabel": "$4.6M"
       },
       {
@@ -10364,11 +10309,19 @@ window.OECD_DATA = {
         "amountLabel": "$4.6M"
       },
       {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Business & Other Services",
+        "year": 2022,
+        "amount": 4.641104874,
+        "amountLabel": "$4.6M"
+      },
+      {
         "donorCountry": "United States",
         "country": "Mexico",
         "sector": "Other Social Infrastructure & Services",
         "year": 2021,
-        "amount": 4.6388774831,
+        "amount": 4.638877483,
         "amountLabel": "$4.6M"
       },
       {
@@ -10388,6 +10341,14 @@ window.OECD_DATA = {
         "amountLabel": "$4.6M"
       },
       {
+        "donorCountry": "United States",
+        "country": "Tanzania",
+        "sector": "Government & Civil Society",
+        "year": 2021,
+        "amount": 4.630396563,
+        "amountLabel": "$4.6M"
+      },
+      {
         "donorCountry": "Denmark",
         "country": "Rwanda",
         "sector": "Education",
@@ -10404,6 +10365,14 @@ window.OECD_DATA = {
         "amountLabel": "$4.6M"
       },
       {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Trade Policies & Regulations",
+        "year": 2021,
+        "amount": 4.605030372,
+        "amountLabel": "$4.6M"
+      },
+      {
         "donorCountry": "Canada",
         "country": "Ethiopia",
         "sector": "Other Social Infrastructure & Services",
@@ -10416,15 +10385,7 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Water Supply & Sanitation",
         "year": 2021,
-        "amount": 4.5843301325,
-        "amountLabel": "$4.6M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Mexico",
-        "sector": "Unspecified",
-        "year": 2022,
-        "amount": 4.58036808344,
+        "amount": 4.584330132,
         "amountLabel": "$4.6M"
       },
       {
@@ -10432,7 +10393,7 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Communications",
         "year": 2021,
-        "amount": 4.569713500844,
+        "amount": 4.569713503,
         "amountLabel": "$4.6M"
       },
       {
@@ -10440,7 +10401,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Emergency Response",
         "year": 2022,
-        "amount": 4.5485508477405,
+        "amount": 4.548550851,
         "amountLabel": "$4.5M"
       },
       {
@@ -10456,7 +10417,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Education",
         "year": 2021,
-        "amount": 4.539136752357,
+        "amount": 4.541662555,
         "amountLabel": "$4.5M"
       },
       {
@@ -10469,18 +10430,18 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Bangladesh",
-        "sector": "Water Supply & Sanitation",
-        "year": 2020,
-        "amount": 4.5168772938999995,
+        "country": "Mexico",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2022,
+        "amount": 4.517229072,
         "amountLabel": "$4.5M"
       },
       {
         "donorCountry": "United States",
-        "country": "Tanzania",
-        "sector": "Government & Civil Society",
-        "year": 2021,
-        "amount": 4.51569895737,
+        "country": "Bangladesh",
+        "sector": "Water Supply & Sanitation",
+        "year": 2020,
+        "amount": 4.5168772939999995,
         "amountLabel": "$4.5M"
       },
       {
@@ -10505,14 +10466,6 @@ window.OECD_DATA = {
         "sector": "Government & Civil Society",
         "year": 2022,
         "amount": 4.471257,
-        "amountLabel": "$4.5M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "India",
-        "sector": "Unspecified",
-        "year": 2021,
-        "amount": 4.46983317276,
         "amountLabel": "$4.5M"
       },
       {
@@ -10554,6 +10507,14 @@ window.OECD_DATA = {
         "year": 2020,
         "amount": 4.454338,
         "amountLabel": "$4.5M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Brazil",
+        "sector": "Energy",
+        "year": 2021,
+        "amount": 4.4433057,
+        "amountLabel": "$4.4M"
       },
       {
         "donorCountry": "Canada",
@@ -10608,7 +10569,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Banking & Financial Services",
         "year": 2021,
-        "amount": 4.3927101050847,
+        "amount": 4.392710105,
         "amountLabel": "$4.4M"
       },
       {
@@ -10628,14 +10589,6 @@ window.OECD_DATA = {
         "amountLabel": "$4.4M"
       },
       {
-        "donorCountry": "South Africa",
-        "country": "South Africa",
-        "sector": "Education",
-        "year": 2020,
-        "amount": 4.38961672783,
-        "amountLabel": "$4.4M"
-      },
-      {
         "donorCountry": "United States",
         "country": "Zambia",
         "sector": "General Environment Protection",
@@ -10648,15 +10601,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Emergency Response",
         "year": 2020,
-        "amount": 4.380497118283537,
-        "amountLabel": "$4.4M"
-      },
-      {
-        "donorCountry": "Mexico",
-        "country": "Mexico",
-        "sector": "Other Multisector",
-        "year": 2020,
-        "amount": 4.3616563745005,
+        "amount": 4.380497118711137,
         "amountLabel": "$4.4M"
       },
       {
@@ -10664,7 +10609,15 @@ window.OECD_DATA = {
         "country": "Malawi",
         "sector": "Health",
         "year": 2023,
-        "amount": 4.357812651343,
+        "amount": 4.357812652,
+        "amountLabel": "$4.4M"
+      },
+      {
+        "donorCountry": "Mexico",
+        "country": "Mexico",
+        "sector": "Other Multisector",
+        "year": 2020,
+        "amount": 4.354561214,
         "amountLabel": "$4.4M"
       },
       {
@@ -10684,19 +10637,11 @@ window.OECD_DATA = {
         "amountLabel": "$4.3M"
       },
       {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Industry, Mining, Construction",
-        "year": 2020,
-        "amount": 4.3294541663621,
-        "amountLabel": "$4.3M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "China (People's Republic of)",
-        "sector": "Other Multisector",
-        "year": 2020,
-        "amount": 4.297488,
+        "donorCountry": "South Africa",
+        "country": "South Africa",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2021,
+        "amount": 4.300035133,
         "amountLabel": "$4.3M"
       },
       {
@@ -10704,7 +10649,15 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Other Social Infrastructure & Services",
         "year": 2022,
-        "amount": 4.294356099863,
+        "amount": 4.294356102,
+        "amountLabel": "$4.3M"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Business & Other Services",
+        "year": 2023,
+        "amount": 4.288700973,
         "amountLabel": "$4.3M"
       },
       {
@@ -10732,14 +10685,6 @@ window.OECD_DATA = {
         "amountLabel": "$4.3M"
       },
       {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Trade Policies & Regulations",
-        "year": 2021,
-        "amount": 4.26163023672,
-        "amountLabel": "$4.3M"
-      },
-      {
         "donorCountry": "United Kingdom",
         "country": "Uganda",
         "sector": "Population Policies/Programmes & Reproductive Health",
@@ -10756,27 +10701,11 @@ window.OECD_DATA = {
         "amountLabel": "$4.2M"
       },
       {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Business & Other Services",
-        "year": 2023,
-        "amount": 4.234383977146,
-        "amountLabel": "$4.2M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Unallocated / Unspecified",
-        "year": 2020,
-        "amount": 4.233520640642,
-        "amountLabel": "$4.2M"
-      },
-      {
         "donorCountry": "United States",
-        "country": "Brazil",
-        "sector": "Energy",
-        "year": 2021,
-        "amount": 4.2184084330000005,
+        "country": "Tanzania",
+        "sector": "Government & Civil Society",
+        "year": 2020,
+        "amount": 4.234934814,
         "amountLabel": "$4.2M"
       },
       {
@@ -10804,19 +10733,19 @@ window.OECD_DATA = {
         "amountLabel": "$4.2M"
       },
       {
-        "donorCountry": "Qatar",
-        "country": "Rwanda",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 4.186478,
-        "amountLabel": "$4.2M"
-      },
-      {
         "donorCountry": "India",
         "country": "India",
         "sector": "Business & Other Services",
-        "year": 2022,
-        "amount": 4.1850193524,
+        "year": 2023,
+        "amount": 4.187082704,
+        "amountLabel": "$4.2M"
+      },
+      {
+        "donorCountry": "Qatar",
+        "country": "Rwanda",
+        "sector": "Education",
+        "year": 2023,
+        "amount": 4.186478,
         "amountLabel": "$4.2M"
       },
       {
@@ -10825,6 +10754,14 @@ window.OECD_DATA = {
         "sector": "Banking & Financial Services",
         "year": 2020,
         "amount": 4.175123,
+        "amountLabel": "$4.2M"
+      },
+      {
+        "donorCountry": "Brazil",
+        "country": "Brazil",
+        "sector": "Government & Civil Society",
+        "year": 2023,
+        "amount": 4.1692389389999995,
         "amountLabel": "$4.2M"
       },
       {
@@ -10868,11 +10805,19 @@ window.OECD_DATA = {
         "amountLabel": "$4.1M"
       },
       {
-        "donorCountry": "South Africa",
-        "country": "South Africa",
-        "sector": "Education",
+        "donorCountry": "Brazil",
+        "country": "Brazil",
+        "sector": "Other Social Infrastructure & Services",
         "year": 2022,
-        "amount": 4.134401531151,
+        "amount": 4.134122374,
+        "amountLabel": "$4.1M"
+      },
+      {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Industry, Mining, Construction",
+        "year": 2023,
+        "amount": 4.131997478000001,
         "amountLabel": "$4.1M"
       },
       {
@@ -10880,7 +10825,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Education",
         "year": 2022,
-        "amount": 4.125968915910001,
+        "amount": 4.125968916,
         "amountLabel": "$4.1M"
       },
       {
@@ -10900,27 +10845,11 @@ window.OECD_DATA = {
         "amountLabel": "$4.1M"
       },
       {
-        "donorCountry": "United States",
-        "country": "Tanzania",
-        "sector": "Government & Civil Society",
-        "year": 2020,
-        "amount": 4.1172035403,
-        "amountLabel": "$4.1M"
-      },
-      {
         "donorCountry": "Canada",
         "country": "Senegal",
         "sector": "Health",
         "year": 2023,
         "amount": 4.10892,
-        "amountLabel": "$4.1M"
-      },
-      {
-        "donorCountry": "United Kingdom",
-        "country": "India",
-        "sector": "Education",
-        "year": 2021,
-        "amount": 4.107032,
         "amountLabel": "$4.1M"
       },
       {
@@ -10932,11 +10861,11 @@ window.OECD_DATA = {
         "amountLabel": "$4.1M"
       },
       {
-        "donorCountry": "United States",
+        "donorCountry": "Brazil",
         "country": "Brazil",
-        "sector": "Unspecified",
-        "year": 2020,
-        "amount": 4.10434884814,
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2021,
+        "amount": 4.10071659,
         "amountLabel": "$4.1M"
       },
       {
@@ -10956,14 +10885,6 @@ window.OECD_DATA = {
         "amountLabel": "$4.1M"
       },
       {
-        "donorCountry": "Brazil",
-        "country": "Brazil",
-        "sector": "Unspecified",
-        "year": 2021,
-        "amount": 4.0908609635749995,
-        "amountLabel": "$4.1M"
-      },
-      {
         "donorCountry": "United States",
         "country": "Nigeria",
         "sector": "Action Relating to Debt",
@@ -10976,7 +10897,7 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Health",
         "year": 2021,
-        "amount": 4.08337024033,
+        "amount": 4.08337024,
         "amountLabel": "$4.1M"
       },
       {
@@ -10988,19 +10909,11 @@ window.OECD_DATA = {
         "amountLabel": "$4.1M"
       },
       {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Industry, Mining, Construction",
-        "year": 2023,
-        "amount": 4.071464258759,
-        "amountLabel": "$4.1M"
-      },
-      {
-        "donorCountry": "South Africa",
-        "country": "South Africa",
-        "sector": "Other Social Infrastructure & Services",
+        "donorCountry": "United States",
+        "country": "Mexico",
+        "sector": "Agriculture, Forestry, Fishing",
         "year": 2021,
-        "amount": 4.0574449048600005,
+        "amount": 4.077525543,
         "amountLabel": "$4.1M"
       },
       {
@@ -11036,14 +10949,6 @@ window.OECD_DATA = {
         "amountLabel": "$4.0M"
       },
       {
-        "donorCountry": "Brazil",
-        "country": "Brazil",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2022,
-        "amount": 3.9842170929550003,
-        "amountLabel": "$4.0M"
-      },
-      {
         "donorCountry": "United States",
         "country": "Uganda",
         "sector": "Banking & Financial Services",
@@ -11056,7 +10961,7 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Communications",
         "year": 2020,
-        "amount": 3.9558050524699997,
+        "amount": 3.9558050529999997,
         "amountLabel": "$4.0M"
       },
       {
@@ -11066,6 +10971,14 @@ window.OECD_DATA = {
         "year": 2021,
         "amount": 3.954606,
         "amountLabel": "$4.0M"
+      },
+      {
+        "donorCountry": "Nigeria",
+        "country": "Nigeria",
+        "sector": "Health",
+        "year": 2023,
+        "amount": 3.93970183,
+        "amountLabel": "$3.9M"
       },
       {
         "donorCountry": "United Kingdom",
@@ -11100,14 +11013,6 @@ window.OECD_DATA = {
         "amountLabel": "$3.9M"
       },
       {
-        "donorCountry": "United States",
-        "country": "Mexico",
-        "sector": "Agriculture, Forestry, Fishing",
-        "year": 2021,
-        "amount": 3.9043546474,
-        "amountLabel": "$3.9M"
-      },
-      {
         "donorCountry": "United Kingdom",
         "country": "Mexico",
         "sector": "Other Multisector",
@@ -11120,15 +11025,7 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Government & Civil Society",
         "year": 2023,
-        "amount": 3.890885,
-        "amountLabel": "$3.9M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Emergency Response",
-        "year": 2022,
-        "amount": 3.8852597437016,
+        "amount": 3.893385,
         "amountLabel": "$3.9M"
       },
       {
@@ -11137,14 +11034,6 @@ window.OECD_DATA = {
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2022,
         "amount": 3.8841400000000004,
-        "amountLabel": "$3.9M"
-      },
-      {
-        "donorCountry": "Brazil",
-        "country": "Brazil",
-        "sector": "Government & Civil Society",
-        "year": 2023,
-        "amount": 3.8823734026279997,
         "amountLabel": "$3.9M"
       },
       {
@@ -11168,12 +11057,12 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2023,
-        "amount": 3.869477574561,
+        "amount": 3.8694775740000003,
         "amountLabel": "$3.9M"
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Colombia",
+        "country": "Senegal",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2021,
         "amount": 3.864587,
@@ -11181,7 +11070,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Senegal",
+        "country": "Colombia",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2021,
         "amount": 3.864587,
@@ -11204,14 +11093,6 @@ window.OECD_DATA = {
         "amountLabel": "$3.9M"
       },
       {
-        "donorCountry": "United States",
-        "country": "India",
-        "sector": "Other Multisector",
-        "year": 2023,
-        "amount": 3.8442000000000003,
-        "amountLabel": "$3.8M"
-      },
-      {
         "donorCountry": "Denmark",
         "country": "Kenya",
         "sector": "Education",
@@ -11228,6 +11109,14 @@ window.OECD_DATA = {
         "amountLabel": "$3.8M"
       },
       {
+        "donorCountry": "United States",
+        "country": "China (People's Republic of)",
+        "sector": "Agriculture, Forestry, Fishing",
+        "year": 2021,
+        "amount": 3.8284519,
+        "amountLabel": "$3.8M"
+      },
+      {
         "donorCountry": "Qatar",
         "country": "Bangladesh",
         "sector": "Education",
@@ -11241,14 +11130,6 @@ window.OECD_DATA = {
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2020,
         "amount": 3.819875,
-        "amountLabel": "$3.8M"
-      },
-      {
-        "donorCountry": "Nigeria",
-        "country": "Nigeria",
-        "sector": "Health",
-        "year": 2023,
-        "amount": 3.818807974597,
         "amountLabel": "$3.8M"
       },
       {
@@ -11304,7 +11185,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Other Multisector",
         "year": 2023,
-        "amount": 3.7484012809721996,
+        "amount": 3.74840128,
         "amountLabel": "$3.7M"
       },
       {
@@ -11312,7 +11193,7 @@ window.OECD_DATA = {
         "country": "Bangladesh",
         "sector": "Water Supply & Sanitation",
         "year": 2022,
-        "amount": 3.74199090058,
+        "amount": 3.741990901,
         "amountLabel": "$3.7M"
       },
       {
@@ -11356,14 +11237,6 @@ window.OECD_DATA = {
         "amountLabel": "$3.7M"
       },
       {
-        "donorCountry": "South Africa",
-        "country": "South Africa",
-        "sector": "Education",
-        "year": 2023,
-        "amount": 3.7199056006899998,
-        "amountLabel": "$3.7M"
-      },
-      {
         "donorCountry": "Netherlands",
         "country": "Ethiopia",
         "sector": "Emergency Response",
@@ -11376,7 +11249,7 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Administrative Costs of Donors",
         "year": 2020,
-        "amount": 3.70604398108,
+        "amount": 3.706043981,
         "amountLabel": "$3.7M"
       },
       {
@@ -11396,27 +11269,27 @@ window.OECD_DATA = {
         "amountLabel": "$3.7M"
       },
       {
+        "donorCountry": "United States",
+        "country": "Kenya",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2021,
+        "amount": 3.6809472519999997,
+        "amountLabel": "$3.7M"
+      },
+      {
+        "donorCountry": "United Kingdom",
+        "country": "India",
+        "sector": "Education",
+        "year": 2021,
+        "amount": 3.680726,
+        "amountLabel": "$3.7M"
+      },
+      {
         "donorCountry": "Canada",
         "country": "Senegal",
         "sector": "Banking & Financial Services",
         "year": 2020,
         "amount": 3.6797259999999996,
-        "amountLabel": "$3.7M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Mexico",
-        "sector": "Education",
-        "year": 2020,
-        "amount": 3.667888306065,
-        "amountLabel": "$3.7M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "China (People's Republic of)",
-        "sector": "Agriculture, Forestry, Fishing",
-        "year": 2021,
-        "amount": 3.6597789499,
         "amountLabel": "$3.7M"
       },
       {
@@ -11440,7 +11313,7 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Health",
         "year": 2020,
-        "amount": 3.6522426074,
+        "amount": 3.652242607,
         "amountLabel": "$3.7M"
       },
       {
@@ -11448,7 +11321,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Reconstruction Relief & Rehabilitation",
         "year": 2021,
-        "amount": 3.635153562318,
+        "amount": 3.6351535630000003,
         "amountLabel": "$3.6M"
       },
       {
@@ -11472,7 +11345,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Health",
         "year": 2022,
-        "amount": 3.6307914228,
+        "amount": 3.630791423,
         "amountLabel": "$3.6M"
       },
       {
@@ -11480,7 +11353,7 @@ window.OECD_DATA = {
         "country": "Peru",
         "sector": "Government & Civil Society",
         "year": 2020,
-        "amount": 3.6293439491,
+        "amount": 3.629343949,
         "amountLabel": "$3.6M"
       },
       {
@@ -11488,7 +11361,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Other Social Infrastructure & Services",
         "year": 2020,
-        "amount": 3.6217065972999998,
+        "amount": 3.6217065969999997,
         "amountLabel": "$3.6M"
       },
       {
@@ -11508,6 +11381,14 @@ window.OECD_DATA = {
         "amountLabel": "$3.6M"
       },
       {
+        "donorCountry": "United States",
+        "country": "Brazil",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2023,
+        "amount": 3.595592,
+        "amountLabel": "$3.6M"
+      },
+      {
         "donorCountry": "Netherlands",
         "country": "Brazil",
         "sector": "General Environment Protection",
@@ -11520,15 +11401,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Health",
         "year": 2021,
-        "amount": 3.58059337112,
-        "amountLabel": "$3.6M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "India",
-        "sector": "Unspecified",
-        "year": 2022,
-        "amount": 3.5686762493,
+        "amount": 3.580593371,
         "amountLabel": "$3.6M"
       },
       {
@@ -11536,7 +11409,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Education",
         "year": 2021,
-        "amount": 3.56413080796,
+        "amount": 3.564130808,
         "amountLabel": "$3.6M"
       },
       {
@@ -11552,7 +11425,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Communications",
         "year": 2020,
-        "amount": 3.540758019632,
+        "amount": 3.5407580199999997,
         "amountLabel": "$3.5M"
       },
       {
@@ -11564,35 +11437,11 @@ window.OECD_DATA = {
         "amountLabel": "$3.5M"
       },
       {
-        "donorCountry": "United States",
-        "country": "Mexico",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2022,
-        "amount": 3.53530307675,
-        "amountLabel": "$3.5M"
-      },
-      {
-        "donorCountry": "Denmark",
-        "country": "Mexico",
-        "sector": "Education",
-        "year": 2022,
-        "amount": 3.528356,
-        "amountLabel": "$3.5M"
-      },
-      {
         "donorCountry": "India",
         "country": "India",
         "sector": "Banking & Financial Services",
         "year": 2020,
-        "amount": 3.52269140541,
-        "amountLabel": "$3.5M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Business & Other Services",
-        "year": 2023,
-        "amount": 3.522427968967,
+        "amount": 3.5226914049999998,
         "amountLabel": "$3.5M"
       },
       {
@@ -11632,7 +11481,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Education",
         "year": 2022,
-        "amount": 3.5060649172,
+        "amount": 3.506064918,
         "amountLabel": "$3.5M"
       },
       {
@@ -11656,7 +11505,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Other Social Infrastructure & Services",
         "year": 2022,
-        "amount": 3.4667764143,
+        "amount": 3.466776414,
         "amountLabel": "$3.5M"
       },
       {
@@ -11725,18 +11574,10 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Kenya",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2021,
-        "amount": 3.418941935846,
-        "amountLabel": "$3.4M"
-      },
-      {
-        "donorCountry": "United States",
         "country": "Peru",
         "sector": "General Environment Protection",
         "year": 2022,
-        "amount": 3.4187303615999998,
+        "amount": 3.4187303609999997,
         "amountLabel": "$3.4M"
       },
       {
@@ -11764,14 +11605,6 @@ window.OECD_DATA = {
         "amountLabel": "$3.4M"
       },
       {
-        "donorCountry": "United States",
-        "country": "Brazil",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2023,
-        "amount": 3.395592,
-        "amountLabel": "$3.4M"
-      },
-      {
         "donorCountry": "Canada",
         "country": "Senegal",
         "sector": "Education",
@@ -11784,7 +11617,15 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Water Supply & Sanitation",
         "year": 2020,
-        "amount": 3.3836140129,
+        "amount": 3.383614013,
+        "amountLabel": "$3.4M"
+      },
+      {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Administrative Costs of Donors",
+        "year": 2021,
+        "amount": 3.379651881,
         "amountLabel": "$3.4M"
       },
       {
@@ -11792,7 +11633,15 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2022,
-        "amount": 3.37741338598,
+        "amount": 3.377413387,
+        "amountLabel": "$3.4M"
+      },
+      {
+        "donorCountry": "Brazil",
+        "country": "Brazil",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2020,
+        "amount": 3.3762574389999997,
         "amountLabel": "$3.4M"
       },
       {
@@ -11801,14 +11650,6 @@ window.OECD_DATA = {
         "sector": "General Environment Protection",
         "year": 2020,
         "amount": 3.373256,
-        "amountLabel": "$3.4M"
-      },
-      {
-        "donorCountry": "Denmark",
-        "country": "Mexico",
-        "sector": "Education",
-        "year": 2020,
-        "amount": 3.370834,
         "amountLabel": "$3.4M"
       },
       {
@@ -11824,23 +11665,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Administrative Costs of Donors",
         "year": 2020,
-        "amount": 3.364300853638,
-        "amountLabel": "$3.4M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Administrative Costs of Donors",
-        "year": 2023,
-        "amount": 3.3638267592113,
-        "amountLabel": "$3.4M"
-      },
-      {
-        "donorCountry": "Brazil",
-        "country": "Brazil",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2020,
-        "amount": 3.360402489268,
+        "amount": 3.364300857,
         "amountLabel": "$3.4M"
       },
       {
@@ -11904,7 +11729,15 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Water Supply & Sanitation",
         "year": 2022,
-        "amount": 3.3202758764499998,
+        "amount": 3.320275876,
+        "amountLabel": "$3.3M"
+      },
+      {
+        "donorCountry": "Denmark",
+        "country": "Mexico",
+        "sector": "Education",
+        "year": 2020,
+        "amount": 3.319617,
         "amountLabel": "$3.3M"
       },
       {
@@ -11940,11 +11773,27 @@ window.OECD_DATA = {
         "amountLabel": "$3.3M"
       },
       {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Emergency Response",
+        "year": 2023,
+        "amount": 3.288164412,
+        "amountLabel": "$3.3M"
+      },
+      {
         "donorCountry": "Switzerland",
         "country": "Ethiopia",
         "sector": "Health",
         "year": 2020,
         "amount": 3.2854929999999998,
+        "amountLabel": "$3.3M"
+      },
+      {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Industry, Mining, Construction",
+        "year": 2020,
+        "amount": 3.284878442,
         "amountLabel": "$3.3M"
       },
       {
@@ -11964,6 +11813,14 @@ window.OECD_DATA = {
         "amountLabel": "$3.3M"
       },
       {
+        "donorCountry": "Brazil",
+        "country": "Brazil",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2023,
+        "amount": 3.271010046,
+        "amountLabel": "$3.3M"
+      },
+      {
         "donorCountry": "Denmark",
         "country": "India",
         "sector": "Health",
@@ -11980,14 +11837,6 @@ window.OECD_DATA = {
         "amountLabel": "$3.3M"
       },
       {
-        "donorCountry": "Brazil",
-        "country": "Brazil",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2023,
-        "amount": 3.25861514509,
-        "amountLabel": "$3.3M"
-      },
-      {
         "donorCountry": "United Kingdom",
         "country": "Kenya",
         "sector": "Education",
@@ -12001,6 +11850,14 @@ window.OECD_DATA = {
         "sector": "Business & Other Services",
         "year": 2020,
         "amount": 3.2391810000000003,
+        "amountLabel": "$3.2M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Mexico",
+        "sector": "Other Multisector",
+        "year": 2022,
+        "amount": 3.232680996,
         "amountLabel": "$3.2M"
       },
       {
@@ -12025,6 +11882,14 @@ window.OECD_DATA = {
         "sector": "Emergency Response",
         "year": 2023,
         "amount": 3.20473,
+        "amountLabel": "$3.2M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Mexico",
+        "sector": "Education",
+        "year": 2020,
+        "amount": 3.204258463,
         "amountLabel": "$3.2M"
       },
       {
@@ -12080,7 +11945,15 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Emergency Response",
         "year": 2021,
-        "amount": 3.1803236894919,
+        "amount": 3.180323691,
+        "amountLabel": "$3.2M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "India",
+        "sector": "Unallocated / Unspecified",
+        "year": 2020,
+        "amount": 3.16656966,
         "amountLabel": "$3.2M"
       },
       {
@@ -12108,6 +11981,14 @@ window.OECD_DATA = {
         "amountLabel": "$3.1M"
       },
       {
+        "donorCountry": "United States",
+        "country": "Mexico",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2020,
+        "amount": 3.126680353,
+        "amountLabel": "$3.1M"
+      },
+      {
         "donorCountry": "Switzerland",
         "country": "Zambia",
         "sector": "General Environment Protection",
@@ -12121,14 +12002,6 @@ window.OECD_DATA = {
         "sector": "Education",
         "year": 2020,
         "amount": 3.1163119999999997,
-        "amountLabel": "$3.1M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "India",
-        "sector": "Unallocated / Unspecified",
-        "year": 2020,
-        "amount": 3.107704023,
         "amountLabel": "$3.1M"
       },
       {
@@ -12152,7 +12025,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Health",
         "year": 2021,
-        "amount": 3.10118396639,
+        "amount": 3.101183967,
         "amountLabel": "$3.1M"
       },
       {
@@ -12200,7 +12073,7 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Business & Other Services",
         "year": 2022,
-        "amount": 3.0714139567276,
+        "amount": 3.071413957,
         "amountLabel": "$3.1M"
       },
       {
@@ -12216,7 +12089,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Other Social Infrastructure & Services",
         "year": 2021,
-        "amount": 3.0583917124,
+        "amount": 3.058391712,
         "amountLabel": "$3.1M"
       },
       {
@@ -12248,7 +12121,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Other Multisector",
         "year": 2022,
-        "amount": 3.03266964955,
+        "amount": 3.03266965,
         "amountLabel": "$3.0M"
       },
       {
@@ -12256,7 +12129,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Health",
         "year": 2021,
-        "amount": 3.0236318998,
+        "amount": 3.0236319,
         "amountLabel": "$3.0M"
       },
       {
@@ -12264,7 +12137,7 @@ window.OECD_DATA = {
         "country": "Ghana",
         "sector": "Education",
         "year": 2022,
-        "amount": 3.01254510325,
+        "amount": 3.012545103,
         "amountLabel": "$3.0M"
       },
       {
@@ -12300,11 +12173,11 @@ window.OECD_DATA = {
         "amountLabel": "$3.0M"
       },
       {
-        "donorCountry": "United States",
-        "country": "Mexico",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2020,
-        "amount": 2.97885932101,
+        "donorCountry": "Brazil",
+        "country": "Brazil",
+        "sector": "Government & Civil Society",
+        "year": 2021,
+        "amount": 2.979411203,
         "amountLabel": "$3.0M"
       },
       {
@@ -12384,7 +12257,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2023,
-        "amount": 2.8851072960375,
+        "amount": 2.885107295,
         "amountLabel": "$2.9M"
       },
       {
@@ -12456,23 +12329,15 @@ window.OECD_DATA = {
         "country": "Ghana",
         "sector": "Government & Civil Society",
         "year": 2020,
-        "amount": 2.83061174843,
+        "amount": 2.830611749,
         "amountLabel": "$2.8M"
       },
       {
-        "donorCountry": "United States",
-        "country": "Mexico",
-        "sector": "Water Supply & Sanitation",
-        "year": 2020,
-        "amount": 2.83043903038,
-        "amountLabel": "$2.8M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Industry, Mining, Construction",
-        "year": 2020,
-        "amount": 2.820378274563,
+        "donorCountry": "Brazil",
+        "country": "Brazil",
+        "sector": "Government & Civil Society",
+        "year": 2022,
+        "amount": 2.808115199,
         "amountLabel": "$2.8M"
       },
       {
@@ -12480,7 +12345,15 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2022,
-        "amount": 2.7965089146,
+        "amount": 2.796508915,
+        "amountLabel": "$2.8M"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "India",
+        "sector": "Health",
+        "year": 2021,
+        "amount": 2.791577074,
         "amountLabel": "$2.8M"
       },
       {
@@ -12512,7 +12385,7 @@ window.OECD_DATA = {
         "country": "Ghana",
         "sector": "Education",
         "year": 2021,
-        "amount": 2.78465034206,
+        "amount": 2.784650343,
         "amountLabel": "$2.8M"
       },
       {
@@ -12532,11 +12405,19 @@ window.OECD_DATA = {
         "amountLabel": "$2.8M"
       },
       {
-        "donorCountry": "Brazil",
-        "country": "Brazil",
-        "sector": "Government & Civil Society",
-        "year": 2021,
-        "amount": 2.774722285074,
+        "donorCountry": "United States",
+        "country": "Nigeria",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2023,
+        "amount": 2.7794849999999998,
+        "amountLabel": "$2.8M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Mexico",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2023,
+        "amount": 2.7749,
         "amountLabel": "$2.8M"
       },
       {
@@ -12544,7 +12425,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Water Supply & Sanitation",
         "year": 2021,
-        "amount": 2.7695743634000003,
+        "amount": 2.7695743630000003,
         "amountLabel": "$2.8M"
       },
       {
@@ -12552,7 +12433,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Health",
         "year": 2021,
-        "amount": 2.7516600969000002,
+        "amount": 2.7516600970000002,
         "amountLabel": "$2.8M"
       },
       {
@@ -12561,6 +12442,14 @@ window.OECD_DATA = {
         "sector": "Health",
         "year": 2020,
         "amount": 2.743396,
+        "amountLabel": "$2.7M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "India",
+        "sector": "Emergency Response",
+        "year": 2020,
+        "amount": 2.7414892589999997,
         "amountLabel": "$2.7M"
       },
       {
@@ -12580,19 +12469,19 @@ window.OECD_DATA = {
         "amountLabel": "$2.7M"
       },
       {
-        "donorCountry": "United States",
-        "country": "Nigeria",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2023,
-        "amount": 2.729485,
-        "amountLabel": "$2.7M"
-      },
-      {
         "donorCountry": "Netherlands",
         "country": "Ethiopia",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2021,
         "amount": 2.723754,
+        "amountLabel": "$2.7M"
+      },
+      {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Administrative Costs of Donors",
+        "year": 2023,
+        "amount": 2.721573492,
         "amountLabel": "$2.7M"
       },
       {
@@ -12620,27 +12509,11 @@ window.OECD_DATA = {
         "amountLabel": "$2.7M"
       },
       {
-        "donorCountry": "United States",
-        "country": "Mexico",
-        "sector": "Unspecified",
-        "year": 2020,
-        "amount": 2.69233528251,
-        "amountLabel": "$2.7M"
-      },
-      {
-        "donorCountry": "Brazil",
-        "country": "Brazil",
-        "sector": "Government & Civil Society",
-        "year": 2022,
-        "amount": 2.6916556944606,
-        "amountLabel": "$2.7M"
-      },
-      {
         "donorCountry": "Switzerland",
         "country": "India",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2020,
-        "amount": 2.6794652739,
+        "amount": 2.679465274,
         "amountLabel": "$2.7M"
       },
       {
@@ -12656,15 +12529,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2021,
-        "amount": 2.6788019499,
-        "amountLabel": "$2.7M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Mexico",
-        "sector": "Other Multisector",
-        "year": 2022,
-        "amount": 2.67649115159,
+        "amount": 2.67880195,
         "amountLabel": "$2.7M"
       },
       {
@@ -12672,7 +12537,15 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Education",
         "year": 2021,
-        "amount": 2.6563822666,
+        "amount": 2.656382267,
+        "amountLabel": "$2.7M"
+      },
+      {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Administrative Costs of Donors",
+        "year": 2022,
+        "amount": 2.654925986,
         "amountLabel": "$2.7M"
       },
       {
@@ -12689,14 +12562,6 @@ window.OECD_DATA = {
         "sector": "Health",
         "year": 2020,
         "amount": 2.647184,
-        "amountLabel": "$2.6M"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "India",
-        "sector": "Unspecified",
-        "year": 2021,
-        "amount": 2.6401564351233,
         "amountLabel": "$2.6M"
       },
       {
@@ -12732,6 +12597,14 @@ window.OECD_DATA = {
         "amountLabel": "$2.6M"
       },
       {
+        "donorCountry": "United States",
+        "country": "Senegal",
+        "sector": "Government & Civil Society",
+        "year": 2021,
+        "amount": 2.617140267,
+        "amountLabel": "$2.6M"
+      },
+      {
         "donorCountry": "Canada",
         "country": "Uganda",
         "sector": "Health",
@@ -12744,7 +12617,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Education",
         "year": 2022,
-        "amount": 2.5995253383000003,
+        "amount": 2.5995253380000003,
         "amountLabel": "$2.6M"
       },
       {
@@ -12761,6 +12634,14 @@ window.OECD_DATA = {
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2020,
         "amount": 2.594523,
+        "amountLabel": "$2.6M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Brazil",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2022,
+        "amount": 2.593844049,
         "amountLabel": "$2.6M"
       },
       {
@@ -12784,7 +12665,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Education",
         "year": 2023,
-        "amount": 2.578001247827,
+        "amount": 2.578001246,
         "amountLabel": "$2.6M"
       },
       {
@@ -12812,27 +12693,11 @@ window.OECD_DATA = {
         "amountLabel": "$2.6M"
       },
       {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Unallocated / Unspecified",
-        "year": 2021,
-        "amount": 2.566176060437,
-        "amountLabel": "$2.6M"
-      },
-      {
         "donorCountry": "United States",
         "country": "Tanzania",
         "sector": "Banking & Financial Services",
         "year": 2020,
         "amount": 2.561877,
-        "amountLabel": "$2.6M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Brazil",
-        "sector": "Unspecified",
-        "year": 2022,
-        "amount": 2.5560577801,
         "amountLabel": "$2.6M"
       },
       {
@@ -12848,7 +12713,7 @@ window.OECD_DATA = {
         "country": "Malawi",
         "sector": "Health",
         "year": 2020,
-        "amount": 2.54786014583,
+        "amount": 2.547860145,
         "amountLabel": "$2.5M"
       },
       {
@@ -12856,7 +12721,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Other Social Infrastructure & Services",
         "year": 2022,
-        "amount": 2.5423108711599998,
+        "amount": 2.542310872,
         "amountLabel": "$2.5M"
       },
       {
@@ -12864,7 +12729,15 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Health",
         "year": 2020,
-        "amount": 2.5420298346,
+        "amount": 2.542029835,
+        "amountLabel": "$2.5M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Brazil",
+        "sector": "Education",
+        "year": 2020,
+        "amount": 2.5397823699999997,
         "amountLabel": "$2.5M"
       },
       {
@@ -12916,22 +12789,6 @@ window.OECD_DATA = {
         "amountLabel": "$2.5M"
       },
       {
-        "donorCountry": "United States",
-        "country": "Mexico",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2023,
-        "amount": 2.5249,
-        "amountLabel": "$2.5M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Mexico",
-        "sector": "Disaster Prevention & Preparedness",
-        "year": 2023,
-        "amount": 2.511692,
-        "amountLabel": "$2.5M"
-      },
-      {
         "donorCountry": "Switzerland",
         "country": "India",
         "sector": "Government & Civil Society",
@@ -12956,14 +12813,6 @@ window.OECD_DATA = {
         "amountLabel": "$2.5M"
       },
       {
-        "donorCountry": "United States",
-        "country": "Kenya",
-        "sector": "Unspecified",
-        "year": 2022,
-        "amount": 2.5000535645929998,
-        "amountLabel": "$2.5M"
-      },
-      {
         "donorCountry": "Netherlands",
         "country": "Kenya",
         "sector": "Government & Civil Society",
@@ -12984,7 +12833,15 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2022,
-        "amount": 2.4927762306,
+        "amount": 2.492776231,
+        "amountLabel": "$2.5M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Tanzania",
+        "sector": "Education",
+        "year": 2022,
+        "amount": 2.492362268,
         "amountLabel": "$2.5M"
       },
       {
@@ -13008,7 +12865,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Health",
         "year": 2022,
-        "amount": 2.46333877165,
+        "amount": 2.463338772,
         "amountLabel": "$2.5M"
       },
       {
@@ -13024,7 +12881,15 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Other Social Infrastructure & Services",
         "year": 2020,
-        "amount": 2.45367363167,
+        "amount": 2.453673631,
+        "amountLabel": "$2.5M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Mexico",
+        "sector": "Other Multisector",
+        "year": 2020,
+        "amount": 2.453244016,
         "amountLabel": "$2.5M"
       },
       {
@@ -13068,6 +12933,14 @@ window.OECD_DATA = {
         "amountLabel": "$2.4M"
       },
       {
+        "donorCountry": "United States",
+        "country": "Nigeria",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2022,
+        "amount": 2.426619776,
+        "amountLabel": "$2.4M"
+      },
+      {
         "donorCountry": "United Kingdom",
         "country": "Pakistan",
         "sector": "Population Policies/Programmes & Reproductive Health",
@@ -13080,7 +12953,7 @@ window.OECD_DATA = {
         "country": "Ghana",
         "sector": "Other Social Infrastructure & Services",
         "year": 2021,
-        "amount": 2.4093472666,
+        "amount": 2.4093472670000002,
         "amountLabel": "$2.4M"
       },
       {
@@ -13104,7 +12977,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "General Environment Protection",
         "year": 2020,
-        "amount": 2.4004926459,
+        "amount": 2.400492646,
         "amountLabel": "$2.4M"
       },
       {
@@ -13112,7 +12985,7 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Education",
         "year": 2021,
-        "amount": 2.4001312403200004,
+        "amount": 2.4001312400000003,
         "amountLabel": "$2.4M"
       },
       {
@@ -13121,14 +12994,6 @@ window.OECD_DATA = {
         "sector": "Water Supply & Sanitation",
         "year": 2023,
         "amount": 2.393368,
-        "amountLabel": "$2.4M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Senegal",
-        "sector": "Government & Civil Society",
-        "year": 2021,
-        "amount": 2.392243,
         "amountLabel": "$2.4M"
       },
       {
@@ -13148,27 +13013,11 @@ window.OECD_DATA = {
         "amountLabel": "$2.4M"
       },
       {
-        "donorCountry": "United States",
-        "country": "Tanzania",
-        "sector": "Education",
-        "year": 2022,
-        "amount": 2.3882458608199997,
-        "amountLabel": "$2.4M"
-      },
-      {
         "donorCountry": "Netherlands",
         "country": "Rwanda",
         "sector": "Energy",
         "year": 2020,
         "amount": 2.383314,
-        "amountLabel": "$2.4M"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Unallocated / Unspecified",
-        "year": 2023,
-        "amount": 2.380330970133,
         "amountLabel": "$2.4M"
       },
       {
@@ -13192,15 +13041,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2022,
-        "amount": 2.3653046164019003,
-        "amountLabel": "$2.4M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Brazil",
-        "sector": "Education",
-        "year": 2020,
-        "amount": 2.3631854593,
+        "amount": 2.365304617,
         "amountLabel": "$2.4M"
       },
       {
@@ -13224,7 +13065,15 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Reconstruction Relief & Rehabilitation",
         "year": 2020,
-        "amount": 2.337923908996,
+        "amount": 2.337923909,
+        "amountLabel": "$2.3M"
+      },
+      {
+        "donorCountry": "Brazil",
+        "country": "Brazil",
+        "sector": "Government & Civil Society",
+        "year": 2020,
+        "amount": 2.333265225,
         "amountLabel": "$2.3M"
       },
       {
@@ -13245,6 +13094,14 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
+        "country": "Bangladesh",
+        "sector": "Energy",
+        "year": 2021,
+        "amount": 2.321424,
+        "amountLabel": "$2.3M"
+      },
+      {
+        "donorCountry": "United States",
         "country": "Pakistan",
         "sector": "Energy",
         "year": 2021,
@@ -13260,19 +13117,11 @@ window.OECD_DATA = {
         "amountLabel": "$2.3M"
       },
       {
-        "donorCountry": "United States",
-        "country": "Bangladesh",
-        "sector": "Energy",
-        "year": 2021,
-        "amount": 2.321424,
-        "amountLabel": "$2.3M"
-      },
-      {
         "donorCountry": "Denmark",
         "country": "Tanzania",
         "sector": "Health",
         "year": 2020,
-        "amount": 2.3116046904,
+        "amount": 2.31160469,
         "amountLabel": "$2.3M"
       },
       {
@@ -13304,7 +13153,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Unallocated / Unspecified",
         "year": 2022,
-        "amount": 2.3010620081103,
+        "amount": 2.301062009,
         "amountLabel": "$2.3M"
       },
       {
@@ -13324,14 +13173,6 @@ window.OECD_DATA = {
         "amountLabel": "$2.3M"
       },
       {
-        "donorCountry": "Brazil",
-        "country": "Brazil",
-        "sector": "Government & Civil Society",
-        "year": 2020,
-        "amount": 2.292604954966,
-        "amountLabel": "$2.3M"
-      },
-      {
         "donorCountry": "Canada",
         "country": "Burkina Faso",
         "sector": "Education",
@@ -13345,14 +13186,6 @@ window.OECD_DATA = {
         "sector": "Health",
         "year": 2021,
         "amount": 2.282749,
-        "amountLabel": "$2.3M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "South Africa",
-        "sector": "Unspecified",
-        "year": 2022,
-        "amount": 2.2749434819600003,
         "amountLabel": "$2.3M"
       },
       {
@@ -13448,7 +13281,7 @@ window.OECD_DATA = {
         "country": "Indonesia",
         "sector": "Health",
         "year": 2020,
-        "amount": 2.2421521942,
+        "amount": 2.242152194,
         "amountLabel": "$2.2M"
       },
       {
@@ -13480,7 +13313,7 @@ window.OECD_DATA = {
         "country": "Ukraine",
         "sector": "Emergency Response",
         "year": 2023,
-        "amount": 2.2239684494,
+        "amount": 2.223968449,
         "amountLabel": "$2.2M"
       },
       {
@@ -13516,6 +13349,14 @@ window.OECD_DATA = {
         "amountLabel": "$2.2M"
       },
       {
+        "donorCountry": "Colombia",
+        "country": "Colombia",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2023,
+        "amount": 2.193974372,
+        "amountLabel": "$2.2M"
+      },
+      {
         "donorCountry": "Canada",
         "country": "Zambia",
         "sector": "Health",
@@ -13529,6 +13370,14 @@ window.OECD_DATA = {
         "sector": "Emergency Response",
         "year": 2021,
         "amount": 2.191942,
+        "amountLabel": "$2.2M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Brazil",
+        "sector": "Education",
+        "year": 2023,
+        "amount": 2.1862,
         "amountLabel": "$2.2M"
       },
       {
@@ -13556,11 +13405,11 @@ window.OECD_DATA = {
         "amountLabel": "$2.2M"
       },
       {
-        "donorCountry": "United States",
-        "country": "Brazil",
-        "sector": "Education",
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Banking & Financial Services",
         "year": 2023,
-        "amount": 2.1712,
+        "amount": 2.170226364,
         "amountLabel": "$2.2M"
       },
       {
@@ -13572,27 +13421,11 @@ window.OECD_DATA = {
         "amountLabel": "$2.2M"
       },
       {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Banking & Financial Services",
-        "year": 2023,
-        "amount": 2.1638570261774,
-        "amountLabel": "$2.2M"
-      },
-      {
         "donorCountry": "United Kingdom",
         "country": "China (People's Republic of)",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2022,
         "amount": 2.163837,
-        "amountLabel": "$2.2M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Kenya",
-        "sector": "Unspecified",
-        "year": 2021,
-        "amount": 2.162668339846,
         "amountLabel": "$2.2M"
       },
       {
@@ -13604,20 +13437,20 @@ window.OECD_DATA = {
         "amountLabel": "$2.2M"
       },
       {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Emergency Response",
-        "year": 2023,
-        "amount": 2.1525612404606,
-        "amountLabel": "$2.2M"
-      },
-      {
         "donorCountry": "Netherlands",
         "country": "Kenya",
         "sector": "Energy",
         "year": 2020,
         "amount": 2.1506100000000004,
         "amountLabel": "$2.2M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Nigeria",
+        "sector": "Unallocated / Unspecified",
+        "year": 2021,
+        "amount": 2.148924172,
+        "amountLabel": "$2.1M"
       },
       {
         "donorCountry": "Switzerland",
@@ -13653,10 +13486,18 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
+        "country": "Uganda",
+        "sector": "Education",
+        "year": 2021,
+        "amount": 2.132947188,
+        "amountLabel": "$2.1M"
+      },
+      {
+        "donorCountry": "United States",
         "country": "Indonesia",
         "sector": "Other Multisector",
         "year": 2022,
-        "amount": 2.1323119472,
+        "amount": 2.132311947,
         "amountLabel": "$2.1M"
       },
       {
@@ -13676,11 +13517,43 @@ window.OECD_DATA = {
         "amountLabel": "$2.1M"
       },
       {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "General Budget Support",
+        "year": 2022,
+        "amount": 2.115938376,
+        "amountLabel": "$2.1M"
+      },
+      {
         "donorCountry": "Switzerland",
         "country": "South Africa",
         "sector": "Other Social Infrastructure & Services",
         "year": 2022,
         "amount": 2.112767,
+        "amountLabel": "$2.1M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Mexico",
+        "sector": "Health",
+        "year": 2023,
+        "amount": 2.109595,
+        "amountLabel": "$2.1M"
+      },
+      {
+        "donorCountry": "Brazil",
+        "country": "Brazil",
+        "sector": "General Environment Protection",
+        "year": 2022,
+        "amount": 2.106093646,
+        "amountLabel": "$2.1M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Uganda",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2022,
+        "amount": 2.1006255229999997,
         "amountLabel": "$2.1M"
       },
       {
@@ -13692,19 +13565,19 @@ window.OECD_DATA = {
         "amountLabel": "$2.1M"
       },
       {
-        "donorCountry": "Brazil",
-        "country": "Brazil",
-        "sector": "General Environment Protection",
-        "year": 2022,
-        "amount": 2.095290083519,
-        "amountLabel": "$2.1M"
-      },
-      {
         "donorCountry": "Denmark",
         "country": "Colombia",
         "sector": "Education",
         "year": 2023,
         "amount": 2.094709,
+        "amountLabel": "$2.1M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Nigeria",
+        "sector": "Water Supply & Sanitation",
+        "year": 2022,
+        "amount": 2.092531643,
         "amountLabel": "$2.1M"
       },
       {
@@ -13744,7 +13617,7 @@ window.OECD_DATA = {
         "country": "Ghana",
         "sector": "Government & Civil Society",
         "year": 2021,
-        "amount": 2.06930647496,
+        "amount": 2.069306475,
         "amountLabel": "$2.1M"
       },
       {
@@ -13760,15 +13633,15 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Water Supply & Sanitation",
         "year": 2022,
-        "amount": 2.0613339707,
+        "amount": 2.061333971,
         "amountLabel": "$2.1M"
       },
       {
-        "donorCountry": "United States",
-        "country": "Uganda",
+        "donorCountry": "Denmark",
+        "country": "Mexico",
         "sector": "Education",
-        "year": 2021,
-        "amount": 2.05985557644,
+        "year": 2022,
+        "amount": 2.058515,
         "amountLabel": "$2.1M"
       },
       {
@@ -13781,18 +13654,18 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Ukraine",
-        "sector": "Health",
-        "year": 2022,
-        "amount": 2.043554,
+        "country": "China (People's Republic of)",
+        "sector": "Other Multisector",
+        "year": 2023,
+        "amount": 2.0449,
         "amountLabel": "$2.0M"
       },
       {
         "donorCountry": "United States",
-        "country": "Mexico",
+        "country": "Ukraine",
         "sector": "Health",
-        "year": 2023,
-        "amount": 2.0427,
+        "year": 2022,
+        "amount": 2.043554,
         "amountLabel": "$2.0M"
       },
       {
@@ -13809,14 +13682,6 @@ window.OECD_DATA = {
         "sector": "Government & Civil Society",
         "year": 2023,
         "amount": 2.039036,
-        "amountLabel": "$2.0M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "India",
-        "sector": "Emergency Response",
-        "year": 2020,
-        "amount": 2.03510161489,
         "amountLabel": "$2.0M"
       },
       {
@@ -13840,7 +13705,15 @@ window.OECD_DATA = {
         "country": "Ukraine",
         "sector": "Education",
         "year": 2022,
-        "amount": 2.0253057262,
+        "amount": 2.025305726,
+        "amountLabel": "$2.0M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Mexico",
+        "sector": "Health",
+        "year": 2020,
+        "amount": 2.025232109,
         "amountLabel": "$2.0M"
       },
       {
@@ -13896,7 +13769,7 @@ window.OECD_DATA = {
         "country": "Zambia",
         "sector": "Education",
         "year": 2022,
-        "amount": 2.0025074065,
+        "amount": 2.002507407,
         "amountLabel": "$2.0M"
       },
       {
@@ -13904,7 +13777,15 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Education",
         "year": 2022,
-        "amount": 2.0023032193,
+        "amount": 2.002303219,
+        "amountLabel": "$2.0M"
+      },
+      {
+        "donorCountry": "South Africa",
+        "country": "South Africa",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2020,
+        "amount": 1.999668075,
         "amountLabel": "$2.0M"
       },
       {
@@ -13920,7 +13801,7 @@ window.OECD_DATA = {
         "country": "Bangladesh",
         "sector": "Government & Civil Society",
         "year": 2020,
-        "amount": 1.9949562938,
+        "amount": 1.994956294,
         "amountLabel": "$2.0M"
       },
       {
@@ -13968,7 +13849,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Education",
         "year": 2020,
-        "amount": 1.9750658674900001,
+        "amount": 1.975065867,
         "amountLabel": "$2.0M"
       },
       {
@@ -13981,26 +13862,10 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Brazil",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2022,
-        "amount": 1.96914560975,
-        "amountLabel": "$2.0M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Mexico",
-        "sector": "Health",
-        "year": 2020,
-        "amount": 1.96047990849,
-        "amountLabel": "$2.0M"
-      },
-      {
-        "donorCountry": "United States",
         "country": "China (People's Republic of)",
         "sector": "Other Social Infrastructure & Services",
         "year": 2020,
-        "amount": 1.9578949173,
+        "amount": 1.957894918,
         "amountLabel": "$2.0M"
       },
       {
@@ -14024,7 +13889,7 @@ window.OECD_DATA = {
         "country": "Malawi",
         "sector": "Education",
         "year": 2023,
-        "amount": 1.9409168571,
+        "amount": 1.940916857,
         "amountLabel": "$1.9M"
       },
       {
@@ -14036,22 +13901,6 @@ window.OECD_DATA = {
         "amountLabel": "$1.9M"
       },
       {
-        "donorCountry": "Colombia",
-        "country": "Colombia",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2023,
-        "amount": 1.9383666491,
-        "amountLabel": "$1.9M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "India",
-        "sector": "Unspecified",
-        "year": 2020,
-        "amount": 1.93653736608,
-        "amountLabel": "$1.9M"
-      },
-      {
         "donorCountry": "Canada",
         "country": "Rwanda",
         "sector": "Banking & Financial Services",
@@ -14060,11 +13909,27 @@ window.OECD_DATA = {
         "amountLabel": "$1.9M"
       },
       {
+        "donorCountry": "United Kingdom",
+        "country": "Uganda",
+        "sector": "Health",
+        "year": 2020,
+        "amount": 1.926606709,
+        "amountLabel": "$1.9M"
+      },
+      {
         "donorCountry": "Canada",
         "country": "Ghana",
         "sector": "Business & Other Services",
         "year": 2023,
         "amount": 1.92476,
+        "amountLabel": "$1.9M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Mexico",
+        "sector": "Disaster Prevention & Preparedness",
+        "year": 2023,
+        "amount": 1.923457,
         "amountLabel": "$1.9M"
       },
       {
@@ -14085,14 +13950,6 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Uganda",
-        "sector": "Unspecified",
-        "year": 2022,
-        "amount": 1.9088826908549998,
-        "amountLabel": "$1.9M"
-      },
-      {
-        "donorCountry": "United States",
         "country": "China (People's Republic of)",
         "sector": "Transport & Storage",
         "year": 2021,
@@ -14100,11 +13957,11 @@ window.OECD_DATA = {
         "amountLabel": "$1.9M"
       },
       {
-        "donorCountry": "South Africa",
+        "donorCountry": "United States",
         "country": "South Africa",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 1.9050783721000002,
+        "sector": "Water Supply & Sanitation",
+        "year": 2022,
+        "amount": 1.907265282,
         "amountLabel": "$1.9M"
       },
       {
@@ -14120,15 +13977,23 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Energy",
         "year": 2022,
-        "amount": 1.9001244192,
+        "amount": 1.900124419,
         "amountLabel": "$1.9M"
       },
       {
         "donorCountry": "United States",
         "country": "South Africa",
-        "sector": "Water Supply & Sanitation",
+        "sector": "Other Social Infrastructure & Services",
         "year": 2022,
-        "amount": 1.89685364065,
+        "amount": 1.900052504,
+        "amountLabel": "$1.9M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Nigeria",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2021,
+        "amount": 1.899938475,
         "amountLabel": "$1.9M"
       },
       {
@@ -14144,7 +14009,7 @@ window.OECD_DATA = {
         "country": "Ukraine",
         "sector": "Government & Civil Society",
         "year": 2021,
-        "amount": 1.89594458318,
+        "amount": 1.895944584,
         "amountLabel": "$1.9M"
       },
       {
@@ -14152,7 +14017,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Other Social Infrastructure & Services",
         "year": 2021,
-        "amount": 1.8941099499,
+        "amount": 1.89410995,
         "amountLabel": "$1.9M"
       },
       {
@@ -14180,14 +14045,6 @@ window.OECD_DATA = {
         "amountLabel": "$1.9M"
       },
       {
-        "donorCountry": "United States",
-        "country": "Uganda",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2022,
-        "amount": 1.889269217956,
-        "amountLabel": "$1.9M"
-      },
-      {
         "donorCountry": "Switzerland",
         "country": "Brazil",
         "sector": "Business & Other Services",
@@ -14197,7 +14054,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Mexico",
+        "country": "Colombia",
         "sector": "Business & Other Services",
         "year": 2021,
         "amount": 1.886613,
@@ -14205,7 +14062,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Colombia",
+        "country": "Mexico",
         "sector": "Business & Other Services",
         "year": 2021,
         "amount": 1.886613,
@@ -14225,14 +14082,6 @@ window.OECD_DATA = {
         "sector": "Education",
         "year": 2020,
         "amount": 1.881814,
-        "amountLabel": "$1.9M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Nigeria",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2022,
-        "amount": 1.869597,
         "amountLabel": "$1.9M"
       },
       {
@@ -14268,14 +14117,6 @@ window.OECD_DATA = {
         "amountLabel": "$1.8M"
       },
       {
-        "donorCountry": "United States",
-        "country": "Tanzania",
-        "sector": "Unspecified",
-        "year": 2022,
-        "amount": 1.849627961548,
-        "amountLabel": "$1.8M"
-      },
-      {
         "donorCountry": "United Kingdom",
         "country": "Ghana",
         "sector": "Population Policies/Programmes & Reproductive Health",
@@ -14296,7 +14137,7 @@ window.OECD_DATA = {
         "country": "Ghana",
         "sector": "Education",
         "year": 2020,
-        "amount": 1.8455335186,
+        "amount": 1.845533519,
         "amountLabel": "$1.8M"
       },
       {
@@ -14352,7 +14193,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Health",
         "year": 2021,
-        "amount": 1.8217717997,
+        "amount": 1.821771799,
         "amountLabel": "$1.8M"
       },
       {
@@ -14376,23 +14217,7 @@ window.OECD_DATA = {
         "country": "Malawi",
         "sector": "Government & Civil Society",
         "year": 2020,
-        "amount": 1.81710708045,
-        "amountLabel": "$1.8M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Nigeria",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2021,
-        "amount": 1.815602,
-        "amountLabel": "$1.8M"
-      },
-      {
-        "donorCountry": "South Africa",
-        "country": "South Africa",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2020,
-        "amount": 1.80873684546,
+        "amount": 1.817107081,
         "amountLabel": "$1.8M"
       },
       {
@@ -14408,7 +14233,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Health",
         "year": 2023,
-        "amount": 1.805975201829,
+        "amount": 1.805975201,
         "amountLabel": "$1.8M"
       },
       {
@@ -14428,11 +14253,11 @@ window.OECD_DATA = {
         "amountLabel": "$1.8M"
       },
       {
-        "donorCountry": "United States",
+        "donorCountry": "China (People's Republic of)",
         "country": "China (People's Republic of)",
-        "sector": "Other Multisector",
-        "year": 2023,
-        "amount": 1.7949000000000002,
+        "sector": "Banking & Financial Services",
+        "year": 2022,
+        "amount": 1.800033749,
         "amountLabel": "$1.8M"
       },
       {
@@ -14454,7 +14279,7 @@ window.OECD_DATA = {
       {
         "donorCountry": "Qatar",
         "country": "Ethiopia",
-        "sector": "Unspecified",
+        "sector": "Education",
         "year": 2022,
         "amount": 1.784151236,
         "amountLabel": "$1.8M"
@@ -14488,7 +14313,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Transport & Storage",
         "year": 2020,
-        "amount": 1.7748010382000001,
+        "amount": 1.774801038,
         "amountLabel": "$1.8M"
       },
       {
@@ -14497,6 +14322,14 @@ window.OECD_DATA = {
         "sector": "General Environment Protection",
         "year": 2023,
         "amount": 1.766667,
+        "amountLabel": "$1.8M"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Administrative Costs of Donors",
+        "year": 2023,
+        "amount": 1.764792573,
         "amountLabel": "$1.8M"
       },
       {
@@ -14544,7 +14377,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Other Multisector",
         "year": 2022,
-        "amount": 1.74956337708,
+        "amount": 1.749563377,
         "amountLabel": "$1.7M"
       },
       {
@@ -14565,18 +14398,10 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Nigeria",
-        "sector": "Unallocated / Unspecified",
-        "year": 2021,
-        "amount": 1.731177499,
-        "amountLabel": "$1.7M"
-      },
-      {
-        "donorCountry": "United States",
         "country": "South Africa",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2020,
-        "amount": 1.7256304395600002,
+        "amount": 1.7256304400000002,
         "amountLabel": "$1.7M"
       },
       {
@@ -14588,19 +14413,11 @@ window.OECD_DATA = {
         "amountLabel": "$1.7M"
       },
       {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Administrative Costs of Donors",
-        "year": 2023,
-        "amount": 1.72178036571,
-        "amountLabel": "$1.7M"
-      },
-      {
         "donorCountry": "Belgium",
         "country": "Rwanda",
         "sector": "Education",
         "year": 2022,
-        "amount": 1.71416269378,
+        "amount": 1.714162694,
         "amountLabel": "$1.7M"
       },
       {
@@ -14616,15 +14433,7 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Education",
         "year": 2020,
-        "amount": 1.70732894942,
-        "amountLabel": "$1.7M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "India",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 1.7045350000000001,
+        "amount": 1.7073289489999999,
         "amountLabel": "$1.7M"
       },
       {
@@ -14640,15 +14449,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Communications",
         "year": 2021,
-        "amount": 1.7035967939899999,
-        "amountLabel": "$1.7M"
-      },
-      {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Banking & Financial Services",
-        "year": 2022,
-        "amount": 1.7020279563490002,
+        "amount": 1.7035967939999999,
         "amountLabel": "$1.7M"
       },
       {
@@ -14672,7 +14473,7 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Other Social Infrastructure & Services",
         "year": 2022,
-        "amount": 1.6900664921000002,
+        "amount": 1.690066493,
         "amountLabel": "$1.7M"
       },
       {
@@ -14756,14 +14557,6 @@ window.OECD_DATA = {
         "amountLabel": "$1.7M"
       },
       {
-        "donorCountry": "United States",
-        "country": "Kenya",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 1.66136,
-        "amountLabel": "$1.7M"
-      },
-      {
         "donorCountry": "Netherlands",
         "country": "Uganda",
         "sector": "Energy",
@@ -14784,7 +14577,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Business & Other Services",
         "year": 2021,
-        "amount": 1.6410625832,
+        "amount": 1.641062583,
         "amountLabel": "$1.6M"
       },
       {
@@ -14800,7 +14593,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Health",
         "year": 2022,
-        "amount": 1.63686449824365,
+        "amount": 1.6368644982,
         "amountLabel": "$1.6M"
       },
       {
@@ -14889,14 +14682,6 @@ window.OECD_DATA = {
         "sector": "Other Social Infrastructure & Services",
         "year": 2023,
         "amount": 1.588385,
-        "amountLabel": "$1.6M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Mexico",
-        "sector": "Other Multisector",
-        "year": 2020,
-        "amount": 1.58057036669,
         "amountLabel": "$1.6M"
       },
       {
@@ -15004,11 +14789,11 @@ window.OECD_DATA = {
         "amountLabel": "$1.6M"
       },
       {
-        "donorCountry": "United States",
-        "country": "Mexico",
-        "sector": "Industry, Mining, Construction",
+        "donorCountry": "Nigeria",
+        "country": "Nigeria",
+        "sector": "Health",
         "year": 2020,
-        "amount": 1.543660676,
+        "amount": 1.539250615,
         "amountLabel": "$1.5M"
       },
       {
@@ -15020,27 +14805,11 @@ window.OECD_DATA = {
         "amountLabel": "$1.5M"
       },
       {
-        "donorCountry": "Belgium",
-        "country": "India",
-        "sector": "Health",
-        "year": 2021,
-        "amount": 1.536336226235,
-        "amountLabel": "$1.5M"
-      },
-      {
         "donorCountry": "South Africa",
         "country": "South Africa",
         "sector": "Other Multisector",
         "year": 2023,
-        "amount": 1.52881612642,
-        "amountLabel": "$1.5M"
-      },
-      {
-        "donorCountry": "Nigeria",
-        "country": "Nigeria",
-        "sector": "Health",
-        "year": 2020,
-        "amount": 1.527697819474,
+        "amount": 1.5288161260000002,
         "amountLabel": "$1.5M"
       },
       {
@@ -15056,7 +14825,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Government & Civil Society",
         "year": 2021,
-        "amount": 1.5164076388799,
+        "amount": 1.5164076389999999,
         "amountLabel": "$1.5M"
       },
       {
@@ -15072,7 +14841,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Other Multisector",
         "year": 2021,
-        "amount": 1.5089846254800001,
+        "amount": 1.508984625,
         "amountLabel": "$1.5M"
       },
       {
@@ -15088,7 +14857,7 @@ window.OECD_DATA = {
         "country": "Ghana",
         "sector": "Other Social Infrastructure & Services",
         "year": 2022,
-        "amount": 1.5034266098,
+        "amount": 1.50342661,
         "amountLabel": "$1.5M"
       },
       {
@@ -15140,11 +14909,19 @@ window.OECD_DATA = {
         "amountLabel": "$1.5M"
       },
       {
+        "donorCountry": "Belgium",
+        "country": "Democratic Republic of the Congo",
+        "sector": "Education",
+        "year": 2021,
+        "amount": 1.4911142450000001,
+        "amountLabel": "$1.5M"
+      },
+      {
         "donorCountry": "South Africa",
         "country": "South Africa",
         "sector": "Other Social Infrastructure & Services",
         "year": 2023,
-        "amount": 1.4910762698899998,
+        "amount": 1.4910762700000002,
         "amountLabel": "$1.5M"
       },
       {
@@ -15152,7 +14929,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Communications",
         "year": 2022,
-        "amount": 1.4898572717461,
+        "amount": 1.489857271,
         "amountLabel": "$1.5M"
       },
       {
@@ -15188,11 +14965,11 @@ window.OECD_DATA = {
         "amountLabel": "$1.5M"
       },
       {
-        "donorCountry": "Belgium",
-        "country": "Democratic Republic of the Congo",
-        "sector": "Education",
-        "year": 2021,
-        "amount": 1.4784852290529,
+        "donorCountry": "United States",
+        "country": "Tanzania",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2020,
+        "amount": 1.476943969,
         "amountLabel": "$1.5M"
       },
       {
@@ -15210,22 +14987,6 @@ window.OECD_DATA = {
         "year": 2023,
         "amount": 1.4665,
         "amountLabel": "$1.5M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Tanzania",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2020,
-        "amount": 1.45634099603,
-        "amountLabel": "$1.5M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "China (People's Republic of)",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 1.45,
-        "amountLabel": "$1.4M"
       },
       {
         "donorCountry": "Netherlands",
@@ -15268,11 +15029,19 @@ window.OECD_DATA = {
         "amountLabel": "$1.4M"
       },
       {
+        "donorCountry": "Belgium",
+        "country": "India",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2021,
+        "amount": 1.4295616839999998,
+        "amountLabel": "$1.4M"
+      },
+      {
         "donorCountry": "Qatar",
         "country": "Malawi",
         "sector": "Education",
         "year": 2022,
-        "amount": 1.4259185109,
+        "amount": 1.425918511,
         "amountLabel": "$1.4M"
       },
       {
@@ -15332,19 +15101,11 @@ window.OECD_DATA = {
         "amountLabel": "$1.4M"
       },
       {
-        "donorCountry": "United States",
-        "country": "Nigeria",
-        "sector": "Water Supply & Sanitation",
-        "year": 2022,
-        "amount": 1.415775,
-        "amountLabel": "$1.4M"
-      },
-      {
         "donorCountry": "United Kingdom",
         "country": "Ukraine",
         "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 1.4115859354,
+        "amount": 1.411585935,
         "amountLabel": "$1.4M"
       },
       {
@@ -15404,6 +15165,14 @@ window.OECD_DATA = {
         "amountLabel": "$1.4M"
       },
       {
+        "donorCountry": "United States",
+        "country": "Uganda",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2023,
+        "amount": 1.39995,
+        "amountLabel": "$1.4M"
+      },
+      {
         "donorCountry": "Japan",
         "country": "Uganda",
         "sector": "Agriculture, Forestry, Fishing",
@@ -15440,7 +15209,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Government & Civil Society",
         "year": 2020,
-        "amount": 1.38609204657,
+        "amount": 1.386092047,
         "amountLabel": "$1.4M"
       },
       {
@@ -15516,8 +15285,24 @@ window.OECD_DATA = {
         "amountLabel": "$1.4M"
       },
       {
+        "donorCountry": "Belgium",
+        "country": "Democratic Republic of the Congo",
+        "sector": "Education",
+        "year": 2020,
+        "amount": 1.353921066,
+        "amountLabel": "$1.4M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Brazil",
+        "sector": "General Budget Support",
+        "year": 2022,
+        "amount": 1.353513285,
+        "amountLabel": "$1.4M"
+      },
+      {
         "donorCountry": "Qatar",
-        "country": "Uganda",
+        "country": "Malawi",
         "sector": "Health",
         "year": 2021,
         "amount": 1.3527875,
@@ -15525,7 +15310,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Qatar",
-        "country": "Malawi",
+        "country": "Mexico",
         "sector": "Health",
         "year": 2021,
         "amount": 1.3527875,
@@ -15549,14 +15334,6 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Qatar",
-        "country": "Mexico",
-        "sector": "Health",
-        "year": 2021,
-        "amount": 1.3527875,
-        "amountLabel": "$1.4M"
-      },
-      {
-        "donorCountry": "Qatar",
         "country": "Kenya",
         "sector": "Health",
         "year": 2021,
@@ -15564,20 +15341,12 @@ window.OECD_DATA = {
         "amountLabel": "$1.4M"
       },
       {
-        "donorCountry": "Belgium",
-        "country": "Democratic Republic of the Congo",
-        "sector": "Education",
-        "year": 2020,
-        "amount": 1.34873866123,
-        "amountLabel": "$1.3M"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Rwanda",
-        "sector": "Unspecified",
+        "donorCountry": "Qatar",
+        "country": "Uganda",
+        "sector": "Health",
         "year": 2021,
-        "amount": 1.3477938559,
-        "amountLabel": "$1.3M"
+        "amount": 1.3527875,
+        "amountLabel": "$1.4M"
       },
       {
         "donorCountry": "Switzerland",
@@ -15604,14 +15373,6 @@ window.OECD_DATA = {
         "amountLabel": "$1.3M"
       },
       {
-        "donorCountry": "United States",
-        "country": "Nigeria",
-        "sector": "Unspecified",
-        "year": 2022,
-        "amount": 1.34362222594,
-        "amountLabel": "$1.3M"
-      },
-      {
         "donorCountry": "Switzerland",
         "country": "Indonesia",
         "sector": "Health",
@@ -15633,14 +15394,6 @@ window.OECD_DATA = {
         "sector": "Energy",
         "year": 2020,
         "amount": 1.320766,
-        "amountLabel": "$1.3M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Uganda",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2023,
-        "amount": 1.31995,
         "amountLabel": "$1.3M"
       },
       {
@@ -15680,7 +15433,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Emergency Response",
         "year": 2022,
-        "amount": 1.3069458602,
+        "amount": 1.30694586,
         "amountLabel": "$1.3M"
       },
       {
@@ -15708,19 +15461,19 @@ window.OECD_DATA = {
         "amountLabel": "$1.3M"
       },
       {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "General Budget Support",
+        "year": 2021,
+        "amount": 1.280596341,
+        "amountLabel": "$1.3M"
+      },
+      {
         "donorCountry": "United Kingdom",
         "country": "Kenya",
         "sector": "Education",
         "year": 2021,
         "amount": 1.28006,
-        "amountLabel": "$1.3M"
-      },
-      {
-        "donorCountry": "South Africa",
-        "country": "South Africa",
-        "sector": "Unspecified",
-        "year": 2020,
-        "amount": 1.2791224632,
         "amountLabel": "$1.3M"
       },
       {
@@ -15764,11 +15517,11 @@ window.OECD_DATA = {
         "amountLabel": "$1.3M"
       },
       {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "General Budget Support",
-        "year": 2021,
-        "amount": 1.266288002,
+        "donorCountry": "United States",
+        "country": "Tanzania",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2022,
+        "amount": 1.269440159,
         "amountLabel": "$1.3M"
       },
       {
@@ -15776,7 +15529,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2022,
-        "amount": 1.26605775241,
+        "amount": 1.266057752,
         "amountLabel": "$1.3M"
       },
       {
@@ -15784,7 +15537,7 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Education",
         "year": 2021,
-        "amount": 1.263318478286,
+        "amount": 1.263318478,
         "amountLabel": "$1.3M"
       },
       {
@@ -15829,10 +15582,18 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
+        "country": "Kenya",
+        "sector": "General Budget Support",
+        "year": 2021,
+        "amount": 1.247617587,
+        "amountLabel": "$1.2M"
+      },
+      {
+        "donorCountry": "United States",
         "country": "Malawi",
         "sector": "Other Social Infrastructure & Services",
         "year": 2022,
-        "amount": 1.24732441696,
+        "amount": 1.247324417,
         "amountLabel": "$1.2M"
       },
       {
@@ -15877,10 +15638,18 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "China (People's Republic of)",
-        "sector": "Unspecified",
-        "year": 2022,
-        "amount": 1.2285735969,
+        "country": "South Africa",
+        "sector": "General Environment Protection",
+        "year": 2023,
+        "amount": 1.230833,
+        "amountLabel": "$1.2M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Mexico",
+        "sector": "Water Supply & Sanitation",
+        "year": 2020,
+        "amount": 1.228862809,
         "amountLabel": "$1.2M"
       },
       {
@@ -15889,14 +15658,6 @@ window.OECD_DATA = {
         "sector": "General Environment Protection",
         "year": 2022,
         "amount": 1.228322,
-        "amountLabel": "$1.2M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Brazil",
-        "sector": "Unspecified",
-        "year": 2021,
-        "amount": 1.2279390754900001,
         "amountLabel": "$1.2M"
       },
       {
@@ -15960,7 +15721,15 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Other Social Infrastructure & Services",
         "year": 2021,
-        "amount": 1.2055975331,
+        "amount": 1.205597533,
+        "amountLabel": "$1.2M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Malawi",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2020,
+        "amount": 1.20455984,
         "amountLabel": "$1.2M"
       },
       {
@@ -15977,14 +15746,6 @@ window.OECD_DATA = {
         "sector": "Other Social Infrastructure & Services",
         "year": 2021,
         "amount": 1.202865,
-        "amountLabel": "$1.2M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Mexico",
-        "sector": "Water Supply & Sanitation",
-        "year": 2022,
-        "amount": 1.2028517371,
         "amountLabel": "$1.2M"
       },
       {
@@ -16009,14 +15770,6 @@ window.OECD_DATA = {
         "sector": "Water Supply & Sanitation",
         "year": 2023,
         "amount": 1.195402,
-        "amountLabel": "$1.2M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Malawi",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2020,
-        "amount": 1.192786712372,
         "amountLabel": "$1.2M"
       },
       {
@@ -16046,14 +15799,6 @@ window.OECD_DATA = {
       {
         "donorCountry": "United States",
         "country": "South Africa",
-        "sector": "General Environment Protection",
-        "year": 2023,
-        "amount": 1.185833,
-        "amountLabel": "$1.2M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "South Africa",
         "sector": "Business & Other Services",
         "year": 2020,
         "amount": 1.185056,
@@ -16072,7 +15817,7 @@ window.OECD_DATA = {
         "country": "Malawi",
         "sector": "Government & Civil Society",
         "year": 2021,
-        "amount": 1.183390623424,
+        "amount": 1.183390621,
         "amountLabel": "$1.2M"
       },
       {
@@ -16085,10 +15830,18 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
+        "country": "Kenya",
+        "sector": "Emergency Response",
+        "year": 2022,
+        "amount": 1.1773220660000001,
+        "amountLabel": "$1.2M"
+      },
+      {
+        "donorCountry": "United States",
         "country": "Malawi",
         "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 1.174098348506,
+        "amount": 1.174098347,
         "amountLabel": "$1.2M"
       },
       {
@@ -16096,7 +15849,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2021,
-        "amount": 1.17106369648,
+        "amount": 1.171063696,
         "amountLabel": "$1.2M"
       },
       {
@@ -16120,7 +15873,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Education",
         "year": 2022,
-        "amount": 1.1661266584,
+        "amount": 1.166126658,
         "amountLabel": "$1.2M"
       },
       {
@@ -16128,7 +15881,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Emergency Response",
         "year": 2022,
-        "amount": 1.16554521948,
+        "amount": 1.16554522,
         "amountLabel": "$1.2M"
       },
       {
@@ -16136,21 +15889,21 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Unallocated / Unspecified",
         "year": 2020,
-        "amount": 1.1630321118940001,
-        "amountLabel": "$1.2M"
-      },
-      {
-        "donorCountry": "Netherlands",
-        "country": "Uganda",
-        "sector": "Health",
-        "year": 2022,
-        "amount": 1.160772,
+        "amount": 1.163032112,
         "amountLabel": "$1.2M"
       },
       {
         "donorCountry": "Netherlands",
         "country": "India",
         "sector": "Water Supply & Sanitation",
+        "year": 2022,
+        "amount": 1.160772,
+        "amountLabel": "$1.2M"
+      },
+      {
+        "donorCountry": "Netherlands",
+        "country": "Uganda",
+        "sector": "Health",
         "year": 2022,
         "amount": 1.160772,
         "amountLabel": "$1.2M"
@@ -16221,18 +15974,18 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "South Africa",
-        "sector": "Unspecified",
-        "year": 2021,
-        "amount": 1.14804432148,
-        "amountLabel": "$1.1M"
-      },
-      {
-        "donorCountry": "United States",
         "country": "Bangladesh",
         "sector": "Government & Civil Society",
         "year": 2022,
         "amount": 1.147985,
+        "amountLabel": "$1.1M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Uganda",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2021,
+        "amount": 1.145205133,
         "amountLabel": "$1.1M"
       },
       {
@@ -16253,16 +16006,16 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Mexico",
-        "sector": "Unspecified",
+        "country": "Kenya",
+        "sector": "General Budget Support",
         "year": 2023,
-        "amount": 1.136895,
+        "amount": 1.138,
         "amountLabel": "$1.1M"
       },
       {
         "donorCountry": "Qatar",
         "country": "Ethiopia",
-        "sector": "Unspecified",
+        "sector": "Education",
         "year": 2023,
         "amount": 1.136699,
         "amountLabel": "$1.1M"
@@ -16273,6 +16026,14 @@ window.OECD_DATA = {
         "sector": "General Environment Protection",
         "year": 2022,
         "amount": 1.1353710000000001,
+        "amountLabel": "$1.1M"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Mexico",
+        "sector": "General Budget Support",
+        "year": 2023,
+        "amount": 1.135,
         "amountLabel": "$1.1M"
       },
       {
@@ -16293,10 +16054,10 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Tanzania",
-        "sector": "Other Social Infrastructure & Services",
+        "country": "Brazil",
+        "sector": "Education",
         "year": 2022,
-        "amount": 1.12888300959,
+        "amount": 1.1289163,
         "amountLabel": "$1.1M"
       },
       {
@@ -16325,10 +16086,18 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
+        "country": "Tanzania",
+        "sector": "General Budget Support",
+        "year": 2022,
+        "amount": 1.119251371,
+        "amountLabel": "$1.1M"
+      },
+      {
+        "donorCountry": "United States",
         "country": "Mexico",
-        "sector": "Water Supply & Sanitation",
-        "year": 2021,
-        "amount": 1.1233134936,
+        "sector": "Other Multisector",
+        "year": 2023,
+        "amount": 1.116,
         "amountLabel": "$1.1M"
       },
       {
@@ -16372,6 +16141,14 @@ window.OECD_DATA = {
         "amountLabel": "$1.1M"
       },
       {
+        "donorCountry": "United States",
+        "country": "Kenya",
+        "sector": "Unallocated / Unspecified",
+        "year": 2022,
+        "amount": 1.106976046,
+        "amountLabel": "$1.1M"
+      },
+      {
         "donorCountry": "United Kingdom",
         "country": "Malawi",
         "sector": "Population Policies/Programmes & Reproductive Health",
@@ -16384,7 +16161,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Communications",
         "year": 2023,
-        "amount": 1.10589134649,
+        "amount": 1.105891347,
         "amountLabel": "$1.1M"
       },
       {
@@ -16400,23 +16177,15 @@ window.OECD_DATA = {
         "country": "Zambia",
         "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 1.1045651724,
+        "amount": 1.104565172,
         "amountLabel": "$1.1M"
       },
       {
         "donorCountry": "United States",
-        "country": "Kenya",
-        "sector": "Emergency Response",
+        "country": "Colombia",
+        "sector": "Other Social Infrastructure & Services",
         "year": 2022,
-        "amount": 1.10444058081,
-        "amountLabel": "$1.1M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Brazil",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 1.1025,
+        "amount": 1.102180345,
         "amountLabel": "$1.1M"
       },
       {
@@ -16445,14 +16214,6 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Qatar",
-        "country": "Pakistan",
-        "sector": "Health",
-        "year": 2022,
-        "amount": 1.097997939,
-        "amountLabel": "$1.1M"
-      },
-      {
-        "donorCountry": "Qatar",
         "country": "Mexico",
         "sector": "Health",
         "year": 2022,
@@ -16461,7 +16222,15 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Qatar",
-        "country": "Malawi",
+        "country": "Pakistan",
+        "sector": "Health",
+        "year": 2022,
+        "amount": 1.097997939,
+        "amountLabel": "$1.1M"
+      },
+      {
+        "donorCountry": "Qatar",
+        "country": "Uganda",
         "sector": "Health",
         "year": 2022,
         "amount": 1.097997939,
@@ -16485,7 +16254,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Qatar",
-        "country": "Uganda",
+        "country": "Malawi",
         "sector": "Health",
         "year": 2022,
         "amount": 1.097997939,
@@ -16508,14 +16277,6 @@ window.OECD_DATA = {
         "amountLabel": "$1.1M"
       },
       {
-        "donorCountry": "United States",
-        "country": "Uganda",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2021,
-        "amount": 1.088980817016,
-        "amountLabel": "$1.1M"
-      },
-      {
         "donorCountry": "Netherlands",
         "country": "Tanzania",
         "sector": "Energy",
@@ -16532,6 +16293,14 @@ window.OECD_DATA = {
         "amountLabel": "$1.1M"
       },
       {
+        "donorCountry": "United States",
+        "country": "Malawi",
+        "sector": "Education",
+        "year": 2021,
+        "amount": 1.083875368,
+        "amountLabel": "$1.1M"
+      },
+      {
         "donorCountry": "Switzerland",
         "country": "Uganda",
         "sector": "Health",
@@ -16540,17 +16309,17 @@ window.OECD_DATA = {
         "amountLabel": "$1.1M"
       },
       {
-        "donorCountry": "Spain",
-        "country": "Ethiopia",
-        "sector": "Population Policies/Programmes & Reproductive Health",
+        "donorCountry": "Denmark",
+        "country": "China (People's Republic of)",
+        "sector": "Health",
         "year": 2023,
         "amount": 1.081315,
         "amountLabel": "$1.1M"
       },
       {
-        "donorCountry": "Denmark",
-        "country": "China (People's Republic of)",
-        "sector": "Health",
+        "donorCountry": "Spain",
+        "country": "Ethiopia",
+        "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2023,
         "amount": 1.081315,
         "amountLabel": "$1.1M"
@@ -16608,7 +16377,7 @@ window.OECD_DATA = {
         "country": "Peru",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2022,
-        "amount": 1.07311386406,
+        "amount": 1.073113864,
         "amountLabel": "$1.1M"
       },
       {
@@ -16616,7 +16385,7 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Other Multisector",
         "year": 2022,
-        "amount": 1.072945324308,
+        "amount": 1.072945324,
         "amountLabel": "$1.1M"
       },
       {
@@ -16625,14 +16394,6 @@ window.OECD_DATA = {
         "sector": "Education",
         "year": 2020,
         "amount": 1.070405,
-        "amountLabel": "$1.1M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Mexico",
-        "sector": "Other Multisector",
-        "year": 2023,
-        "amount": 1.066,
         "amountLabel": "$1.1M"
       },
       {
@@ -16664,7 +16425,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2020,
-        "amount": 1.0551845478,
+        "amount": 1.055184548,
         "amountLabel": "$1.1M"
       },
       {
@@ -16700,19 +16461,19 @@ window.OECD_DATA = {
         "amountLabel": "$1.0M"
       },
       {
+        "donorCountry": "United States",
+        "country": "Kenya",
+        "sector": "General Budget Support",
+        "year": 2022,
+        "amount": 1.047931631,
+        "amountLabel": "$1.0M"
+      },
+      {
         "donorCountry": "Canada",
         "country": "Ethiopia",
         "sector": "Other Multisector",
         "year": 2022,
         "amount": 1.047857,
-        "amountLabel": "$1.0M"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Malawi",
-        "sector": "Education",
-        "year": 2021,
-        "amount": 1.04676731948,
         "amountLabel": "$1.0M"
       },
       {
@@ -16768,7 +16529,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Water Supply & Sanitation",
         "year": 2021,
-        "amount": 1.0371633037,
+        "amount": 1.0371633040000001,
         "amountLabel": "$1.0M"
       },
       {
@@ -16784,7 +16545,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Business & Other Services",
         "year": 2020,
-        "amount": 1.0324893425000001,
+        "amount": 1.032489343,
         "amountLabel": "$1.0M"
       },
       {
@@ -16792,7 +16553,7 @@ window.OECD_DATA = {
         "country": "Peru",
         "sector": "Health",
         "year": 2021,
-        "amount": 1.0319259499,
+        "amount": 1.03192595,
         "amountLabel": "$1.0M"
       },
       {
@@ -16820,11 +16581,11 @@ window.OECD_DATA = {
         "amountLabel": "$1.0M"
       },
       {
-        "donorCountry": "United Kingdom",
-        "country": "Uganda",
-        "sector": "Health",
-        "year": 2020,
-        "amount": 1.024246,
+        "donorCountry": "United States",
+        "country": "South Africa",
+        "sector": "General Budget Support",
+        "year": 2021,
+        "amount": 1.023282563,
         "amountLabel": "$1.0M"
       },
       {
@@ -16832,7 +16593,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Other Social Infrastructure & Services",
         "year": 2021,
-        "amount": 1.02325524491,
+        "amount": 1.023255245,
         "amountLabel": "$1.0M"
       },
       {
@@ -16848,7 +16609,7 @@ window.OECD_DATA = {
         "country": "Ghana",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2020,
-        "amount": 1.0218318217,
+        "amount": 1.021831822,
         "amountLabel": "$1.0M"
       },
       {
@@ -16880,7 +16641,7 @@ window.OECD_DATA = {
         "country": "Indonesia",
         "sector": "Other Social Infrastructure & Services",
         "year": 2020,
-        "amount": 1.0129761848,
+        "amount": 1.012976185,
         "amountLabel": "$1.0M"
       },
       {
@@ -16888,7 +16649,7 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Other Multisector",
         "year": 2022,
-        "amount": 1.0107393087,
+        "amount": 1.010739309,
         "amountLabel": "$1.0M"
       },
       {
@@ -16920,13 +16681,13 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Emergency Response",
         "year": 2021,
-        "amount": 1.0010559499,
+        "amount": 1.00105595,
         "amountLabel": "$1.0M"
       },
       {
         "donorCountry": "Qatar",
         "country": "Ethiopia",
-        "sector": "Unspecified",
+        "sector": "Education",
         "year": 2021,
         "amount": 1.000996368,
         "amountLabel": "$1.0M"
@@ -16972,6 +16733,14 @@ window.OECD_DATA = {
         "amountLabel": "$994K"
       },
       {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "General Budget Support",
+        "year": 2023,
+        "amount": 0.993614025,
+        "amountLabel": "$994K"
+      },
+      {
         "donorCountry": "Netherlands",
         "country": "Tanzania",
         "sector": "Agriculture, Forestry, Fishing",
@@ -16984,15 +16753,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Health",
         "year": 2020,
-        "amount": 0.9933501427,
-        "amountLabel": "$993K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Colombia",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2022,
-        "amount": 0.9928581179,
+        "amount": 0.993350143,
         "amountLabel": "$993K"
       },
       {
@@ -17032,7 +16793,7 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Energy",
         "year": 2021,
-        "amount": 0.9783031095,
+        "amount": 0.9783031099999999,
         "amountLabel": "$978K"
       },
       {
@@ -17064,7 +16825,7 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Water Supply & Sanitation",
         "year": 2022,
-        "amount": 0.97563760975,
+        "amount": 0.975637611,
         "amountLabel": "$976K"
       },
       {
@@ -17084,6 +16845,14 @@ window.OECD_DATA = {
         "amountLabel": "$974K"
       },
       {
+        "donorCountry": "Belgium",
+        "country": "Rwanda",
+        "sector": "Unallocated / Unspecified",
+        "year": 2021,
+        "amount": 0.97243424,
+        "amountLabel": "$972K"
+      },
+      {
         "donorCountry": "United Kingdom",
         "country": "Bangladesh",
         "sector": "Health",
@@ -17096,7 +16865,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "General Environment Protection",
         "year": 2022,
-        "amount": 0.9693478439000001,
+        "amount": 0.9693478440000001,
         "amountLabel": "$969K"
       },
       {
@@ -17106,6 +16875,14 @@ window.OECD_DATA = {
         "year": 2022,
         "amount": 0.965178,
         "amountLabel": "$965K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Democratic Republic of the Congo",
+        "sector": "Education",
+        "year": 2023,
+        "amount": 0.963418531,
+        "amountLabel": "$963K"
       },
       {
         "donorCountry": "United Kingdom",
@@ -17120,8 +16897,16 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Emergency Response",
         "year": 2022,
-        "amount": 0.9591917114,
+        "amount": 0.959191711,
         "amountLabel": "$959K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Democratic Republic of the Congo",
+        "sector": "Health",
+        "year": 2021,
+        "amount": 0.95463743,
+        "amountLabel": "$955K"
       },
       {
         "donorCountry": "Switzerland",
@@ -17136,8 +16921,24 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Business & Other Services",
         "year": 2021,
-        "amount": 0.9533457442,
+        "amount": 0.9533457439999999,
         "amountLabel": "$953K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Kenya",
+        "sector": "Other Multisector",
+        "year": 2021,
+        "amount": 0.951788771,
+        "amountLabel": "$952K"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "General Budget Support",
+        "year": 2020,
+        "amount": 0.949814698,
+        "amountLabel": "$950K"
       },
       {
         "donorCountry": "Netherlands",
@@ -17156,14 +16957,6 @@ window.OECD_DATA = {
         "amountLabel": "$948K"
       },
       {
-        "donorCountry": "Belgium",
-        "country": "Democratic Republic of the Congo",
-        "sector": "Education",
-        "year": 2023,
-        "amount": 0.946576111917,
-        "amountLabel": "$947K"
-      },
-      {
         "donorCountry": "United Kingdom",
         "country": "Pakistan",
         "sector": "Health",
@@ -17172,12 +16965,12 @@ window.OECD_DATA = {
         "amountLabel": "$946K"
       },
       {
-        "donorCountry": "South Africa",
-        "country": "South Africa",
-        "sector": "Unspecified",
-        "year": 2022,
-        "amount": 0.9453608989507,
-        "amountLabel": "$945K"
+        "donorCountry": "United States",
+        "country": "Kenya",
+        "sector": "Other Multisector",
+        "year": 2020,
+        "amount": 0.945753486,
+        "amountLabel": "$946K"
       },
       {
         "donorCountry": "Denmark",
@@ -17192,7 +16985,7 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Transport & Storage",
         "year": 2020,
-        "amount": 0.9427080382,
+        "amount": 0.942708038,
         "amountLabel": "$943K"
       },
       {
@@ -17210,6 +17003,14 @@ window.OECD_DATA = {
         "year": 2023,
         "amount": 0.940368,
         "amountLabel": "$940K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Kenya",
+        "sector": "Water Supply & Sanitation",
+        "year": 2021,
+        "amount": 0.93801795,
+        "amountLabel": "$938K"
       },
       {
         "donorCountry": "Switzerland",
@@ -17280,7 +17081,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Business & Other Services",
         "year": 2022,
-        "amount": 0.9260142976000001,
+        "amount": 0.926014298,
         "amountLabel": "$926K"
       },
       {
@@ -17324,12 +17125,28 @@ window.OECD_DATA = {
         "amountLabel": "$923K"
       },
       {
+        "donorCountry": "United States",
+        "country": "Tanzania",
+        "sector": "General Environment Protection",
+        "year": 2021,
+        "amount": 0.92019962,
+        "amountLabel": "$920K"
+      },
+      {
         "donorCountry": "Netherlands",
         "country": "Peru",
         "sector": "Other Social Infrastructure & Services",
         "year": 2021,
         "amount": 0.916237,
         "amountLabel": "$916K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Democratic Republic of the Congo",
+        "sector": "Health",
+        "year": 2020,
+        "amount": 0.915404979,
+        "amountLabel": "$915K"
       },
       {
         "donorCountry": "Netherlands",
@@ -17340,19 +17157,11 @@ window.OECD_DATA = {
         "amountLabel": "$911K"
       },
       {
-        "donorCountry": "United States",
-        "country": "Tanzania",
-        "sector": "General Environment Protection",
-        "year": 2021,
-        "amount": 0.9095169999999999,
-        "amountLabel": "$910K"
-      },
-      {
         "donorCountry": "Spain",
         "country": "Colombia",
         "sector": "Education",
         "year": 2021,
-        "amount": 0.9071929049749999,
+        "amount": 0.9071929049999999,
         "amountLabel": "$907K"
       },
       {
@@ -17364,11 +17173,11 @@ window.OECD_DATA = {
         "amountLabel": "$905K"
       },
       {
-        "donorCountry": "Netherlands",
-        "country": "Ghana",
-        "sector": "Government & Civil Society",
+        "donorCountry": "United States",
+        "country": "Malawi",
+        "sector": "Other Social Infrastructure & Services",
         "year": 2021,
-        "amount": 0.903744,
+        "amount": 0.903850045,
         "amountLabel": "$904K"
       },
       {
@@ -17380,12 +17189,12 @@ window.OECD_DATA = {
         "amountLabel": "$904K"
       },
       {
-        "donorCountry": "United Kingdom",
-        "country": "Uganda",
-        "sector": "Unspecified",
-        "year": 2020,
-        "amount": 0.9023607086,
-        "amountLabel": "$902K"
+        "donorCountry": "Netherlands",
+        "country": "Ghana",
+        "sector": "Government & Civil Society",
+        "year": 2021,
+        "amount": 0.903744,
+        "amountLabel": "$904K"
       },
       {
         "donorCountry": "United States",
@@ -17400,15 +17209,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Business & Other Services",
         "year": 2022,
-        "amount": 0.899396051125,
-        "amountLabel": "$899K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Malawi",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2021,
-        "amount": 0.8993520996790001,
+        "amount": 0.89939605,
         "amountLabel": "$899K"
       },
       {
@@ -17416,16 +17217,8 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Education",
         "year": 2022,
-        "amount": 0.8976151607,
+        "amount": 0.897615161,
         "amountLabel": "$898K"
-      },
-      {
-        "donorCountry": "Mexico",
-        "country": "Mexico",
-        "sector": "Trade Policies & Regulations",
-        "year": 2020,
-        "amount": 0.895878786985,
-        "amountLabel": "$896K"
       },
       {
         "donorCountry": "United Kingdom",
@@ -17440,8 +17233,16 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Other Multisector",
         "year": 2021,
-        "amount": 0.8945262598,
+        "amount": 0.89452626,
         "amountLabel": "$895K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Kenya",
+        "sector": "Other Multisector",
+        "year": 2023,
+        "amount": 0.89434,
+        "amountLabel": "$894K"
       },
       {
         "donorCountry": "Switzerland",
@@ -17464,7 +17265,7 @@ window.OECD_DATA = {
         "country": "Ukraine",
         "sector": "Reconstruction Relief & Rehabilitation",
         "year": 2022,
-        "amount": 0.8935360325,
+        "amount": 0.8935360330000001,
         "amountLabel": "$894K"
       },
       {
@@ -17474,6 +17275,14 @@ window.OECD_DATA = {
         "year": 2023,
         "amount": 0.89144315,
         "amountLabel": "$891K"
+      },
+      {
+        "donorCountry": "Brazil",
+        "country": "Brazil",
+        "sector": "Education",
+        "year": 2020,
+        "amount": 0.8893473460000001,
+        "amountLabel": "$889K"
       },
       {
         "donorCountry": "Canada",
@@ -17492,12 +17301,12 @@ window.OECD_DATA = {
         "amountLabel": "$885K"
       },
       {
-        "donorCountry": "Brazil",
+        "donorCountry": "United States",
         "country": "Brazil",
         "sector": "Other Social Infrastructure & Services",
         "year": 2021,
-        "amount": 0.879873103141,
-        "amountLabel": "$880K"
+        "amount": 0.880978018,
+        "amountLabel": "$881K"
       },
       {
         "donorCountry": "United Kingdom",
@@ -17536,7 +17345,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Health",
         "year": 2021,
-        "amount": 0.8639436218850001,
+        "amount": 0.8639436210000001,
         "amountLabel": "$864K"
       },
       {
@@ -17548,19 +17357,19 @@ window.OECD_DATA = {
         "amountLabel": "$861K"
       },
       {
-        "donorCountry": "Brazil",
-        "country": "Brazil",
-        "sector": "Education",
+        "donorCountry": "Mexico",
+        "country": "Mexico",
+        "sector": "Trade Policies & Regulations",
         "year": 2020,
-        "amount": 0.8593352972431,
-        "amountLabel": "$859K"
+        "amount": 0.859584136,
+        "amountLabel": "$860K"
       },
       {
         "donorCountry": "Colombia",
         "country": "Colombia",
         "sector": "Business & Other Services",
         "year": 2023,
-        "amount": 0.8586597684,
+        "amount": 0.858659768,
         "amountLabel": "$859K"
       },
       {
@@ -17576,7 +17385,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Administrative Costs of Donors",
         "year": 2021,
-        "amount": 0.857388948889,
+        "amount": 0.857388952,
         "amountLabel": "$857K"
       },
       {
@@ -17584,7 +17393,7 @@ window.OECD_DATA = {
         "country": "Indonesia",
         "sector": "Water Supply & Sanitation",
         "year": 2022,
-        "amount": 0.8543760943500001,
+        "amount": 0.854376095,
         "amountLabel": "$854K"
       },
       {
@@ -17621,18 +17430,10 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Kenya",
-        "sector": "Other Multisector",
-        "year": 2020,
-        "amount": 0.84568190295,
-        "amountLabel": "$846K"
-      },
-      {
-        "donorCountry": "United States",
         "country": "China (People's Republic of)",
         "sector": "Banking & Financial Services",
         "year": 2022,
-        "amount": 0.8431875316999999,
+        "amount": 0.843187532,
         "amountLabel": "$843K"
       },
       {
@@ -17642,6 +17443,14 @@ window.OECD_DATA = {
         "year": 2022,
         "amount": 0.842908,
         "amountLabel": "$843K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Brazil",
+        "sector": "Energy",
+        "year": 2023,
+        "amount": 0.8423,
+        "amountLabel": "$842K"
       },
       {
         "donorCountry": "United Kingdom",
@@ -17668,20 +17477,12 @@ window.OECD_DATA = {
         "amountLabel": "$837K"
       },
       {
-        "donorCountry": "United States",
-        "country": "Kenya",
-        "sector": "Other Multisector",
-        "year": 2021,
-        "amount": 0.8359666783099999,
-        "amountLabel": "$836K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Brazil",
-        "sector": "Education",
-        "year": 2022,
-        "amount": 0.83218454069,
-        "amountLabel": "$832K"
+        "donorCountry": "Japan",
+        "country": "Uganda",
+        "sector": "Agriculture, Forestry, Fishing",
+        "year": 2023,
+        "amount": 0.835474,
+        "amountLabel": "$835K"
       },
       {
         "donorCountry": "United States",
@@ -17709,7 +17510,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Netherlands",
-        "country": "Democratic Republic of the Congo",
+        "country": "Senegal",
         "sector": "Banking & Financial Services",
         "year": 2020,
         "amount": 0.823142,
@@ -17717,7 +17518,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Netherlands",
-        "country": "Senegal",
+        "country": "Democratic Republic of the Congo",
         "sector": "Banking & Financial Services",
         "year": 2020,
         "amount": 0.823142,
@@ -17738,14 +17539,6 @@ window.OECD_DATA = {
         "year": 2020,
         "amount": 0.8200999999999999,
         "amountLabel": "$820K"
-      },
-      {
-        "donorCountry": "Mexico",
-        "country": "Mexico",
-        "sector": "Industry, Mining, Construction",
-        "year": 2022,
-        "amount": 0.8168693145636999,
-        "amountLabel": "$817K"
       },
       {
         "donorCountry": "Netherlands",
@@ -17788,19 +17581,19 @@ window.OECD_DATA = {
         "amountLabel": "$809K"
       },
       {
-        "donorCountry": "India",
-        "country": "India",
+        "donorCountry": "United States",
+        "country": "South Africa",
         "sector": "Banking & Financial Services",
-        "year": 2022,
-        "amount": 0.8072620988,
-        "amountLabel": "$807K"
+        "year": 2020,
+        "amount": 0.80814316,
+        "amountLabel": "$808K"
       },
       {
         "donorCountry": "United States",
         "country": "Brazil",
         "sector": "Industry, Mining, Construction",
         "year": 2022,
-        "amount": 0.8069021504,
+        "amount": 0.80690215,
         "amountLabel": "$807K"
       },
       {
@@ -17808,7 +17601,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Education",
         "year": 2021,
-        "amount": 0.8063601534,
+        "amount": 0.806360153,
         "amountLabel": "$806K"
       },
       {
@@ -17816,7 +17609,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Banking & Financial Services",
         "year": 2022,
-        "amount": 0.8058730288,
+        "amount": 0.805873029,
         "amountLabel": "$806K"
       },
       {
@@ -17824,7 +17617,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Disaster Prevention & Preparedness",
         "year": 2020,
-        "amount": 0.8021624596170001,
+        "amount": 0.8021624589999999,
         "amountLabel": "$802K"
       },
       {
@@ -17860,14 +17653,6 @@ window.OECD_DATA = {
         "amountLabel": "$799K"
       },
       {
-        "donorCountry": "United States",
-        "country": "Kenya",
-        "sector": "Other Multisector",
-        "year": 2023,
-        "amount": 0.79603,
-        "amountLabel": "$796K"
-      },
-      {
         "donorCountry": "Switzerland",
         "country": "Rwanda",
         "sector": "Health",
@@ -17880,7 +17665,7 @@ window.OECD_DATA = {
         "country": "Ethiopia",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2022,
-        "amount": 0.7923647306,
+        "amount": 0.792364731,
         "amountLabel": "$792K"
       },
       {
@@ -17888,7 +17673,7 @@ window.OECD_DATA = {
         "country": "Ghana",
         "sector": "General Environment Protection",
         "year": 2022,
-        "amount": 0.7905105645,
+        "amount": 0.790510565,
         "amountLabel": "$791K"
       },
       {
@@ -17908,11 +17693,19 @@ window.OECD_DATA = {
         "amountLabel": "$787K"
       },
       {
+        "donorCountry": "United States",
+        "country": "Uganda",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2020,
+        "amount": 0.7866985129999999,
+        "amountLabel": "$787K"
+      },
+      {
         "donorCountry": "Mexico",
         "country": "Mexico",
         "sector": "Trade Policies & Regulations",
         "year": 2021,
-        "amount": 0.78594363856,
+        "amount": 0.785943638,
         "amountLabel": "$786K"
       },
       {
@@ -17932,14 +17725,6 @@ window.OECD_DATA = {
         "amountLabel": "$780K"
       },
       {
-        "donorCountry": "United States",
-        "country": "South Africa",
-        "sector": "Banking & Financial Services",
-        "year": 2020,
-        "amount": 0.7794167292999999,
-        "amountLabel": "$779K"
-      },
-      {
         "donorCountry": "Switzerland",
         "country": "Nigeria",
         "sector": "Agriculture, Forestry, Fishing",
@@ -17952,7 +17737,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Communications",
         "year": 2021,
-        "amount": 0.778416508373,
+        "amount": 0.77841651,
         "amountLabel": "$778K"
       },
       {
@@ -17972,6 +17757,14 @@ window.OECD_DATA = {
         "amountLabel": "$777K"
       },
       {
+        "donorCountry": "Belgium",
+        "country": "Democratic Republic of the Congo",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2021,
+        "amount": 0.7743626450000001,
+        "amountLabel": "$774K"
+      },
+      {
         "donorCountry": "Switzerland",
         "country": "Peru",
         "sector": "Government & Civil Society",
@@ -17985,6 +17778,14 @@ window.OECD_DATA = {
         "sector": "Other Multisector",
         "year": 2021,
         "amount": 0.7723359999999999,
+        "amountLabel": "$772K"
+      },
+      {
+        "donorCountry": "United Kingdom",
+        "country": "Uganda",
+        "sector": "Unallocated / Unspecified",
+        "year": 2023,
+        "amount": 0.771771012,
         "amountLabel": "$772K"
       },
       {
@@ -18013,14 +17814,6 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Kenya",
-        "sector": "Water Supply & Sanitation",
-        "year": 2021,
-        "amount": 0.769345,
-        "amountLabel": "$769K"
-      },
-      {
-        "donorCountry": "United States",
         "country": "Peru",
         "sector": "Other Social Infrastructure & Services",
         "year": 2023,
@@ -18028,19 +17821,11 @@ window.OECD_DATA = {
         "amountLabel": "$768K"
       },
       {
-        "donorCountry": "United Kingdom",
-        "country": "Uganda",
-        "sector": "Unallocated / Unspecified",
-        "year": 2023,
-        "amount": 0.7679503621680001,
-        "amountLabel": "$768K"
-      },
-      {
         "donorCountry": "United States",
         "country": "Uganda",
         "sector": "Other Multisector",
         "year": 2020,
-        "amount": 0.76727549302,
+        "amount": 0.767275494,
         "amountLabel": "$767K"
       },
       {
@@ -18054,9 +17839,9 @@ window.OECD_DATA = {
       {
         "donorCountry": "Denmark",
         "country": "Uganda",
-        "sector": "Unspecified",
+        "sector": "Other Multisector",
         "year": 2022,
-        "amount": 0.7650379015,
+        "amount": 0.765037901,
         "amountLabel": "$765K"
       },
       {
@@ -18076,20 +17861,20 @@ window.OECD_DATA = {
         "amountLabel": "$763K"
       },
       {
+        "donorCountry": "Mexico",
+        "country": "Mexico",
+        "sector": "Industry, Mining, Construction",
+        "year": 2022,
+        "amount": 0.758935562,
+        "amountLabel": "$759K"
+      },
+      {
         "donorCountry": "South Africa",
         "country": "South Africa",
         "sector": "Government & Civil Society",
         "year": 2023,
-        "amount": 0.7587187621,
+        "amount": 0.758718762,
         "amountLabel": "$759K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Democratic Republic of the Congo",
-        "sector": "Unspecified",
-        "year": 2021,
-        "amount": 0.7577056045157999,
-        "amountLabel": "$758K"
       },
       {
         "donorCountry": "Switzerland",
@@ -18101,11 +17886,11 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Uganda",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2020,
-        "amount": 0.7549110691400001,
-        "amountLabel": "$755K"
+        "country": "Mexico",
+        "sector": "Water Supply & Sanitation",
+        "year": 2022,
+        "amount": 0.75558223,
+        "amountLabel": "$756K"
       },
       {
         "donorCountry": "United States",
@@ -18120,7 +17905,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Banking & Financial Services",
         "year": 2020,
-        "amount": 0.75357141907,
+        "amount": 0.753571419,
         "amountLabel": "$754K"
       },
       {
@@ -18221,7 +18006,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Canada",
-        "country": "Malawi",
+        "country": "South Africa",
         "sector": "Health",
         "year": 2022,
         "amount": 0.7448170000000001,
@@ -18229,7 +18014,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Canada",
-        "country": "South Africa",
+        "country": "Malawi",
         "sector": "Health",
         "year": 2022,
         "amount": 0.7448170000000001,
@@ -18248,31 +18033,15 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Communications",
         "year": 2022,
-        "amount": 0.7425470325,
+        "amount": 0.742547033,
         "amountLabel": "$743K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Brazil",
-        "sector": "Energy",
-        "year": 2023,
-        "amount": 0.7423,
-        "amountLabel": "$742K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Democratic Republic of the Congo",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2021,
-        "amount": 0.742015946416,
-        "amountLabel": "$742K"
       },
       {
         "donorCountry": "Colombia",
         "country": "Colombia",
         "sector": "Business & Other Services",
         "year": 2022,
-        "amount": 0.7406225726,
+        "amount": 0.740622573,
         "amountLabel": "$741K"
       },
       {
@@ -18341,14 +18110,6 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "China (People's Republic of)",
-        "sector": "Unspecified",
-        "year": 2021,
-        "amount": 0.7309161163000001,
-        "amountLabel": "$731K"
-      },
-      {
-        "donorCountry": "United States",
         "country": "Pakistan",
         "sector": "Banking & Financial Services",
         "year": 2022,
@@ -18360,7 +18121,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Emergency Response",
         "year": 2020,
-        "amount": 0.7295976435,
+        "amount": 0.729597644,
         "amountLabel": "$730K"
       },
       {
@@ -18376,16 +18137,8 @@ window.OECD_DATA = {
         "country": "Zambia",
         "sector": "Government & Civil Society",
         "year": 2020,
-        "amount": 0.7232579108999999,
+        "amount": 0.7232579109999999,
         "amountLabel": "$723K"
-      },
-      {
-        "donorCountry": "Brazil",
-        "country": "Brazil",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 0.7221590017977999,
-        "amountLabel": "$722K"
       },
       {
         "donorCountry": "United States",
@@ -18402,14 +18155,6 @@ window.OECD_DATA = {
         "year": 2021,
         "amount": 0.718662,
         "amountLabel": "$719K"
-      },
-      {
-        "donorCountry": "South Africa",
-        "country": "South Africa",
-        "sector": "Unspecified",
-        "year": 2021,
-        "amount": 0.7175339099,
-        "amountLabel": "$718K"
       },
       {
         "donorCountry": "United Kingdom",
@@ -18432,7 +18177,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Emergency Response",
         "year": 2023,
-        "amount": 0.7141297151,
+        "amount": 0.714129715,
         "amountLabel": "$714K"
       },
       {
@@ -18440,7 +18185,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Business & Other Services",
         "year": 2022,
-        "amount": 0.7124465626,
+        "amount": 0.7124465630000001,
         "amountLabel": "$712K"
       },
       {
@@ -18448,7 +18193,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Business & Other Services",
         "year": 2023,
-        "amount": 0.71209076942,
+        "amount": 0.71209077,
         "amountLabel": "$712K"
       },
       {
@@ -18464,16 +18209,8 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Health",
         "year": 2023,
-        "amount": 0.7115750145,
+        "amount": 0.711575014,
         "amountLabel": "$712K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Democratic Republic of the Congo",
-        "sector": "Health",
-        "year": 2020,
-        "amount": 0.70980990915,
-        "amountLabel": "$710K"
       },
       {
         "donorCountry": "United Kingdom",
@@ -18508,19 +18245,11 @@ window.OECD_DATA = {
         "amountLabel": "$707K"
       },
       {
-        "donorCountry": "Japan",
-        "country": "Uganda",
-        "sector": "Agriculture, Forestry, Fishing",
-        "year": 2023,
-        "amount": 0.705474,
-        "amountLabel": "$705K"
-      },
-      {
         "donorCountry": "United States",
         "country": "Nigeria",
         "sector": "Communications",
         "year": 2020,
-        "amount": 0.7051220322,
+        "amount": 0.7051220330000001,
         "amountLabel": "$705K"
       },
       {
@@ -18528,15 +18257,15 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Government & Civil Society",
         "year": 2023,
-        "amount": 0.7047220248,
+        "amount": 0.704722025,
         "amountLabel": "$705K"
       },
       {
         "donorCountry": "Qatar",
         "country": "Ukraine",
-        "sector": "Unspecified",
+        "sector": "Health",
         "year": 2022,
-        "amount": 0.7042287973,
+        "amount": 0.704228797,
         "amountLabel": "$704K"
       },
       {
@@ -18558,7 +18287,7 @@ window.OECD_DATA = {
       {
         "donorCountry": "United Kingdom",
         "country": "Kenya",
-        "sector": "Government & Civil Society",
+        "sector": "Other Social Infrastructure & Services",
         "year": 2020,
         "amount": 0.703634,
         "amountLabel": "$704K"
@@ -18566,10 +18295,18 @@ window.OECD_DATA = {
       {
         "donorCountry": "United Kingdom",
         "country": "Kenya",
-        "sector": "Other Social Infrastructure & Services",
+        "sector": "Government & Civil Society",
         "year": 2020,
         "amount": 0.703634,
         "amountLabel": "$704K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Mexico",
+        "sector": "General Budget Support",
+        "year": 2022,
+        "amount": 0.702785743,
+        "amountLabel": "$703K"
       },
       {
         "donorCountry": "Switzerland",
@@ -18593,14 +18330,6 @@ window.OECD_DATA = {
         "sector": "Government & Civil Society",
         "year": 2023,
         "amount": 0.7,
-        "amountLabel": "$700K"
-      },
-      {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "General Budget Support",
-        "year": 2023,
-        "amount": 0.6999272076,
         "amountLabel": "$700K"
       },
       {
@@ -18632,7 +18361,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Education",
         "year": 2020,
-        "amount": 0.697436121252,
+        "amount": 0.697436122,
         "amountLabel": "$697K"
       },
       {
@@ -18696,7 +18425,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 0.692776629664,
+        "amount": 0.69277663,
         "amountLabel": "$693K"
       },
       {
@@ -18720,12 +18449,12 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Energy",
         "year": 2020,
-        "amount": 0.69167123423,
+        "amount": 0.691671234,
         "amountLabel": "$692K"
       },
       {
         "donorCountry": "Canada",
-        "country": "Kenya",
+        "country": "Uganda",
         "sector": "Health",
         "year": 2022,
         "amount": 0.69119,
@@ -18741,7 +18470,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Canada",
-        "country": "Uganda",
+        "country": "Kenya",
         "sector": "Health",
         "year": 2022,
         "amount": 0.69119,
@@ -18778,6 +18507,14 @@ window.OECD_DATA = {
         "year": 2023,
         "amount": 0.6875,
         "amountLabel": "$688K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Democratic Republic of the Congo",
+        "sector": "Agriculture, Forestry, Fishing",
+        "year": 2022,
+        "amount": 0.685561386,
+        "amountLabel": "$686K"
       },
       {
         "donorCountry": "Switzerland",
@@ -18832,7 +18569,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2020,
-        "amount": 0.6788819108999999,
+        "amount": 0.678881911,
         "amountLabel": "$679K"
       },
       {
@@ -18840,7 +18577,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Banking & Financial Services",
         "year": 2021,
-        "amount": 0.67701215832,
+        "amount": 0.677012158,
         "amountLabel": "$677K"
       },
       {
@@ -18848,7 +18585,7 @@ window.OECD_DATA = {
         "country": "Peru",
         "sector": "Action Relating to Debt",
         "year": 2022,
-        "amount": 0.6767566423,
+        "amount": 0.676756642,
         "amountLabel": "$677K"
       },
       {
@@ -18865,6 +18602,14 @@ window.OECD_DATA = {
         "sector": "Education",
         "year": 2021,
         "amount": 0.675059,
+        "amountLabel": "$675K"
+      },
+      {
+        "donorCountry": "Brazil",
+        "country": "Brazil",
+        "sector": "Health",
+        "year": 2021,
+        "amount": 0.6747734479999999,
         "amountLabel": "$675K"
       },
       {
@@ -18912,7 +18657,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Emergency Response",
         "year": 2023,
-        "amount": 0.6671905348,
+        "amount": 0.667190535,
         "amountLabel": "$667K"
       },
       {
@@ -18964,19 +18709,11 @@ window.OECD_DATA = {
         "amountLabel": "$665K"
       },
       {
-        "donorCountry": "France",
-        "country": "India",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 0.6635439353,
-        "amountLabel": "$664K"
-      },
-      {
         "donorCountry": "United Kingdom",
         "country": "Uganda",
         "sector": "Government & Civil Society",
         "year": 2021,
-        "amount": 0.66245055977,
+        "amount": 0.662450559,
         "amountLabel": "$662K"
       },
       {
@@ -18984,7 +18721,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Government & Civil Society",
         "year": 2021,
-        "amount": 0.6620338004,
+        "amount": 0.6620338,
         "amountLabel": "$662K"
       },
       {
@@ -19008,7 +18745,7 @@ window.OECD_DATA = {
         "country": "Senegal",
         "sector": "Education",
         "year": 2020,
-        "amount": 0.6601438758,
+        "amount": 0.660143876,
         "amountLabel": "$660K"
       },
       {
@@ -19029,10 +18766,10 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Qatar",
-        "country": "Malawi",
+        "country": "Rwanda",
         "sector": "Health",
         "year": 2020,
-        "amount": 0.6562198248,
+        "amount": 0.656219825,
         "amountLabel": "$656K"
       },
       {
@@ -19040,7 +18777,15 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Health",
         "year": 2020,
-        "amount": 0.6562198248,
+        "amount": 0.656219825,
+        "amountLabel": "$656K"
+      },
+      {
+        "donorCountry": "Qatar",
+        "country": "Malawi",
+        "sector": "Health",
+        "year": 2020,
+        "amount": 0.656219825,
         "amountLabel": "$656K"
       },
       {
@@ -19048,15 +18793,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Health",
         "year": 2020,
-        "amount": 0.6562198248,
-        "amountLabel": "$656K"
-      },
-      {
-        "donorCountry": "Qatar",
-        "country": "Rwanda",
-        "sector": "Health",
-        "year": 2020,
-        "amount": 0.6562198248,
+        "amount": 0.656219825,
         "amountLabel": "$656K"
       },
       {
@@ -19064,7 +18801,7 @@ window.OECD_DATA = {
         "country": "Pakistan",
         "sector": "Health",
         "year": 2020,
-        "amount": 0.6562198248,
+        "amount": 0.656219825,
         "amountLabel": "$656K"
       },
       {
@@ -19072,7 +18809,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Health",
         "year": 2020,
-        "amount": 0.6562198248,
+        "amount": 0.656219825,
         "amountLabel": "$656K"
       },
       {
@@ -19089,14 +18826,6 @@ window.OECD_DATA = {
         "sector": "Government & Civil Society",
         "year": 2023,
         "amount": 0.652865,
-        "amountLabel": "$653K"
-      },
-      {
-        "donorCountry": "Mexico",
-        "country": "Mexico",
-        "sector": "Industry, Mining, Construction",
-        "year": 2021,
-        "amount": 0.652742850168,
         "amountLabel": "$653K"
       },
       {
@@ -19168,15 +18897,7 @@ window.OECD_DATA = {
         "country": "Zambia",
         "sector": "Government & Civil Society",
         "year": 2021,
-        "amount": 0.64238731664,
-        "amountLabel": "$642K"
-      },
-      {
-        "donorCountry": "Spain",
-        "country": "Dominican Republic",
-        "sector": "Unspecified",
-        "year": 2022,
-        "amount": 0.6418459412699999,
+        "amount": 0.6423873170000001,
         "amountLabel": "$642K"
       },
       {
@@ -19186,6 +18907,14 @@ window.OECD_DATA = {
         "year": 2023,
         "amount": 0.64,
         "amountLabel": "$640K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Malawi",
+        "sector": "Education",
+        "year": 2020,
+        "amount": 0.638342941,
+        "amountLabel": "$638K"
       },
       {
         "donorCountry": "United Kingdom",
@@ -19212,14 +18941,6 @@ window.OECD_DATA = {
         "amountLabel": "$633K"
       },
       {
-        "donorCountry": "Portugal",
-        "country": "Senegal",
-        "sector": "General Environment Protection",
-        "year": 2021,
-        "amount": 0.6314508049,
-        "amountLabel": "$631K"
-      },
-      {
         "donorCountry": "United States",
         "country": "Democratic Republic of the Congo",
         "sector": "Agriculture, Forestry, Fishing",
@@ -19229,19 +18950,11 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Colombia",
-        "sector": "Unspecified",
-        "year": 2022,
-        "amount": 0.6299042593799999,
+        "country": "Tanzania",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2021,
+        "amount": 0.629512523,
         "amountLabel": "$630K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Democratic Republic of the Congo",
-        "sector": "Agriculture, Forestry, Fishing",
-        "year": 2022,
-        "amount": 0.62731311432,
-        "amountLabel": "$627K"
       },
       {
         "donorCountry": "Spain",
@@ -19264,7 +18977,7 @@ window.OECD_DATA = {
         "country": "Pakistan",
         "sector": "Water Supply & Sanitation",
         "year": 2022,
-        "amount": 0.6249119935999999,
+        "amount": 0.624911994,
         "amountLabel": "$625K"
       },
       {
@@ -19278,10 +18991,18 @@ window.OECD_DATA = {
       {
         "donorCountry": "United States",
         "country": "Ethiopia",
-        "sector": "Unspecified",
+        "sector": "General Budget Support",
         "year": 2022,
         "amount": 0.624698439,
         "amountLabel": "$625K"
+      },
+      {
+        "donorCountry": "Spain",
+        "country": "Dominican Republic",
+        "sector": "Agriculture, Forestry, Fishing",
+        "year": 2022,
+        "amount": 0.623175498,
+        "amountLabel": "$623K"
       },
       {
         "donorCountry": "Switzerland",
@@ -19308,11 +19029,11 @@ window.OECD_DATA = {
         "amountLabel": "$620K"
       },
       {
-        "donorCountry": "Spain",
-        "country": "Dominican Republic",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 0.61925723319,
+        "donorCountry": "United States",
+        "country": "South Africa",
+        "sector": "General Budget Support",
+        "year": 2022,
+        "amount": 0.619492619,
         "amountLabel": "$619K"
       },
       {
@@ -19328,7 +19049,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Energy",
         "year": 2022,
-        "amount": 0.618164533176,
+        "amount": 0.618164532,
         "amountLabel": "$618K"
       },
       {
@@ -19352,7 +19073,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2023,
-        "amount": 0.6158750775,
+        "amount": 0.615875077,
         "amountLabel": "$616K"
       },
       {
@@ -19364,11 +19085,19 @@ window.OECD_DATA = {
         "amountLabel": "$615K"
       },
       {
+        "donorCountry": "France",
+        "country": "Brazil",
+        "sector": "Education",
+        "year": 2021,
+        "amount": 0.614251349,
+        "amountLabel": "$614K"
+      },
+      {
         "donorCountry": "Brazil",
         "country": "Brazil",
         "sector": "Education",
         "year": 2023,
-        "amount": 0.6140647840436999,
+        "amount": 0.614064784,
         "amountLabel": "$614K"
       },
       {
@@ -19384,7 +19113,7 @@ window.OECD_DATA = {
         "country": "Indonesia",
         "sector": "Water Supply & Sanitation",
         "year": 2021,
-        "amount": 0.61100444106,
+        "amount": 0.611004442,
         "amountLabel": "$611K"
       },
       {
@@ -19392,8 +19121,24 @@ window.OECD_DATA = {
         "country": "Peru",
         "sector": "Health",
         "year": 2020,
-        "amount": 0.6098569109,
+        "amount": 0.6098569110000001,
         "amountLabel": "$610K"
+      },
+      {
+        "donorCountry": "Spain",
+        "country": "Dominican Republic",
+        "sector": "Agriculture, Forestry, Fishing",
+        "year": 2023,
+        "amount": 0.608747525,
+        "amountLabel": "$609K"
+      },
+      {
+        "donorCountry": "France",
+        "country": "India",
+        "sector": "Government & Civil Society",
+        "year": 2023,
+        "amount": 0.608391152,
+        "amountLabel": "$608K"
       },
       {
         "donorCountry": "Switzerland",
@@ -19413,19 +19158,11 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "South Africa",
+        "country": "Brazil",
         "sector": "Other Social Infrastructure & Services",
-        "year": 2022,
-        "amount": 0.5985974227299999,
-        "amountLabel": "$599K"
-      },
-      {
-        "donorCountry": "Netherlands",
-        "country": "Burkina Faso",
-        "sector": "Business & Other Services",
         "year": 2020,
-        "amount": 0.598361,
-        "amountLabel": "$598K"
+        "amount": 0.6018434500000001,
+        "amountLabel": "$602K"
       },
       {
         "donorCountry": "Netherlands",
@@ -19436,11 +19173,27 @@ window.OECD_DATA = {
         "amountLabel": "$598K"
       },
       {
+        "donorCountry": "Netherlands",
+        "country": "Burkina Faso",
+        "sector": "Business & Other Services",
+        "year": 2020,
+        "amount": 0.598361,
+        "amountLabel": "$598K"
+      },
+      {
         "donorCountry": "Canada",
         "country": "Democratic Republic of the Congo",
         "sector": "Health",
         "year": 2022,
         "amount": 0.598201,
+        "amountLabel": "$598K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Democratic Republic of the Congo",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2020,
+        "amount": 0.597862217,
         "amountLabel": "$598K"
       },
       {
@@ -19464,7 +19217,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 0.59367736625,
+        "amount": 0.593677366,
         "amountLabel": "$594K"
       },
       {
@@ -19472,15 +19225,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Government & Civil Society",
         "year": 2021,
-        "amount": 0.59244107534,
-        "amountLabel": "$592K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Tanzania",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2021,
-        "amount": 0.5918422318100001,
+        "amount": 0.592441075,
         "amountLabel": "$592K"
       },
       {
@@ -19512,16 +19257,8 @@ window.OECD_DATA = {
         "country": "Malawi",
         "sector": "Education",
         "year": 2022,
-        "amount": 0.5905990274,
+        "amount": 0.590599027,
         "amountLabel": "$591K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Malawi",
-        "sector": "Education",
-        "year": 2020,
-        "amount": 0.589666945865,
-        "amountLabel": "$590K"
       },
       {
         "donorCountry": "Switzerland",
@@ -19532,19 +19269,11 @@ window.OECD_DATA = {
         "amountLabel": "$590K"
       },
       {
-        "donorCountry": "Belgium",
-        "country": "Democratic Republic of the Congo",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2020,
-        "amount": 0.589029587454,
-        "amountLabel": "$589K"
-      },
-      {
         "donorCountry": "United States",
         "country": "Brazil",
         "sector": "Water Supply & Sanitation",
         "year": 2020,
-        "amount": 0.5886563695,
+        "amount": 0.58865637,
         "amountLabel": "$589K"
       },
       {
@@ -19553,14 +19282,6 @@ window.OECD_DATA = {
         "sector": "Education",
         "year": 2021,
         "amount": 0.588289,
-        "amountLabel": "$588K"
-      },
-      {
-        "donorCountry": "Switzerland",
-        "country": "Indonesia",
-        "sector": "Energy",
-        "year": 2023,
-        "amount": 0.588235,
         "amountLabel": "$588K"
       },
       {
@@ -19589,6 +19310,14 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Switzerland",
+        "country": "Indonesia",
+        "sector": "Energy",
+        "year": 2023,
+        "amount": 0.588235,
+        "amountLabel": "$588K"
+      },
+      {
+        "donorCountry": "Switzerland",
         "country": "Nigeria",
         "sector": "Energy",
         "year": 2023,
@@ -19604,11 +19333,19 @@ window.OECD_DATA = {
         "amountLabel": "$588K"
       },
       {
+        "donorCountry": "United States",
+        "country": "Brazil",
+        "sector": "General Budget Support",
+        "year": 2023,
+        "amount": 0.5875,
+        "amountLabel": "$588K"
+      },
+      {
         "donorCountry": "South Africa",
         "country": "South Africa",
         "sector": "Water Supply & Sanitation",
         "year": 2022,
-        "amount": 0.5866774147,
+        "amount": 0.586677415,
         "amountLabel": "$587K"
       },
       {
@@ -19640,7 +19377,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Health",
         "year": 2023,
-        "amount": 0.5828715881,
+        "amount": 0.582871588,
         "amountLabel": "$583K"
       },
       {
@@ -19656,7 +19393,7 @@ window.OECD_DATA = {
         "country": "Pakistan",
         "sector": "Emergency Response",
         "year": 2022,
-        "amount": 0.5824826949,
+        "amount": 0.582482695,
         "amountLabel": "$582K"
       },
       {
@@ -19677,16 +19414,16 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Netherlands",
-        "country": "South Africa",
-        "sector": "Other Social Infrastructure & Services",
+        "country": "Indonesia",
+        "sector": "Education",
         "year": 2022,
         "amount": 0.580386,
         "amountLabel": "$580K"
       },
       {
         "donorCountry": "Netherlands",
-        "country": "Indonesia",
-        "sector": "Education",
+        "country": "South Africa",
+        "sector": "Other Social Infrastructure & Services",
         "year": 2022,
         "amount": 0.580386,
         "amountLabel": "$580K"
@@ -19704,7 +19441,7 @@ window.OECD_DATA = {
         "country": "Burkina Faso",
         "sector": "Health",
         "year": 2020,
-        "amount": 0.5796429159,
+        "amount": 0.5796429160000001,
         "amountLabel": "$580K"
       },
       {
@@ -19733,14 +19470,6 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Malawi",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2023,
-        "amount": 0.575,
-        "amountLabel": "$575K"
-      },
-      {
-        "donorCountry": "United States",
         "country": "Uganda",
         "sector": "Emergency Response",
         "year": 2023,
@@ -19749,10 +19478,26 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
+        "country": "Malawi",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2023,
+        "amount": 0.575,
+        "amountLabel": "$575K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Mexico",
+        "sector": "Water Supply & Sanitation",
+        "year": 2021,
+        "amount": 0.5746766130000001,
+        "amountLabel": "$575K"
+      },
+      {
+        "donorCountry": "United States",
         "country": "Kenya",
         "sector": "Administrative Costs of Donors",
         "year": 2022,
-        "amount": 0.5726402358,
+        "amount": 0.572640236,
         "amountLabel": "$573K"
       },
       {
@@ -19760,7 +19505,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Emergency Response",
         "year": 2022,
-        "amount": 0.57005020326,
+        "amount": 0.570050204,
         "amountLabel": "$570K"
       },
       {
@@ -19780,11 +19525,19 @@ window.OECD_DATA = {
         "amountLabel": "$570K"
       },
       {
+        "donorCountry": "France",
+        "country": "Mexico",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2023,
+        "amount": 0.569568804,
+        "amountLabel": "$570K"
+      },
+      {
         "donorCountry": "South Africa",
         "country": "South Africa",
         "sector": "Transport & Storage",
         "year": 2023,
-        "amount": 0.5664279007,
+        "amount": 0.566427901,
         "amountLabel": "$566K"
       },
       {
@@ -19800,7 +19553,7 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Disaster Prevention & Preparedness",
         "year": 2021,
-        "amount": 0.5622431664,
+        "amount": 0.562243166,
         "amountLabel": "$562K"
       },
       {
@@ -19817,6 +19570,14 @@ window.OECD_DATA = {
         "sector": "Education",
         "year": 2020,
         "amount": 0.557049,
+        "amountLabel": "$557K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Colombia",
+        "sector": "Unallocated / Unspecified",
+        "year": 2022,
+        "amount": 0.557022775,
         "amountLabel": "$557K"
       },
       {
@@ -19845,16 +19606,16 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "China (People's Republic of)",
-        "sector": "Education",
+        "country": "Democratic Republic of the Congo",
+        "sector": "Energy",
         "year": 2021,
         "amount": 0.554922,
         "amountLabel": "$555K"
       },
       {
         "donorCountry": "United States",
-        "country": "Democratic Republic of the Congo",
-        "sector": "Energy",
+        "country": "China (People's Republic of)",
+        "sector": "Education",
         "year": 2021,
         "amount": 0.554922,
         "amountLabel": "$555K"
@@ -19872,7 +19633,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Emergency Response",
         "year": 2021,
-        "amount": 0.5524481298699999,
+        "amount": 0.5524481299999999,
         "amountLabel": "$552K"
       },
       {
@@ -19880,7 +19641,7 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 0.552102945531,
+        "amount": 0.552102946,
         "amountLabel": "$552K"
       },
       {
@@ -19888,7 +19649,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Government & Civil Society",
         "year": 2021,
-        "amount": 0.5515207233,
+        "amount": 0.551520723,
         "amountLabel": "$552K"
       },
       {
@@ -19925,10 +19686,10 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Qatar",
-        "country": "Senegal",
+        "country": "Malawi",
         "sector": "Education",
         "year": 2021,
-        "amount": 0.5494696442,
+        "amount": 0.549469644,
         "amountLabel": "$549K"
       },
       {
@@ -19936,15 +19697,15 @@ window.OECD_DATA = {
         "country": "Burkina Faso",
         "sector": "Education",
         "year": 2021,
-        "amount": 0.5494696442,
+        "amount": 0.549469644,
         "amountLabel": "$549K"
       },
       {
         "donorCountry": "Qatar",
-        "country": "Malawi",
+        "country": "Senegal",
         "sector": "Education",
         "year": 2021,
-        "amount": 0.5494696442,
+        "amount": 0.549469644,
         "amountLabel": "$549K"
       },
       {
@@ -19952,7 +19713,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Emergency Response",
         "year": 2021,
-        "amount": 0.54877406906,
+        "amount": 0.548774069,
         "amountLabel": "$549K"
       },
       {
@@ -19992,7 +19753,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Other Multisector",
         "year": 2021,
-        "amount": 0.5462316333,
+        "amount": 0.546231633,
         "amountLabel": "$546K"
       },
       {
@@ -20000,7 +19761,7 @@ window.OECD_DATA = {
         "country": "Ghana",
         "sector": "Other Social Infrastructure & Services",
         "year": 2020,
-        "amount": 0.5459632739,
+        "amount": 0.545963274,
         "amountLabel": "$546K"
       },
       {
@@ -20024,8 +19785,24 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Education",
         "year": 2020,
-        "amount": 0.545206465512,
+        "amount": 0.545206465,
         "amountLabel": "$545K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Kenya",
+        "sector": "Unallocated / Unspecified",
+        "year": 2020,
+        "amount": 0.54412552,
+        "amountLabel": "$544K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Nigeria",
+        "sector": "General Environment Protection",
+        "year": 2022,
+        "amount": 0.543945344,
+        "amountLabel": "$544K"
       },
       {
         "donorCountry": "Denmark",
@@ -20048,7 +19825,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Industry, Mining, Construction",
         "year": 2022,
-        "amount": 0.5418752722,
+        "amount": 0.541875272,
         "amountLabel": "$542K"
       },
       {
@@ -20093,18 +19870,10 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Rwanda",
-        "sector": "Unspecified",
-        "year": 2020,
-        "amount": 0.540386547193,
-        "amountLabel": "$540K"
-      },
-      {
-        "donorCountry": "United States",
         "country": "China (People's Republic of)",
         "sector": "Education",
         "year": 2022,
-        "amount": 0.5402920398,
+        "amount": 0.54029204,
         "amountLabel": "$540K"
       },
       {
@@ -20112,7 +19881,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "General Environment Protection",
         "year": 2022,
-        "amount": 0.53664141829,
+        "amount": 0.536641419,
         "amountLabel": "$537K"
       },
       {
@@ -20157,10 +19926,18 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
+        "country": "Malawi",
+        "sector": "Unallocated / Unspecified",
+        "year": 2021,
+        "amount": 0.5313299140000001,
+        "amountLabel": "$531K"
+      },
+      {
+        "donorCountry": "United States",
         "country": "Tanzania",
         "sector": "Energy",
         "year": 2022,
-        "amount": 0.5309936732,
+        "amount": 0.530993673,
         "amountLabel": "$531K"
       },
       {
@@ -20208,7 +19985,15 @@ window.OECD_DATA = {
         "country": "Democratic Republic of the Congo",
         "sector": "Water Supply & Sanitation",
         "year": 2021,
-        "amount": 0.524668053559,
+        "amount": 0.524668052,
+        "amountLabel": "$525K"
+      },
+      {
+        "donorCountry": "France",
+        "country": "India",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2023,
+        "amount": 0.5245967579999999,
         "amountLabel": "$525K"
       },
       {
@@ -20242,6 +20027,14 @@ window.OECD_DATA = {
         "year": 2020,
         "amount": 0.5222330000000001,
         "amountLabel": "$522K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "China (People's Republic of)",
+        "sector": "General Budget Support",
+        "year": 2023,
+        "amount": 0.52,
+        "amountLabel": "$520K"
       },
       {
         "donorCountry": "Switzerland",
@@ -20284,14 +20077,6 @@ window.OECD_DATA = {
         "amountLabel": "$518K"
       },
       {
-        "donorCountry": "Belgium",
-        "country": "Democratic Republic of the Congo",
-        "sector": "Health",
-        "year": 2021,
-        "amount": 0.51661642443,
-        "amountLabel": "$517K"
-      },
-      {
         "donorCountry": "United Kingdom",
         "country": "South Africa",
         "sector": "Population Policies/Programmes & Reproductive Health",
@@ -20328,7 +20113,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Other Social Infrastructure & Services",
         "year": 2023,
-        "amount": 0.5105102119,
+        "amount": 0.510510212,
         "amountLabel": "$511K"
       },
       {
@@ -20336,7 +20121,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Industry, Mining, Construction",
         "year": 2020,
-        "amount": 0.5096733354999999,
+        "amount": 0.509673336,
         "amountLabel": "$510K"
       },
       {
@@ -20352,7 +20137,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Unallocated / Unspecified",
         "year": 2021,
-        "amount": 0.5060188498,
+        "amount": 0.50601885,
         "amountLabel": "$506K"
       },
       {
@@ -20372,14 +20157,6 @@ window.OECD_DATA = {
         "amountLabel": "$505K"
       },
       {
-        "donorCountry": "United States",
-        "country": "Colombia",
-        "sector": "Unallocated / Unspecified",
-        "year": 2022,
-        "amount": 0.5049645716,
-        "amountLabel": "$505K"
-      },
-      {
         "donorCountry": "Switzerland",
         "country": "Tanzania",
         "sector": "Education",
@@ -20394,22 +20171,6 @@ window.OECD_DATA = {
         "year": 2023,
         "amount": 0.5025000000000001,
         "amountLabel": "$503K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Malawi",
-        "sector": "Unspecified",
-        "year": 2021,
-        "amount": 0.502093267995,
-        "amountLabel": "$502K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Nigeria",
-        "sector": "Unspecified",
-        "year": 2021,
-        "amount": 0.50208314756,
-        "amountLabel": "$502K"
       },
       {
         "donorCountry": "Switzerland",
@@ -20432,7 +20193,7 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Disaster Prevention & Preparedness",
         "year": 2020,
-        "amount": 0.501211468344,
+        "amount": 0.5012114679999999,
         "amountLabel": "$501K"
       },
       {
@@ -20461,7 +20222,23 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Burkina Faso",
+        "country": "Kenya",
+        "sector": "Unallocated / Unspecified",
+        "year": 2021,
+        "amount": 0.500115298,
+        "amountLabel": "$500K"
+      },
+      {
+        "donorCountry": "Denmark",
+        "country": "Uganda",
+        "sector": "Industry, Mining, Construction",
+        "year": 2023,
+        "amount": 0.5,
+        "amountLabel": "$500K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Bangladesh",
         "sector": "Disaster Prevention & Preparedness",
         "year": 2023,
         "amount": 0.5,
@@ -20484,25 +20261,9 @@ window.OECD_DATA = {
         "amountLabel": "$500K"
       },
       {
-        "donorCountry": "United States",
-        "country": "Bangladesh",
-        "sector": "Disaster Prevention & Preparedness",
-        "year": 2023,
-        "amount": 0.5,
-        "amountLabel": "$500K"
-      },
-      {
         "donorCountry": "Denmark",
         "country": "India",
         "sector": "Education",
-        "year": 2023,
-        "amount": 0.5,
-        "amountLabel": "$500K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Indonesia",
-        "sector": "Disaster Prevention & Preparedness",
         "year": 2023,
         "amount": 0.5,
         "amountLabel": "$500K"
@@ -20516,9 +20277,17 @@ window.OECD_DATA = {
         "amountLabel": "$500K"
       },
       {
-        "donorCountry": "Denmark",
-        "country": "Uganda",
-        "sector": "Industry, Mining, Construction",
+        "donorCountry": "United States",
+        "country": "Burkina Faso",
+        "sector": "Disaster Prevention & Preparedness",
+        "year": 2023,
+        "amount": 0.5,
+        "amountLabel": "$500K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Indonesia",
+        "sector": "Disaster Prevention & Preparedness",
         "year": 2023,
         "amount": 0.5,
         "amountLabel": "$500K"
@@ -20540,14 +20309,6 @@ window.OECD_DATA = {
         "amountLabel": "$500K"
       },
       {
-        "donorCountry": "France",
-        "country": "Brazil",
-        "sector": "Education",
-        "year": 2021,
-        "amount": 0.499726378246,
-        "amountLabel": "$500K"
-      },
-      {
         "donorCountry": "United States",
         "country": "Colombia",
         "sector": "Business & Other Services",
@@ -20560,7 +20321,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Banking & Financial Services",
         "year": 2023,
-        "amount": 0.49879371824,
+        "amount": 0.498793718,
         "amountLabel": "$499K"
       },
       {
@@ -20568,15 +20329,15 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "General Environment Protection",
         "year": 2022,
-        "amount": 0.4984200274,
+        "amount": 0.498420027,
         "amountLabel": "$498K"
       },
       {
-        "donorCountry": "United States",
-        "country": "Rwanda",
-        "sector": "Unspecified",
-        "year": 2021,
-        "amount": 0.496826174004,
+        "donorCountry": "Qatar",
+        "country": "Senegal",
+        "sector": "Education",
+        "year": 2022,
+        "amount": 0.496756629,
         "amountLabel": "$497K"
       },
       {
@@ -20588,19 +20349,19 @@ window.OECD_DATA = {
         "amountLabel": "$497K"
       },
       {
-        "donorCountry": "Qatar",
-        "country": "Senegal",
+        "donorCountry": "France",
+        "country": "Brazil",
         "sector": "Education",
-        "year": 2022,
-        "amount": 0.496756629,
-        "amountLabel": "$497K"
+        "year": 2023,
+        "amount": 0.495592706,
+        "amountLabel": "$496K"
       },
       {
         "donorCountry": "United Kingdom",
         "country": "India",
         "sector": "Other Multisector",
         "year": 2021,
-        "amount": 0.4945021184,
+        "amount": 0.494502118,
         "amountLabel": "$495K"
       },
       {
@@ -20632,7 +20393,7 @@ window.OECD_DATA = {
         "country": "Democratic Republic of the Congo",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2022,
-        "amount": 0.4920047958,
+        "amount": 0.49200479599999997,
         "amountLabel": "$492K"
       },
       {
@@ -20640,7 +20401,7 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Health",
         "year": 2020,
-        "amount": 0.491654744853,
+        "amount": 0.491654745,
         "amountLabel": "$492K"
       },
       {
@@ -20662,7 +20423,7 @@ window.OECD_DATA = {
       {
         "donorCountry": "Qatar",
         "country": "India",
-        "sector": "Education",
+        "sector": "Other Multisector",
         "year": 2023,
         "amount": 0.490278,
         "amountLabel": "$490K"
@@ -20670,18 +20431,26 @@ window.OECD_DATA = {
       {
         "donorCountry": "Qatar",
         "country": "India",
-        "sector": "Other Multisector",
+        "sector": "Education",
         "year": 2023,
         "amount": 0.490278,
         "amountLabel": "$490K"
       },
       {
         "donorCountry": "United States",
+        "country": "Brazil",
+        "sector": "Energy",
+        "year": 2022,
+        "amount": 0.48674419999999996,
+        "amountLabel": "$487K"
+      },
+      {
+        "donorCountry": "United States",
         "country": "Nigeria",
         "sector": "General Environment Protection",
-        "year": 2022,
-        "amount": 0.489804813,
-        "amountLabel": "$490K"
+        "year": 2020,
+        "amount": 0.485320141,
+        "amountLabel": "$485K"
       },
       {
         "donorCountry": "Switzerland",
@@ -20720,7 +20489,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2020,
-        "amount": 0.480634976877,
+        "amount": 0.480634978,
         "amountLabel": "$481K"
       },
       {
@@ -20728,7 +20497,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Government & Civil Society",
         "year": 2021,
-        "amount": 0.4806071498,
+        "amount": 0.48060715,
         "amountLabel": "$481K"
       },
       {
@@ -20736,7 +20505,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Education",
         "year": 2022,
-        "amount": 0.480393876569,
+        "amount": 0.480393877,
         "amountLabel": "$480K"
       },
       {
@@ -20757,19 +20526,11 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Belgium",
-        "country": "Senegal",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 0.47885194866400005,
+        "country": "India",
+        "sector": "Health",
+        "year": 2022,
+        "amount": 0.47901881,
         "amountLabel": "$479K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "South Africa",
-        "sector": "Unspecified",
-        "year": 2020,
-        "amount": 0.47804783775,
-        "amountLabel": "$478K"
       },
       {
         "donorCountry": "United States",
@@ -20792,15 +20553,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Government & Civil Society",
         "year": 2023,
-        "amount": 0.47515019717900003,
-        "amountLabel": "$475K"
-      },
-      {
-        "donorCountry": "France",
-        "country": "Brazil",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 0.47462421701,
+        "amount": 0.475150197,
         "amountLabel": "$475K"
       },
       {
@@ -20810,6 +20563,14 @@ window.OECD_DATA = {
         "year": 2023,
         "amount": 0.47381,
         "amountLabel": "$474K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Rwanda",
+        "sector": "Government & Civil Society",
+        "year": 2021,
+        "amount": 0.472648741,
+        "amountLabel": "$473K"
       },
       {
         "donorCountry": "United States",
@@ -20829,18 +20590,18 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Qatar",
-        "country": "Senegal",
+        "country": "Burkina Faso",
         "sector": "Education",
         "year": 2023,
-        "amount": 0.4712488571,
+        "amount": 0.471248857,
         "amountLabel": "$471K"
       },
       {
         "donorCountry": "Qatar",
-        "country": "Burkina Faso",
+        "country": "Senegal",
         "sector": "Education",
         "year": 2023,
-        "amount": 0.4712488571,
+        "amount": 0.471248857,
         "amountLabel": "$471K"
       },
       {
@@ -20848,31 +20609,15 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Disaster Prevention & Preparedness",
         "year": 2020,
-        "amount": 0.4709250956,
+        "amount": 0.470925096,
         "amountLabel": "$471K"
-      },
-      {
-        "donorCountry": "France",
-        "country": "India",
-        "sector": "Government & Civil Society",
-        "year": 2023,
-        "amount": 0.4702660951,
-        "amountLabel": "$470K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "South Africa",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 0.47,
-        "amountLabel": "$470K"
       },
       {
         "donorCountry": "United States",
         "country": "Mexico",
         "sector": "Disaster Prevention & Preparedness",
         "year": 2020,
-        "amount": 0.46974778289999997,
+        "amount": 0.46974778300000003,
         "amountLabel": "$470K"
       },
       {
@@ -20896,7 +20641,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Education",
         "year": 2021,
-        "amount": 0.4694074401111,
+        "amount": 0.46940743999999995,
         "amountLabel": "$469K"
       },
       {
@@ -20904,7 +20649,7 @@ window.OECD_DATA = {
         "country": "Peru",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2022,
-        "amount": 0.4685238293,
+        "amount": 0.46852383,
         "amountLabel": "$469K"
       },
       {
@@ -20912,7 +20657,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2023,
-        "amount": 0.46712833233740003,
+        "amount": 0.467128333,
         "amountLabel": "$467K"
       },
       {
@@ -20920,7 +20665,7 @@ window.OECD_DATA = {
         "country": "Bangladesh",
         "sector": "Education",
         "year": 2022,
-        "amount": 0.4664125332,
+        "amount": 0.466412533,
         "amountLabel": "$466K"
       },
       {
@@ -20928,7 +20673,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Other Multisector",
         "year": 2022,
-        "amount": 0.4659861559,
+        "amount": 0.465986156,
         "amountLabel": "$466K"
       },
       {
@@ -20976,15 +20721,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Water Supply & Sanitation",
         "year": 2021,
-        "amount": 0.4620634542,
-        "amountLabel": "$462K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Uganda",
-        "sector": "Unspecified",
-        "year": 2021,
-        "amount": 0.461826536843,
+        "amount": 0.462063454,
         "amountLabel": "$462K"
       },
       {
@@ -20996,11 +20733,11 @@ window.OECD_DATA = {
         "amountLabel": "$462K"
       },
       {
-        "donorCountry": "United States",
-        "country": "Rwanda",
-        "sector": "Government & Civil Society",
-        "year": 2021,
-        "amount": 0.461403878216,
+        "donorCountry": "Brazil",
+        "country": "Brazil",
+        "sector": "Other Multisector",
+        "year": 2022,
+        "amount": 0.46113335499999997,
         "amountLabel": "$461K"
       },
       {
@@ -21024,7 +20761,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2021,
-        "amount": 0.458668509849,
+        "amount": 0.45866851,
         "amountLabel": "$459K"
       },
       {
@@ -21052,12 +20789,12 @@ window.OECD_DATA = {
         "amountLabel": "$456K"
       },
       {
-        "donorCountry": "Brazil",
-        "country": "Brazil",
-        "sector": "Other Multisector",
+        "donorCountry": "Belgium",
+        "country": "Democratic Republic of the Congo",
+        "sector": "Education",
         "year": 2022,
-        "amount": 0.4546512206,
-        "amountLabel": "$455K"
+        "amount": 0.454112691,
+        "amountLabel": "$454K"
       },
       {
         "donorCountry": "United States",
@@ -21088,7 +20825,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Education",
         "year": 2023,
-        "amount": 0.44857825121600003,
+        "amount": 0.448578252,
         "amountLabel": "$449K"
       },
       {
@@ -21102,26 +20839,10 @@ window.OECD_DATA = {
       {
         "donorCountry": "Belgium",
         "country": "Democratic Republic of the Congo",
-        "sector": "Education",
-        "year": 2022,
-        "amount": 0.447122896517,
-        "amountLabel": "$447K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Democratic Republic of the Congo",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2021,
-        "amount": 0.44692825070799996,
+        "amount": 0.446928249,
         "amountLabel": "$447K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Mexico",
-        "sector": "General Budget Support",
-        "year": 2023,
-        "amount": 0.445,
-        "amountLabel": "$445K"
       },
       {
         "donorCountry": "United States",
@@ -21133,7 +20854,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Kenya",
+        "country": "Democratic Republic of the Congo",
         "sector": "Emergency Response",
         "year": 2021,
         "amount": 0.443938,
@@ -21141,7 +20862,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Democratic Republic of the Congo",
+        "country": "Kenya",
         "sector": "Emergency Response",
         "year": 2021,
         "amount": 0.443938,
@@ -21154,6 +20875,14 @@ window.OECD_DATA = {
         "year": 2020,
         "amount": 0.443231,
         "amountLabel": "$443K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Brazil",
+        "sector": "General Budget Support",
+        "year": 2020,
+        "amount": 0.441492277,
+        "amountLabel": "$441K"
       },
       {
         "donorCountry": "Netherlands",
@@ -21180,11 +20909,11 @@ window.OECD_DATA = {
         "amountLabel": "$440K"
       },
       {
-        "donorCountry": "United States",
-        "country": "Malawi",
-        "sector": "Unspecified",
-        "year": 2020,
-        "amount": 0.43886451511,
+        "donorCountry": "France",
+        "country": "Brazil",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2021,
+        "amount": 0.439362206,
         "amountLabel": "$439K"
       },
       {
@@ -21192,7 +20921,7 @@ window.OECD_DATA = {
         "country": "Ghana",
         "sector": "Other Multisector",
         "year": 2021,
-        "amount": 0.4373314613,
+        "amount": 0.437331461,
         "amountLabel": "$437K"
       },
       {
@@ -21200,8 +20929,16 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2022,
-        "amount": 0.437003847114,
+        "amount": 0.43700384800000003,
         "amountLabel": "$437K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Democratic Republic of the Congo",
+        "sector": "Health",
+        "year": 2023,
+        "amount": 0.43514450499999996,
+        "amountLabel": "$435K"
       },
       {
         "donorCountry": "Sweden",
@@ -21216,7 +20953,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Government & Civil Society",
         "year": 2021,
-        "amount": 0.434522237972,
+        "amount": 0.434522237,
         "amountLabel": "$435K"
       },
       {
@@ -21226,14 +20963,6 @@ window.OECD_DATA = {
         "year": 2022,
         "amount": 0.433869,
         "amountLabel": "$434K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Kenya",
-        "sector": "Unspecified",
-        "year": 2020,
-        "amount": 0.433034462379,
-        "amountLabel": "$433K"
       },
       {
         "donorCountry": "Switzerland",
@@ -21325,7 +21054,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Kenya",
+        "country": "Tanzania",
         "sector": "General Environment Protection",
         "year": 2020,
         "amount": 0.417105,
@@ -21333,11 +21062,19 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Tanzania",
+        "country": "Kenya",
         "sector": "General Environment Protection",
         "year": 2020,
         "amount": 0.417105,
         "amountLabel": "$417K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Malawi",
+        "sector": "Unallocated / Unspecified",
+        "year": 2020,
+        "amount": 0.416089402,
+        "amountLabel": "$416K"
       },
       {
         "donorCountry": "Switzerland",
@@ -21356,14 +21093,6 @@ window.OECD_DATA = {
         "amountLabel": "$415K"
       },
       {
-        "donorCountry": "Belgium",
-        "country": "Democratic Republic of the Congo",
-        "sector": "Health",
-        "year": 2023,
-        "amount": 0.4130444972831,
-        "amountLabel": "$413K"
-      },
-      {
         "donorCountry": "Switzerland",
         "country": "Uganda",
         "sector": "Government & Civil Society",
@@ -21380,35 +21109,19 @@ window.OECD_DATA = {
         "amountLabel": "$412K"
       },
       {
-        "donorCountry": "Brazil",
-        "country": "Brazil",
-        "sector": "Unspecified",
-        "year": 2022,
-        "amount": 0.410506179346,
-        "amountLabel": "$411K"
-      },
-      {
-        "donorCountry": "Qatar",
-        "country": "Pakistan",
-        "sector": "Health",
-        "year": 2023,
-        "amount": 0.4089475714,
-        "amountLabel": "$409K"
-      },
-      {
-        "donorCountry": "Qatar",
-        "country": "Uganda",
-        "sector": "Health",
-        "year": 2023,
-        "amount": 0.4089475714,
-        "amountLabel": "$409K"
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Business & Other Services",
+        "year": 2020,
+        "amount": 0.41026212500000003,
+        "amountLabel": "$410K"
       },
       {
         "donorCountry": "Qatar",
         "country": "Rwanda",
         "sector": "Health",
         "year": 2023,
-        "amount": 0.4089475714,
+        "amount": 0.408947571,
         "amountLabel": "$409K"
       },
       {
@@ -21416,15 +21129,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Health",
         "year": 2023,
-        "amount": 0.4089475714,
-        "amountLabel": "$409K"
-      },
-      {
-        "donorCountry": "Qatar",
-        "country": "Malawi",
-        "sector": "Health",
-        "year": 2023,
-        "amount": 0.4089475714,
+        "amount": 0.408947571,
         "amountLabel": "$409K"
       },
       {
@@ -21432,7 +21137,31 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Health",
         "year": 2023,
-        "amount": 0.4089475714,
+        "amount": 0.408947571,
+        "amountLabel": "$409K"
+      },
+      {
+        "donorCountry": "Qatar",
+        "country": "Uganda",
+        "sector": "Health",
+        "year": 2023,
+        "amount": 0.408947571,
+        "amountLabel": "$409K"
+      },
+      {
+        "donorCountry": "Qatar",
+        "country": "Pakistan",
+        "sector": "Health",
+        "year": 2023,
+        "amount": 0.408947571,
+        "amountLabel": "$409K"
+      },
+      {
+        "donorCountry": "Qatar",
+        "country": "Malawi",
+        "sector": "Health",
+        "year": 2023,
+        "amount": 0.408947571,
         "amountLabel": "$409K"
       },
       {
@@ -21480,7 +21209,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Disaster Prevention & Preparedness",
         "year": 2022,
-        "amount": 0.40318548735049997,
+        "amount": 0.40318548600000004,
         "amountLabel": "$403K"
       },
       {
@@ -21488,7 +21217,7 @@ window.OECD_DATA = {
         "country": "Democratic Republic of the Congo",
         "sector": "Water Supply & Sanitation",
         "year": 2020,
-        "amount": 0.403100152168,
+        "amount": 0.403100153,
         "amountLabel": "$403K"
       },
       {
@@ -21532,6 +21261,14 @@ window.OECD_DATA = {
         "amountLabel": "$397K"
       },
       {
+        "donorCountry": "Belgium",
+        "country": "Senegal",
+        "sector": "Health",
+        "year": 2023,
+        "amount": 0.397081915,
+        "amountLabel": "$397K"
+      },
+      {
         "donorCountry": "United States",
         "country": "India",
         "sector": "Industry, Mining, Construction",
@@ -21552,7 +21289,7 @@ window.OECD_DATA = {
         "country": "Dominican Republic",
         "sector": "Health",
         "year": 2020,
-        "amount": 0.39592001911999997,
+        "amount": 0.39592001899999996,
         "amountLabel": "$396K"
       },
       {
@@ -21560,7 +21297,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2021,
-        "amount": 0.39574958320000003,
+        "amount": 0.395749583,
         "amountLabel": "$396K"
       },
       {
@@ -21576,7 +21313,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2023,
-        "amount": 0.394451215659,
+        "amount": 0.394451216,
         "amountLabel": "$394K"
       },
       {
@@ -21592,15 +21329,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2023,
-        "amount": 0.3941602019,
-        "amountLabel": "$394K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Indonesia",
-        "sector": "Unspecified",
-        "year": 2021,
-        "amount": 0.3935702165,
+        "amount": 0.394160201,
         "amountLabel": "$394K"
       },
       {
@@ -21622,9 +21351,9 @@ window.OECD_DATA = {
       {
         "donorCountry": "Japan",
         "country": "Uganda",
-        "sector": "Unspecified",
+        "sector": "Other Multisector",
         "year": 2021,
-        "amount": 0.3932108981,
+        "amount": 0.393210898,
         "amountLabel": "$393K"
       },
       {
@@ -21632,7 +21361,15 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Industry, Mining, Construction",
         "year": 2023,
-        "amount": 0.39234264270174,
+        "amount": 0.3923426348,
+        "amountLabel": "$392K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Rwanda",
+        "sector": "Health",
+        "year": 2021,
+        "amount": 0.391777337,
         "amountLabel": "$392K"
       },
       {
@@ -21642,6 +21379,14 @@ window.OECD_DATA = {
         "year": 2023,
         "amount": 0.39163000000000003,
         "amountLabel": "$392K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Uganda",
+        "sector": "General Budget Support",
+        "year": 2022,
+        "amount": 0.39095710699999997,
+        "amountLabel": "$391K"
       },
       {
         "donorCountry": "United Kingdom",
@@ -21672,7 +21417,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Education",
         "year": 2023,
-        "amount": 0.389248743789,
+        "amount": 0.389248744,
         "amountLabel": "$389K"
       },
       {
@@ -21701,6 +21446,22 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
+        "country": "Malawi",
+        "sector": "Education",
+        "year": 2023,
+        "amount": 0.388105,
+        "amountLabel": "$388K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Rwanda",
+        "sector": "Unallocated / Unspecified",
+        "year": 2020,
+        "amount": 0.387924548,
+        "amountLabel": "$388K"
+      },
+      {
+        "donorCountry": "United States",
         "country": "Nigeria",
         "sector": "Industry, Mining, Construction",
         "year": 2020,
@@ -21714,22 +21475,6 @@ window.OECD_DATA = {
         "year": 2023,
         "amount": 0.387037096,
         "amountLabel": "$387K"
-      },
-      {
-        "donorCountry": "Mexico",
-        "country": "Mexico",
-        "sector": "Trade Policies & Regulations",
-        "year": 2023,
-        "amount": 0.3853230115058,
-        "amountLabel": "$385K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Nigeria",
-        "sector": "General Environment Protection",
-        "year": 2020,
-        "amount": 0.38524855722,
-        "amountLabel": "$385K"
       },
       {
         "donorCountry": "United States",
@@ -21765,6 +21510,14 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Spain",
+        "country": "Nigeria",
+        "sector": "Education",
+        "year": 2023,
+        "amount": 0.384924,
+        "amountLabel": "$385K"
+      },
+      {
+        "donorCountry": "Spain",
         "country": "Uganda",
         "sector": "Education",
         "year": 2023,
@@ -21781,23 +21534,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Spain",
-        "country": "South Africa",
-        "sector": "Education",
-        "year": 2023,
-        "amount": 0.384924,
-        "amountLabel": "$385K"
-      },
-      {
-        "donorCountry": "Spain",
-        "country": "Malawi",
-        "sector": "Education",
-        "year": 2023,
-        "amount": 0.384924,
-        "amountLabel": "$385K"
-      },
-      {
-        "donorCountry": "Spain",
-        "country": "Nigeria",
+        "country": "Brazil",
         "sector": "Education",
         "year": 2023,
         "amount": 0.384924,
@@ -21813,6 +21550,14 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Spain",
+        "country": "Malawi",
+        "sector": "Education",
+        "year": 2023,
+        "amount": 0.384924,
+        "amountLabel": "$385K"
+      },
+      {
+        "donorCountry": "Spain",
         "country": "Rwanda",
         "sector": "Education",
         "year": 2023,
@@ -21821,10 +21566,18 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Spain",
-        "country": "Brazil",
+        "country": "South Africa",
         "sector": "Education",
         "year": 2023,
         "amount": 0.384924,
+        "amountLabel": "$385K"
+      },
+      {
+        "donorCountry": "Mexico",
+        "country": "Mexico",
+        "sector": "Trade Policies & Regulations",
+        "year": 2023,
+        "amount": 0.384732065,
         "amountLabel": "$385K"
       },
       {
@@ -21832,7 +21585,7 @@ window.OECD_DATA = {
         "country": "Democratic Republic of the Congo",
         "sector": "Industry, Mining, Construction",
         "year": 2020,
-        "amount": 0.384602941805,
+        "amount": 0.384602942,
         "amountLabel": "$385K"
       },
       {
@@ -21848,7 +21601,7 @@ window.OECD_DATA = {
         "country": "Democratic Republic of the Congo",
         "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 0.3829124316,
+        "amount": 0.382912432,
         "amountLabel": "$383K"
       },
       {
@@ -21864,7 +21617,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Business & Other Services",
         "year": 2022,
-        "amount": 0.3826405721,
+        "amount": 0.382640572,
         "amountLabel": "$383K"
       },
       {
@@ -21872,7 +21625,7 @@ window.OECD_DATA = {
         "country": "Ukraine",
         "sector": "Government & Civil Society",
         "year": 2020,
-        "amount": 0.38262664018000003,
+        "amount": 0.38262664,
         "amountLabel": "$383K"
       },
       {
@@ -21880,7 +21633,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Emergency Response",
         "year": 2020,
-        "amount": 0.3821239685,
+        "amount": 0.382123969,
         "amountLabel": "$382K"
       },
       {
@@ -21888,7 +21641,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "General Environment Protection",
         "year": 2023,
-        "amount": 0.3810512532,
+        "amount": 0.381051253,
         "amountLabel": "$381K"
       },
       {
@@ -21904,7 +21657,7 @@ window.OECD_DATA = {
         "country": "Ghana",
         "sector": "Other Multisector",
         "year": 2022,
-        "amount": 0.3786137517,
+        "amount": 0.378613752,
         "amountLabel": "$379K"
       },
       {
@@ -21912,7 +21665,7 @@ window.OECD_DATA = {
         "country": "Indonesia",
         "sector": "Unallocated / Unspecified",
         "year": 2022,
-        "amount": 0.3783214228,
+        "amount": 0.378321423,
         "amountLabel": "$378K"
       },
       {
@@ -21928,7 +21681,7 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Health",
         "year": 2022,
-        "amount": 0.3763653685,
+        "amount": 0.376365368,
         "amountLabel": "$376K"
       },
       {
@@ -21972,14 +21725,6 @@ window.OECD_DATA = {
         "amountLabel": "$372K"
       },
       {
-        "donorCountry": "Belgium",
-        "country": "Democratic Republic of the Congo",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 0.37072616212000004,
-        "amountLabel": "$371K"
-      },
-      {
         "donorCountry": "Denmark",
         "country": "Kenya",
         "sector": "Health",
@@ -21992,7 +21737,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Other Social Infrastructure & Services",
         "year": 2021,
-        "amount": 0.3701777851,
+        "amount": 0.370177785,
         "amountLabel": "$370K"
       },
       {
@@ -22008,7 +21753,7 @@ window.OECD_DATA = {
         "country": "Burkina Faso",
         "sector": "General Environment Protection",
         "year": 2023,
-        "amount": 0.3690259531,
+        "amount": 0.369025953,
         "amountLabel": "$369K"
       },
       {
@@ -22024,7 +21769,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Other Multisector",
         "year": 2022,
-        "amount": 0.3688394065,
+        "amount": 0.368839407,
         "amountLabel": "$369K"
       },
       {
@@ -22036,19 +21781,19 @@ window.OECD_DATA = {
         "amountLabel": "$368K"
       },
       {
-        "donorCountry": "France",
-        "country": "Mexico",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 0.36773420757999997,
-        "amountLabel": "$368K"
-      },
-      {
         "donorCountry": "United States",
         "country": "Rwanda",
         "sector": "Government & Civil Society",
         "year": 2020,
-        "amount": 0.36639791088,
+        "amount": 0.36639791,
+        "amountLabel": "$366K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Mexico",
+        "sector": "Industry, Mining, Construction",
+        "year": 2020,
+        "amount": 0.366347937,
         "amountLabel": "$366K"
       },
       {
@@ -22064,7 +21809,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Unallocated / Unspecified",
         "year": 2021,
-        "amount": 0.3654580581,
+        "amount": 0.365458058,
         "amountLabel": "$365K"
       },
       {
@@ -22072,7 +21817,7 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Unallocated / Unspecified",
         "year": 2022,
-        "amount": 0.3644074228,
+        "amount": 0.364407423,
         "amountLabel": "$364K"
       },
       {
@@ -22088,7 +21833,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Education",
         "year": 2021,
-        "amount": 0.3640929318,
+        "amount": 0.364092932,
         "amountLabel": "$364K"
       },
       {
@@ -22096,7 +21841,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Water Supply & Sanitation",
         "year": 2021,
-        "amount": 0.3638245832,
+        "amount": 0.363824583,
         "amountLabel": "$364K"
       },
       {
@@ -22105,14 +21850,6 @@ window.OECD_DATA = {
         "sector": "Other Social Infrastructure & Services",
         "year": 2020,
         "amount": 0.363166,
-        "amountLabel": "$363K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Malawi",
-        "sector": "Education",
-        "year": 2023,
-        "amount": 0.363105,
         "amountLabel": "$363K"
       },
       {
@@ -22128,7 +21865,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Business & Other Services",
         "year": 2021,
-        "amount": 0.36259987611,
+        "amount": 0.362599876,
         "amountLabel": "$363K"
       },
       {
@@ -22148,14 +21885,6 @@ window.OECD_DATA = {
         "amountLabel": "$363K"
       },
       {
-        "donorCountry": "United States",
-        "country": "Brazil",
-        "sector": "Energy",
-        "year": 2022,
-        "amount": 0.36180451255,
-        "amountLabel": "$362K"
-      },
-      {
         "donorCountry": "Switzerland",
         "country": "Colombia",
         "sector": "Health",
@@ -22168,7 +21897,7 @@ window.OECD_DATA = {
         "country": "Peru",
         "sector": "Disaster Prevention & Preparedness",
         "year": 2022,
-        "amount": 0.3602427665,
+        "amount": 0.360242767,
         "amountLabel": "$360K"
       },
       {
@@ -22176,7 +21905,15 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Industry, Mining, Construction",
         "year": 2022,
-        "amount": 0.35821457885999997,
+        "amount": 0.358214579,
+        "amountLabel": "$358K"
+      },
+      {
+        "donorCountry": "France",
+        "country": "Brazil",
+        "sector": "Government & Civil Society",
+        "year": 2021,
+        "amount": 0.357600694,
         "amountLabel": "$358K"
       },
       {
@@ -22197,14 +21934,6 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Netherlands",
-        "country": "Pakistan",
-        "sector": "Energy",
-        "year": 2020,
-        "amount": 0.355088,
-        "amountLabel": "$355K"
-      },
-      {
-        "donorCountry": "Netherlands",
         "country": "Ghana",
         "sector": "Energy",
         "year": 2020,
@@ -22212,27 +21941,35 @@ window.OECD_DATA = {
         "amountLabel": "$355K"
       },
       {
-        "donorCountry": "France",
-        "country": "Brazil",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2021,
-        "amount": 0.3543866094,
-        "amountLabel": "$354K"
+        "donorCountry": "Netherlands",
+        "country": "Pakistan",
+        "sector": "Energy",
+        "year": 2020,
+        "amount": 0.355088,
+        "amountLabel": "$355K"
       },
       {
-        "donorCountry": "United States",
-        "country": "Indonesia",
-        "sector": "Emergency Response",
-        "year": 2020,
-        "amount": 0.3531938217,
-        "amountLabel": "$353K"
+        "donorCountry": "France",
+        "country": "Mexico",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2021,
+        "amount": 0.35474653500000003,
+        "amountLabel": "$355K"
       },
       {
         "donorCountry": "United States",
         "country": "Ukraine",
         "sector": "Health",
         "year": 2020,
-        "amount": 0.3531938217,
+        "amount": 0.353193822,
+        "amountLabel": "$353K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Indonesia",
+        "sector": "Emergency Response",
+        "year": 2020,
+        "amount": 0.353193822,
         "amountLabel": "$353K"
       },
       {
@@ -22248,7 +21985,7 @@ window.OECD_DATA = {
         "country": "Democratic Republic of the Congo",
         "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 0.350962575835,
+        "amount": 0.350962577,
         "amountLabel": "$351K"
       },
       {
@@ -22261,8 +21998,8 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "China (People's Republic of)",
-        "sector": "Unallocated / Unspecified",
+        "country": "Democratic Republic of the Congo",
+        "sector": "Government & Civil Society",
         "year": 2023,
         "amount": 0.35,
         "amountLabel": "$350K"
@@ -22277,8 +22014,8 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Democratic Republic of the Congo",
-        "sector": "Government & Civil Society",
+        "country": "China (People's Republic of)",
+        "sector": "Unallocated / Unspecified",
         "year": 2023,
         "amount": 0.35,
         "amountLabel": "$350K"
@@ -22288,7 +22025,7 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Other Social Infrastructure & Services",
         "year": 2022,
-        "amount": 0.3494896169,
+        "amount": 0.349489617,
         "amountLabel": "$349K"
       },
       {
@@ -22296,15 +22033,15 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "General Environment Protection",
         "year": 2022,
-        "amount": 0.3494896169,
+        "amount": 0.349489617,
         "amountLabel": "$349K"
       },
       {
         "donorCountry": "Qatar",
         "country": "Ethiopia",
-        "sector": "Unspecified",
+        "sector": "Education",
         "year": 2020,
-        "amount": 0.3493404771,
+        "amount": 0.349340477,
         "amountLabel": "$349K"
       },
       {
@@ -22336,7 +22073,7 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Other Social Infrastructure & Services",
         "year": 2022,
-        "amount": 0.3473658439,
+        "amount": 0.34736584400000003,
         "amountLabel": "$347K"
       },
       {
@@ -22364,36 +22101,20 @@ window.OECD_DATA = {
         "amountLabel": "$345K"
       },
       {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Banking & Financial Services",
+        "year": 2022,
+        "amount": 0.343736009,
+        "amountLabel": "$344K"
+      },
+      {
         "donorCountry": "Switzerland",
         "country": "Uganda",
         "sector": "Water Supply & Sanitation",
         "year": 2020,
         "amount": 0.343681,
         "amountLabel": "$344K"
-      },
-      {
-        "donorCountry": "Switzerland",
-        "country": "Zambia",
-        "sector": "Water Supply & Sanitation",
-        "year": 2020,
-        "amount": 0.343322,
-        "amountLabel": "$343K"
-      },
-      {
-        "donorCountry": "Switzerland",
-        "country": "Malawi",
-        "sector": "Water Supply & Sanitation",
-        "year": 2020,
-        "amount": 0.343322,
-        "amountLabel": "$343K"
-      },
-      {
-        "donorCountry": "Switzerland",
-        "country": "Senegal",
-        "sector": "Water Supply & Sanitation",
-        "year": 2020,
-        "amount": 0.343322,
-        "amountLabel": "$343K"
       },
       {
         "donorCountry": "Switzerland",
@@ -22405,15 +22126,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Switzerland",
-        "country": "India",
-        "sector": "Water Supply & Sanitation",
-        "year": 2020,
-        "amount": 0.343322,
-        "amountLabel": "$343K"
-      },
-      {
-        "donorCountry": "Switzerland",
-        "country": "Rwanda",
+        "country": "Malawi",
         "sector": "Water Supply & Sanitation",
         "year": 2020,
         "amount": 0.343322,
@@ -22437,7 +22150,15 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Kenya",
+        "country": "Zambia",
+        "sector": "Water Supply & Sanitation",
+        "year": 2020,
+        "amount": 0.343322,
+        "amountLabel": "$343K"
+      },
+      {
+        "donorCountry": "Switzerland",
+        "country": "Rwanda",
         "sector": "Water Supply & Sanitation",
         "year": 2020,
         "amount": 0.343322,
@@ -22452,11 +22173,35 @@ window.OECD_DATA = {
         "amountLabel": "$343K"
       },
       {
+        "donorCountry": "Switzerland",
+        "country": "Senegal",
+        "sector": "Water Supply & Sanitation",
+        "year": 2020,
+        "amount": 0.343322,
+        "amountLabel": "$343K"
+      },
+      {
+        "donorCountry": "Switzerland",
+        "country": "India",
+        "sector": "Water Supply & Sanitation",
+        "year": 2020,
+        "amount": 0.343322,
+        "amountLabel": "$343K"
+      },
+      {
+        "donorCountry": "Switzerland",
+        "country": "Kenya",
+        "sector": "Water Supply & Sanitation",
+        "year": 2020,
+        "amount": 0.343322,
+        "amountLabel": "$343K"
+      },
+      {
         "donorCountry": "Denmark",
         "country": "Uganda",
         "sector": "Health",
         "year": 2023,
-        "amount": 0.3432088899,
+        "amount": 0.34320889,
         "amountLabel": "$343K"
       },
       {
@@ -22472,7 +22217,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2023,
-        "amount": 0.3426171819,
+        "amount": 0.342617182,
         "amountLabel": "$343K"
       },
       {
@@ -22480,12 +22225,12 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2021,
-        "amount": 0.3416388805294,
+        "amount": 0.341638879,
         "amountLabel": "$342K"
       },
       {
         "donorCountry": "Netherlands",
-        "country": "Mexico",
+        "country": "Kenya",
         "sector": "General Environment Protection",
         "year": 2021,
         "amount": 0.340136,
@@ -22493,7 +22238,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Netherlands",
-        "country": "Kenya",
+        "country": "Mexico",
         "sector": "General Environment Protection",
         "year": 2021,
         "amount": 0.340136,
@@ -22533,18 +22278,26 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Pakistan",
-        "sector": "Emergency Response",
+        "country": "South Africa",
+        "sector": "Unallocated / Unspecified",
+        "year": 2022,
+        "amount": 0.338378321,
+        "amountLabel": "$338K"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Administrative Costs of Donors",
         "year": 2021,
-        "amount": 0.3373458999,
-        "amountLabel": "$337K"
+        "amount": 0.33793302599999997,
+        "amountLabel": "$338K"
       },
       {
         "donorCountry": "United States",
-        "country": "China (People's Republic of)",
-        "sector": "Industry, Mining, Construction",
+        "country": "Pakistan",
+        "sector": "Emergency Response",
         "year": 2021,
-        "amount": 0.33734589986,
+        "amount": 0.33734590000000003,
         "amountLabel": "$337K"
       },
       {
@@ -22552,7 +22305,15 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Health",
         "year": 2021,
-        "amount": 0.3373458998,
+        "amount": 0.3373459,
+        "amountLabel": "$337K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "China (People's Republic of)",
+        "sector": "Industry, Mining, Construction",
+        "year": 2021,
+        "amount": 0.3373459,
         "amountLabel": "$337K"
       },
       {
@@ -22560,7 +22321,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2020,
-        "amount": 0.3368694142,
+        "amount": 0.336869414,
         "amountLabel": "$337K"
       },
       {
@@ -22568,7 +22329,7 @@ window.OECD_DATA = {
         "country": "Pakistan",
         "sector": "Government & Civil Society",
         "year": 2023,
-        "amount": 0.33613782444999996,
+        "amount": 0.336137825,
         "amountLabel": "$336K"
       },
       {
@@ -22576,15 +22337,15 @@ window.OECD_DATA = {
         "country": "Peru",
         "sector": "Other Social Infrastructure & Services",
         "year": 2020,
-        "amount": 0.33610718479999996,
+        "amount": 0.336107185,
         "amountLabel": "$336K"
       },
       {
         "donorCountry": "Denmark",
         "country": "Ethiopia",
-        "sector": "Unspecified",
+        "sector": "Emergency Response",
         "year": 2020,
-        "amount": 0.3360132794,
+        "amount": 0.336013279,
         "amountLabel": "$336K"
       },
       {
@@ -22616,7 +22377,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Education",
         "year": 2022,
-        "amount": 0.33403214043,
+        "amount": 0.33403214,
         "amountLabel": "$334K"
       },
       {
@@ -22661,14 +22422,6 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Tanzania",
-        "sector": "Unspecified",
-        "year": 2021,
-        "amount": 0.33228571131,
-        "amountLabel": "$332K"
-      },
-      {
-        "donorCountry": "United States",
         "country": "Pakistan",
         "sector": "Other Social Infrastructure & Services",
         "year": 2023,
@@ -22680,7 +22433,7 @@ window.OECD_DATA = {
         "country": "Senegal",
         "sector": "Unallocated / Unspecified",
         "year": 2023,
-        "amount": 0.3315001376,
+        "amount": 0.331500138,
         "amountLabel": "$332K"
       },
       {
@@ -22688,24 +22441,24 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Health",
         "year": 2023,
-        "amount": 0.3315001376,
+        "amount": 0.331500138,
         "amountLabel": "$332K"
-      },
-      {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Administrative Costs of Donors",
-        "year": 2021,
-        "amount": 0.33109001248000003,
-        "amountLabel": "$331K"
       },
       {
         "donorCountry": "China (People's Republic of)",
         "country": "China (People's Republic of)",
         "sector": "Banking & Financial Services",
         "year": 2020,
-        "amount": 0.330050150998,
+        "amount": 0.330050152,
         "amountLabel": "$330K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Rwanda",
+        "sector": "Unallocated / Unspecified",
+        "year": 2021,
+        "amount": 0.32896285200000003,
+        "amountLabel": "$329K"
       },
       {
         "donorCountry": "Sweden",
@@ -22720,15 +22473,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "General Environment Protection",
         "year": 2021,
-        "amount": 0.328292536365,
-        "amountLabel": "$328K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Nigeria",
-        "sector": "Unspecified",
-        "year": 2020,
-        "amount": 0.3282347916,
+        "amount": 0.328292534,
         "amountLabel": "$328K"
       },
       {
@@ -22736,7 +22481,7 @@ window.OECD_DATA = {
         "country": "Democratic Republic of the Congo",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2023,
-        "amount": 0.3263618854,
+        "amount": 0.326361885,
         "amountLabel": "$326K"
       },
       {
@@ -22748,28 +22493,20 @@ window.OECD_DATA = {
         "amountLabel": "$326K"
       },
       {
-        "donorCountry": "United States",
-        "country": "Uganda",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 0.32385,
-        "amountLabel": "$324K"
-      },
-      {
         "donorCountry": "India",
         "country": "India",
         "sector": "Development Food Assistance",
         "year": 2022,
-        "amount": 0.3236735964,
+        "amount": 0.323673596,
         "amountLabel": "$324K"
       },
       {
         "donorCountry": "United States",
-        "country": "Zambia",
-        "sector": "Transport & Storage",
-        "year": 2021,
-        "amount": 0.321855,
-        "amountLabel": "$322K"
+        "country": "Nigeria",
+        "sector": "Water Supply & Sanitation",
+        "year": 2020,
+        "amount": 0.322936885,
+        "amountLabel": "$323K"
       },
       {
         "donorCountry": "United States",
@@ -22780,36 +22517,12 @@ window.OECD_DATA = {
         "amountLabel": "$322K"
       },
       {
-        "donorCountry": "Spain",
-        "country": "South Africa",
-        "sector": "Education",
-        "year": 2022,
-        "amount": 0.319509,
-        "amountLabel": "$320K"
-      },
-      {
-        "donorCountry": "Spain",
-        "country": "Democratic Republic of the Congo",
-        "sector": "Education",
-        "year": 2022,
-        "amount": 0.319509,
-        "amountLabel": "$320K"
-      },
-      {
-        "donorCountry": "Spain",
-        "country": "Uganda",
-        "sector": "Education",
-        "year": 2022,
-        "amount": 0.319509,
-        "amountLabel": "$320K"
-      },
-      {
-        "donorCountry": "Spain",
-        "country": "Tanzania",
-        "sector": "Education",
-        "year": 2022,
-        "amount": 0.319509,
-        "amountLabel": "$320K"
+        "donorCountry": "United States",
+        "country": "Zambia",
+        "sector": "Transport & Storage",
+        "year": 2021,
+        "amount": 0.321855,
+        "amountLabel": "$322K"
       },
       {
         "donorCountry": "Spain",
@@ -22821,23 +22534,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Spain",
-        "country": "Rwanda",
-        "sector": "Education",
-        "year": 2022,
-        "amount": 0.319509,
-        "amountLabel": "$320K"
-      },
-      {
-        "donorCountry": "Spain",
-        "country": "Nigeria",
-        "sector": "Education",
-        "year": 2022,
-        "amount": 0.319509,
-        "amountLabel": "$320K"
-      },
-      {
-        "donorCountry": "Spain",
-        "country": "Mexico",
+        "country": "South Africa",
         "sector": "Education",
         "year": 2022,
         "amount": 0.319509,
@@ -22853,7 +22550,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Spain",
-        "country": "Kenya",
+        "country": "Mexico",
         "sector": "Education",
         "year": 2022,
         "amount": 0.319509,
@@ -22869,6 +22566,46 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Spain",
+        "country": "Brazil",
+        "sector": "Education",
+        "year": 2022,
+        "amount": 0.319509,
+        "amountLabel": "$320K"
+      },
+      {
+        "donorCountry": "Spain",
+        "country": "Nigeria",
+        "sector": "Education",
+        "year": 2022,
+        "amount": 0.319509,
+        "amountLabel": "$320K"
+      },
+      {
+        "donorCountry": "Spain",
+        "country": "Uganda",
+        "sector": "Education",
+        "year": 2022,
+        "amount": 0.319509,
+        "amountLabel": "$320K"
+      },
+      {
+        "donorCountry": "Spain",
+        "country": "Rwanda",
+        "sector": "Education",
+        "year": 2022,
+        "amount": 0.319509,
+        "amountLabel": "$320K"
+      },
+      {
+        "donorCountry": "Spain",
+        "country": "Tanzania",
+        "sector": "Education",
+        "year": 2022,
+        "amount": 0.319509,
+        "amountLabel": "$320K"
+      },
+      {
+        "donorCountry": "Spain",
         "country": "Ethiopia",
         "sector": "Education",
         "year": 2022,
@@ -22877,7 +22614,15 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Spain",
-        "country": "Brazil",
+        "country": "Democratic Republic of the Congo",
+        "sector": "Education",
+        "year": 2022,
+        "amount": 0.319509,
+        "amountLabel": "$320K"
+      },
+      {
+        "donorCountry": "Spain",
+        "country": "Kenya",
         "sector": "Education",
         "year": 2022,
         "amount": 0.319509,
@@ -22896,7 +22641,7 @@ window.OECD_DATA = {
         "country": "Indonesia",
         "sector": "Disaster Prevention & Preparedness",
         "year": 2020,
-        "amount": 0.3179121135,
+        "amount": 0.317912114,
         "amountLabel": "$318K"
       },
       {
@@ -22936,7 +22681,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Government & Civil Society",
         "year": 2023,
-        "amount": 0.31515497078,
+        "amount": 0.315154971,
         "amountLabel": "$315K"
       },
       {
@@ -22944,7 +22689,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Government & Civil Society",
         "year": 2023,
-        "amount": 0.31456673209799996,
+        "amount": 0.314566732,
         "amountLabel": "$315K"
       },
       {
@@ -22952,7 +22697,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Disaster Prevention & Preparedness",
         "year": 2023,
-        "amount": 0.3134573288,
+        "amount": 0.313457329,
         "amountLabel": "$313K"
       },
       {
@@ -22960,15 +22705,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Other Multisector",
         "year": 2021,
-        "amount": 0.313284213623,
-        "amountLabel": "$313K"
-      },
-      {
-        "donorCountry": "France",
-        "country": "Brazil",
-        "sector": "Education",
-        "year": 2023,
-        "amount": 0.31326763001,
+        "amount": 0.31328421500000003,
         "amountLabel": "$313K"
       },
       {
@@ -22984,7 +22721,7 @@ window.OECD_DATA = {
         "country": "Pakistan",
         "sector": "Education",
         "year": 2021,
-        "amount": 0.31305380903,
+        "amount": 0.313053809,
         "amountLabel": "$313K"
       },
       {
@@ -23000,7 +22737,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2022,
-        "amount": 0.31080927105100004,
+        "amount": 0.310809271,
         "amountLabel": "$311K"
       },
       {
@@ -23024,7 +22761,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Other Multisector",
         "year": 2021,
-        "amount": 0.3093195832,
+        "amount": 0.309319583,
         "amountLabel": "$309K"
       },
       {
@@ -23056,7 +22793,7 @@ window.OECD_DATA = {
         "country": "Senegal",
         "sector": "Education",
         "year": 2022,
-        "amount": 0.30657229197999997,
+        "amount": 0.30657228999999997,
         "amountLabel": "$307K"
       },
       {
@@ -23076,11 +22813,11 @@ window.OECD_DATA = {
         "amountLabel": "$306K"
       },
       {
-        "donorCountry": "France",
-        "country": "Mexico",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2023,
-        "amount": 0.3057167935,
+        "donorCountry": "United States",
+        "country": "Brazil",
+        "sector": "Unallocated / Unspecified",
+        "year": 2020,
+        "amount": 0.306101312,
         "amountLabel": "$306K"
       },
       {
@@ -23096,7 +22833,7 @@ window.OECD_DATA = {
         "country": "Indonesia",
         "sector": "Education",
         "year": 2021,
-        "amount": 0.3018089457,
+        "amount": 0.301808946,
         "amountLabel": "$302K"
       },
       {
@@ -23112,7 +22849,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Water Supply & Sanitation",
         "year": 2023,
-        "amount": 0.3004235566,
+        "amount": 0.300423557,
         "amountLabel": "$300K"
       },
       {
@@ -23140,14 +22877,6 @@ window.OECD_DATA = {
         "amountLabel": "$300K"
       },
       {
-        "donorCountry": "United States",
-        "country": "Malawi",
-        "sector": "Unspecified",
-        "year": 2022,
-        "amount": 0.299855250768,
-        "amountLabel": "$300K"
-      },
-      {
         "donorCountry": "Germany",
         "country": "Indonesia",
         "sector": "Water Supply & Sanitation",
@@ -23156,11 +22885,19 @@ window.OECD_DATA = {
         "amountLabel": "$300K"
       },
       {
+        "donorCountry": "Belgium",
+        "country": "Brazil",
+        "sector": "Unallocated / Unspecified",
+        "year": 2023,
+        "amount": 0.29761640300000003,
+        "amountLabel": "$298K"
+      },
+      {
         "donorCountry": "Colombia",
         "country": "Colombia",
         "sector": "Health",
         "year": 2023,
-        "amount": 0.2972747086,
+        "amount": 0.297274709,
         "amountLabel": "$297K"
       },
       {
@@ -23192,8 +22929,16 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Government & Civil Society",
         "year": 2020,
-        "amount": 0.29649234514,
+        "amount": 0.296492345,
         "amountLabel": "$296K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Kenya",
+        "sector": "Unallocated / Unspecified",
+        "year": 2023,
+        "amount": 0.29505000000000003,
+        "amountLabel": "$295K"
       },
       {
         "donorCountry": "United States",
@@ -23208,7 +22953,7 @@ window.OECD_DATA = {
         "country": "Ethiopia",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2021,
-        "amount": 0.2949171591,
+        "amount": 0.294917159,
         "amountLabel": "$295K"
       },
       {
@@ -23216,7 +22961,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Other Multisector",
         "year": 2022,
-        "amount": 0.2948240163,
+        "amount": 0.294824017,
         "amountLabel": "$295K"
       },
       {
@@ -23229,18 +22974,18 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Brazil",
-        "sector": "Unallocated / Unspecified",
-        "year": 2020,
-        "amount": 0.2943281848,
-        "amountLabel": "$294K"
-      },
-      {
-        "donorCountry": "United States",
         "country": "China (People's Republic of)",
         "sector": "Banking & Financial Services",
         "year": 2021,
         "amount": 0.294109,
+        "amountLabel": "$294K"
+      },
+      {
+        "donorCountry": "France",
+        "country": "Colombia",
+        "sector": "Government & Civil Society",
+        "year": 2022,
+        "amount": 0.29359419,
         "amountLabel": "$294K"
       },
       {
@@ -23249,14 +22994,6 @@ window.OECD_DATA = {
         "sector": "Other Social Infrastructure & Services",
         "year": 2022,
         "amount": 0.293494,
-        "amountLabel": "$293K"
-      },
-      {
-        "donorCountry": "France",
-        "country": "Brazil",
-        "sector": "Government & Civil Society",
-        "year": 2021,
-        "amount": 0.29321796992,
         "amountLabel": "$293K"
       },
       {
@@ -23296,7 +23033,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "General Environment Protection",
         "year": 2021,
-        "amount": 0.29151707916,
+        "amount": 0.291517079,
         "amountLabel": "$292K"
       },
       {
@@ -23304,7 +23041,7 @@ window.OECD_DATA = {
         "country": "Ukraine",
         "sector": "Emergency Response",
         "year": 2022,
-        "amount": 0.29124134739,
+        "amount": 0.291241347,
         "amountLabel": "$291K"
       },
       {
@@ -23313,6 +23050,14 @@ window.OECD_DATA = {
         "sector": "Emergency Response",
         "year": 2022,
         "amount": 0.290962,
+        "amountLabel": "$291K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Democratic Republic of the Congo",
+        "sector": "Health",
+        "year": 2022,
+        "amount": 0.290924862,
         "amountLabel": "$291K"
       },
       {
@@ -23384,7 +23129,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Government & Civil Society",
         "year": 2023,
-        "amount": 0.2864835239,
+        "amount": 0.286483524,
         "amountLabel": "$286K"
       },
       {
@@ -23392,7 +23137,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Emergency Response",
         "year": 2022,
-        "amount": 0.28632011786,
+        "amount": 0.286320118,
         "amountLabel": "$286K"
       },
       {
@@ -23416,7 +23161,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Unallocated / Unspecified",
         "year": 2021,
-        "amount": 0.2859932666,
+        "amount": 0.285993267,
         "amountLabel": "$286K"
       },
       {
@@ -23424,7 +23169,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Reconstruction Relief & Rehabilitation",
         "year": 2023,
-        "amount": 0.28580762656249004,
+        "amount": 0.2858076255,
         "amountLabel": "$286K"
       },
       {
@@ -23432,7 +23177,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "General Environment Protection",
         "year": 2021,
-        "amount": 0.28552758320000005,
+        "amount": 0.28552758300000003,
         "amountLabel": "$286K"
       },
       {
@@ -23440,8 +23185,16 @@ window.OECD_DATA = {
         "country": "Ghana",
         "sector": "Energy",
         "year": 2020,
-        "amount": 0.2850322649,
+        "amount": 0.285032265,
         "amountLabel": "$285K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Malawi",
+        "sector": "Unallocated / Unspecified",
+        "year": 2022,
+        "amount": 0.284446023,
+        "amountLabel": "$284K"
       },
       {
         "donorCountry": "United Kingdom",
@@ -23464,7 +23217,15 @@ window.OECD_DATA = {
         "country": "Democratic Republic of the Congo",
         "sector": "Emergency Response",
         "year": 2023,
-        "amount": 0.28335319022,
+        "amount": 0.28335319000000003,
+        "amountLabel": "$283K"
+      },
+      {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "General Budget Support",
+        "year": 2021,
+        "amount": 0.282940794,
         "amountLabel": "$283K"
       },
       {
@@ -23473,14 +23234,6 @@ window.OECD_DATA = {
         "sector": "Water Supply & Sanitation",
         "year": 2020,
         "amount": 0.282723,
-        "amountLabel": "$283K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Rwanda",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 0.282625,
         "amountLabel": "$283K"
       },
       {
@@ -23496,7 +23249,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Other Multisector",
         "year": 2023,
-        "amount": 0.2817673819,
+        "amount": 0.281767382,
         "amountLabel": "$282K"
       },
       {
@@ -23504,7 +23257,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Education",
         "year": 2020,
-        "amount": 0.2814142413,
+        "amount": 0.281414241,
         "amountLabel": "$281K"
       },
       {
@@ -23518,17 +23271,17 @@ window.OECD_DATA = {
       {
         "donorCountry": "United States",
         "country": "Ukraine",
-        "sector": "Unspecified",
+        "sector": "Unallocated / Unspecified",
         "year": 2021,
-        "amount": 0.2811215832,
+        "amount": 0.281121583,
         "amountLabel": "$281K"
       },
       {
-        "donorCountry": "Belgium",
-        "country": "Kenya",
-        "sector": "Unspecified",
-        "year": 2020,
-        "amount": 0.281066429595,
+        "donorCountry": "United States",
+        "country": "China (People's Republic of)",
+        "sector": "General Budget Support",
+        "year": 2022,
+        "amount": 0.281114298,
         "amountLabel": "$281K"
       },
       {
@@ -23536,7 +23289,7 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2021,
-        "amount": 0.28052454582,
+        "amount": 0.28052454600000004,
         "amountLabel": "$281K"
       },
       {
@@ -23552,7 +23305,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Education",
         "year": 2023,
-        "amount": 0.27926897593,
+        "amount": 0.279268976,
         "amountLabel": "$279K"
       },
       {
@@ -23581,18 +23334,18 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Belgium",
-        "country": "Kenya",
-        "sector": "Unspecified",
-        "year": 2021,
-        "amount": 0.27657545248800003,
-        "amountLabel": "$277K"
+        "country": "Democratic Republic of the Congo",
+        "sector": "Unallocated / Unspecified",
+        "year": 2023,
+        "amount": 0.27581364,
+        "amountLabel": "$276K"
       },
       {
-        "donorCountry": "Belgium",
+        "donorCountry": "Switzerland",
         "country": "India",
-        "sector": "Unspecified",
-        "year": 2022,
-        "amount": 0.275833515188,
+        "sector": "Other Multisector",
+        "year": 2020,
+        "amount": 0.275726,
         "amountLabel": "$276K"
       },
       {
@@ -23604,12 +23357,12 @@ window.OECD_DATA = {
         "amountLabel": "$276K"
       },
       {
-        "donorCountry": "Switzerland",
-        "country": "India",
-        "sector": "Other Multisector",
-        "year": 2020,
-        "amount": 0.275726,
-        "amountLabel": "$276K"
+        "donorCountry": "Netherlands",
+        "country": "China (People's Republic of)",
+        "sector": "General Environment Protection",
+        "year": 2021,
+        "amount": 0.275127,
+        "amountLabel": "$275K"
       },
       {
         "donorCountry": "Netherlands",
@@ -23620,11 +23373,11 @@ window.OECD_DATA = {
         "amountLabel": "$275K"
       },
       {
-        "donorCountry": "Netherlands",
-        "country": "China (People's Republic of)",
-        "sector": "General Environment Protection",
-        "year": 2021,
-        "amount": 0.275127,
+        "donorCountry": "United States",
+        "country": "South Africa",
+        "sector": "General Budget Support",
+        "year": 2023,
+        "amount": 0.275,
         "amountLabel": "$275K"
       },
       {
@@ -23636,20 +23389,20 @@ window.OECD_DATA = {
         "amountLabel": "$275K"
       },
       {
-        "donorCountry": "France",
-        "country": "Brazil",
-        "sector": "Unspecified",
+        "donorCountry": "Belgium",
+        "country": "Democratic Republic of the Congo",
+        "sector": "Unallocated / Unspecified",
         "year": 2021,
-        "amount": 0.2745813309,
+        "amount": 0.27451313400000005,
         "amountLabel": "$275K"
       },
       {
         "donorCountry": "Belgium",
         "country": "Democratic Republic of the Congo",
-        "sector": "Health",
-        "year": 2022,
-        "amount": 0.27345038044500003,
-        "amountLabel": "$273K"
+        "sector": "Population Policies/Programmes & Reproductive Health",
+        "year": 2020,
+        "amount": 0.27412544,
+        "amountLabel": "$274K"
       },
       {
         "donorCountry": "Switzerland",
@@ -23680,23 +23433,15 @@ window.OECD_DATA = {
         "country": "Democratic Republic of the Congo",
         "sector": "Emergency Response",
         "year": 2022,
-        "amount": 0.27254364122999997,
+        "amount": 0.27254364200000003,
         "amountLabel": "$273K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Democratic Republic of the Congo",
-        "sector": "Population Policies/Programmes & Reproductive Health",
-        "year": 2020,
-        "amount": 0.272182037971,
-        "amountLabel": "$272K"
       },
       {
         "donorCountry": "Belgium",
         "country": "India",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2020,
-        "amount": 0.2720762528,
+        "amount": 0.272076253,
         "amountLabel": "$272K"
       },
       {
@@ -23720,7 +23465,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 0.2706269203,
+        "amount": 0.27062692,
         "amountLabel": "$271K"
       },
       {
@@ -23784,7 +23529,7 @@ window.OECD_DATA = {
         "country": "Indonesia",
         "sector": "Water Supply & Sanitation",
         "year": 2020,
-        "amount": 0.2698436117,
+        "amount": 0.269843612,
         "amountLabel": "$270K"
       },
       {
@@ -23805,6 +23550,14 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Switzerland",
+        "country": "Tanzania",
+        "sector": "Banking & Financial Services",
+        "year": 2022,
+        "amount": 0.267989,
+        "amountLabel": "$268K"
+      },
+      {
+        "donorCountry": "Switzerland",
         "country": "Nigeria",
         "sector": "Business & Other Services",
         "year": 2022,
@@ -23820,19 +23573,19 @@ window.OECD_DATA = {
         "amountLabel": "$268K"
       },
       {
-        "donorCountry": "Switzerland",
-        "country": "Tanzania",
-        "sector": "Banking & Financial Services",
-        "year": 2022,
-        "amount": 0.267989,
-        "amountLabel": "$268K"
-      },
-      {
         "donorCountry": "Belgium",
         "country": "Tanzania",
         "sector": "Other Social Infrastructure & Services",
         "year": 2020,
-        "amount": 0.267982153056,
+        "amount": 0.267982153,
+        "amountLabel": "$268K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Rwanda",
+        "sector": "General Environment Protection",
+        "year": 2022,
+        "amount": 0.267782557,
         "amountLabel": "$268K"
       },
       {
@@ -23856,7 +23609,7 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Other Social Infrastructure & Services",
         "year": 2020,
-        "amount": 0.266333968809,
+        "amount": 0.266333968,
         "amountLabel": "$266K"
       },
       {
@@ -23872,16 +23625,8 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2023,
-        "amount": 0.265803440336,
+        "amount": 0.265803442,
         "amountLabel": "$266K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Burkina Faso",
-        "sector": "Unspecified",
-        "year": 2021,
-        "amount": 0.265209338,
-        "amountLabel": "$265K"
       },
       {
         "donorCountry": "United States",
@@ -23928,7 +23673,7 @@ window.OECD_DATA = {
         "country": "Democratic Republic of the Congo",
         "sector": "Other Social Infrastructure & Services",
         "year": 2022,
-        "amount": 0.263762831158,
+        "amount": 0.26376283100000003,
         "amountLabel": "$264K"
       },
       {
@@ -23957,7 +23702,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Netherlands",
-        "country": "Kenya",
+        "country": "Mexico",
         "sector": "General Environment Protection",
         "year": 2022,
         "amount": 0.262334,
@@ -23965,7 +23710,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Netherlands",
-        "country": "Mexico",
+        "country": "Kenya",
         "sector": "General Environment Protection",
         "year": 2022,
         "amount": 0.262334,
@@ -23984,7 +23729,7 @@ window.OECD_DATA = {
         "country": "Pakistan",
         "sector": "Emergency Response",
         "year": 2022,
-        "amount": 0.2598217649,
+        "amount": 0.259821765,
         "amountLabel": "$260K"
       },
       {
@@ -23998,9 +23743,17 @@ window.OECD_DATA = {
       {
         "donorCountry": "Belgium",
         "country": "Kenya",
+        "sector": "Communications",
+        "year": 2020,
+        "amount": 0.259120241,
+        "amountLabel": "$259K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Kenya",
         "sector": "Energy",
         "year": 2020,
-        "amount": 0.2591202408,
+        "amount": 0.259120241,
         "amountLabel": "$259K"
       },
       {
@@ -24008,7 +23761,7 @@ window.OECD_DATA = {
         "country": "Senegal",
         "sector": "Energy",
         "year": 2020,
-        "amount": 0.2590684168,
+        "amount": 0.259068417,
         "amountLabel": "$259K"
       },
       {
@@ -24025,14 +23778,6 @@ window.OECD_DATA = {
         "sector": "Emergency Response",
         "year": 2022,
         "amount": 0.258996,
-        "amountLabel": "$259K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Brazil",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 0.258941387488,
         "amountLabel": "$259K"
       },
       {
@@ -24056,7 +23801,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2021,
-        "amount": 0.2576785625,
+        "amount": 0.257678562,
         "amountLabel": "$258K"
       },
       {
@@ -24064,7 +23809,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 0.25745735109,
+        "amount": 0.257457351,
         "amountLabel": "$257K"
       },
       {
@@ -24076,19 +23821,19 @@ window.OECD_DATA = {
         "amountLabel": "$256K"
       },
       {
+        "donorCountry": "Belgium",
+        "country": "Kenya",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2021,
+        "amount": 0.256369027,
+        "amountLabel": "$256K"
+      },
+      {
         "donorCountry": "France",
         "country": "Colombia",
         "sector": "Education",
         "year": 2022,
-        "amount": 0.25629238576,
-        "amountLabel": "$256K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Rwanda",
-        "sector": "General Environment Protection",
-        "year": 2022,
-        "amount": 0.256069460975,
+        "amount": 0.256292386,
         "amountLabel": "$256K"
       },
       {
@@ -24104,15 +23849,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Communications",
         "year": 2023,
-        "amount": 0.2559975016,
-        "amountLabel": "$256K"
-      },
-      {
-        "donorCountry": "Colombia",
-        "country": "Colombia",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 0.2556077226,
+        "amount": 0.255997502,
         "amountLabel": "$256K"
       },
       {
@@ -24120,7 +23857,7 @@ window.OECD_DATA = {
         "country": "Senegal",
         "sector": "Education",
         "year": 2021,
-        "amount": 0.25556834715,
+        "amount": 0.255568348,
         "amountLabel": "$256K"
       },
       {
@@ -24156,6 +23893,14 @@ window.OECD_DATA = {
         "amountLabel": "$254K"
       },
       {
+        "donorCountry": "United States",
+        "country": "Rwanda",
+        "sector": "Unallocated / Unspecified",
+        "year": 2022,
+        "amount": 0.253234939,
+        "amountLabel": "$253K"
+      },
+      {
         "donorCountry": "Sweden",
         "country": "Pakistan",
         "sector": "Emergency Response",
@@ -24165,10 +23910,18 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Belgium",
+        "country": "Burkina Faso",
+        "sector": "Industry, Mining, Construction",
+        "year": 2021,
+        "amount": 0.252580322,
+        "amountLabel": "$253K"
+      },
+      {
+        "donorCountry": "Belgium",
         "country": "Rwanda",
         "sector": "Water Supply & Sanitation",
         "year": 2021,
-        "amount": 0.2525803219,
+        "amount": 0.252580322,
         "amountLabel": "$253K"
       },
       {
@@ -24176,7 +23929,7 @@ window.OECD_DATA = {
         "country": "Ghana",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2021,
-        "amount": 0.2525803219,
+        "amount": 0.252580322,
         "amountLabel": "$253K"
       },
       {
@@ -24184,7 +23937,7 @@ window.OECD_DATA = {
         "country": "Senegal",
         "sector": "Unallocated / Unspecified",
         "year": 2021,
-        "amount": 0.2525803219,
+        "amount": 0.252580322,
         "amountLabel": "$253K"
       },
       {
@@ -24200,7 +23953,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Energy",
         "year": 2021,
-        "amount": 0.2513944573,
+        "amount": 0.251394457,
         "amountLabel": "$251K"
       },
       {
@@ -24212,11 +23965,11 @@ window.OECD_DATA = {
         "amountLabel": "$251K"
       },
       {
-        "donorCountry": "United States",
-        "country": "Kenya",
-        "sector": "Unallocated / Unspecified",
-        "year": 2020,
-        "amount": 0.2511912739,
+        "donorCountry": "Mexico",
+        "country": "Mexico",
+        "sector": "Industry, Mining, Construction",
+        "year": 2021,
+        "amount": 0.250638829,
         "amountLabel": "$251K"
       },
       {
@@ -24224,7 +23977,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Other Multisector",
         "year": 2021,
-        "amount": 0.2504959028102,
+        "amount": 0.250495902,
         "amountLabel": "$250K"
       },
       {
@@ -24237,16 +23990,16 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Colombia",
-        "sector": "Water Supply & Sanitation",
+        "country": "Mexico",
+        "sector": "Business & Other Services",
         "year": 2023,
         "amount": 0.25,
         "amountLabel": "$250K"
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Mexico",
-        "sector": "Business & Other Services",
+        "country": "Colombia",
+        "sector": "Water Supply & Sanitation",
         "year": 2023,
         "amount": 0.25,
         "amountLabel": "$250K"
@@ -24272,23 +24025,15 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2021,
-        "amount": 0.2495616878,
+        "amount": 0.249561688,
         "amountLabel": "$250K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Democratic Republic of the Congo",
-        "sector": "Unspecified",
-        "year": 2020,
-        "amount": 0.24891841762,
-        "amountLabel": "$249K"
       },
       {
         "donorCountry": "Belgium",
         "country": "Democratic Republic of the Congo",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2020,
-        "amount": 0.248782638811,
+        "amount": 0.248782639,
         "amountLabel": "$249K"
       },
       {
@@ -24308,12 +24053,20 @@ window.OECD_DATA = {
         "amountLabel": "$249K"
       },
       {
-        "donorCountry": "France",
-        "country": "India",
-        "sector": "Other Social Infrastructure & Services",
+        "donorCountry": "United States",
+        "country": "Mexico",
+        "sector": "Unallocated / Unspecified",
         "year": 2023,
-        "amount": 0.24834664302999998,
+        "amount": 0.24825000000000003,
         "amountLabel": "$248K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Brazil",
+        "sector": "Other Multisector",
+        "year": 2020,
+        "amount": 0.247235675,
+        "amountLabel": "$247K"
       },
       {
         "donorCountry": "United States",
@@ -24321,6 +24074,14 @@ window.OECD_DATA = {
         "sector": "Business & Other Services",
         "year": 2020,
         "amount": 0.24697,
+        "amountLabel": "$247K"
+      },
+      {
+        "donorCountry": "France",
+        "country": "Brazil",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2023,
+        "amount": 0.246967602,
         "amountLabel": "$247K"
       },
       {
@@ -24348,19 +24109,11 @@ window.OECD_DATA = {
         "amountLabel": "$246K"
       },
       {
-        "donorCountry": "United States",
-        "country": "Tanzania",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 0.246,
-        "amountLabel": "$246K"
-      },
-      {
         "donorCountry": "Mexico",
         "country": "Mexico",
         "sector": "Banking & Financial Services",
         "year": 2022,
-        "amount": 0.24592713146,
+        "amount": 0.245927132,
         "amountLabel": "$246K"
       },
       {
@@ -24368,7 +24121,7 @@ window.OECD_DATA = {
         "country": "Ukraine",
         "sector": "Health",
         "year": 2021,
-        "amount": 0.2459223599,
+        "amount": 0.24592236,
         "amountLabel": "$246K"
       },
       {
@@ -24376,15 +24129,7 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2021,
-        "amount": 0.2450029123,
-        "amountLabel": "$245K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "India",
-        "sector": "Health",
-        "year": 2022,
-        "amount": 0.2449434793,
+        "amount": 0.245002912,
         "amountLabel": "$245K"
       },
       {
@@ -24408,12 +24153,20 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2022,
-        "amount": 0.2437616638,
+        "amount": 0.243761664,
+        "amountLabel": "$244K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Uganda",
+        "sector": "Unallocated / Unspecified",
+        "year": 2022,
+        "amount": 0.243736508,
         "amountLabel": "$244K"
       },
       {
         "donorCountry": "Switzerland",
-        "country": "India",
+        "country": "Senegal",
         "sector": "Water Supply & Sanitation",
         "year": 2022,
         "amount": 0.24354900000000002,
@@ -24421,7 +24174,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Senegal",
+        "country": "India",
         "sector": "Water Supply & Sanitation",
         "year": 2022,
         "amount": 0.24354900000000002,
@@ -24436,14 +24189,6 @@ window.OECD_DATA = {
         "amountLabel": "$244K"
       },
       {
-        "donorCountry": "United States",
-        "country": "Brazil",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2021,
-        "amount": 0.24339426660000002,
-        "amountLabel": "$243K"
-      },
-      {
         "donorCountry": "Switzerland",
         "country": "Ghana",
         "sector": "Health",
@@ -24456,16 +24201,16 @@ window.OECD_DATA = {
         "country": "Burkina Faso",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2022,
-        "amount": 0.242552783893,
+        "amount": 0.242552784,
         "amountLabel": "$243K"
       },
       {
-        "donorCountry": "France",
-        "country": "Kenya",
-        "sector": "Unspecified",
-        "year": 2021,
-        "amount": 0.240438785836,
-        "amountLabel": "$240K"
+        "donorCountry": "South Africa",
+        "country": "South Africa",
+        "sector": "Industry, Mining, Construction",
+        "year": 2023,
+        "amount": 0.24087065700000002,
+        "amountLabel": "$241K"
       },
       {
         "donorCountry": "Switzerland",
@@ -24508,11 +24253,19 @@ window.OECD_DATA = {
         "amountLabel": "$239K"
       },
       {
+        "donorCountry": "France",
+        "country": "Kenya",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2021,
+        "amount": 0.238606316,
+        "amountLabel": "$239K"
+      },
+      {
         "donorCountry": "South Africa",
         "country": "South Africa",
         "sector": "Water Supply & Sanitation",
         "year": 2020,
-        "amount": 0.2385907132,
+        "amount": 0.238590713,
         "amountLabel": "$239K"
       },
       {
@@ -24524,12 +24277,12 @@ window.OECD_DATA = {
         "amountLabel": "$238K"
       },
       {
-        "donorCountry": "France",
-        "country": "Mexico",
-        "sector": "Education",
+        "donorCountry": "South Africa",
+        "country": "South Africa",
+        "sector": "Industry, Mining, Construction",
         "year": 2022,
-        "amount": 0.2370704568,
-        "amountLabel": "$237K"
+        "amount": 0.238011779,
+        "amountLabel": "$238K"
       },
       {
         "donorCountry": "Switzerland",
@@ -24541,10 +24294,26 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
+        "country": "South Africa",
+        "sector": "Unallocated / Unspecified",
+        "year": 2020,
+        "amount": 0.235462548,
+        "amountLabel": "$235K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Mexico",
+        "sector": "General Budget Support",
+        "year": 2020,
+        "amount": 0.235462548,
+        "amountLabel": "$235K"
+      },
+      {
+        "donorCountry": "United States",
         "country": "Nigeria",
         "sector": "Emergency Response",
         "year": 2020,
-        "amount": 0.2354625478,
+        "amount": 0.235462548,
         "amountLabel": "$235K"
       },
       {
@@ -24552,15 +24321,7 @@ window.OECD_DATA = {
         "country": "Ukraine",
         "sector": "Other Social Infrastructure & Services",
         "year": 2020,
-        "amount": 0.2354625478,
-        "amountLabel": "$235K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "South Africa",
-        "sector": "Unallocated / Unspecified",
-        "year": 2020,
-        "amount": 0.2354625478,
+        "amount": 0.235462548,
         "amountLabel": "$235K"
       },
       {
@@ -24592,7 +24353,7 @@ window.OECD_DATA = {
         "country": "Ghana",
         "sector": "Disaster Prevention & Preparedness",
         "year": 2022,
-        "amount": 0.2342619146,
+        "amount": 0.234261915,
         "amountLabel": "$234K"
       },
       {
@@ -24616,7 +24377,7 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Other Multisector",
         "year": 2021,
-        "amount": 0.23304086049,
+        "amount": 0.23304085999999996,
         "amountLabel": "$233K"
       },
       {
@@ -24624,7 +24385,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Health",
         "year": 2022,
-        "amount": 0.2329930779,
+        "amount": 0.232993078,
         "amountLabel": "$233K"
       },
       {
@@ -24632,7 +24393,7 @@ window.OECD_DATA = {
         "country": "Ghana",
         "sector": "Other Multisector",
         "year": 2021,
-        "amount": 0.2327686709,
+        "amount": 0.232768671,
         "amountLabel": "$233K"
       },
       {
@@ -24660,6 +24421,14 @@ window.OECD_DATA = {
         "amountLabel": "$230K"
       },
       {
+        "donorCountry": "United States",
+        "country": "South Africa",
+        "sector": "General Budget Support",
+        "year": 2020,
+        "amount": 0.22957598299999998,
+        "amountLabel": "$230K"
+      },
+      {
         "donorCountry": "Switzerland",
         "country": "Tanzania",
         "sector": "Health",
@@ -24672,7 +24441,7 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Energy",
         "year": 2022,
-        "amount": 0.2279837268,
+        "amount": 0.227983727,
         "amountLabel": "$228K"
       },
       {
@@ -24680,7 +24449,7 @@ window.OECD_DATA = {
         "country": "Ghana",
         "sector": "Other Social Infrastructure & Services",
         "year": 2022,
-        "amount": 0.2278555806,
+        "amount": 0.227855581,
         "amountLabel": "$228K"
       },
       {
@@ -24688,7 +24457,15 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Industry, Mining, Construction",
         "year": 2021,
-        "amount": 0.22778118181,
+        "amount": 0.22778118200000003,
+        "amountLabel": "$228K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Tanzania",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2023,
+        "amount": 0.22775,
         "amountLabel": "$228K"
       },
       {
@@ -24697,14 +24474,6 @@ window.OECD_DATA = {
         "sector": "Education",
         "year": 2021,
         "amount": 0.22733199999999998,
-        "amountLabel": "$227K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Tanzania",
-        "sector": "Unspecified",
-        "year": 2020,
-        "amount": 0.22722135863200002,
         "amountLabel": "$227K"
       },
       {
@@ -24721,14 +24490,6 @@ window.OECD_DATA = {
         "sector": "Education",
         "year": 2020,
         "amount": 0.226717,
-        "amountLabel": "$227K"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Business & Other Services",
-        "year": 2020,
-        "amount": 0.226687208441,
         "amountLabel": "$227K"
       },
       {
@@ -24760,7 +24521,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Other Multisector",
         "year": 2022,
-        "amount": 0.2252799004,
+        "amount": 0.2252799,
         "amountLabel": "$225K"
       },
       {
@@ -24776,15 +24537,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Disaster Prevention & Preparedness",
         "year": 2021,
-        "amount": 0.2248972666,
-        "amountLabel": "$225K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Senegal",
-        "sector": "Unspecified",
-        "year": 2021,
-        "amount": 0.2248972666,
+        "amount": 0.224897267,
         "amountLabel": "$225K"
       },
       {
@@ -24808,7 +24561,7 @@ window.OECD_DATA = {
         "country": "Zambia",
         "sector": "Education",
         "year": 2022,
-        "amount": 0.2239002499,
+        "amount": 0.22390025,
         "amountLabel": "$224K"
       },
       {
@@ -24816,7 +24569,7 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2020,
-        "amount": 0.2237192335,
+        "amount": 0.223719234,
         "amountLabel": "$224K"
       },
       {
@@ -24830,9 +24583,9 @@ window.OECD_DATA = {
       {
         "donorCountry": "France",
         "country": "Ghana",
-        "sector": "Unspecified",
+        "sector": "Water Supply & Sanitation",
         "year": 2023,
-        "amount": 0.2227548324,
+        "amount": 0.222754832,
         "amountLabel": "$223K"
       },
       {
@@ -24853,18 +24606,10 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "France",
-        "country": "Mexico",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2021,
-        "amount": 0.22100778174,
-        "amountLabel": "$221K"
-      },
-      {
-        "donorCountry": "France",
-        "country": "Kenya",
-        "sector": "Health",
+        "country": "India",
+        "sector": "Emergency Response",
         "year": 2023,
-        "amount": 0.2210000917,
+        "amount": 0.221000092,
         "amountLabel": "$221K"
       },
       {
@@ -24872,15 +24617,7 @@ window.OECD_DATA = {
         "country": "Ghana",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2023,
-        "amount": 0.2210000917,
-        "amountLabel": "$221K"
-      },
-      {
-        "donorCountry": "France",
-        "country": "India",
-        "sector": "Emergency Response",
-        "year": 2023,
-        "amount": 0.2210000917,
+        "amount": 0.221000092,
         "amountLabel": "$221K"
       },
       {
@@ -24888,7 +24625,15 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Water Supply & Sanitation",
         "year": 2023,
-        "amount": 0.2210000917,
+        "amount": 0.221000092,
+        "amountLabel": "$221K"
+      },
+      {
+        "donorCountry": "France",
+        "country": "Kenya",
+        "sector": "Health",
+        "year": 2023,
+        "amount": 0.221000092,
         "amountLabel": "$221K"
       },
       {
@@ -24896,7 +24641,15 @@ window.OECD_DATA = {
         "country": "Ghana",
         "sector": "Business & Other Services",
         "year": 2023,
-        "amount": 0.2209382117,
+        "amount": 0.220938212,
+        "amountLabel": "$221K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "South Africa",
+        "sector": "General Environment Protection",
+        "year": 2022,
+        "amount": 0.220625676,
         "amountLabel": "$221K"
       },
       {
@@ -24904,7 +24657,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Education",
         "year": 2020,
-        "amount": 0.2202522046,
+        "amount": 0.220252204,
         "amountLabel": "$220K"
       },
       {
@@ -24912,15 +24665,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Emergency Response",
         "year": 2020,
-        "amount": 0.21925238599,
-        "amountLabel": "$219K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Rwanda",
-        "sector": "Unspecified",
-        "year": 2022,
-        "amount": 0.219165035684,
+        "amount": 0.219252386,
         "amountLabel": "$219K"
       },
       {
@@ -24930,14 +24675,6 @@ window.OECD_DATA = {
         "year": 2020,
         "amount": 0.21872200000000003,
         "amountLabel": "$219K"
-      },
-      {
-        "donorCountry": "France",
-        "country": "Colombia",
-        "sector": "Unspecified",
-        "year": 2021,
-        "amount": 0.218300120651,
-        "amountLabel": "$218K"
       },
       {
         "donorCountry": "United States",
@@ -24952,23 +24689,15 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Trade Policies & Regulations",
         "year": 2022,
-        "amount": 0.2180265440144,
-        "amountLabel": "$218K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Nigeria",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 0.21760000000000002,
+        "amount": 0.218026544,
         "amountLabel": "$218K"
       },
       {
         "donorCountry": "Belgium",
         "country": "Peru",
-        "sector": "Unspecified",
+        "sector": "Other Social Infrastructure & Services",
         "year": 2022,
-        "amount": 0.2175654413,
+        "amount": 0.217565441,
         "amountLabel": "$218K"
       },
       {
@@ -25004,19 +24733,11 @@ window.OECD_DATA = {
         "amountLabel": "$217K"
       },
       {
-        "donorCountry": "United States",
-        "country": "Uganda",
-        "sector": "Unspecified",
-        "year": 2020,
-        "amount": 0.21633121579200001,
-        "amountLabel": "$216K"
-      },
-      {
         "donorCountry": "France",
         "country": "Colombia",
-        "sector": "Unspecified",
-        "year": 2022,
-        "amount": 0.2159298299,
+        "sector": "Government & Civil Society",
+        "year": 2021,
+        "amount": 0.216141822,
         "amountLabel": "$216K"
       },
       {
@@ -25024,7 +24745,7 @@ window.OECD_DATA = {
         "country": "Ethiopia",
         "sector": "General Environment Protection",
         "year": 2022,
-        "amount": 0.2157135768,
+        "amount": 0.215713577,
         "amountLabel": "$216K"
       },
       {
@@ -25036,20 +24757,20 @@ window.OECD_DATA = {
         "amountLabel": "$216K"
       },
       {
+        "donorCountry": "Brazil",
+        "country": "Brazil",
+        "sector": "Other Multisector",
+        "year": 2023,
+        "amount": 0.214353295,
+        "amountLabel": "$214K"
+      },
+      {
         "donorCountry": "United States",
         "country": "Pakistan",
         "sector": "Water Supply & Sanitation",
         "year": 2021,
         "amount": 0.213845,
         "amountLabel": "$214K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Peru",
-        "sector": "Business & Other Services",
-        "year": 2021,
-        "amount": 0.212852,
-        "amountLabel": "$213K"
       },
       {
         "donorCountry": "United States",
@@ -25060,11 +24781,11 @@ window.OECD_DATA = {
         "amountLabel": "$213K"
       },
       {
-        "donorCountry": "Qatar",
-        "country": "Tanzania",
-        "sector": "Emergency Response",
-        "year": 2022,
-        "amount": 0.2128066468,
+        "donorCountry": "United States",
+        "country": "Peru",
+        "sector": "Business & Other Services",
+        "year": 2021,
+        "amount": 0.212852,
         "amountLabel": "$213K"
       },
       {
@@ -25072,16 +24793,24 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Emergency Response",
         "year": 2022,
-        "amount": 0.2128066468,
+        "amount": 0.212806646,
+        "amountLabel": "$213K"
+      },
+      {
+        "donorCountry": "Qatar",
+        "country": "Tanzania",
+        "sector": "Emergency Response",
+        "year": 2022,
+        "amount": 0.212806646,
         "amountLabel": "$213K"
       },
       {
         "donorCountry": "United States",
-        "country": "Nigeria",
-        "sector": "Water Supply & Sanitation",
-        "year": 2020,
-        "amount": 0.21250494942,
-        "amountLabel": "$213K"
+        "country": "Tanzania",
+        "sector": "Unallocated / Unspecified",
+        "year": 2023,
+        "amount": 0.2115,
+        "amountLabel": "$212K"
       },
       {
         "donorCountry": "United Kingdom",
@@ -25096,7 +24825,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Other Multisector",
         "year": 2021,
-        "amount": 0.21103579160000002,
+        "amount": 0.211035792,
         "amountLabel": "$211K"
       },
       {
@@ -25120,7 +24849,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Development Food Assistance",
         "year": 2023,
-        "amount": 0.20944493508,
+        "amount": 0.209444935,
         "amountLabel": "$209K"
       },
       {
@@ -25128,7 +24857,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Other Multisector",
         "year": 2021,
-        "amount": 0.20924412059999997,
+        "amount": 0.209244121,
         "amountLabel": "$209K"
       },
       {
@@ -25156,22 +24885,6 @@ window.OECD_DATA = {
         "amountLabel": "$208K"
       },
       {
-        "donorCountry": "United States",
-        "country": "South Africa",
-        "sector": "Unallocated / Unspecified",
-        "year": 2022,
-        "amount": 0.208232813,
-        "amountLabel": "$208K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Ghana",
-        "sector": "Unspecified",
-        "year": 2022,
-        "amount": 0.208232813,
-        "amountLabel": "$208K"
-      },
-      {
         "donorCountry": "Switzerland",
         "country": "Brazil",
         "sector": "Health",
@@ -25184,7 +24897,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "General Environment Protection",
         "year": 2022,
-        "amount": 0.2080901735,
+        "amount": 0.208090174,
         "amountLabel": "$208K"
       },
       {
@@ -25192,7 +24905,7 @@ window.OECD_DATA = {
         "country": "Bangladesh",
         "sector": "Education",
         "year": 2023,
-        "amount": 0.20774008622,
+        "amount": 0.20774008700000002,
         "amountLabel": "$208K"
       },
       {
@@ -25216,7 +24929,7 @@ window.OECD_DATA = {
         "country": "Indonesia",
         "sector": "Education",
         "year": 2020,
-        "amount": 0.2072961926,
+        "amount": 0.207296193,
         "amountLabel": "$207K"
       },
       {
@@ -25230,17 +24943,17 @@ window.OECD_DATA = {
       {
         "donorCountry": "France",
         "country": "Bangladesh",
-        "sector": "Unspecified",
+        "sector": "Government & Civil Society",
         "year": 2021,
-        "amount": 0.2067445709,
+        "amount": 0.206744571,
         "amountLabel": "$207K"
       },
       {
         "donorCountry": "France",
         "country": "Bangladesh",
-        "sector": "Unspecified",
+        "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 0.2065413738,
+        "amount": 0.206541374,
         "amountLabel": "$207K"
       },
       {
@@ -25248,7 +24961,7 @@ window.OECD_DATA = {
         "country": "Ukraine",
         "sector": "Water Supply & Sanitation",
         "year": 2020,
-        "amount": 0.20602972933000002,
+        "amount": 0.20602973,
         "amountLabel": "$206K"
       },
       {
@@ -25257,14 +24970,6 @@ window.OECD_DATA = {
         "sector": "Banking & Financial Services",
         "year": 2022,
         "amount": 0.205853,
-        "amountLabel": "$206K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Tanzania",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2023,
-        "amount": 0.20575000000000002,
         "amountLabel": "$206K"
       },
       {
@@ -25280,7 +24985,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Water Supply & Sanitation",
         "year": 2023,
-        "amount": 0.20553008531,
+        "amount": 0.20553008499999997,
         "amountLabel": "$206K"
       },
       {
@@ -25304,16 +25009,8 @@ window.OECD_DATA = {
         "country": "Ethiopia",
         "sector": "Water Supply & Sanitation",
         "year": 2020,
-        "amount": 0.20320079725999998,
+        "amount": 0.20320079700000002,
         "amountLabel": "$203K"
-      },
-      {
-        "donorCountry": "United Kingdom",
-        "country": "South Africa",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 0.20249437412000001,
-        "amountLabel": "$202K"
       },
       {
         "donorCountry": "Sweden",
@@ -25332,14 +25029,6 @@ window.OECD_DATA = {
         "amountLabel": "$202K"
       },
       {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "General Budget Support",
-        "year": 2021,
-        "amount": 0.201593462994,
-        "amountLabel": "$202K"
-      },
-      {
         "donorCountry": "Canada",
         "country": "Nigeria",
         "sector": "Banking & Financial Services",
@@ -25352,7 +25041,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Disaster Prevention & Preparedness",
         "year": 2021,
-        "amount": 0.2013803844,
+        "amount": 0.201380385,
         "amountLabel": "$201K"
       },
       {
@@ -25360,7 +25049,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Unallocated / Unspecified",
         "year": 2023,
-        "amount": 0.201320648568,
+        "amount": 0.20132064900000002,
         "amountLabel": "$201K"
       },
       {
@@ -25376,7 +25065,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Development Food Assistance",
         "year": 2020,
-        "amount": 0.2002608969,
+        "amount": 0.200260897,
         "amountLabel": "$200K"
       },
       {
@@ -25397,32 +25086,8 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Peru",
-        "sector": "Other Multisector",
-        "year": 2023,
-        "amount": 0.2,
-        "amountLabel": "$200K"
-      },
-      {
-        "donorCountry": "United States",
         "country": "China (People's Republic of)",
         "sector": "Population Policies/Programmes & Reproductive Health",
-        "year": 2023,
-        "amount": 0.2,
-        "amountLabel": "$200K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Uganda",
-        "sector": "Communications",
-        "year": 2023,
-        "amount": 0.2,
-        "amountLabel": "$200K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "South Africa",
-        "sector": "Unallocated / Unspecified",
         "year": 2023,
         "amount": 0.2,
         "amountLabel": "$200K"
@@ -25437,8 +25102,40 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
+        "country": "Peru",
+        "sector": "Other Multisector",
+        "year": 2023,
+        "amount": 0.2,
+        "amountLabel": "$200K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "South Africa",
+        "sector": "Unallocated / Unspecified",
+        "year": 2023,
+        "amount": 0.2,
+        "amountLabel": "$200K"
+      },
+      {
+        "donorCountry": "United States",
         "country": "Senegal",
         "sector": "Energy",
+        "year": 2023,
+        "amount": 0.2,
+        "amountLabel": "$200K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Brazil",
+        "sector": "Unallocated / Unspecified",
+        "year": 2023,
+        "amount": 0.2,
+        "amountLabel": "$200K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Uganda",
+        "sector": "Communications",
         "year": 2023,
         "amount": 0.2,
         "amountLabel": "$200K"
@@ -25464,7 +25161,15 @@ window.OECD_DATA = {
         "country": "Senegal",
         "sector": "Education",
         "year": 2022,
-        "amount": 0.19962264438199998,
+        "amount": 0.199622644,
+        "amountLabel": "$200K"
+      },
+      {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "General Budget Support",
+        "year": 2022,
+        "amount": 0.19955814100000002,
         "amountLabel": "$200K"
       },
       {
@@ -25472,7 +25177,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Other Multisector",
         "year": 2022,
-        "amount": 0.19940551828000003,
+        "amount": 0.199405518,
         "amountLabel": "$199K"
       },
       {
@@ -25480,7 +25185,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Education",
         "year": 2021,
-        "amount": 0.19937075021200001,
+        "amount": 0.19937074899999999,
         "amountLabel": "$199K"
       },
       {
@@ -25488,7 +25193,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 0.1992090816,
+        "amount": 0.199209082,
         "amountLabel": "$199K"
       },
       {
@@ -25496,7 +25201,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Transport & Storage",
         "year": 2020,
-        "amount": 0.19896829118,
+        "amount": 0.19896829100000002,
         "amountLabel": "$199K"
       },
       {
@@ -25510,9 +25215,25 @@ window.OECD_DATA = {
       {
         "donorCountry": "United States",
         "country": "Indonesia",
-        "sector": "Unspecified",
+        "sector": "General Budget Support",
         "year": 2022,
-        "amount": 0.19782117235,
+        "amount": 0.197821173,
+        "amountLabel": "$198K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Kenya",
+        "sector": "Health",
+        "year": 2023,
+        "amount": 0.197555298,
+        "amountLabel": "$198K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Malawi",
+        "sector": "Unallocated / Unspecified",
+        "year": 2023,
+        "amount": 0.19755,
         "amountLabel": "$198K"
       },
       {
@@ -25536,7 +25257,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Business & Other Services",
         "year": 2022,
-        "amount": 0.1962638348,
+        "amount": 0.196263835,
         "amountLabel": "$196K"
       },
       {
@@ -25552,7 +25273,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Energy",
         "year": 2020,
-        "amount": 0.195940606462,
+        "amount": 0.19594060600000002,
         "amountLabel": "$196K"
       },
       {
@@ -25560,7 +25281,7 @@ window.OECD_DATA = {
         "country": "Senegal",
         "sector": "Education",
         "year": 2023,
-        "amount": 0.19547347612,
+        "amount": 0.195473475,
         "amountLabel": "$195K"
       },
       {
@@ -25569,6 +25290,14 @@ window.OECD_DATA = {
         "sector": "Other Multisector",
         "year": 2022,
         "amount": 0.19522399999999998,
+        "amountLabel": "$195K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "India",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2023,
+        "amount": 0.19461820600000002,
         "amountLabel": "$195K"
       },
       {
@@ -25584,7 +25313,7 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Energy",
         "year": 2020,
-        "amount": 0.1943401806,
+        "amount": 0.194340181,
         "amountLabel": "$194K"
       },
       {
@@ -25597,10 +25326,18 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "France",
+        "country": "Tanzania",
+        "sector": "Other Multisector",
+        "year": 2022,
+        "amount": 0.194160898,
+        "amountLabel": "$194K"
+      },
+      {
+        "donorCountry": "France",
         "country": "South Africa",
         "sector": "Other Multisector",
         "year": 2022,
-        "amount": 0.1941608983,
+        "amount": 0.194160898,
         "amountLabel": "$194K"
       },
       {
@@ -25608,16 +25345,16 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Other Multisector",
         "year": 2022,
-        "amount": 0.1941608983,
+        "amount": 0.194160898,
         "amountLabel": "$194K"
       },
       {
         "donorCountry": "France",
-        "country": "Tanzania",
-        "sector": "Other Multisector",
+        "country": "Brazil",
+        "sector": "Education",
         "year": 2022,
-        "amount": 0.1941608983,
-        "amountLabel": "$194K"
+        "amount": 0.19332950100000001,
+        "amountLabel": "$193K"
       },
       {
         "donorCountry": "United States",
@@ -25628,27 +25365,11 @@ window.OECD_DATA = {
         "amountLabel": "$192K"
       },
       {
-        "donorCountry": "Belgium",
-        "country": "Brazil",
-        "sector": "Unspecified",
-        "year": 2021,
-        "amount": 0.19219594438360002,
-        "amountLabel": "$192K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "India",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2023,
-        "amount": 0.19191537469000003,
-        "amountLabel": "$192K"
-      },
-      {
         "donorCountry": "Mexico",
         "country": "Mexico",
         "sector": "Banking & Financial Services",
         "year": 2021,
-        "amount": 0.191108895938,
+        "amount": 0.191108896,
         "amountLabel": "$191K"
       },
       {
@@ -25684,12 +25405,12 @@ window.OECD_DATA = {
         "amountLabel": "$189K"
       },
       {
-        "donorCountry": "United States",
+        "donorCountry": "Brazil",
         "country": "Brazil",
-        "sector": "Other Multisector",
-        "year": 2020,
-        "amount": 0.18837003824999998,
-        "amountLabel": "$188K"
+        "sector": "Unallocated / Unspecified",
+        "year": 2023,
+        "amount": 0.188749092,
+        "amountLabel": "$189K"
       },
       {
         "donorCountry": "Netherlands",
@@ -25697,6 +25418,14 @@ window.OECD_DATA = {
         "sector": "Other Social Infrastructure & Services",
         "year": 2021,
         "amount": 0.188265,
+        "amountLabel": "$188K"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Development Food Assistance",
+        "year": 2020,
+        "amount": 0.18787654599999998,
         "amountLabel": "$188K"
       },
       {
@@ -25728,7 +25457,7 @@ window.OECD_DATA = {
         "country": "Peru",
         "sector": "Other Social Infrastructure & Services",
         "year": 2021,
-        "amount": 0.18716994990000002,
+        "amount": 0.18716994999999997,
         "amountLabel": "$187K"
       },
       {
@@ -25737,14 +25466,6 @@ window.OECD_DATA = {
         "sector": "Energy",
         "year": 2022,
         "amount": 0.187163,
-        "amountLabel": "$187K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Mexico",
-        "sector": "Unspecified",
-        "year": 2021,
-        "amount": 0.18677717992999998,
         "amountLabel": "$187K"
       },
       {
@@ -25760,7 +25481,7 @@ window.OECD_DATA = {
         "country": "Pakistan",
         "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 0.1863944624,
+        "amount": 0.186394462,
         "amountLabel": "$186K"
       },
       {
@@ -25776,7 +25497,23 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Business & Other Services",
         "year": 2021,
-        "amount": 0.185204923058,
+        "amount": 0.185204924,
+        "amountLabel": "$185K"
+      },
+      {
+        "donorCountry": "Brazil",
+        "country": "Brazil",
+        "sector": "Unallocated / Unspecified",
+        "year": 2022,
+        "amount": 0.185095974,
+        "amountLabel": "$185K"
+      },
+      {
+        "donorCountry": "United Kingdom",
+        "country": "South Africa",
+        "sector": "General Budget Support",
+        "year": 2023,
+        "amount": 0.184664681,
         "amountLabel": "$185K"
       },
       {
@@ -25789,14 +25526,6 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Malawi",
-        "sector": "Water Supply & Sanitation",
-        "year": 2023,
-        "amount": 0.183966,
-        "amountLabel": "$184K"
-      },
-      {
-        "donorCountry": "Switzerland",
         "country": "Bangladesh",
         "sector": "Water Supply & Sanitation",
         "year": 2023,
@@ -25805,39 +25534,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Zambia",
-        "sector": "Water Supply & Sanitation",
-        "year": 2023,
-        "amount": 0.183966,
-        "amountLabel": "$184K"
-      },
-      {
-        "donorCountry": "Switzerland",
-        "country": "Burkina Faso",
-        "sector": "Water Supply & Sanitation",
-        "year": 2023,
-        "amount": 0.183966,
-        "amountLabel": "$184K"
-      },
-      {
-        "donorCountry": "Switzerland",
-        "country": "Senegal",
-        "sector": "Water Supply & Sanitation",
-        "year": 2023,
-        "amount": 0.183966,
-        "amountLabel": "$184K"
-      },
-      {
-        "donorCountry": "Switzerland",
-        "country": "Tanzania",
-        "sector": "Water Supply & Sanitation",
-        "year": 2023,
-        "amount": 0.183966,
-        "amountLabel": "$184K"
-      },
-      {
-        "donorCountry": "Switzerland",
-        "country": "Ethiopia",
+        "country": "Malawi",
         "sector": "Water Supply & Sanitation",
         "year": 2023,
         "amount": 0.183966,
@@ -25853,7 +25550,15 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Rwanda",
+        "country": "Senegal",
+        "sector": "Water Supply & Sanitation",
+        "year": 2023,
+        "amount": 0.183966,
+        "amountLabel": "$184K"
+      },
+      {
+        "donorCountry": "Switzerland",
+        "country": "Burkina Faso",
         "sector": "Water Supply & Sanitation",
         "year": 2023,
         "amount": 0.183966,
@@ -25868,11 +25573,51 @@ window.OECD_DATA = {
         "amountLabel": "$184K"
       },
       {
+        "donorCountry": "Switzerland",
+        "country": "Tanzania",
+        "sector": "Water Supply & Sanitation",
+        "year": 2023,
+        "amount": 0.183966,
+        "amountLabel": "$184K"
+      },
+      {
+        "donorCountry": "Switzerland",
+        "country": "Zambia",
+        "sector": "Water Supply & Sanitation",
+        "year": 2023,
+        "amount": 0.183966,
+        "amountLabel": "$184K"
+      },
+      {
+        "donorCountry": "Switzerland",
+        "country": "Ethiopia",
+        "sector": "Water Supply & Sanitation",
+        "year": 2023,
+        "amount": 0.183966,
+        "amountLabel": "$184K"
+      },
+      {
+        "donorCountry": "Switzerland",
+        "country": "Rwanda",
+        "sector": "Water Supply & Sanitation",
+        "year": 2023,
+        "amount": 0.183966,
+        "amountLabel": "$184K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Uganda",
+        "sector": "Unallocated / Unspecified",
+        "year": 2023,
+        "amount": 0.18235,
+        "amountLabel": "$182K"
+      },
+      {
         "donorCountry": "Mexico",
         "country": "Mexico",
         "sector": "Energy",
         "year": 2021,
-        "amount": 0.18162942675,
+        "amount": 0.181629427,
         "amountLabel": "$182K"
       },
       {
@@ -25885,10 +25630,18 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
+        "country": "Rwanda",
+        "sector": "Unallocated / Unspecified",
+        "year": 2023,
+        "amount": 0.180125,
+        "amountLabel": "$180K"
+      },
+      {
+        "donorCountry": "United States",
         "country": "Peru",
         "sector": "Energy",
         "year": 2021,
-        "amount": 0.1797709499,
+        "amount": 0.17977094999999998,
         "amountLabel": "$180K"
       },
       {
@@ -25933,7 +25686,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Qatar",
-        "country": "Tanzania",
+        "country": "Kenya",
         "sector": "Emergency Response",
         "year": 2023,
         "amount": 0.1784615,
@@ -25941,7 +25694,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Qatar",
-        "country": "Kenya",
+        "country": "Tanzania",
         "sector": "Emergency Response",
         "year": 2023,
         "amount": 0.1784615,
@@ -25968,15 +25721,15 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Education",
         "year": 2023,
-        "amount": 0.17707130594999998,
+        "amount": 0.17707130599999998,
         "amountLabel": "$177K"
       },
       {
         "donorCountry": "France",
         "country": "Uganda",
-        "sector": "Unspecified",
+        "sector": "Other Social Infrastructure & Services",
         "year": 2021,
-        "amount": 0.1769868203,
+        "amount": 0.17698682,
         "amountLabel": "$177K"
       },
       {
@@ -25984,7 +25737,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Industry, Mining, Construction",
         "year": 2023,
-        "amount": 0.1768000734,
+        "amount": 0.176800073,
         "amountLabel": "$177K"
       },
       {
@@ -25992,7 +25745,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2022,
-        "amount": 0.17613927207199997,
+        "amount": 0.176139272,
         "amountLabel": "$176K"
       },
       {
@@ -26016,7 +25769,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Disaster Prevention & Preparedness",
         "year": 2022,
-        "amount": 0.1747448085,
+        "amount": 0.174744808,
         "amountLabel": "$175K"
       },
       {
@@ -26024,15 +25777,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Industry, Mining, Construction",
         "year": 2022,
-        "amount": 0.1747448085,
-        "amountLabel": "$175K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Malawi",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 0.17455,
+        "amount": 0.174744808,
         "amountLabel": "$175K"
       },
       {
@@ -26040,7 +25785,7 @@ window.OECD_DATA = {
         "country": "Zambia",
         "sector": "Other Social Infrastructure & Services",
         "year": 2022,
-        "amount": 0.17400865521,
+        "amount": 0.174008655,
         "amountLabel": "$174K"
       },
       {
@@ -26056,7 +25801,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Emergency Response",
         "year": 2021,
-        "amount": 0.17333324596400002,
+        "amount": 0.17333324700000002,
         "amountLabel": "$173K"
       },
       {
@@ -26064,7 +25809,7 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Other Social Infrastructure & Services",
         "year": 2021,
-        "amount": 0.17288977369,
+        "amount": 0.172889773,
         "amountLabel": "$173K"
       },
       {
@@ -26080,16 +25825,8 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Other Multisector",
         "year": 2020,
-        "amount": 0.17160012739,
+        "amount": 0.171600127,
         "amountLabel": "$172K"
-      },
-      {
-        "donorCountry": "Sweden",
-        "country": "Rwanda",
-        "sector": "Energy",
-        "year": 2020,
-        "amount": 0.171443,
-        "amountLabel": "$171K"
       },
       {
         "donorCountry": "Sweden",
@@ -26100,11 +25837,27 @@ window.OECD_DATA = {
         "amountLabel": "$171K"
       },
       {
+        "donorCountry": "Sweden",
+        "country": "Rwanda",
+        "sector": "Energy",
+        "year": 2020,
+        "amount": 0.171443,
+        "amountLabel": "$171K"
+      },
+      {
         "donorCountry": "Belgium",
         "country": "Democratic Republic of the Congo",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2021,
-        "amount": 0.171340387201,
+        "amount": 0.171340388,
+        "amountLabel": "$171K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Brazil",
+        "sector": "Unallocated / Unspecified",
+        "year": 2021,
+        "amount": 0.17129997400000002,
         "amountLabel": "$171K"
       },
       {
@@ -26120,7 +25873,7 @@ window.OECD_DATA = {
         "country": "Ukraine",
         "sector": "General Environment Protection",
         "year": 2021,
-        "amount": 0.16867294992999998,
+        "amount": 0.16867295,
         "amountLabel": "$169K"
       },
       {
@@ -26128,7 +25881,7 @@ window.OECD_DATA = {
         "country": "Indonesia",
         "sector": "Emergency Response",
         "year": 2021,
-        "amount": 0.1686729499,
+        "amount": 0.16867295,
         "amountLabel": "$169K"
       },
       {
@@ -26136,7 +25889,7 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Education",
         "year": 2020,
-        "amount": 0.1684281565,
+        "amount": 0.168428156,
         "amountLabel": "$168K"
       },
       {
@@ -26148,19 +25901,11 @@ window.OECD_DATA = {
         "amountLabel": "$168K"
       },
       {
-        "donorCountry": "United States",
-        "country": "Mexico",
-        "sector": "Unallocated / Unspecified",
-        "year": 2023,
-        "amount": 0.16825,
-        "amountLabel": "$168K"
-      },
-      {
         "donorCountry": "Denmark",
         "country": "Colombia",
         "sector": "Health",
         "year": 2020,
-        "amount": 0.1680100839,
+        "amount": 0.168010084,
         "amountLabel": "$168K"
       },
       {
@@ -26168,7 +25913,7 @@ window.OECD_DATA = {
         "country": "Bangladesh",
         "sector": "Health",
         "year": 2020,
-        "amount": 0.1679422078,
+        "amount": 0.167942208,
         "amountLabel": "$168K"
       },
       {
@@ -26176,7 +25921,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2020,
-        "amount": 0.1677236267,
+        "amount": 0.167723627,
         "amountLabel": "$168K"
       },
       {
@@ -26208,7 +25953,7 @@ window.OECD_DATA = {
         "country": "Ghana",
         "sector": "Other Social Infrastructure & Services",
         "year": 2021,
-        "amount": 0.1669795879,
+        "amount": 0.166979588,
         "amountLabel": "$167K"
       },
       {
@@ -26216,7 +25961,7 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Business & Other Services",
         "year": 2022,
-        "amount": 0.1665862504,
+        "amount": 0.16658625,
         "amountLabel": "$167K"
       },
       {
@@ -26232,7 +25977,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Other Multisector",
         "year": 2020,
-        "amount": 0.165877946146,
+        "amount": 0.165877946,
         "amountLabel": "$166K"
       },
       {
@@ -26256,31 +26001,39 @@ window.OECD_DATA = {
         "country": "Ukraine",
         "sector": "Education",
         "year": 2020,
-        "amount": 0.16482378346,
+        "amount": 0.164823784,
         "amountLabel": "$165K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Uganda",
+        "sector": "Unallocated / Unspecified",
+        "year": 2021,
+        "amount": 0.16417720900000002,
+        "amountLabel": "$164K"
       },
       {
         "donorCountry": "France",
         "country": "Mexico",
         "sector": "Government & Civil Society",
         "year": 2021,
-        "amount": 0.16417720929,
+        "amount": 0.164177209,
         "amountLabel": "$164K"
       },
       {
         "donorCountry": "Belgium",
-        "country": "India",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2021,
-        "amount": 0.1637339308096,
-        "amountLabel": "$164K"
+        "country": "Democratic Republic of the Congo",
+        "sector": "Water Supply & Sanitation",
+        "year": 2023,
+        "amount": 0.162973986,
+        "amountLabel": "$163K"
       },
       {
-        "donorCountry": "United States",
-        "country": "South Africa",
-        "sector": "General Environment Protection",
-        "year": 2022,
-        "amount": 0.16336165244,
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Development Food Assistance",
+        "year": 2021,
+        "amount": 0.162626291,
         "amountLabel": "$163K"
       },
       {
@@ -26290,6 +26043,22 @@ window.OECD_DATA = {
         "year": 2022,
         "amount": 0.161646,
         "amountLabel": "$162K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Uganda",
+        "sector": "Unallocated / Unspecified",
+        "year": 2020,
+        "amount": 0.16099751699999998,
+        "amountLabel": "$161K"
+      },
+      {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Unspecified",
+        "year": 2021,
+        "amount": 0.16087143,
+        "amountLabel": "$161K"
       },
       {
         "donorCountry": "Sweden",
@@ -26304,7 +26073,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Water Supply & Sanitation",
         "year": 2022,
-        "amount": 0.1607652238,
+        "amount": 0.160765224,
         "amountLabel": "$161K"
       },
       {
@@ -26314,6 +26083,14 @@ window.OECD_DATA = {
         "year": 2020,
         "amount": 0.160526,
         "amountLabel": "$161K"
+      },
+      {
+        "donorCountry": "Nigeria",
+        "country": "Nigeria",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2022,
+        "amount": 0.160018839,
+        "amountLabel": "$160K"
       },
       {
         "donorCountry": "United States",
@@ -26333,18 +26110,18 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Indonesia",
-        "sector": "Unspecified",
-        "year": 2020,
-        "amount": 0.1598590556,
+        "country": "Nigeria",
+        "sector": "Business & Other Services",
+        "year": 2022,
+        "amount": 0.159800203,
         "amountLabel": "$160K"
       },
       {
         "donorCountry": "United States",
-        "country": "Nigeria",
-        "sector": "Business & Other Services",
-        "year": 2022,
-        "amount": 0.15980020325,
+        "country": "Uganda",
+        "sector": "Unallocated / Unspecified",
+        "year": 2021,
+        "amount": 0.159789508,
         "amountLabel": "$160K"
       },
       {
@@ -26352,7 +26129,7 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Water Supply & Sanitation",
         "year": 2021,
-        "amount": 0.15964872381,
+        "amount": 0.159648724,
         "amountLabel": "$160K"
       },
       {
@@ -26360,7 +26137,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Business & Other Services",
         "year": 2021,
-        "amount": 0.1596480794,
+        "amount": 0.159648079,
         "amountLabel": "$160K"
       },
       {
@@ -26368,7 +26145,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Other Social Infrastructure & Services",
         "year": 2020,
-        "amount": 0.1595102739,
+        "amount": 0.159510274,
         "amountLabel": "$160K"
       },
       {
@@ -26396,22 +26173,6 @@ window.OECD_DATA = {
         "amountLabel": "$159K"
       },
       {
-        "donorCountry": "France",
-        "country": "Mexico",
-        "sector": "Unspecified",
-        "year": 2021,
-        "amount": 0.15825546362,
-        "amountLabel": "$158K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Uganda",
-        "sector": "Unallocated / Unspecified",
-        "year": 2021,
-        "amount": 0.15786270124000001,
-        "amountLabel": "$158K"
-      },
-      {
         "donorCountry": "United Kingdom",
         "country": "India",
         "sector": "Transport & Storage",
@@ -26420,11 +26181,19 @@ window.OECD_DATA = {
         "amountLabel": "$158K"
       },
       {
+        "donorCountry": "Belgium",
+        "country": "Democratic Republic of the Congo",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2023,
+        "amount": 0.157639609,
+        "amountLabel": "$158K"
+      },
+      {
         "donorCountry": "South Africa",
         "country": "South Africa",
         "sector": "Emergency Response",
         "year": 2022,
-        "amount": 0.1572590276,
+        "amount": 0.157259028,
         "amountLabel": "$157K"
       },
       {
@@ -26440,15 +26209,15 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 0.15630310283999999,
+        "amount": 0.156303103,
         "amountLabel": "$156K"
       },
       {
         "donorCountry": "United States",
         "country": "Peru",
-        "sector": "Unspecified",
+        "sector": "General Budget Support",
         "year": 2022,
-        "amount": 0.1561746098,
+        "amount": 0.15617461,
         "amountLabel": "$156K"
       },
       {
@@ -26456,15 +26225,7 @@ window.OECD_DATA = {
         "country": "Peru",
         "sector": "Other Social Infrastructure & Services",
         "year": 2022,
-        "amount": 0.1561746098,
-        "amountLabel": "$156K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Democratic Republic of the Congo",
-        "sector": "Water Supply & Sanitation",
-        "year": 2023,
-        "amount": 0.156132575741,
+        "amount": 0.15617461,
         "amountLabel": "$156K"
       },
       {
@@ -26504,7 +26265,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2023,
-        "amount": 0.1549921256,
+        "amount": 0.154992125,
         "amountLabel": "$155K"
       },
       {
@@ -26512,7 +26273,15 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Emergency Response",
         "year": 2021,
-        "amount": 0.15428237515999998,
+        "amount": 0.154282375,
+        "amountLabel": "$154K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Tanzania",
+        "sector": "Unallocated / Unspecified",
+        "year": 2021,
+        "amount": 0.154054626,
         "amountLabel": "$154K"
       },
       {
@@ -26521,14 +26290,6 @@ window.OECD_DATA = {
         "sector": "Energy",
         "year": 2021,
         "amount": 0.154047,
-        "amountLabel": "$154K"
-      },
-      {
-        "donorCountry": "Nigeria",
-        "country": "Nigeria",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2022,
-        "amount": 0.153882067044,
         "amountLabel": "$154K"
       },
       {
@@ -26541,26 +26302,18 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Denmark",
-        "country": "Pakistan",
-        "sector": "Emergency Response",
-        "year": 2022,
-        "amount": 0.1531649726,
-        "amountLabel": "$153K"
-      },
-      {
-        "donorCountry": "Denmark",
-        "country": "Ukraine",
-        "sector": "Unspecified",
-        "year": 2022,
-        "amount": 0.1531649726,
-        "amountLabel": "$153K"
-      },
-      {
-        "donorCountry": "Denmark",
         "country": "Uganda",
         "sector": "Health",
         "year": 2022,
-        "amount": 0.1531649726,
+        "amount": 0.153164973,
+        "amountLabel": "$153K"
+      },
+      {
+        "donorCountry": "Denmark",
+        "country": "Pakistan",
+        "sector": "Emergency Response",
+        "year": 2022,
+        "amount": 0.153164973,
         "amountLabel": "$153K"
       },
       {
@@ -26576,7 +26329,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Government & Civil Society",
         "year": 2020,
-        "amount": 0.15308284632400002,
+        "amount": 0.153082846,
         "amountLabel": "$153K"
       },
       {
@@ -26584,7 +26337,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Emergency Response",
         "year": 2020,
-        "amount": 0.15305065607,
+        "amount": 0.153050656,
         "amountLabel": "$153K"
       },
       {
@@ -26600,7 +26353,7 @@ window.OECD_DATA = {
         "country": "Ghana",
         "sector": "Other Social Infrastructure & Services",
         "year": 2023,
-        "amount": 0.1526635484,
+        "amount": 0.152663548,
         "amountLabel": "$153K"
       },
       {
@@ -26608,16 +26361,8 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2020,
-        "amount": 0.15223314147,
+        "amount": 0.15223314100000002,
         "amountLabel": "$152K"
-      },
-      {
-        "donorCountry": "Switzerland",
-        "country": "Uganda",
-        "sector": "Unallocated / Unspecified",
-        "year": 2023,
-        "amount": 0.15,
-        "amountLabel": "$150K"
       },
       {
         "donorCountry": "United Kingdom",
@@ -26628,9 +26373,9 @@ window.OECD_DATA = {
         "amountLabel": "$150K"
       },
       {
-        "donorCountry": "United States",
-        "country": "Mexico",
-        "sector": "Transport & Storage",
+        "donorCountry": "Switzerland",
+        "country": "Uganda",
+        "sector": "Unallocated / Unspecified",
         "year": 2023,
         "amount": 0.15,
         "amountLabel": "$150K"
@@ -26653,10 +26398,26 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
+        "country": "Mexico",
+        "sector": "Transport & Storage",
+        "year": 2023,
+        "amount": 0.15,
+        "amountLabel": "$150K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Brazil",
+        "sector": "Education",
+        "year": 2021,
+        "amount": 0.149729615,
+        "amountLabel": "$150K"
+      },
+      {
+        "donorCountry": "United States",
         "country": "Tanzania",
         "sector": "Disaster Prevention & Preparedness",
         "year": 2022,
-        "amount": 0.14966733440000002,
+        "amount": 0.149667335,
         "amountLabel": "$150K"
       },
       {
@@ -26680,7 +26441,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 0.1483658793,
+        "amount": 0.148365879,
         "amountLabel": "$148K"
       },
       {
@@ -26688,7 +26449,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Communications",
         "year": 2023,
-        "amount": 0.1481723312,
+        "amount": 0.148172331,
         "amountLabel": "$148K"
       },
       {
@@ -26696,7 +26457,7 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Health",
         "year": 2023,
-        "amount": 0.14807006141,
+        "amount": 0.148070061,
         "amountLabel": "$148K"
       },
       {
@@ -26720,15 +26481,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Other Multisector",
         "year": 2020,
-        "amount": 0.1471640924,
-        "amountLabel": "$147K"
-      },
-      {
-        "donorCountry": "Netherlands",
-        "country": "South Africa",
-        "sector": "Business & Other Services",
-        "year": 2023,
-        "amount": 0.146839,
+        "amount": 0.147164092,
         "amountLabel": "$147K"
       },
       {
@@ -26740,11 +26493,19 @@ window.OECD_DATA = {
         "amountLabel": "$147K"
       },
       {
+        "donorCountry": "Netherlands",
+        "country": "South Africa",
+        "sector": "Business & Other Services",
+        "year": 2023,
+        "amount": 0.146839,
+        "amountLabel": "$147K"
+      },
+      {
         "donorCountry": "Spain",
         "country": "Dominican Republic",
         "sector": "Industry, Mining, Construction",
         "year": 2022,
-        "amount": 0.14679141141,
+        "amount": 0.146791411,
         "amountLabel": "$147K"
       },
       {
@@ -26757,7 +26518,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Bangladesh",
+        "country": "Tanzania",
         "sector": "Emergency Response",
         "year": 2020,
         "amount": 0.146517,
@@ -26765,7 +26526,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Tanzania",
+        "country": "Bangladesh",
         "sector": "Emergency Response",
         "year": 2020,
         "amount": 0.146517,
@@ -26788,27 +26549,11 @@ window.OECD_DATA = {
         "amountLabel": "$146K"
       },
       {
-        "donorCountry": "France",
-        "country": "Brazil",
-        "sector": "Education",
-        "year": 2022,
-        "amount": 0.14570688117,
-        "amountLabel": "$146K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Democratic Republic of the Congo",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2023,
-        "amount": 0.1456389388897,
-        "amountLabel": "$146K"
-      },
-      {
         "donorCountry": "Belgium",
         "country": "Tanzania",
         "sector": "Development Food Assistance",
         "year": 2021,
-        "amount": 0.1452336851,
+        "amount": 0.145233685,
         "amountLabel": "$145K"
       },
       {
@@ -26816,7 +26561,15 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Emergency Response",
         "year": 2023,
-        "amount": 0.14518464555,
+        "amount": 0.145184645,
+        "amountLabel": "$145K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "India",
+        "sector": "Health",
+        "year": 2020,
+        "amount": 0.14510733399999998,
         "amountLabel": "$145K"
       },
       {
@@ -26828,6 +26581,14 @@ window.OECD_DATA = {
         "amountLabel": "$145K"
       },
       {
+        "donorCountry": "Belgium",
+        "country": "Senegal",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2023,
+        "amount": 0.14475506000000002,
+        "amountLabel": "$145K"
+      },
+      {
         "donorCountry": "Switzerland",
         "country": "South Africa",
         "sector": "Education",
@@ -26836,11 +26597,11 @@ window.OECD_DATA = {
         "amountLabel": "$145K"
       },
       {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Development Food Assistance",
+        "donorCountry": "Belgium",
+        "country": "South Africa",
+        "sector": "Health",
         "year": 2020,
-        "amount": 0.144487077,
+        "amount": 0.14439591499999999,
         "amountLabel": "$144K"
       },
       {
@@ -26856,7 +26617,23 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Business & Other Services",
         "year": 2020,
-        "amount": 0.14411681170968,
+        "amount": 0.1441168038,
+        "amountLabel": "$144K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Democratic Republic of the Congo",
+        "sector": "Agriculture, Forestry, Fishing",
+        "year": 2023,
+        "amount": 0.144000244,
+        "amountLabel": "$144K"
+      },
+      {
+        "donorCountry": "France",
+        "country": "India",
+        "sector": "Population Policies/Programmes & Reproductive Health",
+        "year": 2023,
+        "amount": 0.143650059,
         "amountLabel": "$144K"
       },
       {
@@ -26864,7 +26641,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Education",
         "year": 2022,
-        "amount": 0.14254291667,
+        "amount": 0.142542917,
         "amountLabel": "$143K"
       },
       {
@@ -26880,7 +26657,7 @@ window.OECD_DATA = {
         "country": "Peru",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2020,
-        "amount": 0.14154054473,
+        "amount": 0.141540544,
         "amountLabel": "$142K"
       },
       {
@@ -26904,7 +26681,7 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Water Supply & Sanitation",
         "year": 2020,
-        "amount": 0.141220531204,
+        "amount": 0.141220531,
         "amountLabel": "$141K"
       },
       {
@@ -26912,7 +26689,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Industry, Mining, Construction",
         "year": 2020,
-        "amount": 0.14109888655,
+        "amount": 0.141098887,
         "amountLabel": "$141K"
       },
       {
@@ -26928,7 +26705,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Government & Civil Society",
         "year": 2020,
-        "amount": 0.1408525805,
+        "amount": 0.14085258,
         "amountLabel": "$141K"
       },
       {
@@ -26936,7 +26713,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Industry, Mining, Construction",
         "year": 2021,
-        "amount": 0.1405607916,
+        "amount": 0.140560792,
         "amountLabel": "$141K"
       },
       {
@@ -26944,15 +26721,15 @@ window.OECD_DATA = {
         "country": "Zambia",
         "sector": "Other Social Infrastructure & Services",
         "year": 2021,
-        "amount": 0.140182078707,
+        "amount": 0.14018207900000001,
         "amountLabel": "$140K"
       },
       {
-        "donorCountry": "South Africa",
-        "country": "South Africa",
+        "donorCountry": "United States",
+        "country": "Kenya",
         "sector": "Industry, Mining, Construction",
-        "year": 2022,
-        "amount": 0.139961461572,
+        "year": 2023,
+        "amount": 0.139594,
         "amountLabel": "$140K"
       },
       {
@@ -26964,19 +26741,27 @@ window.OECD_DATA = {
         "amountLabel": "$139K"
       },
       {
-        "donorCountry": "Belgium",
-        "country": "Peru",
-        "sector": "Government & Civil Society",
-        "year": 2023,
-        "amount": 0.1381250573,
-        "amountLabel": "$138K"
-      },
-      {
         "donorCountry": "France",
         "country": "Burkina Faso",
         "sector": "Education",
         "year": 2023,
-        "amount": 0.1381250573,
+        "amount": 0.138125057,
+        "amountLabel": "$138K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Peru",
+        "sector": "Government & Civil Society",
+        "year": 2023,
+        "amount": 0.138125057,
+        "amountLabel": "$138K"
+      },
+      {
+        "donorCountry": "Brazil",
+        "country": "Brazil",
+        "sector": "Health",
+        "year": 2020,
+        "amount": 0.137835731,
         "amountLabel": "$138K"
       },
       {
@@ -27020,12 +26805,20 @@ window.OECD_DATA = {
         "amountLabel": "$136K"
       },
       {
-        "donorCountry": "United Kingdom",
-        "country": "Malawi",
-        "sector": "Unspecified",
-        "year": 2022,
-        "amount": 0.1359157416,
-        "amountLabel": "$136K"
+        "donorCountry": "United States",
+        "country": "Rwanda",
+        "sector": "General Budget Support",
+        "year": 2021,
+        "amount": 0.135253216,
+        "amountLabel": "$135K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Rwanda",
+        "sector": "General Budget Support",
+        "year": 2020,
+        "amount": 0.134802308,
+        "amountLabel": "$135K"
       },
       {
         "donorCountry": "United Kingdom",
@@ -27037,7 +26830,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Mexico",
+        "country": "Colombia",
         "sector": "Business & Other Services",
         "year": 2022,
         "amount": 0.133995,
@@ -27045,7 +26838,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Colombia",
+        "country": "Mexico",
         "sector": "Business & Other Services",
         "year": 2022,
         "amount": 0.133995,
@@ -27056,15 +26849,15 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "General Budget Support",
         "year": 2020,
-        "amount": 0.1338999048984,
+        "amount": 0.133899904,
         "amountLabel": "$134K"
       },
       {
         "donorCountry": "United Kingdom",
         "country": "Kenya",
-        "sector": "Unspecified",
+        "sector": "Other Social Infrastructure & Services",
         "year": 2023,
-        "amount": 0.1337226999,
+        "amount": 0.1337227,
         "amountLabel": "$134K"
       },
       {
@@ -27084,6 +26877,14 @@ window.OECD_DATA = {
         "amountLabel": "$133K"
       },
       {
+        "donorCountry": "Belgium",
+        "country": "Democratic Republic of the Congo",
+        "sector": "Other Multisector",
+        "year": 2023,
+        "amount": 0.13305304,
+        "amountLabel": "$133K"
+      },
+      {
         "donorCountry": "United States",
         "country": "Indonesia",
         "sector": "Other Multisector",
@@ -27096,7 +26897,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Reconstruction Relief & Rehabilitation",
         "year": 2022,
-        "amount": 0.13239822583,
+        "amount": 0.132398226,
         "amountLabel": "$132K"
       },
       {
@@ -27105,22 +26906,6 @@ window.OECD_DATA = {
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2021,
         "amount": 0.132177,
-        "amountLabel": "$132K"
-      },
-      {
-        "donorCountry": "France",
-        "country": "India",
-        "sector": "Unspecified",
-        "year": 2021,
-        "amount": 0.1315930848,
-        "amountLabel": "$132K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Kenya",
-        "sector": "Unallocated / Unspecified",
-        "year": 2021,
-        "amount": 0.1315649009,
         "amountLabel": "$132K"
       },
       {
@@ -27136,7 +26921,7 @@ window.OECD_DATA = {
         "country": "Senegal",
         "sector": "Education",
         "year": 2021,
-        "amount": 0.1313166333,
+        "amount": 0.13131663300000002,
         "amountLabel": "$131K"
       },
       {
@@ -27144,7 +26929,7 @@ window.OECD_DATA = {
         "country": "Democratic Republic of the Congo",
         "sector": "General Environment Protection",
         "year": 2023,
-        "amount": 0.131026611759,
+        "amount": 0.131026612,
         "amountLabel": "$131K"
       },
       {
@@ -27176,7 +26961,7 @@ window.OECD_DATA = {
         "country": "Peru",
         "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 0.1306566933,
+        "amount": 0.130656693,
         "amountLabel": "$131K"
       },
       {
@@ -27184,15 +26969,7 @@ window.OECD_DATA = {
         "country": "Peru",
         "sector": "Unallocated / Unspecified",
         "year": 2022,
-        "amount": 0.1301455081,
-        "amountLabel": "$130K"
-      },
-      {
-        "donorCountry": "Japan",
-        "country": "Uganda",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 0.13,
+        "amount": 0.130145508,
         "amountLabel": "$130K"
       },
       {
@@ -27208,7 +26985,7 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Water Supply & Sanitation",
         "year": 2020,
-        "amount": 0.12990222770999998,
+        "amount": 0.129902228,
         "amountLabel": "$130K"
       },
       {
@@ -27229,27 +27006,19 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Belgium",
-        "country": "Peru",
-        "sector": "General Environment Protection",
+        "country": "Senegal",
+        "sector": "Other Multisector",
         "year": 2020,
-        "amount": 0.1295601204,
+        "amount": 0.12956012,
         "amountLabel": "$130K"
       },
       {
         "donorCountry": "Belgium",
-        "country": "Senegal",
-        "sector": "Other Multisector",
+        "country": "Peru",
+        "sector": "General Environment Protection",
         "year": 2020,
-        "amount": 0.1295601204,
+        "amount": 0.12956012,
         "amountLabel": "$130K"
-      },
-      {
-        "donorCountry": "Brazil",
-        "country": "Brazil",
-        "sector": "Health",
-        "year": 2020,
-        "amount": 0.12914108185,
-        "amountLabel": "$129K"
       },
       {
         "donorCountry": "United States",
@@ -27272,7 +27041,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Business & Other Services",
         "year": 2023,
-        "amount": 0.1286289687,
+        "amount": 0.128628969,
         "amountLabel": "$129K"
       },
       {
@@ -27368,16 +27137,16 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Other Commodity Assistance",
         "year": 2023,
-        "amount": 0.1259090939,
+        "amount": 0.125909094,
         "amountLabel": "$126K"
       },
       {
         "donorCountry": "Belgium",
-        "country": "Democratic Republic of the Congo",
-        "sector": "Agriculture, Forestry, Fishing",
+        "country": "Uganda",
+        "sector": "Development Food Assistance",
         "year": 2023,
-        "amount": 0.125289272546,
-        "amountLabel": "$125K"
+        "amount": 0.125633027,
+        "amountLabel": "$126K"
       },
       {
         "donorCountry": "United States",
@@ -27400,7 +27169,7 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Government & Civil Society",
         "year": 2023,
-        "amount": 0.12431255159,
+        "amount": 0.12431255199999999,
         "amountLabel": "$124K"
       },
       {
@@ -27408,31 +27177,15 @@ window.OECD_DATA = {
         "country": "Ghana",
         "sector": "Government & Civil Society",
         "year": 2023,
-        "amount": 0.12417107846,
+        "amount": 0.12417107799999999,
         "amountLabel": "$124K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "South Africa",
-        "sector": "Unspecified",
-        "year": 2020,
-        "amount": 0.123860636106,
-        "amountLabel": "$124K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Kenya",
-        "sector": "Unspecified",
-        "year": 2022,
-        "amount": 0.123136841722,
-        "amountLabel": "$123K"
       },
       {
         "donorCountry": "Belgium",
         "country": "Democratic Republic of the Congo",
         "sector": "Business & Other Services",
         "year": 2020,
-        "amount": 0.1230821144,
+        "amount": 0.123082114,
         "amountLabel": "$123K"
       },
       {
@@ -27456,7 +27209,7 @@ window.OECD_DATA = {
         "country": "Democratic Republic of the Congo",
         "sector": "Government & Civil Society",
         "year": 2023,
-        "amount": 0.1225079421961,
+        "amount": 0.12250794200000001,
         "amountLabel": "$123K"
       },
       {
@@ -27472,7 +27225,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Other Multisector",
         "year": 2023,
-        "amount": 0.12237106903,
+        "amount": 0.122371069,
         "amountLabel": "$122K"
       },
       {
@@ -27492,11 +27245,11 @@ window.OECD_DATA = {
         "amountLabel": "$122K"
       },
       {
-        "donorCountry": "Nigeria",
-        "country": "Nigeria",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 0.12213379497299999,
+        "donorCountry": "Germany",
+        "country": "Senegal",
+        "sector": "Water Supply & Sanitation",
+        "year": 2021,
+        "amount": 0.121775,
         "amountLabel": "$122K"
       },
       {
@@ -27511,14 +27264,6 @@ window.OECD_DATA = {
         "donorCountry": "Germany",
         "country": "India",
         "sector": "Health",
-        "year": 2021,
-        "amount": 0.121775,
-        "amountLabel": "$122K"
-      },
-      {
-        "donorCountry": "Germany",
-        "country": "Senegal",
-        "sector": "Water Supply & Sanitation",
         "year": 2021,
         "amount": 0.121775,
         "amountLabel": "$122K"
@@ -27544,8 +27289,16 @@ window.OECD_DATA = {
         "country": "Bangladesh",
         "sector": "Water Supply & Sanitation",
         "year": 2023,
-        "amount": 0.1215500504,
+        "amount": 0.12155005,
         "amountLabel": "$122K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Uganda",
+        "sector": "General Budget Support",
+        "year": 2021,
+        "amount": 0.120432486,
+        "amountLabel": "$120K"
       },
       {
         "donorCountry": "Spain",
@@ -27560,15 +27313,7 @@ window.OECD_DATA = {
         "country": "Dominican Republic",
         "sector": "Government & Civil Society",
         "year": 2023,
-        "amount": 0.1202686725,
-        "amountLabel": "$120K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Kenya",
-        "sector": "Industry, Mining, Construction",
-        "year": 2023,
-        "amount": 0.119594,
+        "amount": 0.120268672,
         "amountLabel": "$120K"
       },
       {
@@ -27576,15 +27321,23 @@ window.OECD_DATA = {
         "country": "Senegal",
         "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 0.11940895244000001,
+        "amount": 0.119408952,
         "amountLabel": "$119K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Democratic Republic of the Congo",
+        "sector": "Unallocated / Unspecified",
+        "year": 2020,
+        "amount": 0.118055726,
+        "amountLabel": "$118K"
       },
       {
         "donorCountry": "Switzerland",
         "country": "China (People's Republic of)",
         "sector": "Emergency Response",
         "year": 2020,
-        "amount": 0.1177312739,
+        "amount": 0.117731274,
         "amountLabel": "$118K"
       },
       {
@@ -27592,7 +27345,15 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Business & Other Services",
         "year": 2020,
-        "amount": 0.1177312739,
+        "amount": 0.117731274,
+        "amountLabel": "$118K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Nigeria",
+        "sector": "Unallocated / Unspecified",
+        "year": 2020,
+        "amount": 0.117731274,
         "amountLabel": "$118K"
       },
       {
@@ -27600,7 +27361,7 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Trade Policies & Regulations",
         "year": 2020,
-        "amount": 0.1177312739,
+        "amount": 0.117731274,
         "amountLabel": "$118K"
       },
       {
@@ -27617,6 +27378,14 @@ window.OECD_DATA = {
         "sector": "Other Social Infrastructure & Services",
         "year": 2020,
         "amount": 0.11714,
+        "amountLabel": "$117K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "India",
+        "sector": "Unallocated / Unspecified",
+        "year": 2021,
+        "amount": 0.11706719,
         "amountLabel": "$117K"
       },
       {
@@ -27637,10 +27406,18 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Belgium",
+        "country": "Kenya",
+        "sector": "General Environment Protection",
+        "year": 2022,
+        "amount": 0.116496539,
+        "amountLabel": "$116K"
+      },
+      {
+        "donorCountry": "Belgium",
         "country": "Ghana",
         "sector": "Banking & Financial Services",
         "year": 2022,
-        "amount": 0.1164534353,
+        "amount": 0.116453435,
         "amountLabel": "$116K"
       },
       {
@@ -27648,7 +27425,7 @@ window.OECD_DATA = {
         "country": "Malawi",
         "sector": "Other Multisector",
         "year": 2021,
-        "amount": 0.11630069932,
+        "amount": 0.1163007,
         "amountLabel": "$116K"
       },
       {
@@ -27686,7 +27463,7 @@ window.OECD_DATA = {
       {
         "donorCountry": "United States",
         "country": "Colombia",
-        "sector": "Unspecified",
+        "sector": "General Budget Support",
         "year": 2023,
         "amount": 0.115,
         "amountLabel": "$115K"
@@ -27704,15 +27481,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Health",
         "year": 2021,
-        "amount": 0.11492404649,
-        "amountLabel": "$115K"
-      },
-      {
-        "donorCountry": "Brazil",
-        "country": "Brazil",
-        "sector": "Unallocated / Unspecified",
-        "year": 2022,
-        "amount": 0.11491996267,
+        "amount": 0.114924047,
         "amountLabel": "$115K"
       },
       {
@@ -27725,16 +27494,16 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Germany",
-        "country": "Ukraine",
-        "sector": "Education",
+        "country": "Senegal",
+        "sector": "Agriculture, Forestry, Fishing",
         "year": 2022,
         "amount": 0.114773,
         "amountLabel": "$115K"
       },
       {
         "donorCountry": "Germany",
-        "country": "Senegal",
-        "sector": "Agriculture, Forestry, Fishing",
+        "country": "Ukraine",
+        "sector": "Education",
         "year": 2022,
         "amount": 0.114773,
         "amountLabel": "$115K"
@@ -27744,15 +27513,7 @@ window.OECD_DATA = {
         "country": "Malawi",
         "sector": "Unallocated / Unspecified",
         "year": 2020,
-        "amount": 0.1146750067,
-        "amountLabel": "$115K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Democratic Republic of the Congo",
-        "sector": "Other Multisector",
-        "year": 2023,
-        "amount": 0.114635996284,
+        "amount": 0.114675007,
         "amountLabel": "$115K"
       },
       {
@@ -27773,10 +27534,18 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
+        "country": "Colombia",
+        "sector": "General Budget Support",
+        "year": 2022,
+        "amount": 0.114528047,
+        "amountLabel": "$115K"
+      },
+      {
+        "donorCountry": "United States",
         "country": "Mexico",
         "sector": "Emergency Response",
         "year": 2022,
-        "amount": 0.11447640649999999,
+        "amount": 0.11447640599999999,
         "amountLabel": "$114K"
       },
       {
@@ -27788,11 +27557,19 @@ window.OECD_DATA = {
         "amountLabel": "$114K"
       },
       {
+        "donorCountry": "Belgium",
+        "country": "Democratic Republic of the Congo",
+        "sector": "Emergency Response",
+        "year": 2021,
+        "amount": 0.113729341,
+        "amountLabel": "$114K"
+      },
+      {
         "donorCountry": "Nigeria",
         "country": "Nigeria",
         "sector": "Water Supply & Sanitation",
         "year": 2023,
-        "amount": 0.1135472312,
+        "amount": 0.113547231,
         "amountLabel": "$114K"
       },
       {
@@ -27800,21 +27577,21 @@ window.OECD_DATA = {
         "country": "Senegal",
         "sector": "Other Multisector",
         "year": 2023,
-        "amount": 0.113080221971,
-        "amountLabel": "$113K"
-      },
-      {
-        "donorCountry": "Switzerland",
-        "country": "Peru",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2022,
-        "amount": 0.112731,
+        "amount": 0.11308022200000001,
         "amountLabel": "$113K"
       },
       {
         "donorCountry": "Switzerland",
         "country": "Pakistan",
         "sector": "Emergency Response",
+        "year": 2022,
+        "amount": 0.112731,
+        "amountLabel": "$113K"
+      },
+      {
+        "donorCountry": "Switzerland",
+        "country": "Peru",
+        "sector": "Other Social Infrastructure & Services",
         "year": 2022,
         "amount": 0.112731,
         "amountLabel": "$113K"
@@ -27837,26 +27614,18 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Brazil",
-        "sector": "Water Supply & Sanitation",
+        "country": "Peru",
+        "sector": "Unallocated / Unspecified",
         "year": 2021,
-        "amount": 0.1124486333,
+        "amount": 0.112448633,
         "amountLabel": "$112K"
       },
       {
         "donorCountry": "United States",
-        "country": "Peru",
-        "sector": "Unspecified",
+        "country": "Brazil",
+        "sector": "Water Supply & Sanitation",
         "year": 2021,
-        "amount": 0.1124486333,
-        "amountLabel": "$112K"
-      },
-      {
-        "donorCountry": "Switzerland",
-        "country": "Democratic Republic of the Congo",
-        "sector": "Population Policies/Programmes & Reproductive Health",
-        "year": 2020,
-        "amount": 0.111907,
+        "amount": 0.112448633,
         "amountLabel": "$112K"
       },
       {
@@ -27868,11 +27637,11 @@ window.OECD_DATA = {
         "amountLabel": "$112K"
       },
       {
-        "donorCountry": "Brazil",
-        "country": "Brazil",
-        "sector": "Unspecified",
+        "donorCountry": "Switzerland",
+        "country": "Democratic Republic of the Congo",
+        "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2020,
-        "amount": 0.11184401996599999,
+        "amount": 0.111907,
         "amountLabel": "$112K"
       },
       {
@@ -27880,7 +27649,7 @@ window.OECD_DATA = {
         "country": "Dominican Republic",
         "sector": "Industry, Mining, Construction",
         "year": 2021,
-        "amount": 0.11162571893,
+        "amount": 0.111625719,
         "amountLabel": "$112K"
       },
       {
@@ -27888,7 +27657,15 @@ window.OECD_DATA = {
         "country": "Democratic Republic of the Congo",
         "sector": "Government & Civil Society",
         "year": 2021,
-        "amount": 0.111046938547,
+        "amount": 0.11104693800000001,
+        "amountLabel": "$111K"
+      },
+      {
+        "donorCountry": "France",
+        "country": "India",
+        "sector": "Unallocated / Unspecified",
+        "year": 2023,
+        "amount": 0.111043706,
         "amountLabel": "$111K"
       },
       {
@@ -27901,7 +27678,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Ghana",
+        "country": "Senegal",
         "sector": "Other Multisector",
         "year": 2020,
         "amount": 0.11063,
@@ -27917,7 +27694,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Senegal",
+        "country": "Ghana",
         "sector": "Other Multisector",
         "year": 2020,
         "amount": 0.11063,
@@ -27928,15 +27705,7 @@ window.OECD_DATA = {
         "country": "Zambia",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2023,
-        "amount": 0.1105000459,
-        "amountLabel": "$111K"
-      },
-      {
-        "donorCountry": "France",
-        "country": "Senegal",
-        "sector": "Government & Civil Society",
-        "year": 2023,
-        "amount": 0.1105000459,
+        "amount": 0.110500046,
         "amountLabel": "$111K"
       },
       {
@@ -27944,7 +27713,15 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Education",
         "year": 2023,
-        "amount": 0.11050004586,
+        "amount": 0.110500046,
+        "amountLabel": "$111K"
+      },
+      {
+        "donorCountry": "France",
+        "country": "Senegal",
+        "sector": "Government & Civil Society",
+        "year": 2023,
+        "amount": 0.110500046,
         "amountLabel": "$111K"
       },
       {
@@ -27984,23 +27761,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Other Social Infrastructure & Services",
         "year": 2022,
-        "amount": 0.109457818094,
-        "amountLabel": "$109K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "India",
-        "sector": "Unspecified",
-        "year": 2020,
-        "amount": 0.10934874161,
-        "amountLabel": "$109K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Brazil",
-        "sector": "Education",
-        "year": 2021,
-        "amount": 0.10931676334000001,
+        "amount": 0.109457819,
         "amountLabel": "$109K"
       },
       {
@@ -28008,7 +27769,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Transport & Storage",
         "year": 2022,
-        "amount": 0.1091324704,
+        "amount": 0.10913247,
         "amountLabel": "$109K"
       },
       {
@@ -28040,7 +27801,7 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Other Multisector",
         "year": 2021,
-        "amount": 0.10842929499000001,
+        "amount": 0.10842929500000001,
         "amountLabel": "$108K"
       },
       {
@@ -28068,17 +27829,9 @@ window.OECD_DATA = {
         "amountLabel": "$108K"
       },
       {
-        "donorCountry": "Belgium",
-        "country": "Democratic Republic of the Congo",
-        "sector": "Emergency Response",
-        "year": 2021,
-        "amount": 0.10741483352,
-        "amountLabel": "$107K"
-      },
-      {
         "donorCountry": "Switzerland",
         "country": "Mexico",
-        "sector": "Health",
+        "sector": "Education",
         "year": 2022,
         "amount": 0.107196,
         "amountLabel": "$107K"
@@ -28086,7 +27839,7 @@ window.OECD_DATA = {
       {
         "donorCountry": "Switzerland",
         "country": "Mexico",
-        "sector": "Education",
+        "sector": "Health",
         "year": 2022,
         "amount": 0.107196,
         "amountLabel": "$107K"
@@ -28112,7 +27865,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Water Supply & Sanitation",
         "year": 2021,
-        "amount": 0.1068262016,
+        "amount": 0.106826202,
         "amountLabel": "$107K"
       },
       {
@@ -28128,7 +27881,7 @@ window.OECD_DATA = {
         "country": "Dominican Republic",
         "sector": "Industry, Mining, Construction",
         "year": 2023,
-        "amount": 0.1064860322,
+        "amount": 0.106486032,
         "amountLabel": "$106K"
       },
       {
@@ -28136,7 +27889,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Transport & Storage",
         "year": 2023,
-        "amount": 0.10647190640460001,
+        "amount": 0.106471906,
         "amountLabel": "$106K"
       },
       {
@@ -28144,7 +27897,7 @@ window.OECD_DATA = {
         "country": "Ethiopia",
         "sector": "Education",
         "year": 2020,
-        "amount": 0.10623929872,
+        "amount": 0.106239298,
         "amountLabel": "$106K"
       },
       {
@@ -28165,14 +27918,6 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Netherlands",
-        "country": "India",
-        "sector": "Unallocated / Unspecified",
-        "year": 2023,
-        "amount": 0.105969,
-        "amountLabel": "$106K"
-      },
-      {
-        "donorCountry": "Netherlands",
         "country": "Brazil",
         "sector": "Unallocated / Unspecified",
         "year": 2023,
@@ -28180,11 +27925,35 @@ window.OECD_DATA = {
         "amountLabel": "$106K"
       },
       {
+        "donorCountry": "Netherlands",
+        "country": "India",
+        "sector": "Unallocated / Unspecified",
+        "year": 2023,
+        "amount": 0.105969,
+        "amountLabel": "$106K"
+      },
+      {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "Development Food Assistance",
+        "year": 2021,
+        "amount": 0.105445139,
+        "amountLabel": "$105K"
+      },
+      {
+        "donorCountry": "France",
+        "country": "India",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2021,
+        "amount": 0.105386614,
+        "amountLabel": "$105K"
+      },
+      {
         "donorCountry": "Ireland",
         "country": "Uganda",
         "sector": "General Environment Protection",
         "year": 2023,
-        "amount": 0.1052380337,
+        "amount": 0.105238034,
         "amountLabel": "$105K"
       },
       {
@@ -28208,7 +27977,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Health",
         "year": 2021,
-        "amount": 0.1047715804,
+        "amount": 0.10477158,
         "amountLabel": "$105K"
       },
       {
@@ -28224,7 +27993,31 @@ window.OECD_DATA = {
         "country": "Peru",
         "sector": "Energy",
         "year": 2022,
-        "amount": 0.1041164065,
+        "amount": 0.104116407,
+        "amountLabel": "$104K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "India",
+        "sector": "Unallocated / Unspecified",
+        "year": 2022,
+        "amount": 0.104116407,
+        "amountLabel": "$104K"
+      },
+      {
+        "donorCountry": "France",
+        "country": "Mexico",
+        "sector": "Unallocated / Unspecified",
+        "year": 2023,
+        "amount": 0.103882198,
+        "amountLabel": "$104K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "South Africa",
+        "sector": "Education",
+        "year": 2022,
+        "amount": 0.103758223,
         "amountLabel": "$104K"
       },
       {
@@ -28232,23 +28025,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2023,
-        "amount": 0.1037484931,
-        "amountLabel": "$104K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Kenya",
-        "sector": "Health",
-        "year": 2023,
-        "amount": 0.103630258,
-        "amountLabel": "$104K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Bangladesh",
-        "sector": "Education",
-        "year": 2022,
-        "amount": 0.103598,
+        "amount": 0.103748493,
         "amountLabel": "$104K"
       },
       {
@@ -28260,11 +28037,19 @@ window.OECD_DATA = {
         "amountLabel": "$104K"
       },
       {
+        "donorCountry": "United States",
+        "country": "Bangladesh",
+        "sector": "Education",
+        "year": 2022,
+        "amount": 0.103598,
+        "amountLabel": "$104K"
+      },
+      {
         "donorCountry": "Belgium",
         "country": "Ethiopia",
         "sector": "Education",
         "year": 2022,
-        "amount": 0.1033324301,
+        "amount": 0.10333243,
         "amountLabel": "$103K"
       },
       {
@@ -28272,7 +28057,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Administrative Costs of Donors",
         "year": 2022,
-        "amount": 0.10260130715,
+        "amount": 0.102601307,
         "amountLabel": "$103K"
       },
       {
@@ -28293,18 +28078,10 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Belgium",
-        "country": "Senegal",
-        "sector": "Health",
-        "year": 2023,
-        "amount": 0.10166004218699999,
-        "amountLabel": "$102K"
-      },
-      {
-        "donorCountry": "Belgium",
         "country": "Zambia",
         "sector": "Government & Civil Society",
         "year": 2023,
-        "amount": 0.10157043769999999,
+        "amount": 0.101570437,
         "amountLabel": "$102K"
       },
       {
@@ -28312,7 +28089,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Refugees in Donor Countries",
         "year": 2021,
-        "amount": 0.10078042223,
+        "amount": 0.100780422,
         "amountLabel": "$101K"
       },
       {
@@ -28320,7 +28097,7 @@ window.OECD_DATA = {
         "country": "Peru",
         "sector": "Education",
         "year": 2020,
-        "amount": 0.1007381760156,
+        "amount": 0.100738175,
         "amountLabel": "$101K"
       },
       {
@@ -28342,9 +28119,33 @@ window.OECD_DATA = {
       {
         "donorCountry": "France",
         "country": "Nigeria",
-        "sector": "Unspecified",
+        "sector": "Other Social Infrastructure & Services",
         "year": 2021,
         "amount": 0.100259233,
+        "amountLabel": "$100K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "China (People's Republic of)",
+        "sector": "Industry, Mining, Construction",
+        "year": 2023,
+        "amount": 0.1,
+        "amountLabel": "$100K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "India",
+        "sector": "Unallocated / Unspecified",
+        "year": 2023,
+        "amount": 0.1,
+        "amountLabel": "$100K"
+      },
+      {
+        "donorCountry": "Switzerland",
+        "country": "Nigeria",
+        "sector": "Agriculture, Forestry, Fishing",
+        "year": 2023,
+        "amount": 0.1,
         "amountLabel": "$100K"
       },
       {
@@ -28356,9 +28157,9 @@ window.OECD_DATA = {
         "amountLabel": "$100K"
       },
       {
-        "donorCountry": "United States",
-        "country": "China (People's Republic of)",
-        "sector": "Industry, Mining, Construction",
+        "donorCountry": "Switzerland",
+        "country": "Colombia",
+        "sector": "Communications",
         "year": 2023,
         "amount": 0.1,
         "amountLabel": "$100K"
@@ -28373,24 +28174,8 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Nigeria",
-        "sector": "Agriculture, Forestry, Fishing",
-        "year": 2023,
-        "amount": 0.1,
-        "amountLabel": "$100K"
-      },
-      {
-        "donorCountry": "Switzerland",
         "country": "Malawi",
         "sector": "Agriculture, Forestry, Fishing",
-        "year": 2023,
-        "amount": 0.1,
-        "amountLabel": "$100K"
-      },
-      {
-        "donorCountry": "Switzerland",
-        "country": "Colombia",
-        "sector": "Communications",
         "year": 2023,
         "amount": 0.1,
         "amountLabel": "$100K"
@@ -28416,7 +28201,7 @@ window.OECD_DATA = {
         "country": "Dominican Republic",
         "sector": "Education",
         "year": 2022,
-        "amount": 0.09977367982999999,
+        "amount": 0.09977368,
         "amountLabel": "$100K"
       },
       {
@@ -28428,11 +28213,19 @@ window.OECD_DATA = {
         "amountLabel": "$100K"
       },
       {
+        "donorCountry": "Belgium",
+        "country": "South Africa",
+        "sector": "Education",
+        "year": 2020,
+        "amount": 0.099560475,
+        "amountLabel": "$100K"
+      },
+      {
         "donorCountry": "France",
         "country": "Tanzania",
-        "sector": "Unspecified",
+        "sector": "Other Social Infrastructure & Services",
         "year": 2021,
-        "amount": 0.09934362933,
+        "amount": 0.099343629,
         "amountLabel": "$99K"
       },
       {
@@ -28440,7 +28233,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2020,
-        "amount": 0.09907932417500001,
+        "amount": 0.099079324,
         "amountLabel": "$99K"
       },
       {
@@ -28448,7 +28241,7 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Other Social Infrastructure & Services",
         "year": 2021,
-        "amount": 0.098847308996,
+        "amount": 0.098847309,
         "amountLabel": "$99K"
       },
       {
@@ -28456,7 +28249,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Other Multisector",
         "year": 2021,
-        "amount": 0.09844010377,
+        "amount": 0.098440104,
         "amountLabel": "$98K"
       },
       {
@@ -28464,7 +28257,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Banking & Financial Services",
         "year": 2021,
-        "amount": 0.09839255412,
+        "amount": 0.098392554,
         "amountLabel": "$98K"
       },
       {
@@ -28488,7 +28281,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Industry, Mining, Construction",
         "year": 2020,
-        "amount": 0.09775915698,
+        "amount": 0.097759157,
         "amountLabel": "$98K"
       },
       {
@@ -28528,7 +28321,7 @@ window.OECD_DATA = {
         "country": "Burkina Faso",
         "sector": "Other Social Infrastructure & Services",
         "year": 2023,
-        "amount": 0.09668754013,
+        "amount": 0.09668754,
         "amountLabel": "$97K"
       },
       {
@@ -28544,7 +28337,7 @@ window.OECD_DATA = {
         "country": "Dominican Republic",
         "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 0.09642798147,
+        "amount": 0.096427981,
         "amountLabel": "$96K"
       },
       {
@@ -28552,7 +28345,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Trade Policies & Regulations",
         "year": 2021,
-        "amount": 0.09551829333,
+        "amount": 0.095518293,
         "amountLabel": "$96K"
       },
       {
@@ -28568,15 +28361,15 @@ window.OECD_DATA = {
         "country": "Ukraine",
         "sector": "Education",
         "year": 2021,
-        "amount": 0.09514274830399999,
+        "amount": 0.095142749,
         "amountLabel": "$95K"
       },
       {
         "donorCountry": "Belgium",
-        "country": "Democratic Republic of the Congo",
-        "sector": "Unspecified",
-        "year": 2022,
-        "amount": 0.094568488648,
+        "country": "Uganda",
+        "sector": "Education",
+        "year": 2023,
+        "amount": 0.09485103,
         "amountLabel": "$95K"
       },
       {
@@ -28584,7 +28377,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Education",
         "year": 2020,
-        "amount": 0.0942063148,
+        "amount": 0.094206315,
         "amountLabel": "$94K"
       },
       {
@@ -28592,20 +28385,12 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Education",
         "year": 2020,
-        "amount": 0.09418501912,
-        "amountLabel": "$94K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Kenya",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 0.09392503898,
+        "amount": 0.094185019,
         "amountLabel": "$94K"
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Ghana",
+        "country": "Senegal",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2023,
         "amount": 0.09375,
@@ -28613,7 +28398,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Senegal",
+        "country": "Ghana",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2023,
         "amount": 0.09375,
@@ -28637,14 +28422,6 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Colombia",
-        "sector": "Energy",
-        "year": 2022,
-        "amount": 0.093239,
-        "amountLabel": "$93K"
-      },
-      {
-        "donorCountry": "United States",
         "country": "Burkina Faso",
         "sector": "Other Multisector",
         "year": 2022,
@@ -28652,11 +28429,19 @@ window.OECD_DATA = {
         "amountLabel": "$93K"
       },
       {
+        "donorCountry": "United States",
+        "country": "Colombia",
+        "sector": "Energy",
+        "year": 2022,
+        "amount": 0.093239,
+        "amountLabel": "$93K"
+      },
+      {
         "donorCountry": "Belgium",
-        "country": "South Africa",
+        "country": "India",
         "sector": "Education",
         "year": 2020,
-        "amount": 0.092538315988,
+        "amount": 0.092662693,
         "amountLabel": "$93K"
       },
       {
@@ -28664,7 +28449,7 @@ window.OECD_DATA = {
         "country": "Senegal",
         "sector": "Water Supply & Sanitation",
         "year": 2023,
-        "amount": 0.09244102336,
+        "amount": 0.092441023,
         "amountLabel": "$92K"
       },
       {
@@ -28672,15 +28457,15 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Business & Other Services",
         "year": 2022,
-        "amount": 0.09110185569,
+        "amount": 0.091101856,
         "amountLabel": "$91K"
       },
       {
         "donorCountry": "France",
         "country": "Indonesia",
-        "sector": "Unspecified",
+        "sector": "Other Social Infrastructure & Services",
         "year": 2021,
-        "amount": 0.09092007559,
+        "amount": 0.090920076,
         "amountLabel": "$91K"
       },
       {
@@ -28688,7 +28473,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Health",
         "year": 2023,
-        "amount": 0.09077031792000001,
+        "amount": 0.090770318,
         "amountLabel": "$91K"
       },
       {
@@ -28696,7 +28481,7 @@ window.OECD_DATA = {
         "country": "Senegal",
         "sector": "Education",
         "year": 2020,
-        "amount": 0.09069208428,
+        "amount": 0.090692084,
         "amountLabel": "$91K"
       },
       {
@@ -28704,15 +28489,7 @@ window.OECD_DATA = {
         "country": "Peru",
         "sector": "Other Social Infrastructure & Services",
         "year": 2020,
-        "amount": 0.09069208428,
-        "amountLabel": "$91K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Democratic Republic of the Congo",
-        "sector": "Unallocated / Unspecified",
-        "year": 2020,
-        "amount": 0.09069081459100001,
+        "amount": 0.090692084,
         "amountLabel": "$91K"
       },
       {
@@ -28744,12 +28521,12 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Industry, Mining, Construction",
         "year": 2021,
-        "amount": 0.0894011614,
+        "amount": 0.089401161,
         "amountLabel": "$89K"
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Zambia",
+        "country": "Rwanda",
         "sector": "Other Social Infrastructure & Services",
         "year": 2023,
         "amount": 0.089211,
@@ -28757,7 +28534,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Rwanda",
+        "country": "Zambia",
         "sector": "Other Social Infrastructure & Services",
         "year": 2023,
         "amount": 0.089211,
@@ -28777,6 +28554,14 @@ window.OECD_DATA = {
         "sector": "Government & Civil Society",
         "year": 2023,
         "amount": 0.089,
+        "amountLabel": "$89K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Tanzania",
+        "sector": "Unallocated / Unspecified",
+        "year": 2020,
+        "amount": 0.088887112,
         "amountLabel": "$89K"
       },
       {
@@ -28800,23 +28585,23 @@ window.OECD_DATA = {
         "country": "Dominican Republic",
         "sector": "Energy",
         "year": 2020,
-        "amount": 0.08865959323,
+        "amount": 0.088659593,
         "amountLabel": "$89K"
-      },
-      {
-        "donorCountry": "France",
-        "country": "Burkina Faso",
-        "sector": "Water Supply & Sanitation",
-        "year": 2023,
-        "amount": 0.08840003669,
-        "amountLabel": "$88K"
       },
       {
         "donorCountry": "France",
         "country": "Colombia",
         "sector": "Government & Civil Society",
         "year": 2023,
-        "amount": 0.08840003669,
+        "amount": 0.088400037,
+        "amountLabel": "$88K"
+      },
+      {
+        "donorCountry": "France",
+        "country": "Burkina Faso",
+        "sector": "Water Supply & Sanitation",
+        "year": 2023,
+        "amount": 0.088400037,
         "amountLabel": "$88K"
       },
       {
@@ -28824,7 +28609,7 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Communications",
         "year": 2020,
-        "amount": 0.08829845543,
+        "amount": 0.088298455,
         "amountLabel": "$88K"
       },
       {
@@ -28832,7 +28617,7 @@ window.OECD_DATA = {
         "country": "Ukraine",
         "sector": "Emergency Response",
         "year": 2020,
-        "amount": 0.08829845543,
+        "amount": 0.088298455,
         "amountLabel": "$88K"
       },
       {
@@ -28840,7 +28625,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Communications",
         "year": 2021,
-        "amount": 0.08805294011,
+        "amount": 0.08805294,
         "amountLabel": "$88K"
       },
       {
@@ -28848,7 +28633,15 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Industry, Mining, Construction",
         "year": 2022,
-        "amount": 0.08790207516,
+        "amount": 0.087902075,
+        "amountLabel": "$88K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "South Africa",
+        "sector": "Energy",
+        "year": 2020,
+        "amount": 0.087592068,
         "amountLabel": "$88K"
       },
       {
@@ -28861,14 +28654,6 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Rwanda",
-        "sector": "Energy",
-        "year": 2020,
-        "amount": 0.087039,
-        "amountLabel": "$87K"
-      },
-      {
-        "donorCountry": "United States",
         "country": "Uganda",
         "sector": "Energy",
         "year": 2020,
@@ -28876,11 +28661,11 @@ window.OECD_DATA = {
         "amountLabel": "$87K"
       },
       {
-        "donorCountry": "Belgium",
-        "country": "South Africa",
-        "sector": "Education",
-        "year": 2022,
-        "amount": 0.08686622676399999,
+        "donorCountry": "United States",
+        "country": "Rwanda",
+        "sector": "Energy",
+        "year": 2020,
+        "amount": 0.087039,
         "amountLabel": "$87K"
       },
       {
@@ -28896,7 +28681,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "General Environment Protection",
         "year": 2022,
-        "amount": 0.086416617391,
+        "amount": 0.086416617,
         "amountLabel": "$86K"
       },
       {
@@ -28912,7 +28697,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Water Supply & Sanitation",
         "year": 2020,
-        "amount": 0.08594382995,
+        "amount": 0.08594383,
         "amountLabel": "$86K"
       },
       {
@@ -28928,7 +28713,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Education",
         "year": 2023,
-        "amount": 0.085703835569,
+        "amount": 0.085703835,
         "amountLabel": "$86K"
       },
       {
@@ -28944,7 +28729,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2023,
-        "amount": 0.08536128542,
+        "amount": 0.085361285,
         "amountLabel": "$85K"
       },
       {
@@ -28957,18 +28742,10 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Tanzania",
-        "sector": "Communications",
+        "country": "India",
+        "sector": "General Budget Support",
         "year": 2021,
-        "amount": 0.08433647496,
-        "amountLabel": "$84K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Malawi",
-        "sector": "Unallocated / Unspecified",
-        "year": 2021,
-        "amount": 0.08433647496,
+        "amount": 0.084336475,
         "amountLabel": "$84K"
       },
       {
@@ -28976,7 +28753,15 @@ window.OECD_DATA = {
         "country": "Peru",
         "sector": "Emergency Response",
         "year": 2021,
-        "amount": 0.08433647496,
+        "amount": 0.084336475,
+        "amountLabel": "$84K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Tanzania",
+        "sector": "Communications",
+        "year": 2021,
+        "amount": 0.084336475,
         "amountLabel": "$84K"
       },
       {
@@ -28988,11 +28773,11 @@ window.OECD_DATA = {
         "amountLabel": "$84K"
       },
       {
-        "donorCountry": "Belgium",
-        "country": "Uganda",
-        "sector": "Education",
+        "donorCountry": "United States",
+        "country": "Rwanda",
+        "sector": "General Budget Support",
         "year": 2023,
-        "amount": 0.083801024777,
+        "amount": 0.084,
         "amountLabel": "$84K"
       },
       {
@@ -29024,7 +28809,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Education",
         "year": 2021,
-        "amount": 0.083141864587,
+        "amount": 0.083141866,
         "amountLabel": "$83K"
       },
       {
@@ -29032,15 +28817,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Energy",
         "year": 2022,
-        "amount": 0.08305974228,
-        "amountLabel": "$83K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "South Africa",
-        "sector": "Unspecified",
-        "year": 2022,
-        "amount": 0.082932126999,
+        "amount": 0.08305974199999999,
         "amountLabel": "$83K"
       },
       {
@@ -29056,7 +28833,7 @@ window.OECD_DATA = {
         "country": "Bangladesh",
         "sector": "Other Multisector",
         "year": 2023,
-        "amount": 0.08287503439,
+        "amount": 0.082875034,
         "amountLabel": "$83K"
       },
       {
@@ -29064,44 +28841,12 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Other Multisector",
         "year": 2023,
-        "amount": 0.08287503439,
+        "amount": 0.082875034,
         "amountLabel": "$83K"
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Rwanda",
-        "sector": "Water Supply & Sanitation",
-        "year": 2021,
-        "amount": 0.082703,
-        "amountLabel": "$83K"
-      },
-      {
-        "donorCountry": "Switzerland",
-        "country": "Bangladesh",
-        "sector": "Water Supply & Sanitation",
-        "year": 2021,
-        "amount": 0.082703,
-        "amountLabel": "$83K"
-      },
-      {
-        "donorCountry": "Switzerland",
-        "country": "Zambia",
-        "sector": "Water Supply & Sanitation",
-        "year": 2021,
-        "amount": 0.082703,
-        "amountLabel": "$83K"
-      },
-      {
-        "donorCountry": "Switzerland",
-        "country": "Burkina Faso",
-        "sector": "Water Supply & Sanitation",
-        "year": 2021,
-        "amount": 0.082703,
-        "amountLabel": "$83K"
-      },
-      {
-        "donorCountry": "Switzerland",
-        "country": "Senegal",
+        "country": "Ethiopia",
         "sector": "Water Supply & Sanitation",
         "year": 2021,
         "amount": 0.082703,
@@ -29125,7 +28870,23 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Ethiopia",
+        "country": "Bangladesh",
+        "sector": "Water Supply & Sanitation",
+        "year": 2021,
+        "amount": 0.082703,
+        "amountLabel": "$83K"
+      },
+      {
+        "donorCountry": "Switzerland",
+        "country": "Rwanda",
+        "sector": "Water Supply & Sanitation",
+        "year": 2021,
+        "amount": 0.082703,
+        "amountLabel": "$83K"
+      },
+      {
+        "donorCountry": "Switzerland",
+        "country": "Burkina Faso",
         "sector": "Water Supply & Sanitation",
         "year": 2021,
         "amount": 0.082703,
@@ -29134,6 +28895,22 @@ window.OECD_DATA = {
       {
         "donorCountry": "Switzerland",
         "country": "Kenya",
+        "sector": "Water Supply & Sanitation",
+        "year": 2021,
+        "amount": 0.082703,
+        "amountLabel": "$83K"
+      },
+      {
+        "donorCountry": "Switzerland",
+        "country": "Zambia",
+        "sector": "Water Supply & Sanitation",
+        "year": 2021,
+        "amount": 0.082703,
+        "amountLabel": "$83K"
+      },
+      {
+        "donorCountry": "Switzerland",
+        "country": "Senegal",
         "sector": "Water Supply & Sanitation",
         "year": 2021,
         "amount": 0.082703,
@@ -29149,14 +28926,6 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Netherlands",
-        "country": "Peru",
-        "sector": "Government & Civil Society",
-        "year": 2021,
-        "amount": 0.082541,
-        "amountLabel": "$83K"
-      },
-      {
-        "donorCountry": "Netherlands",
         "country": "Colombia",
         "sector": "Government & Civil Society",
         "year": 2021,
@@ -29164,11 +28933,27 @@ window.OECD_DATA = {
         "amountLabel": "$83K"
       },
       {
+        "donorCountry": "Netherlands",
+        "country": "Peru",
+        "sector": "Government & Civil Society",
+        "year": 2021,
+        "amount": 0.082541,
+        "amountLabel": "$83K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "India",
+        "sector": "General Budget Support",
+        "year": 2020,
+        "amount": 0.082411892,
+        "amountLabel": "$82K"
+      },
+      {
         "donorCountry": "United States",
         "country": "Brazil",
         "sector": "Disaster Prevention & Preparedness",
         "year": 2020,
-        "amount": 0.08241189173,
+        "amount": 0.082411892,
         "amountLabel": "$82K"
       },
       {
@@ -29176,7 +28961,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Other Social Infrastructure & Services",
         "year": 2022,
-        "amount": 0.08223723679,
+        "amount": 0.082237237,
         "amountLabel": "$82K"
       },
       {
@@ -29208,44 +28993,12 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Industry, Mining, Construction",
         "year": 2022,
-        "amount": 0.081026671275,
-        "amountLabel": "$81K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Uganda",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 0.08079542353,
+        "amount": 0.08102667000000001,
         "amountLabel": "$81K"
       },
       {
         "donorCountry": "Spain",
-        "country": "Nigeria",
-        "sector": "Education",
-        "year": 2021,
-        "amount": 0.080409,
-        "amountLabel": "$80K"
-      },
-      {
-        "donorCountry": "Spain",
         "country": "Uganda",
-        "sector": "Education",
-        "year": 2021,
-        "amount": 0.080409,
-        "amountLabel": "$80K"
-      },
-      {
-        "donorCountry": "Spain",
-        "country": "Malawi",
-        "sector": "Education",
-        "year": 2021,
-        "amount": 0.080409,
-        "amountLabel": "$80K"
-      },
-      {
-        "donorCountry": "Spain",
-        "country": "Tanzania",
         "sector": "Education",
         "year": 2021,
         "amount": 0.080409,
@@ -29261,7 +29014,15 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Spain",
-        "country": "Democratic Republic of the Congo",
+        "country": "Tanzania",
+        "sector": "Education",
+        "year": 2021,
+        "amount": 0.080409,
+        "amountLabel": "$80K"
+      },
+      {
+        "donorCountry": "Spain",
+        "country": "Malawi",
         "sector": "Education",
         "year": 2021,
         "amount": 0.080409,
@@ -29278,6 +29039,22 @@ window.OECD_DATA = {
       {
         "donorCountry": "Spain",
         "country": "South Africa",
+        "sector": "Education",
+        "year": 2021,
+        "amount": 0.080409,
+        "amountLabel": "$80K"
+      },
+      {
+        "donorCountry": "Spain",
+        "country": "Democratic Republic of the Congo",
+        "sector": "Education",
+        "year": 2021,
+        "amount": 0.080409,
+        "amountLabel": "$80K"
+      },
+      {
+        "donorCountry": "Spain",
+        "country": "Nigeria",
         "sector": "Education",
         "year": 2021,
         "amount": 0.080409,
@@ -29304,7 +29081,15 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Education",
         "year": 2021,
-        "amount": 0.07923615797,
+        "amount": 0.079236158,
+        "amountLabel": "$79K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Uganda",
+        "sector": "Education",
+        "year": 2021,
+        "amount": 0.07918519400000001,
         "amountLabel": "$79K"
       },
       {
@@ -29334,7 +29119,7 @@ window.OECD_DATA = {
       {
         "donorCountry": "United States",
         "country": "Peru",
-        "sector": "Unspecified",
+        "sector": "Trade Policies & Regulations",
         "year": 2023,
         "amount": 0.07875,
         "amountLabel": "$79K"
@@ -29344,7 +29129,7 @@ window.OECD_DATA = {
         "country": "Dominican Republic",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2022,
-        "amount": 0.07808730488,
+        "amount": 0.078087305,
         "amountLabel": "$78K"
       },
       {
@@ -29352,7 +29137,7 @@ window.OECD_DATA = {
         "country": "Bangladesh",
         "sector": "General Environment Protection",
         "year": 2022,
-        "amount": 0.07808730488,
+        "amount": 0.078087305,
         "amountLabel": "$78K"
       },
       {
@@ -29372,19 +29157,19 @@ window.OECD_DATA = {
         "amountLabel": "$78K"
       },
       {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Trade Policies & Regulations",
+        "year": 2020,
+        "amount": 0.077971176,
+        "amountLabel": "$78K"
+      },
+      {
         "donorCountry": "United States",
         "country": "Malawi",
         "sector": "Other Multisector",
         "year": 2020,
-        "amount": 0.077702640775,
-        "amountLabel": "$78K"
-      },
-      {
-        "donorCountry": "France",
-        "country": "Colombia",
-        "sector": "Government & Civil Society",
-        "year": 2022,
-        "amount": 0.07766435931,
+        "amount": 0.077702641,
         "amountLabel": "$78K"
       },
       {
@@ -29392,7 +29177,7 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Other Multisector",
         "year": 2023,
-        "amount": 0.0773500321,
+        "amount": 0.077350032,
         "amountLabel": "$77K"
       },
       {
@@ -29416,7 +29201,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Trade Policies & Regulations",
         "year": 2020,
-        "amount": 0.07696302901,
+        "amount": 0.076963029,
         "amountLabel": "$77K"
       },
       {
@@ -29424,7 +29209,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2021,
-        "amount": 0.07670232927,
+        "amount": 0.076702329,
         "amountLabel": "$77K"
       },
       {
@@ -29432,7 +29217,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Education",
         "year": 2020,
-        "amount": 0.07644047104,
+        "amount": 0.076440471,
         "amountLabel": "$76K"
       },
       {
@@ -29452,6 +29237,14 @@ window.OECD_DATA = {
         "amountLabel": "$76K"
       },
       {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "General Budget Support",
+        "year": 2023,
+        "amount": 0.075978134,
+        "amountLabel": "$76K"
+      },
+      {
         "donorCountry": "United Kingdom",
         "country": "Pakistan",
         "sector": "Government & Civil Society",
@@ -29464,7 +29257,7 @@ window.OECD_DATA = {
         "country": "Democratic Republic of the Congo",
         "sector": "Water Supply & Sanitation",
         "year": 2022,
-        "amount": 0.07572672287599999,
+        "amount": 0.075726724,
         "amountLabel": "$76K"
       },
       {
@@ -29485,16 +29278,16 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Indonesia",
-        "sector": "Unspecified",
+        "country": "Brazil",
+        "sector": "Transport & Storage",
         "year": 2023,
         "amount": 0.075,
         "amountLabel": "$75K"
       },
       {
         "donorCountry": "United States",
-        "country": "Brazil",
-        "sector": "Transport & Storage",
+        "country": "Indonesia",
+        "sector": "General Budget Support",
         "year": 2023,
         "amount": 0.075,
         "amountLabel": "$75K"
@@ -29504,7 +29297,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Other Social Infrastructure & Services",
         "year": 2023,
-        "amount": 0.07498533111,
+        "amount": 0.074985331,
         "amountLabel": "$75K"
       },
       {
@@ -29512,7 +29305,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 0.074965522825,
+        "amount": 0.074965523,
         "amountLabel": "$75K"
       },
       {
@@ -29520,15 +29313,23 @@ window.OECD_DATA = {
         "country": "Democratic Republic of the Congo",
         "sector": "Other Multisector",
         "year": 2020,
-        "amount": 0.07482981740500001,
+        "amount": 0.074829817,
         "amountLabel": "$75K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Uganda",
+        "sector": "Education",
+        "year": 2022,
+        "amount": 0.074452938,
+        "amountLabel": "$74K"
       },
       {
         "donorCountry": "France",
         "country": "India",
         "sector": "Education",
         "year": 2023,
-        "amount": 0.074039450722,
+        "amount": 0.07403945099999999,
         "amountLabel": "$74K"
       },
       {
@@ -29540,11 +29341,19 @@ window.OECD_DATA = {
         "amountLabel": "$74K"
       },
       {
-        "donorCountry": "France",
-        "country": "Mexico",
-        "sector": "Unspecified",
+        "donorCountry": "Brazil",
+        "country": "Brazil",
+        "sector": "Health",
         "year": 2022,
-        "amount": 0.07393103357,
+        "amount": 0.07396539099999999,
+        "amountLabel": "$74K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "South Africa",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2020,
+        "amount": 0.073577193,
         "amountLabel": "$74K"
       },
       {
@@ -29552,7 +29361,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Other Multisector",
         "year": 2022,
-        "amount": 0.073008380973,
+        "amount": 0.073008381,
         "amountLabel": "$73K"
       },
       {
@@ -29560,7 +29369,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Other Commodity Assistance",
         "year": 2021,
-        "amount": 0.07300048062,
+        "amount": 0.073000481,
         "amountLabel": "$73K"
       },
       {
@@ -29568,7 +29377,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Banking & Financial Services",
         "year": 2023,
-        "amount": 0.07294533744,
+        "amount": 0.072945338,
         "amountLabel": "$73K"
       },
       {
@@ -29588,14 +29397,6 @@ window.OECD_DATA = {
         "amountLabel": "$73K"
       },
       {
-        "donorCountry": "Belgium",
-        "country": "India",
-        "sector": "Education",
-        "year": 2020,
-        "amount": 0.071933074452,
-        "amountLabel": "$72K"
-      },
-      {
         "donorCountry": "Spain",
         "country": "Peru",
         "sector": "Health",
@@ -29605,18 +29406,10 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Belgium",
-        "country": "Uganda",
-        "sector": "Unspecified",
-        "year": 2020,
-        "amount": 0.07121919818,
-        "amountLabel": "$71K"
-      },
-      {
-        "donorCountry": "Belgium",
         "country": "Senegal",
         "sector": "Other Social Infrastructure & Services",
         "year": 2022,
-        "amount": 0.07106288877,
+        "amount": 0.071062888,
         "amountLabel": "$71K"
       },
       {
@@ -29624,7 +29417,7 @@ window.OECD_DATA = {
         "country": "Dominican Republic",
         "sector": "Industry, Mining, Construction",
         "year": 2020,
-        "amount": 0.07100182238700001,
+        "amount": 0.07100182199999999,
         "amountLabel": "$71K"
       },
       {
@@ -29648,7 +29441,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Business & Other Services",
         "year": 2020,
-        "amount": 0.07045511738,
+        "amount": 0.070455117,
         "amountLabel": "$70K"
       },
       {
@@ -29669,26 +29462,10 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Belgium",
-        "country": "Uganda",
-        "sector": "Education",
-        "year": 2021,
-        "amount": 0.07021732950580001,
-        "amountLabel": "$70K"
-      },
-      {
-        "donorCountry": "Belgium",
         "country": "South Africa",
         "sector": "Other Social Infrastructure & Services",
         "year": 2021,
-        "amount": 0.07002789426,
-        "amountLabel": "$70K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Uganda",
-        "sector": "Education",
-        "year": 2022,
-        "amount": 0.06989792338999999,
+        "amount": 0.070027894,
         "amountLabel": "$70K"
       },
       {
@@ -29697,14 +29474,6 @@ window.OECD_DATA = {
         "sector": "Education",
         "year": 2020,
         "amount": 0.069804,
-        "amountLabel": "$70K"
-      },
-      {
-        "donorCountry": "France",
-        "country": "Brazil",
-        "sector": "Unspecified",
-        "year": 2022,
-        "amount": 0.06975696257,
         "amountLabel": "$70K"
       },
       {
@@ -29720,7 +29489,15 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Business & Other Services",
         "year": 2021,
-        "amount": 0.06867690526,
+        "amount": 0.068676905,
+        "amountLabel": "$69K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Uganda",
+        "sector": "Government & Civil Society",
+        "year": 2020,
+        "amount": 0.068666864,
         "amountLabel": "$69K"
       },
       {
@@ -29744,7 +29521,7 @@ window.OECD_DATA = {
         "country": "Democratic Republic of the Congo",
         "sector": "Other Multisector",
         "year": 2021,
-        "amount": 0.067792558412,
+        "amount": 0.067792557,
         "amountLabel": "$68K"
       },
       {
@@ -29773,18 +29550,10 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Belgium",
-        "country": "South Africa",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2020,
-        "amount": 0.067099186361,
-        "amountLabel": "$67K"
-      },
-      {
-        "donorCountry": "Belgium",
         "country": "India",
         "sector": "General Environment Protection",
         "year": 2020,
-        "amount": 0.06699294706,
+        "amount": 0.066992947,
         "amountLabel": "$67K"
       },
       {
@@ -29800,7 +29569,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Emergency Response",
         "year": 2020,
-        "amount": 0.06649789144,
+        "amount": 0.066497891,
         "amountLabel": "$66K"
       },
       {
@@ -29816,7 +29585,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 0.06633545922,
+        "amount": 0.06633546,
         "amountLabel": "$66K"
       },
       {
@@ -29824,7 +29593,7 @@ window.OECD_DATA = {
         "country": "Indonesia",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2023,
-        "amount": 0.06630002751,
+        "amount": 0.066300028,
         "amountLabel": "$66K"
       },
       {
@@ -29832,7 +29601,7 @@ window.OECD_DATA = {
         "country": "Democratic Republic of the Congo",
         "sector": "Industry, Mining, Construction",
         "year": 2023,
-        "amount": 0.066300027506,
+        "amount": 0.06630002600000001,
         "amountLabel": "$66K"
       },
       {
@@ -29845,7 +29614,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Netherlands",
-        "country": "Ghana",
+        "country": "Nigeria",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2022,
         "amount": 0.065766,
@@ -29853,7 +29622,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Netherlands",
-        "country": "Nigeria",
+        "country": "Ghana",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2022,
         "amount": 0.065766,
@@ -29868,38 +29637,6 @@ window.OECD_DATA = {
         "amountLabel": "$65K"
       },
       {
-        "donorCountry": "United States",
-        "country": "Malawi",
-        "sector": "Unallocated / Unspecified",
-        "year": 2023,
-        "amount": 0.065,
-        "amountLabel": "$65K"
-      },
-      {
-        "donorCountry": "Switzerland",
-        "country": "Kenya",
-        "sector": "Water Supply & Sanitation",
-        "year": 2022,
-        "amount": 0.06489,
-        "amountLabel": "$65K"
-      },
-      {
-        "donorCountry": "Switzerland",
-        "country": "Malawi",
-        "sector": "Water Supply & Sanitation",
-        "year": 2022,
-        "amount": 0.06489,
-        "amountLabel": "$65K"
-      },
-      {
-        "donorCountry": "Switzerland",
-        "country": "Burkina Faso",
-        "sector": "Water Supply & Sanitation",
-        "year": 2022,
-        "amount": 0.06489,
-        "amountLabel": "$65K"
-      },
-      {
         "donorCountry": "Switzerland",
         "country": "Rwanda",
         "sector": "Water Supply & Sanitation",
@@ -29909,7 +29646,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Uganda",
+        "country": "Ethiopia",
         "sector": "Water Supply & Sanitation",
         "year": 2022,
         "amount": 0.06489,
@@ -29925,7 +29662,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Ethiopia",
+        "country": "Uganda",
         "sector": "Water Supply & Sanitation",
         "year": 2022,
         "amount": 0.06489,
@@ -29934,6 +29671,30 @@ window.OECD_DATA = {
       {
         "donorCountry": "Switzerland",
         "country": "Zambia",
+        "sector": "Water Supply & Sanitation",
+        "year": 2022,
+        "amount": 0.06489,
+        "amountLabel": "$65K"
+      },
+      {
+        "donorCountry": "Switzerland",
+        "country": "Malawi",
+        "sector": "Water Supply & Sanitation",
+        "year": 2022,
+        "amount": 0.06489,
+        "amountLabel": "$65K"
+      },
+      {
+        "donorCountry": "Switzerland",
+        "country": "Kenya",
+        "sector": "Water Supply & Sanitation",
+        "year": 2022,
+        "amount": 0.06489,
+        "amountLabel": "$65K"
+      },
+      {
+        "donorCountry": "Switzerland",
+        "country": "Burkina Faso",
         "sector": "Water Supply & Sanitation",
         "year": 2022,
         "amount": 0.06489,
@@ -29960,15 +29721,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Business & Other Services",
         "year": 2023,
-        "amount": 0.06479076174,
-        "amountLabel": "$65K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Mexico",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 0.06464252682800001,
+        "amount": 0.064790762,
         "amountLabel": "$65K"
       },
       {
@@ -29976,7 +29729,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Other Multisector",
         "year": 2020,
-        "amount": 0.06459256895,
+        "amount": 0.064592569,
         "amountLabel": "$65K"
       },
       {
@@ -29990,9 +29743,17 @@ window.OECD_DATA = {
       {
         "donorCountry": "Colombia",
         "country": "Colombia",
-        "sector": "Unspecified",
+        "sector": "Agriculture, Forestry, Fishing",
         "year": 2020,
-        "amount": 0.0641322596,
+        "amount": 0.06413226,
+        "amountLabel": "$64K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Tanzania",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2022,
+        "amount": 0.063950775,
         "amountLabel": "$64K"
       },
       {
@@ -30000,15 +29761,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Business & Other Services",
         "year": 2022,
-        "amount": 0.06335110914,
-        "amountLabel": "$63K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "China (People's Republic of)",
-        "sector": "General Environment Protection",
-        "year": 2021,
-        "amount": 0.06314508049,
+        "amount": 0.063351109,
         "amountLabel": "$63K"
       },
       {
@@ -30016,7 +29769,15 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Disaster Prevention & Preparedness",
         "year": 2021,
-        "amount": 0.06314508049,
+        "amount": 0.06314508,
+        "amountLabel": "$63K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "China (People's Republic of)",
+        "sector": "General Environment Protection",
+        "year": 2021,
+        "amount": 0.06314508,
         "amountLabel": "$63K"
       },
       {
@@ -30024,24 +29785,8 @@ window.OECD_DATA = {
         "country": "Bangladesh",
         "sector": "Education",
         "year": 2022,
-        "amount": 0.06290813105,
+        "amount": 0.062908131,
         "amountLabel": "$63K"
-      },
-      {
-        "donorCountry": "Switzerland",
-        "country": "Nigeria",
-        "sector": "Business & Other Services",
-        "year": 2023,
-        "amount": 0.0625,
-        "amountLabel": "$62K"
-      },
-      {
-        "donorCountry": "Switzerland",
-        "country": "South Africa",
-        "sector": "Business & Other Services",
-        "year": 2023,
-        "amount": 0.0625,
-        "amountLabel": "$62K"
       },
       {
         "donorCountry": "Switzerland",
@@ -30060,11 +29805,27 @@ window.OECD_DATA = {
         "amountLabel": "$62K"
       },
       {
-        "donorCountry": "United States",
-        "country": "Kenya",
-        "sector": "Unallocated / Unspecified",
+        "donorCountry": "Switzerland",
+        "country": "South Africa",
+        "sector": "Business & Other Services",
+        "year": 2023,
+        "amount": 0.0625,
+        "amountLabel": "$62K"
+      },
+      {
+        "donorCountry": "Switzerland",
+        "country": "Nigeria",
+        "sector": "Business & Other Services",
+        "year": 2023,
+        "amount": 0.0625,
+        "amountLabel": "$62K"
+      },
+      {
+        "donorCountry": "France",
+        "country": "Mexico",
+        "sector": "Other Social Infrastructure & Services",
         "year": 2022,
-        "amount": 0.062469843899999995,
+        "amount": 0.06228138,
         "amountLabel": "$62K"
       },
       {
@@ -30080,12 +29841,12 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Other Multisector",
         "year": 2021,
-        "amount": 0.06215797927,
+        "amount": 0.062157979,
         "amountLabel": "$62K"
       },
       {
         "donorCountry": "United States",
-        "country": "Malawi",
+        "country": "Burkina Faso",
         "sector": "Banking & Financial Services",
         "year": 2021,
         "amount": 0.062133,
@@ -30093,7 +29854,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Burkina Faso",
+        "country": "Malawi",
         "sector": "Banking & Financial Services",
         "year": 2021,
         "amount": 0.062133,
@@ -30120,7 +29881,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Education",
         "year": 2022,
-        "amount": 0.06177758711,
+        "amount": 0.061777587,
         "amountLabel": "$62K"
       },
       {
@@ -30132,19 +29893,35 @@ window.OECD_DATA = {
         "amountLabel": "$61K"
       },
       {
-        "donorCountry": "France",
-        "country": "Ghana",
-        "sector": "Unspecified",
-        "year": 2021,
-        "amount": 0.06108402506,
+        "donorCountry": "Belgium",
+        "country": "India",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2020,
+        "amount": 0.06112776,
         "amountLabel": "$61K"
       },
       {
         "donorCountry": "France",
         "country": "Ghana",
-        "sector": "Unspecified",
+        "sector": "Government & Civil Society",
+        "year": 2021,
+        "amount": 0.061084025,
+        "amountLabel": "$61K"
+      },
+      {
+        "donorCountry": "France",
+        "country": "Ghana",
+        "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 0.06102321705,
+        "amount": 0.061023217,
+        "amountLabel": "$61K"
+      },
+      {
+        "donorCountry": "Nigeria",
+        "country": "Nigeria",
+        "sector": "Population Policies/Programmes & Reproductive Health",
+        "year": 2021,
+        "amount": 0.060915273,
         "amountLabel": "$61K"
       },
       {
@@ -30164,19 +29941,19 @@ window.OECD_DATA = {
         "amountLabel": "$61K"
       },
       {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "General Budget Support",
-        "year": 2023,
-        "amount": 0.0606382013724,
-        "amountLabel": "$61K"
-      },
-      {
         "donorCountry": "Belgium",
         "country": "Ethiopia",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2020,
-        "amount": 0.06049550702,
+        "amount": 0.060495507,
+        "amountLabel": "$60K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Burkina Faso",
+        "sector": "Health",
+        "year": 2020,
+        "amount": 0.060250638,
         "amountLabel": "$60K"
       },
       {
@@ -30184,7 +29961,15 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Other Social Infrastructure & Services",
         "year": 2023,
-        "amount": 0.06022252499400001,
+        "amount": 0.060222525,
+        "amountLabel": "$60K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "South Africa",
+        "sector": "Unallocated / Unspecified",
+        "year": 2022,
+        "amount": 0.060215302,
         "amountLabel": "$60K"
       },
       {
@@ -30192,7 +29977,7 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Banking & Financial Services",
         "year": 2021,
-        "amount": 0.06018862782,
+        "amount": 0.060188628,
         "amountLabel": "$60K"
       },
       {
@@ -30200,7 +29985,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Business & Other Services",
         "year": 2023,
-        "amount": 0.06009020119,
+        "amount": 0.060090201,
         "amountLabel": "$60K"
       },
       {
@@ -30212,19 +29997,11 @@ window.OECD_DATA = {
         "amountLabel": "$60K"
       },
       {
-        "donorCountry": "Belgium",
-        "country": "India",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2020,
-        "amount": 0.059961719321,
-        "amountLabel": "$60K"
-      },
-      {
         "donorCountry": "United States",
         "country": "Ukraine",
         "sector": "Other Social Infrastructure & Services",
         "year": 2021,
-        "amount": 0.059630589979999996,
+        "amount": 0.05963059,
         "amountLabel": "$60K"
       },
       {
@@ -30232,7 +30009,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Health",
         "year": 2021,
-        "amount": 0.059595064072000006,
+        "amount": 0.059595064,
         "amountLabel": "$60K"
       },
       {
@@ -30248,15 +30025,7 @@ window.OECD_DATA = {
         "country": "Bangladesh",
         "sector": "General Environment Protection",
         "year": 2022,
-        "amount": 0.05915461256,
-        "amountLabel": "$59K"
-      },
-      {
-        "donorCountry": "South Africa",
-        "country": "South Africa",
-        "sector": "Industry, Mining, Construction",
-        "year": 2023,
-        "amount": 0.05912415902319999,
+        "amount": 0.059154613,
         "amountLabel": "$59K"
       },
       {
@@ -30269,10 +30038,10 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Pakistan",
-        "sector": "Emergency Response",
+        "country": "Peru",
+        "sector": "Water Supply & Sanitation",
         "year": 2020,
-        "amount": 0.05886563695,
+        "amount": 0.058865637,
         "amountLabel": "$59K"
       },
       {
@@ -30280,15 +30049,23 @@ window.OECD_DATA = {
         "country": "Peru",
         "sector": "Energy",
         "year": 2020,
-        "amount": 0.05886563695,
+        "amount": 0.058865637,
         "amountLabel": "$59K"
       },
       {
         "donorCountry": "United States",
-        "country": "Peru",
-        "sector": "Unspecified",
+        "country": "Pakistan",
+        "sector": "Emergency Response",
         "year": 2020,
-        "amount": 0.05886563695,
+        "amount": 0.058865637,
+        "amountLabel": "$59K"
+      },
+      {
+        "donorCountry": "Switzerland",
+        "country": "Indonesia",
+        "sector": "Banking & Financial Services",
+        "year": 2023,
+        "amount": 0.058708,
         "amountLabel": "$59K"
       },
       {
@@ -30309,10 +30086,10 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Indonesia",
-        "sector": "Banking & Financial Services",
-        "year": 2023,
-        "amount": 0.058708,
+        "country": "Bangladesh",
+        "sector": "Health",
+        "year": 2020,
+        "amount": 0.058607,
         "amountLabel": "$59K"
       },
       {
@@ -30324,27 +30101,11 @@ window.OECD_DATA = {
         "amountLabel": "$59K"
       },
       {
-        "donorCountry": "Switzerland",
-        "country": "Bangladesh",
-        "sector": "Health",
-        "year": 2020,
-        "amount": 0.058607,
-        "amountLabel": "$59K"
-      },
-      {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Trade Policies & Regulations",
-        "year": 2020,
-        "amount": 0.05846542132,
-        "amountLabel": "$58K"
-      },
-      {
         "donorCountry": "Japan",
         "country": "Ethiopia",
         "sector": "Energy",
         "year": 2021,
-        "amount": 0.05839457526,
+        "amount": 0.058394575,
         "amountLabel": "$58K"
       },
       {
@@ -30360,7 +30121,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Other Social Infrastructure & Services",
         "year": 2022,
-        "amount": 0.05824826949,
+        "amount": 0.058248269,
         "amountLabel": "$58K"
       },
       {
@@ -30373,50 +30134,18 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Belgium",
-        "country": "India",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 0.05795285405200001,
-        "amountLabel": "$58K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "India",
-        "sector": "Health",
-        "year": 2020,
-        "amount": 0.057654253578,
-        "amountLabel": "$58K"
-      },
-      {
-        "donorCountry": "Belgium",
         "country": "Democratic Republic of the Congo",
         "sector": "Government & Civil Society",
         "year": 2020,
-        "amount": 0.057588177916999994,
+        "amount": 0.057588178000000004,
         "amountLabel": "$58K"
-      },
-      {
-        "donorCountry": "Spain",
-        "country": "Peru",
-        "sector": "Agriculture, Forestry, Fishing",
-        "year": 2022,
-        "amount": 0.057437,
-        "amountLabel": "$57K"
       },
       {
         "donorCountry": "United Kingdom",
         "country": "Ghana",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2023,
-        "amount": 0.05730972852,
-        "amountLabel": "$57K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Malawi",
-        "sector": "Unallocated / Unspecified",
-        "year": 2020,
-        "amount": 0.056511011477,
+        "amount": 0.057309729,
         "amountLabel": "$57K"
       },
       {
@@ -30440,7 +30169,15 @@ window.OECD_DATA = {
         "country": "Ukraine",
         "sector": "Water Supply & Sanitation",
         "year": 2021,
-        "amount": 0.05622431664,
+        "amount": 0.056224317,
+        "amountLabel": "$56K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Brazil",
+        "sector": "Unallocated / Unspecified",
+        "year": 2022,
+        "amount": 0.056073419,
         "amountLabel": "$56K"
       },
       {
@@ -30448,15 +30185,15 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Emergency Response",
         "year": 2022,
-        "amount": 0.0560652434,
+        "amount": 0.056065243,
         "amountLabel": "$56K"
       },
       {
-        "donorCountry": "Belgium",
-        "country": "Uganda",
-        "sector": "Development Food Assistance",
-        "year": 2023,
-        "amount": 0.05588760818999999,
+        "donorCountry": "United States",
+        "country": "Nigeria",
+        "sector": "Unallocated / Unspecified",
+        "year": 2022,
+        "amount": 0.055702277,
         "amountLabel": "$56K"
       },
       {
@@ -30464,7 +30201,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Development Food Assistance",
         "year": 2020,
-        "amount": 0.055628762799999995,
+        "amount": 0.055628763,
         "amountLabel": "$56K"
       },
       {
@@ -30476,11 +30213,27 @@ window.OECD_DATA = {
         "amountLabel": "$55K"
       },
       {
+        "donorCountry": "Belgium",
+        "country": "India",
+        "sector": "Health",
+        "year": 2023,
+        "amount": 0.055250023,
+        "amountLabel": "$55K"
+      },
+      {
         "donorCountry": "France",
         "country": "Kenya",
         "sector": "Government & Civil Society",
         "year": 2023,
-        "amount": 0.05525002293,
+        "amount": 0.055250023,
+        "amountLabel": "$55K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Mexico",
+        "sector": "Health",
+        "year": 2023,
+        "amount": 0.055250023,
         "amountLabel": "$55K"
       },
       {
@@ -30488,7 +30241,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2023,
-        "amount": 0.05525002293,
+        "amount": 0.055250023,
         "amountLabel": "$55K"
       },
       {
@@ -30528,7 +30281,7 @@ window.OECD_DATA = {
         "country": "Senegal",
         "sector": "Other Multisector",
         "year": 2021,
-        "amount": 0.054225206419,
+        "amount": 0.054225207,
         "amountLabel": "$54K"
       },
       {
@@ -30536,7 +30289,7 @@ window.OECD_DATA = {
         "country": "Burkina Faso",
         "sector": "Health",
         "year": 2023,
-        "amount": 0.05407651243599999,
+        "amount": 0.054076512,
         "amountLabel": "$54K"
       },
       {
@@ -30544,16 +30297,8 @@ window.OECD_DATA = {
         "country": "Zambia",
         "sector": "Education",
         "year": 2021,
-        "amount": 0.05364048297,
+        "amount": 0.053640483,
         "amountLabel": "$54K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Tanzania",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2022,
-        "amount": 0.053466086564,
-        "amountLabel": "$53K"
       },
       {
         "donorCountry": "United Kingdom",
@@ -30568,7 +30313,7 @@ window.OECD_DATA = {
         "country": "Dominican Republic",
         "sector": "Government & Civil Society",
         "year": 2021,
-        "amount": 0.05327439894,
+        "amount": 0.053274399,
         "amountLabel": "$53K"
       },
       {
@@ -30592,7 +30337,7 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Emergency Response",
         "year": 2023,
-        "amount": 0.05253391781,
+        "amount": 0.052533918,
         "amountLabel": "$53K"
       },
       {
@@ -30608,15 +30353,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Other Social Infrastructure & Services",
         "year": 2023,
-        "amount": 0.052272201399000004,
-        "amountLabel": "$52K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Rwanda",
-        "sector": "Business & Other Services",
-        "year": 2022,
-        "amount": 0.05205820325,
+        "amount": 0.052272202,
         "amountLabel": "$52K"
       },
       {
@@ -30624,7 +30361,23 @@ window.OECD_DATA = {
         "country": "Peru",
         "sector": "Emergency Response",
         "year": 2022,
-        "amount": 0.05205820325,
+        "amount": 0.052058203,
+        "amountLabel": "$52K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Rwanda",
+        "sector": "Business & Other Services",
+        "year": 2022,
+        "amount": 0.052058203,
+        "amountLabel": "$52K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Peru",
+        "sector": "Health",
+        "year": 2020,
+        "amount": 0.051824048,
         "amountLabel": "$52K"
       },
       {
@@ -30632,13 +30385,13 @@ window.OECD_DATA = {
         "country": "Burkina Faso",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2020,
-        "amount": 0.05181497895,
+        "amount": 0.051814979,
         "amountLabel": "$52K"
       },
       {
         "donorCountry": "United States",
         "country": "Ethiopia",
-        "sector": "Trade Policies & Regulations",
+        "sector": "Unallocated / Unspecified",
         "year": 2022,
         "amount": 0.051799,
         "amountLabel": "$52K"
@@ -30646,7 +30399,7 @@ window.OECD_DATA = {
       {
         "donorCountry": "United States",
         "country": "Ethiopia",
-        "sector": "Unallocated / Unspecified",
+        "sector": "Trade Policies & Regulations",
         "year": 2022,
         "amount": 0.051799,
         "amountLabel": "$52K"
@@ -30672,7 +30425,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2021,
-        "amount": 0.051494813141,
+        "amount": 0.051494813,
         "amountLabel": "$51K"
       },
       {
@@ -30680,7 +30433,7 @@ window.OECD_DATA = {
         "country": "Zambia",
         "sector": "Education",
         "year": 2022,
-        "amount": 0.05135626434,
+        "amount": 0.051356264,
         "amountLabel": "$51K"
       },
       {
@@ -30688,7 +30441,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "General Environment Protection",
         "year": 2022,
-        "amount": 0.0511629499905,
+        "amount": 0.051162949,
         "amountLabel": "$51K"
       },
       {
@@ -30701,7 +30454,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Peru",
+        "country": "Colombia",
         "sector": "Other Multisector",
         "year": 2020,
         "amount": 0.050773,
@@ -30709,7 +30462,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Colombia",
+        "country": "Peru",
         "sector": "Other Multisector",
         "year": 2020,
         "amount": 0.050773,
@@ -30720,15 +30473,7 @@ window.OECD_DATA = {
         "country": "Dominican Republic",
         "sector": "Education",
         "year": 2023,
-        "amount": 0.05068943476,
-        "amountLabel": "$51K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Indonesia",
-        "sector": "Water Supply & Sanitation",
-        "year": 2021,
-        "amount": 0.05051606439,
+        "amount": 0.050689435000000005,
         "amountLabel": "$51K"
       },
       {
@@ -30736,12 +30481,20 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2021,
-        "amount": 0.05051606439,
+        "amount": 0.050516064,
+        "amountLabel": "$51K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Indonesia",
+        "sector": "Water Supply & Sanitation",
+        "year": 2021,
+        "amount": 0.050516064,
         "amountLabel": "$51K"
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Senegal",
+        "country": "India",
         "sector": "Other Multisector",
         "year": 2022,
         "amount": 0.050114,
@@ -30749,7 +30502,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Switzerland",
-        "country": "India",
+        "country": "Senegal",
         "sector": "Other Multisector",
         "year": 2022,
         "amount": 0.050114,
@@ -30772,17 +30525,17 @@ window.OECD_DATA = {
         "amountLabel": "$50K"
       },
       {
-        "donorCountry": "Canada",
-        "country": "China (People's Republic of)",
-        "sector": "Education",
+        "donorCountry": "United States",
+        "country": "Nigeria",
+        "sector": "Disaster Prevention & Preparedness",
         "year": 2023,
         "amount": 0.05,
         "amountLabel": "$50K"
       },
       {
-        "donorCountry": "United States",
-        "country": "Nigeria",
-        "sector": "Disaster Prevention & Preparedness",
+        "donorCountry": "Canada",
+        "country": "China (People's Republic of)",
+        "sector": "Education",
         "year": 2023,
         "amount": 0.05,
         "amountLabel": "$50K"
@@ -30792,15 +30545,7 @@ window.OECD_DATA = {
         "country": "Democratic Republic of the Congo",
         "sector": "General Environment Protection",
         "year": 2022,
-        "amount": 0.049949056048,
-        "amountLabel": "$50K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Ethiopia",
-        "sector": "Population Policies/Programmes & Reproductive Health",
-        "year": 2023,
-        "amount": 0.049725020633,
+        "amount": 0.049949056,
         "amountLabel": "$50K"
       },
       {
@@ -30808,15 +30553,31 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Other Social Infrastructure & Services",
         "year": 2023,
-        "amount": 0.049725020630000005,
+        "amount": 0.04972502,
         "amountLabel": "$50K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Ethiopia",
+        "sector": "Population Policies/Programmes & Reproductive Health",
+        "year": 2023,
+        "amount": 0.04972502,
+        "amountLabel": "$50K"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Development Food Assistance",
+        "year": 2022,
+        "amount": 0.049334478,
+        "amountLabel": "$49K"
       },
       {
         "donorCountry": "Belgium",
         "country": "South Africa",
         "sector": "Education",
         "year": 2023,
-        "amount": 0.049032185343,
+        "amount": 0.049032185,
         "amountLabel": "$49K"
       },
       {
@@ -30824,7 +30585,7 @@ window.OECD_DATA = {
         "country": "Dominican Republic",
         "sector": "Energy",
         "year": 2021,
-        "amount": 0.04902732158,
+        "amount": 0.049027322,
         "amountLabel": "$49K"
       },
       {
@@ -30840,31 +30601,15 @@ window.OECD_DATA = {
         "country": "Peru",
         "sector": "Education",
         "year": 2021,
-        "amount": 0.04855225239,
+        "amount": 0.048552252,
         "amountLabel": "$49K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Brazil",
-        "sector": "Unspecified",
-        "year": 2022,
-        "amount": 0.048358878291,
-        "amountLabel": "$48K"
       },
       {
         "donorCountry": "Belgium",
         "country": "Brazil",
         "sector": "Other Social Infrastructure & Services",
         "year": 2021,
-        "amount": 0.048305986574,
-        "amountLabel": "$48K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Tanzania",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 0.04827415503,
+        "amount": 0.048305986,
         "amountLabel": "$48K"
       },
       {
@@ -30888,7 +30633,7 @@ window.OECD_DATA = {
         "country": "Pakistan",
         "sector": "Health",
         "year": 2023,
-        "amount": 0.047718417155,
+        "amount": 0.047718418,
         "amountLabel": "$48K"
       },
       {
@@ -30896,7 +30641,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Education",
         "year": 2023,
-        "amount": 0.047637674772,
+        "amount": 0.047637674,
         "amountLabel": "$48K"
       },
       {
@@ -30912,15 +30657,7 @@ window.OECD_DATA = {
         "country": "Bangladesh",
         "sector": "Health",
         "year": 2023,
-        "amount": 0.04737910466,
-        "amountLabel": "$47K"
-      },
-      {
-        "donorCountry": "France",
-        "country": "Colombia",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2023,
-        "amount": 0.04736031965,
+        "amount": 0.047379105,
         "amountLabel": "$47K"
       },
       {
@@ -30928,15 +30665,23 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Other Social Infrastructure & Services",
         "year": 2023,
-        "amount": 0.04736031965,
+        "amount": 0.04736032,
         "amountLabel": "$47K"
       },
       {
-        "donorCountry": "Belgium",
-        "country": "Burkina Faso",
-        "sector": "Health",
+        "donorCountry": "France",
+        "country": "Colombia",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2023,
+        "amount": 0.04736032,
+        "amountLabel": "$47K"
+      },
+      {
+        "donorCountry": "India",
+        "country": "India",
+        "sector": "General Budget Support",
         "year": 2020,
-        "amount": 0.047294626359999994,
+        "amount": 0.04728444800000001,
         "amountLabel": "$47K"
       },
       {
@@ -30952,15 +30697,15 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Unallocated / Unspecified",
         "year": 2020,
-        "amount": 0.04709250956,
+        "amount": 0.04709251,
         "amountLabel": "$47K"
       },
       {
         "donorCountry": "Ireland",
         "country": "Uganda",
-        "sector": "Unspecified",
+        "sector": "Unallocated / Unspecified",
         "year": 2022,
-        "amount": 0.04706926161,
+        "amount": 0.047069262,
         "amountLabel": "$47K"
       },
       {
@@ -30988,16 +30733,8 @@ window.OECD_DATA = {
         "amountLabel": "$46K"
       },
       {
-        "donorCountry": "United States",
-        "country": "Rwanda",
-        "sector": "Unallocated / Unspecified",
-        "year": 2022,
-        "amount": 0.045783,
-        "amountLabel": "$46K"
-      },
-      {
         "donorCountry": "Netherlands",
-        "country": "Senegal",
+        "country": "Rwanda",
         "sector": "General Environment Protection",
         "year": 2020,
         "amount": 0.045589,
@@ -31013,11 +30750,27 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Netherlands",
-        "country": "Rwanda",
+        "country": "Senegal",
         "sector": "General Environment Protection",
         "year": 2020,
         "amount": 0.045589,
         "amountLabel": "$46K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Mexico",
+        "sector": "Education",
+        "year": 2021,
+        "amount": 0.045571804,
+        "amountLabel": "$46K"
+      },
+      {
+        "donorCountry": "France",
+        "country": "Brazil",
+        "sector": "Unallocated / Unspecified",
+        "year": 2023,
+        "amount": 0.045331539,
+        "amountLabel": "$45K"
       },
       {
         "donorCountry": "Netherlands",
@@ -31056,7 +30809,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Emergency Response",
         "year": 2022,
-        "amount": 0.04495251949,
+        "amount": 0.044952519,
         "amountLabel": "$45K"
       },
       {
@@ -31064,7 +30817,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Emergency Response",
         "year": 2022,
-        "amount": 0.04485219472,
+        "amount": 0.044852195,
         "amountLabel": "$45K"
       },
       {
@@ -31088,8 +30841,16 @@ window.OECD_DATA = {
         "country": "Burkina Faso",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2021,
-        "amount": 0.044611999369000004,
+        "amount": 0.044611999,
         "amountLabel": "$45K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Democratic Republic of the Congo",
+        "sector": "Unallocated / Unspecified",
+        "year": 2022,
+        "amount": 0.044474977,
+        "amountLabel": "$44K"
       },
       {
         "donorCountry": "United States",
@@ -31112,7 +30873,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Government & Civil Society",
         "year": 2021,
-        "amount": 0.04420155634,
+        "amount": 0.044201556,
         "amountLabel": "$44K"
       },
       {
@@ -31120,15 +30881,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "General Environment Protection",
         "year": 2020,
-        "amount": 0.04414922771,
-        "amountLabel": "$44K"
-      },
-      {
-        "donorCountry": "Spain",
-        "country": "Dominican Republic",
-        "sector": "Unspecified",
-        "year": 2021,
-        "amount": 0.04409523175,
+        "amount": 0.044149228,
         "amountLabel": "$44K"
       },
       {
@@ -31136,7 +30889,7 @@ window.OECD_DATA = {
         "country": "Bangladesh",
         "sector": "Health",
         "year": 2020,
-        "amount": 0.04405044094,
+        "amount": 0.04405044,
         "amountLabel": "$44K"
       },
       {
@@ -31148,11 +30901,19 @@ window.OECD_DATA = {
         "amountLabel": "$44K"
       },
       {
+        "donorCountry": "United Kingdom",
+        "country": "Brazil",
+        "sector": "Unallocated / Unspecified",
+        "year": 2023,
+        "amount": 0.043708219,
+        "amountLabel": "$44K"
+      },
+      {
         "donorCountry": "Belgium",
         "country": "India",
         "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 0.043652418122,
+        "amount": 0.043652418,
         "amountLabel": "$44K"
       },
       {
@@ -31160,7 +30921,7 @@ window.OECD_DATA = {
         "country": "Democratic Republic of the Congo",
         "sector": "General Environment Protection",
         "year": 2021,
-        "amount": 0.043645879639000004,
+        "amount": 0.043645881,
         "amountLabel": "$44K"
       },
       {
@@ -31168,7 +30929,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Health",
         "year": 2021,
-        "amount": 0.04357010554,
+        "amount": 0.043570106,
         "amountLabel": "$44K"
       },
       {
@@ -31196,19 +30957,11 @@ window.OECD_DATA = {
         "amountLabel": "$43K"
       },
       {
-        "donorCountry": "Belgium",
-        "country": "Senegal",
-        "sector": "Unspecified",
+        "donorCountry": "United States",
+        "country": "Tanzania",
+        "sector": "Unallocated / Unspecified",
         "year": 2022,
-        "amount": 0.043103719418,
-        "amountLabel": "$43K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Nigeria",
-        "sector": "Unspecified",
-        "year": 2020,
-        "amount": 0.042998412759,
+        "amount": 0.043208309,
         "amountLabel": "$43K"
       },
       {
@@ -31216,7 +30969,7 @@ window.OECD_DATA = {
         "country": "Senegal",
         "sector": "Education",
         "year": 2021,
-        "amount": 0.04293865473,
+        "amount": 0.042938655,
         "amountLabel": "$43K"
       },
       {
@@ -31232,7 +30985,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "General Environment Protection",
         "year": 2023,
-        "amount": 0.041722607317000004,
+        "amount": 0.041722608,
         "amountLabel": "$42K"
       },
       {
@@ -31260,19 +31013,27 @@ window.OECD_DATA = {
         "amountLabel": "$41K"
       },
       {
+        "donorCountry": "Belgium",
+        "country": "Colombia",
+        "sector": "Unallocated / Unspecified",
+        "year": 2021,
+        "amount": 0.041044302,
+        "amountLabel": "$41K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Senegal",
+        "sector": "Education",
+        "year": 2023,
+        "amount": 0.040885015999999996,
+        "amountLabel": "$41K"
+      },
+      {
         "donorCountry": "United States",
         "country": "Rwanda",
         "sector": "Education",
         "year": 2020,
-        "amount": 0.04078612739,
-        "amountLabel": "$41K"
-      },
-      {
-        "donorCountry": "France",
-        "country": "Kenya",
-        "sector": "Education",
-        "year": 2022,
-        "amount": 0.04077378864,
+        "amount": 0.040786127,
         "amountLabel": "$41K"
       },
       {
@@ -31280,7 +31041,23 @@ window.OECD_DATA = {
         "country": "Bangladesh",
         "sector": "Other Multisector",
         "year": 2022,
-        "amount": 0.04077378864,
+        "amount": 0.040773789,
+        "amountLabel": "$41K"
+      },
+      {
+        "donorCountry": "France",
+        "country": "Kenya",
+        "sector": "Education",
+        "year": 2022,
+        "amount": 0.040773789,
+        "amountLabel": "$41K"
+      },
+      {
+        "donorCountry": "France",
+        "country": "India",
+        "sector": "Government & Civil Society",
+        "year": 2022,
+        "amount": 0.040767964000000004,
         "amountLabel": "$41K"
       },
       {
@@ -31304,7 +31081,7 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Education",
         "year": 2021,
-        "amount": 0.040210787250000005,
+        "amount": 0.040210788,
         "amountLabel": "$40K"
       },
       {
@@ -31328,7 +31105,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Energy",
         "year": 2021,
-        "amount": 0.03958191892,
+        "amount": 0.039581919,
         "amountLabel": "$40K"
       },
       {
@@ -31344,7 +31121,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Trade Policies & Regulations",
         "year": 2021,
-        "amount": 0.039029077769,
+        "amount": 0.039029077999999995,
         "amountLabel": "$39K"
       },
       {
@@ -31352,23 +31129,15 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Other Social Infrastructure & Services",
         "year": 2023,
-        "amount": 0.03897137021,
+        "amount": 0.03897137,
         "amountLabel": "$39K"
       },
       {
         "donorCountry": "France",
         "country": "Pakistan",
-        "sector": "Unspecified",
+        "sector": "Education",
         "year": 2023,
-        "amount": 0.03867501605,
-        "amountLabel": "$39K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Brazil",
-        "sector": "Unallocated / Unspecified",
-        "year": 2023,
-        "amount": 0.03867501605,
+        "amount": 0.038675016,
         "amountLabel": "$39K"
       },
       {
@@ -31376,7 +31145,15 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Government & Civil Society",
         "year": 2020,
-        "amount": 0.03829538038,
+        "amount": 0.03829538,
+        "amountLabel": "$38K"
+      },
+      {
+        "donorCountry": "Brazil",
+        "country": "Brazil",
+        "sector": "Health",
+        "year": 2023,
+        "amount": 0.038236485,
         "amountLabel": "$38K"
       },
       {
@@ -31384,7 +31161,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Other Multisector",
         "year": 2023,
-        "amount": 0.03820648568,
+        "amount": 0.038206486,
         "amountLabel": "$38K"
       },
       {
@@ -31392,7 +31169,7 @@ window.OECD_DATA = {
         "country": "Indonesia",
         "sector": "Education",
         "year": 2021,
-        "amount": 0.03788704829,
+        "amount": 0.037887048,
         "amountLabel": "$38K"
       },
       {
@@ -31400,7 +31177,7 @@ window.OECD_DATA = {
         "country": "Ghana",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2021,
-        "amount": 0.03788704829,
+        "amount": 0.037887048,
         "amountLabel": "$38K"
       },
       {
@@ -31408,7 +31185,7 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Health",
         "year": 2021,
-        "amount": 0.03788704829,
+        "amount": 0.037887048,
         "amountLabel": "$38K"
       },
       {
@@ -31424,7 +31201,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Business & Other Services",
         "year": 2021,
-        "amount": 0.03772792269,
+        "amount": 0.037727923,
         "amountLabel": "$38K"
       },
       {
@@ -31432,7 +31209,7 @@ window.OECD_DATA = {
         "country": "Ethiopia",
         "sector": "Health",
         "year": 2023,
-        "amount": 0.03763852562,
+        "amount": 0.037638525,
         "amountLabel": "$38K"
       },
       {
@@ -31448,7 +31225,7 @@ window.OECD_DATA = {
         "country": "Malawi",
         "sector": "General Environment Protection",
         "year": 2023,
-        "amount": 0.03757001559,
+        "amount": 0.037570016,
         "amountLabel": "$38K"
       },
       {
@@ -31456,24 +31233,8 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Emergency Response",
         "year": 2022,
-        "amount": 0.03751188555,
+        "amount": 0.037511885999999994,
         "amountLabel": "$38K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Mexico",
-        "sector": "Education",
-        "year": 2021,
-        "amount": 0.03725559749,
-        "amountLabel": "$37K"
-      },
-      {
-        "donorCountry": "Portugal",
-        "country": "India",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2020,
-        "amount": 0.03708658447,
-        "amountLabel": "$37K"
       },
       {
         "donorCountry": "Spain",
@@ -31488,7 +31249,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Unallocated / Unspecified",
         "year": 2021,
-        "amount": 0.03668872505,
+        "amount": 0.036688725,
         "amountLabel": "$37K"
       },
       {
@@ -31512,7 +31273,7 @@ window.OECD_DATA = {
         "country": "Pakistan",
         "sector": "Health",
         "year": 2022,
-        "amount": 0.036403514175,
+        "amount": 0.036403515,
         "amountLabel": "$36K"
       },
       {
@@ -31524,19 +31285,19 @@ window.OECD_DATA = {
         "amountLabel": "$36K"
       },
       {
-        "donorCountry": "Nigeria",
-        "country": "Nigeria",
-        "sector": "Population Policies/Programmes & Reproductive Health",
-        "year": 2021,
-        "amount": 0.036219892196,
-        "amountLabel": "$36K"
-      },
-      {
         "donorCountry": "Belgium",
         "country": "Nigeria",
         "sector": "Industry, Mining, Construction",
         "year": 2023,
-        "amount": 0.03609427643,
+        "amount": 0.036094276,
+        "amountLabel": "$36K"
+      },
+      {
+        "donorCountry": "Brazil",
+        "country": "Brazil",
+        "sector": "General Environment Protection",
+        "year": 2023,
+        "amount": 0.035905965,
         "amountLabel": "$36K"
       },
       {
@@ -31552,15 +31313,15 @@ window.OECD_DATA = {
         "country": "Dominican Republic",
         "sector": "Other Social Infrastructure & Services",
         "year": 2020,
-        "amount": 0.03531938217,
+        "amount": 0.035319382,
         "amountLabel": "$35K"
       },
       {
         "donorCountry": "Belgium",
-        "country": "Rwanda",
-        "sector": "Water Supply & Sanitation",
+        "country": "South Africa",
+        "sector": "Other Social Infrastructure & Services",
         "year": 2022,
-        "amount": 0.03494896169,
+        "amount": 0.03500721,
         "amountLabel": "$35K"
       },
       {
@@ -31568,7 +31329,7 @@ window.OECD_DATA = {
         "country": "Indonesia",
         "sector": "Education",
         "year": 2022,
-        "amount": 0.03494896169,
+        "amount": 0.034948962,
         "amountLabel": "$35K"
       },
       {
@@ -31576,7 +31337,23 @@ window.OECD_DATA = {
         "country": "Malawi",
         "sector": "Health",
         "year": 2022,
-        "amount": 0.03494896169,
+        "amount": 0.034948962,
+        "amountLabel": "$35K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Rwanda",
+        "sector": "Water Supply & Sanitation",
+        "year": 2022,
+        "amount": 0.034948962,
+        "amountLabel": "$35K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Senegal",
+        "sector": "Unallocated / Unspecified",
+        "year": 2022,
+        "amount": 0.034948962,
         "amountLabel": "$35K"
       },
       {
@@ -31624,23 +31401,15 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Business & Other Services",
         "year": 2020,
-        "amount": 0.03416262331,
-        "amountLabel": "$34K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "South Africa",
-        "sector": "Health",
-        "year": 2020,
-        "amount": 0.034035443629,
+        "amount": 0.034162623,
         "amountLabel": "$34K"
       },
       {
         "donorCountry": "United Kingdom",
         "country": "South Africa",
-        "sector": "Unspecified",
+        "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 0.0339789354,
+        "amount": 0.033978935,
         "amountLabel": "$34K"
       },
       {
@@ -31648,15 +31417,15 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Water Supply & Sanitation",
         "year": 2020,
-        "amount": 0.03396040538,
+        "amount": 0.033960405,
         "amountLabel": "$34K"
       },
       {
-        "donorCountry": "Belgium",
-        "country": "Tanzania",
-        "sector": "Unspecified",
+        "donorCountry": "Nigeria",
+        "country": "Nigeria",
+        "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2022,
-        "amount": 0.0337839963,
+        "amount": 0.033939257,
         "amountLabel": "$34K"
       },
       {
@@ -31664,7 +31433,15 @@ window.OECD_DATA = {
         "country": "Senegal",
         "sector": "Education",
         "year": 2020,
-        "amount": 0.033685631308,
+        "amount": 0.033685631,
+        "amountLabel": "$34K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Nigeria",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2020,
+        "amount": 0.033670084,
         "amountLabel": "$34K"
       },
       {
@@ -31678,9 +31455,9 @@ window.OECD_DATA = {
       {
         "donorCountry": "Spain",
         "country": "Dominican Republic",
-        "sector": "Unspecified",
+        "sector": "Business & Other Services",
         "year": 2020,
-        "amount": 0.03336227656,
+        "amount": 0.033362277,
         "amountLabel": "$33K"
       },
       {
@@ -31692,11 +31469,19 @@ window.OECD_DATA = {
         "amountLabel": "$33K"
       },
       {
+        "donorCountry": "Belgium",
+        "country": "Tanzania",
+        "sector": "Education",
+        "year": 2023,
+        "amount": 0.033150014,
+        "amountLabel": "$33K"
+      },
+      {
         "donorCountry": "France",
         "country": "Peru",
         "sector": "Other Multisector",
         "year": 2023,
-        "amount": 0.03315001376,
+        "amount": 0.033150014,
         "amountLabel": "$33K"
       },
       {
@@ -31704,23 +31489,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Other Multisector",
         "year": 2023,
-        "amount": 0.03315001376,
-        "amountLabel": "$33K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Tanzania",
-        "sector": "Education",
-        "year": 2023,
-        "amount": 0.03315001376,
-        "amountLabel": "$33K"
-      },
-      {
-        "donorCountry": "Netherlands",
-        "country": "Nigeria",
-        "sector": "Agriculture, Forestry, Fishing",
-        "year": 2020,
-        "amount": 0.033117,
+        "amount": 0.033150014,
         "amountLabel": "$33K"
       },
       {
@@ -31732,11 +31501,19 @@ window.OECD_DATA = {
         "amountLabel": "$33K"
       },
       {
+        "donorCountry": "Netherlands",
+        "country": "Nigeria",
+        "sector": "Agriculture, Forestry, Fishing",
+        "year": 2020,
+        "amount": 0.033117,
+        "amountLabel": "$33K"
+      },
+      {
         "donorCountry": "Belgium",
         "country": "China (People's Republic of)",
         "sector": "Other Social Infrastructure & Services",
         "year": 2022,
-        "amount": 0.033085017064,
+        "amount": 0.033085017,
         "amountLabel": "$33K"
       },
       {
@@ -31758,17 +31535,9 @@ window.OECD_DATA = {
       {
         "donorCountry": "Belgium",
         "country": "China (People's Republic of)",
-        "sector": "Unspecified",
+        "sector": "Unallocated / Unspecified",
         "year": 2022,
-        "amount": 0.03305822286,
-        "amountLabel": "$33K"
-      },
-      {
-        "donorCountry": "United Kingdom",
-        "country": "Brazil",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 0.032883048677,
+        "amount": 0.033058223,
         "amountLabel": "$33K"
       },
       {
@@ -31776,16 +31545,16 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2020,
-        "amount": 0.03282189717,
+        "amount": 0.032821897,
         "amountLabel": "$33K"
       },
       {
-        "donorCountry": "Belgium",
-        "country": "Democratic Republic of the Congo",
-        "sector": "Unallocated / Unspecified",
-        "year": 2022,
-        "amount": 0.03261903092,
-        "amountLabel": "$33K"
+        "donorCountry": "United States",
+        "country": "Uganda",
+        "sector": "General Budget Support",
+        "year": 2023,
+        "amount": 0.0325,
+        "amountLabel": "$32K"
       },
       {
         "donorCountry": "United States",
@@ -31797,8 +31566,8 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Germany",
-        "country": "Bangladesh",
-        "sector": "Water Supply & Sanitation",
+        "country": "Uganda",
+        "sector": "Agriculture, Forestry, Fishing",
         "year": 2023,
         "amount": 0.032439,
         "amountLabel": "$32K"
@@ -31813,15 +31582,15 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Germany",
-        "country": "Uganda",
-        "sector": "Agriculture, Forestry, Fishing",
+        "country": "Ghana",
+        "sector": "Water Supply & Sanitation",
         "year": 2023,
         "amount": 0.032439,
         "amountLabel": "$32K"
       },
       {
         "donorCountry": "Germany",
-        "country": "Ghana",
+        "country": "Bangladesh",
         "sector": "Water Supply & Sanitation",
         "year": 2023,
         "amount": 0.032439,
@@ -31832,7 +31601,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Banking & Financial Services",
         "year": 2022,
-        "amount": 0.03240584225,
+        "amount": 0.032405842,
         "amountLabel": "$32K"
       },
       {
@@ -31840,23 +31609,7 @@ window.OECD_DATA = {
         "country": "Peru",
         "sector": "Business & Other Services",
         "year": 2020,
-        "amount": 0.0323900301,
-        "amountLabel": "$32K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Peru",
-        "sector": "Health",
-        "year": 2020,
-        "amount": 0.0323900301,
-        "amountLabel": "$32K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Peru",
-        "sector": "Unspecified",
-        "year": 2020,
-        "amount": 0.032390030099999995,
+        "amount": 0.03239003,
         "amountLabel": "$32K"
       },
       {
@@ -31872,7 +31625,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2021,
-        "amount": 0.03199350745,
+        "amount": 0.031993507,
         "amountLabel": "$32K"
       },
       {
@@ -31888,7 +31641,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Water Supply & Sanitation",
         "year": 2023,
-        "amount": 0.031846113221,
+        "amount": 0.031846114,
         "amountLabel": "$32K"
       },
       {
@@ -31904,7 +31657,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Reconstruction Relief & Rehabilitation",
         "year": 2023,
-        "amount": 0.031829530854999996,
+        "amount": 0.031829531,
         "amountLabel": "$32K"
       },
       {
@@ -31912,7 +31665,15 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Government & Civil Society",
         "year": 2023,
-        "amount": 0.03182401321,
+        "amount": 0.031824013,
+        "amountLabel": "$32K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Kenya",
+        "sector": "General Budget Support",
+        "year": 2020,
+        "amount": 0.031787444,
         "amountLabel": "$32K"
       },
       {
@@ -31926,9 +31687,9 @@ window.OECD_DATA = {
       {
         "donorCountry": "Belgium",
         "country": "Nigeria",
-        "sector": "Unspecified",
+        "sector": "Agriculture, Forestry, Fishing",
         "year": 2021,
-        "amount": 0.03162810791,
+        "amount": 0.031628108,
         "amountLabel": "$32K"
       },
       {
@@ -31936,7 +31697,7 @@ window.OECD_DATA = {
         "country": "Bangladesh",
         "sector": "Health",
         "year": 2021,
-        "amount": 0.03157254024,
+        "amount": 0.03157254,
         "amountLabel": "$32K"
       },
       {
@@ -31944,7 +31705,7 @@ window.OECD_DATA = {
         "country": "Dominican Republic",
         "sector": "Education",
         "year": 2021,
-        "amount": 0.03150193634,
+        "amount": 0.031501936,
         "amountLabel": "$32K"
       },
       {
@@ -31965,10 +31726,18 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Belgium",
+        "country": "India",
+        "sector": "Unallocated / Unspecified",
+        "year": 2022,
+        "amount": 0.031308445000000004,
+        "amountLabel": "$31K"
+      },
+      {
+        "donorCountry": "Belgium",
         "country": "Ethiopia",
         "sector": "Other Multisector",
         "year": 2020,
-        "amount": 0.031094428895999997,
+        "amount": 0.031094429,
         "amountLabel": "$31K"
       },
       {
@@ -31992,7 +31761,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "General Environment Protection",
         "year": 2021,
-        "amount": 0.0306278898477,
+        "amount": 0.030627889,
         "amountLabel": "$31K"
       },
       {
@@ -32037,10 +31806,34 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Belgium",
+        "country": "Uganda",
+        "sector": "Other Multisector",
+        "year": 2020,
+        "amount": 0.030412943,
+        "amountLabel": "$30K"
+      },
+      {
+        "donorCountry": "Belgium",
         "country": "South Africa",
         "sector": "Emergency Response",
         "year": 2021,
-        "amount": 0.03030963863,
+        "amount": 0.030309639,
+        "amountLabel": "$30K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "India",
+        "sector": "Education",
+        "year": 2022,
+        "amount": 0.03025415,
+        "amountLabel": "$30K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Uganda",
+        "sector": "Other Multisector",
+        "year": 2023,
+        "amount": 0.03,
         "amountLabel": "$30K"
       },
       {
@@ -32052,27 +31845,19 @@ window.OECD_DATA = {
         "amountLabel": "$30K"
       },
       {
-        "donorCountry": "United States",
-        "country": "Uganda",
-        "sector": "Other Multisector",
-        "year": 2023,
-        "amount": 0.03,
-        "amountLabel": "$30K"
-      },
-      {
         "donorCountry": "Ireland",
         "country": "Uganda",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2022,
-        "amount": 0.02951245654,
+        "amount": 0.029512457,
         "amountLabel": "$30K"
       },
       {
         "donorCountry": "France",
         "country": "Peru",
-        "sector": "Unspecified",
+        "sector": "Other Social Infrastructure & Services",
         "year": 2023,
-        "amount": 0.0294666789,
+        "amount": 0.029466679,
         "amountLabel": "$29K"
       },
       {
@@ -32080,7 +31865,7 @@ window.OECD_DATA = {
         "country": "Zambia",
         "sector": "Emergency Response",
         "year": 2020,
-        "amount": 0.02943281848,
+        "amount": 0.029432818,
         "amountLabel": "$29K"
       },
       {
@@ -32088,7 +31873,7 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Other Multisector",
         "year": 2020,
-        "amount": 0.029432818479999998,
+        "amount": 0.029432818,
         "amountLabel": "$29K"
       },
       {
@@ -32096,7 +31881,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Government & Civil Society",
         "year": 2021,
-        "amount": 0.02941656247,
+        "amount": 0.029416562,
         "amountLabel": "$29K"
       },
       {
@@ -32110,9 +31895,9 @@ window.OECD_DATA = {
       {
         "donorCountry": "United Kingdom",
         "country": "Brazil",
-        "sector": "Unspecified",
+        "sector": "Unallocated / Unspecified",
         "year": 2020,
-        "amount": 0.029281605,
+        "amount": 0.029281604,
         "amountLabel": "$29K"
       },
       {
@@ -32128,23 +31913,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Trade Policies & Regulations",
         "year": 2020,
-        "amount": 0.02920510047,
-        "amountLabel": "$29K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "South Africa",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2022,
-        "amount": 0.029182383016,
-        "amountLabel": "$29K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Nigeria",
-        "sector": "Education",
-        "year": 2022,
-        "amount": 0.02912413474,
+        "amount": 0.0292051,
         "amountLabel": "$29K"
       },
       {
@@ -32152,7 +31921,15 @@ window.OECD_DATA = {
         "country": "Senegal",
         "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 0.02912413474,
+        "amount": 0.029124135,
+        "amountLabel": "$29K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Nigeria",
+        "sector": "Education",
+        "year": 2022,
+        "amount": 0.029124135,
         "amountLabel": "$29K"
       },
       {
@@ -32160,7 +31937,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Banking & Financial Services",
         "year": 2021,
-        "amount": 0.02904673702,
+        "amount": 0.029046737,
         "amountLabel": "$29K"
       },
       {
@@ -32181,23 +31958,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Mexico",
-        "sector": "Emergency Response",
-        "year": 2021,
-        "amount": 0.028923,
-        "amountLabel": "$29K"
-      },
-      {
-        "donorCountry": "Switzerland",
         "country": "Indonesia",
-        "sector": "Emergency Response",
-        "year": 2021,
-        "amount": 0.028923,
-        "amountLabel": "$29K"
-      },
-      {
-        "donorCountry": "Switzerland",
-        "country": "China (People's Republic of)",
         "sector": "Emergency Response",
         "year": 2021,
         "amount": 0.028923,
@@ -32213,10 +31974,42 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Switzerland",
+        "country": "China (People's Republic of)",
+        "sector": "Emergency Response",
+        "year": 2021,
+        "amount": 0.028923,
+        "amountLabel": "$29K"
+      },
+      {
+        "donorCountry": "Switzerland",
+        "country": "Mexico",
+        "sector": "Emergency Response",
+        "year": 2021,
+        "amount": 0.028923,
+        "amountLabel": "$29K"
+      },
+      {
+        "donorCountry": "Switzerland",
         "country": "Brazil",
         "sector": "Emergency Response",
         "year": 2021,
         "amount": 0.028923,
+        "amountLabel": "$29K"
+      },
+      {
+        "donorCountry": "China (People's Republic of)",
+        "country": "China (People's Republic of)",
+        "sector": "Development Food Assistance",
+        "year": 2023,
+        "amount": 0.028837001,
+        "amountLabel": "$29K"
+      },
+      {
+        "donorCountry": "Spain",
+        "country": "Ethiopia",
+        "sector": "Energy",
+        "year": 2022,
+        "amount": 0.028718,
         "amountLabel": "$29K"
       },
       {
@@ -32229,26 +32022,10 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Spain",
-        "country": "Ethiopia",
-        "sector": "Energy",
-        "year": 2022,
-        "amount": 0.028718,
-        "amountLabel": "$29K"
-      },
-      {
-        "donorCountry": "China (People's Republic of)",
-        "country": "China (People's Republic of)",
-        "sector": "Development Food Assistance",
-        "year": 2021,
-        "amount": 0.02861667801,
-        "amountLabel": "$29K"
-      },
-      {
-        "donorCountry": "Spain",
         "country": "Dominican Republic",
         "sector": "Government & Civil Society",
         "year": 2020,
-        "amount": 0.02858927624,
+        "amount": 0.028589276,
         "amountLabel": "$29K"
       },
       {
@@ -32256,20 +32033,28 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Government & Civil Society",
         "year": 2021,
-        "amount": 0.0284127604191,
+        "amount": 0.028412760999999998,
         "amountLabel": "$28K"
       },
       {
-        "donorCountry": "Nigeria",
-        "country": "Nigeria",
-        "sector": "Unspecified",
-        "year": 2022,
-        "amount": 0.028301184696,
+        "donorCountry": "Switzerland",
+        "country": "Zambia",
+        "sector": "Other Multisector",
+        "year": 2021,
+        "amount": 0.028198,
         "amountLabel": "$28K"
       },
       {
         "donorCountry": "Switzerland",
         "country": "Ethiopia",
+        "sector": "Other Multisector",
+        "year": 2021,
+        "amount": 0.028198,
+        "amountLabel": "$28K"
+      },
+      {
+        "donorCountry": "Switzerland",
+        "country": "Tanzania",
         "sector": "Other Multisector",
         "year": 2021,
         "amount": 0.028198,
@@ -32285,23 +32070,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Tanzania",
-        "sector": "Other Multisector",
-        "year": 2021,
-        "amount": 0.028198,
-        "amountLabel": "$28K"
-      },
-      {
-        "donorCountry": "Switzerland",
         "country": "Malawi",
-        "sector": "Other Multisector",
-        "year": 2021,
-        "amount": 0.028198,
-        "amountLabel": "$28K"
-      },
-      {
-        "donorCountry": "Switzerland",
-        "country": "Zambia",
         "sector": "Other Multisector",
         "year": 2021,
         "amount": 0.028198,
@@ -32312,7 +32081,23 @@ window.OECD_DATA = {
         "country": "Ghana",
         "sector": "Education",
         "year": 2023,
-        "amount": 0.02816535669,
+        "amount": 0.028165357,
+        "amountLabel": "$28K"
+      },
+      {
+        "donorCountry": "United Kingdom",
+        "country": "Nigeria",
+        "sector": "Unallocated / Unspecified",
+        "year": 2020,
+        "amount": 0.028145,
+        "amountLabel": "$28K"
+      },
+      {
+        "donorCountry": "United Kingdom",
+        "country": "Ghana",
+        "sector": "Unallocated / Unspecified",
+        "year": 2020,
+        "amount": 0.028145,
         "amountLabel": "$28K"
       },
       {
@@ -32325,23 +32110,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United Kingdom",
-        "country": "Ghana",
-        "sector": "Unallocated / Unspecified",
-        "year": 2020,
-        "amount": 0.028145,
-        "amountLabel": "$28K"
-      },
-      {
-        "donorCountry": "United Kingdom",
         "country": "South Africa",
-        "sector": "Unallocated / Unspecified",
-        "year": 2020,
-        "amount": 0.028145,
-        "amountLabel": "$28K"
-      },
-      {
-        "donorCountry": "United Kingdom",
-        "country": "Nigeria",
         "sector": "Unallocated / Unspecified",
         "year": 2020,
         "amount": 0.028145,
@@ -32360,7 +32129,7 @@ window.OECD_DATA = {
         "country": "Ukraine",
         "sector": "Emergency Response",
         "year": 2021,
-        "amount": 0.02811215832,
+        "amount": 0.028112158,
         "amountLabel": "$28K"
       },
       {
@@ -32368,7 +32137,7 @@ window.OECD_DATA = {
         "country": "Senegal",
         "sector": "Unallocated / Unspecified",
         "year": 2021,
-        "amount": 0.02811215832,
+        "amount": 0.028112158,
         "amountLabel": "$28K"
       },
       {
@@ -32376,15 +32145,7 @@ window.OECD_DATA = {
         "country": "Senegal",
         "sector": "Industry, Mining, Construction",
         "year": 2023,
-        "amount": 0.02791341658,
-        "amountLabel": "$28K"
-      },
-      {
-        "donorCountry": "Brazil",
-        "country": "Brazil",
-        "sector": "Health",
-        "year": 2023,
-        "amount": 0.027736484388799998,
+        "amount": 0.027913417,
         "amountLabel": "$28K"
       },
       {
@@ -32408,7 +32169,7 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Reconstruction Relief & Rehabilitation",
         "year": 2020,
-        "amount": 0.027324229390000003,
+        "amount": 0.027324229,
         "amountLabel": "$27K"
       },
       {
@@ -32416,7 +32177,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Government & Civil Society",
         "year": 2020,
-        "amount": 0.027081951966999997,
+        "amount": 0.027081952,
         "amountLabel": "$27K"
       },
       {
@@ -32432,7 +32193,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2020,
-        "amount": 0.026810187643,
+        "amount": 0.026810188,
         "amountLabel": "$27K"
       },
       {
@@ -32440,12 +32201,12 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Other Multisector",
         "year": 2020,
-        "amount": 0.02673995567,
+        "amount": 0.026739956,
         "amountLabel": "$27K"
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Uganda",
+        "country": "Zambia",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2023,
         "amount": 0.026667,
@@ -32453,7 +32214,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Burkina Faso",
+        "country": "Uganda",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2023,
         "amount": 0.026667,
@@ -32477,19 +32238,11 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Zambia",
+        "country": "Burkina Faso",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2023,
         "amount": 0.026667,
         "amountLabel": "$27K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Burkina Faso",
-        "sector": "Unspecified",
-        "year": 2020,
-        "amount": 0.02639917013,
-        "amountLabel": "$26K"
       },
       {
         "donorCountry": "Switzerland",
@@ -32504,7 +32257,7 @@ window.OECD_DATA = {
         "country": "Ghana",
         "sector": "General Environment Protection",
         "year": 2023,
-        "amount": 0.02634655575,
+        "amount": 0.026346556,
         "amountLabel": "$26K"
       },
       {
@@ -32512,7 +32265,15 @@ window.OECD_DATA = {
         "country": "Senegal",
         "sector": "Emergency Response",
         "year": 2022,
-        "amount": 0.02621172127,
+        "amount": 0.026211721,
+        "amountLabel": "$26K"
+      },
+      {
+        "donorCountry": "France",
+        "country": "India",
+        "sector": "Unallocated / Unspecified",
+        "year": 2021,
+        "amount": 0.026206471,
         "amountLabel": "$26K"
       },
       {
@@ -32520,15 +32281,15 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Government & Civil Society",
         "year": 2020,
-        "amount": 0.02591202408,
+        "amount": 0.025912024,
         "amountLabel": "$26K"
       },
       {
-        "donorCountry": "Japan",
-        "country": "Nigeria",
-        "sector": "Agriculture, Forestry, Fishing",
+        "donorCountry": "Belgium",
+        "country": "South Africa",
+        "sector": "Unallocated / Unspecified",
         "year": 2021,
-        "amount": 0.025902542673000004,
+        "amount": 0.025814972,
         "amountLabel": "$26K"
       },
       {
@@ -32536,7 +32297,7 @@ window.OECD_DATA = {
         "country": "Ghana",
         "sector": "Education",
         "year": 2020,
-        "amount": 0.02580189798,
+        "amount": 0.025801897999999997,
         "amountLabel": "$26K"
       },
       {
@@ -32544,7 +32305,7 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Education",
         "year": 2023,
-        "amount": 0.025702310662000002,
+        "amount": 0.025702311,
         "amountLabel": "$26K"
       },
       {
@@ -32552,7 +32313,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Energy",
         "year": 2022,
-        "amount": 0.02567813217,
+        "amount": 0.025678132,
         "amountLabel": "$26K"
       },
       {
@@ -32560,7 +32321,15 @@ window.OECD_DATA = {
         "country": "Senegal",
         "sector": "Other Multisector",
         "year": 2022,
-        "amount": 0.02562923857,
+        "amount": 0.025629239,
+        "amountLabel": "$26K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Ethiopia",
+        "sector": "Health",
+        "year": 2022,
+        "amount": 0.025629238999999998,
         "amountLabel": "$26K"
       },
       {
@@ -32574,9 +32343,9 @@ window.OECD_DATA = {
       {
         "donorCountry": "France",
         "country": "China (People's Republic of)",
-        "sector": "Unspecified",
+        "sector": "Unallocated / Unspecified",
         "year": 2023,
-        "amount": 0.02561280563,
+        "amount": 0.025612806,
         "amountLabel": "$26K"
       },
       {
@@ -32592,7 +32361,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Banking & Financial Services",
         "year": 2023,
-        "amount": 0.02541501054,
+        "amount": 0.02541501,
         "amountLabel": "$25K"
       },
       {
@@ -32600,7 +32369,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Refugees in Donor Countries",
         "year": 2023,
-        "amount": 0.025393442855,
+        "amount": 0.025393442999999998,
         "amountLabel": "$25K"
       },
       {
@@ -32613,26 +32382,26 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Belgium",
+        "country": "Ethiopia",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2021,
+        "amount": 0.025258032,
+        "amountLabel": "$25K"
+      },
+      {
+        "donorCountry": "Belgium",
         "country": "Mexico",
         "sector": "Government & Civil Society",
         "year": 2021,
-        "amount": 0.025258032198999997,
+        "amount": 0.025258032,
         "amountLabel": "$25K"
       },
       {
         "donorCountry": "Belgium",
         "country": "Tanzania",
-        "sector": "Unspecified",
+        "sector": "Industry, Mining, Construction",
         "year": 2021,
-        "amount": 0.02525803219,
-        "amountLabel": "$25K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Colombia",
-        "sector": "Unallocated / Unspecified",
-        "year": 2021,
-        "amount": 0.02525803219,
+        "amount": 0.025258032,
         "amountLabel": "$25K"
       },
       {
@@ -32640,15 +32409,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Education",
         "year": 2021,
-        "amount": 0.02525803219,
-        "amountLabel": "$25K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Ethiopia",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2021,
-        "amount": 0.02525803219,
+        "amount": 0.025258032,
         "amountLabel": "$25K"
       },
       {
@@ -32656,7 +32417,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Other Multisector",
         "year": 2021,
-        "amount": 0.02525803219,
+        "amount": 0.025258032,
         "amountLabel": "$25K"
       },
       {
@@ -32668,14 +32429,6 @@ window.OECD_DATA = {
         "amountLabel": "$25K"
       },
       {
-        "donorCountry": "Belgium",
-        "country": "India",
-        "sector": "Education",
-        "year": 2022,
-        "amount": 0.025046755881,
-        "amountLabel": "$25K"
-      },
-      {
         "donorCountry": "United States",
         "country": "South Africa",
         "sector": "Emergency Response",
@@ -32684,11 +32437,11 @@ window.OECD_DATA = {
         "amountLabel": "$25K"
       },
       {
-        "donorCountry": "Nigeria",
-        "country": "Nigeria",
-        "sector": "Unspecified",
-        "year": 2021,
-        "amount": 0.02469538104,
+        "donorCountry": "Belgium",
+        "country": "South Africa",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2023,
+        "amount": 0.024973011,
         "amountLabel": "$25K"
       },
       {
@@ -32704,7 +32457,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Education",
         "year": 2021,
-        "amount": 0.02461900398,
+        "amount": 0.024619004,
         "amountLabel": "$25K"
       },
       {
@@ -32716,11 +32469,19 @@ window.OECD_DATA = {
         "amountLabel": "$25K"
       },
       {
+        "donorCountry": "France",
+        "country": "Mexico",
+        "sector": "Unallocated / Unspecified",
+        "year": 2021,
+        "amount": 0.024516709,
+        "amountLabel": "$25K"
+      },
+      {
         "donorCountry": "Qatar",
         "country": "Zambia",
         "sector": "Education",
         "year": 2020,
-        "amount": 0.0243056215,
+        "amount": 0.024305621,
         "amountLabel": "$24K"
       },
       {
@@ -32728,7 +32489,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Refugees in Donor Countries",
         "year": 2020,
-        "amount": 0.0241786557,
+        "amount": 0.024178656,
         "amountLabel": "$24K"
       },
       {
@@ -32736,23 +32497,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Education",
         "year": 2021,
-        "amount": 0.024132786859999998,
-        "amountLabel": "$24K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "South Africa",
-        "sector": "Unspecified",
-        "year": 2021,
-        "amount": 0.02409742562,
-        "amountLabel": "$24K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "South Africa",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 0.024089009994000002,
+        "amount": 0.024132787000000003,
         "amountLabel": "$24K"
       },
       {
@@ -32782,17 +32527,25 @@ window.OECD_DATA = {
       {
         "donorCountry": "Brazil",
         "country": "Brazil",
-        "sector": "General Environment Protection",
-        "year": 2023,
-        "amount": 0.02351106245,
+        "sector": "Unallocated / Unspecified",
+        "year": 2020,
+        "amount": 0.023782418,
         "amountLabel": "$24K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Kenya",
+        "sector": "Emergency Response",
+        "year": 2022,
+        "amount": 0.023299308,
+        "amountLabel": "$23K"
       },
       {
         "donorCountry": "France",
         "country": "Peru",
         "sector": "Education",
         "year": 2022,
-        "amount": 0.02329930779,
+        "amount": 0.023299308,
         "amountLabel": "$23K"
       },
       {
@@ -32800,31 +32553,23 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Water Supply & Sanitation",
         "year": 2022,
-        "amount": 0.02329930779,
+        "amount": 0.023299308,
         "amountLabel": "$23K"
       },
       {
         "donorCountry": "Belgium",
-        "country": "Kenya",
-        "sector": "Emergency Response",
+        "country": "Tanzania",
+        "sector": "Industry, Mining, Construction",
         "year": 2022,
-        "amount": 0.02329930779,
+        "amount": 0.023299308,
         "amountLabel": "$23K"
       },
       {
         "donorCountry": "France",
         "country": "Indonesia",
-        "sector": "Unspecified",
+        "sector": "Health",
         "year": 2022,
-        "amount": 0.02329930779,
-        "amountLabel": "$23K"
-      },
-      {
-        "donorCountry": "France",
-        "country": "India",
-        "sector": "Unspecified",
-        "year": 2022,
-        "amount": 0.02329348297,
+        "amount": 0.023299308,
         "amountLabel": "$23K"
       },
       {
@@ -32840,7 +32585,7 @@ window.OECD_DATA = {
         "country": "Democratic Republic of the Congo",
         "sector": "Energy",
         "year": 2022,
-        "amount": 0.023237844221,
+        "amount": 0.023237844,
         "amountLabel": "$23K"
       },
       {
@@ -32848,7 +32593,7 @@ window.OECD_DATA = {
         "country": "Democratic Republic of the Congo",
         "sector": "Disaster Prevention & Preparedness",
         "year": 2023,
-        "amount": 0.02320500963,
+        "amount": 0.02320501,
         "amountLabel": "$23K"
       },
       {
@@ -32864,7 +32609,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Other Social Infrastructure & Services",
         "year": 2020,
-        "amount": 0.022758530752,
+        "amount": 0.022758531000000002,
         "amountLabel": "$23K"
       },
       {
@@ -32872,7 +32617,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Emergency Response",
         "year": 2020,
-        "amount": 0.022724845110000003,
+        "amount": 0.022724845,
         "amountLabel": "$23K"
       },
       {
@@ -32880,7 +32625,7 @@ window.OECD_DATA = {
         "country": "Democratic Republic of the Congo",
         "sector": "Transport & Storage",
         "year": 2020,
-        "amount": 0.02267302107,
+        "amount": 0.022673021,
         "amountLabel": "$23K"
       },
       {
@@ -32888,7 +32633,7 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Other Multisector",
         "year": 2022,
-        "amount": 0.022577029251,
+        "amount": 0.022577029,
         "amountLabel": "$23K"
       },
       {
@@ -32896,7 +32641,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Education",
         "year": 2020,
-        "amount": 0.022374513952,
+        "amount": 0.022374513999999998,
         "amountLabel": "$22K"
       },
       {
@@ -32904,7 +32649,7 @@ window.OECD_DATA = {
         "country": "Burkina Faso",
         "sector": "Water Supply & Sanitation",
         "year": 2021,
-        "amount": 0.02235335849,
+        "amount": 0.022353358,
         "amountLabel": "$22K"
       },
       {
@@ -32920,7 +32665,23 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Government & Civil Society",
         "year": 2023,
-        "amount": 0.02230167176,
+        "amount": 0.022301672,
+        "amountLabel": "$22K"
+      },
+      {
+        "donorCountry": "Spain",
+        "country": "Dominican Republic",
+        "sector": "Business & Other Services",
+        "year": 2021,
+        "amount": 0.022272691,
+        "amountLabel": "$22K"
+      },
+      {
+        "donorCountry": "France",
+        "country": "Brazil",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2022,
+        "amount": 0.022134342,
         "amountLabel": "$22K"
       },
       {
@@ -32928,7 +32689,15 @@ window.OECD_DATA = {
         "country": "Pakistan",
         "sector": "Industry, Mining, Construction",
         "year": 2023,
-        "amount": 0.02210000917,
+        "amount": 0.022100009,
+        "amountLabel": "$22K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Tanzania",
+        "sector": "Industry, Mining, Construction",
+        "year": 2023,
+        "amount": 0.022100009,
         "amountLabel": "$22K"
       },
       {
@@ -32936,7 +32705,23 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Administrative Costs of Donors",
         "year": 2023,
-        "amount": 0.02198680979,
+        "amount": 0.02198681,
+        "amountLabel": "$22K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Kenya",
+        "sector": "Health",
+        "year": 2020,
+        "amount": 0.021946188999999998,
+        "amountLabel": "$22K"
+      },
+      {
+        "donorCountry": "Spain",
+        "country": "Dominican Republic",
+        "sector": "Agriculture, Forestry, Fishing",
+        "year": 2021,
+        "amount": 0.02182254,
         "amountLabel": "$22K"
       },
       {
@@ -32952,7 +32737,7 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Government & Civil Society",
         "year": 2020,
-        "amount": 0.021506979989,
+        "amount": 0.021506980000000002,
         "amountLabel": "$22K"
       },
       {
@@ -32960,7 +32745,7 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Education",
         "year": 2023,
-        "amount": 0.02140385888,
+        "amount": 0.021403859,
         "amountLabel": "$21K"
       },
       {
@@ -32976,7 +32761,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "General Environment Protection",
         "year": 2021,
-        "amount": 0.021251050648,
+        "amount": 0.02125105,
         "amountLabel": "$21K"
       },
       {
@@ -32992,7 +32777,7 @@ window.OECD_DATA = {
         "country": "Malawi",
         "sector": "Other Multisector",
         "year": 2022,
-        "amount": 0.02103151411,
+        "amount": 0.021031514,
         "amountLabel": "$21K"
       },
       {
@@ -33000,7 +32785,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Other Multisector",
         "year": 2022,
-        "amount": 0.02096937702,
+        "amount": 0.020969377,
         "amountLabel": "$21K"
       },
       {
@@ -33008,7 +32793,7 @@ window.OECD_DATA = {
         "country": "Peru",
         "sector": "Education",
         "year": 2023,
-        "amount": 0.020774008625,
+        "amount": 0.020774009,
         "amountLabel": "$21K"
       },
       {
@@ -33024,7 +32809,7 @@ window.OECD_DATA = {
         "country": "Bangladesh",
         "sector": "Health",
         "year": 2023,
-        "amount": 0.02071389076,
+        "amount": 0.020713891,
         "amountLabel": "$21K"
       },
       {
@@ -33032,7 +32817,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Health",
         "year": 2022,
-        "amount": 0.02059333784,
+        "amount": 0.020593338,
         "amountLabel": "$21K"
       },
       {
@@ -33056,7 +32841,15 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2023,
-        "amount": 0.02006017832,
+        "amount": 0.020060178,
+        "amountLabel": "$20K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Senegal",
+        "sector": "General Environment Protection",
+        "year": 2023,
+        "amount": 0.02,
         "amountLabel": "$20K"
       },
       {
@@ -33076,19 +32869,11 @@ window.OECD_DATA = {
         "amountLabel": "$20K"
       },
       {
-        "donorCountry": "United States",
-        "country": "Senegal",
-        "sector": "General Environment Protection",
-        "year": 2023,
-        "amount": 0.02,
-        "amountLabel": "$20K"
-      },
-      {
         "donorCountry": "Brazil",
         "country": "Brazil",
         "sector": "Emergency Response",
         "year": 2022,
-        "amount": 0.019962134788,
+        "amount": 0.019962134,
         "amountLabel": "$20K"
       },
       {
@@ -33096,7 +32881,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Government & Civil Society",
         "year": 2023,
-        "amount": 0.019890008258,
+        "amount": 0.019890008,
         "amountLabel": "$20K"
       },
       {
@@ -33112,7 +32897,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Other Multisector",
         "year": 2022,
-        "amount": 0.01969553449,
+        "amount": 0.019695534,
         "amountLabel": "$20K"
       },
       {
@@ -33120,7 +32905,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "General Environment Protection",
         "year": 2022,
-        "amount": 0.01968791509,
+        "amount": 0.019687915,
         "amountLabel": "$20K"
       },
       {
@@ -33128,31 +32913,15 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 0.01954229441,
+        "amount": 0.019542294,
         "amountLabel": "$20K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Brazil",
-        "sector": "Unallocated / Unspecified",
-        "year": 2021,
-        "amount": 0.0195168814772,
-        "amountLabel": "$20K"
-      },
-      {
-        "donorCountry": "Brazil",
-        "country": "Brazil",
-        "sector": "Unallocated / Unspecified",
-        "year": 2020,
-        "amount": 0.019435093508,
-        "amountLabel": "$19K"
       },
       {
         "donorCountry": "Belgium",
         "country": "Senegal",
         "sector": "Government & Civil Society",
         "year": 2020,
-        "amount": 0.01943401806,
+        "amount": 0.019434018,
         "amountLabel": "$19K"
       },
       {
@@ -33184,15 +32953,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Other Multisector",
         "year": 2021,
-        "amount": 0.01922515121,
-        "amountLabel": "$19K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Mexico",
-        "sector": "Business & Other Services",
-        "year": 2020,
-        "amount": 0.01878621746,
+        "amount": 0.019225151,
         "amountLabel": "$19K"
       },
       {
@@ -33200,7 +32961,15 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Communications",
         "year": 2020,
-        "amount": 0.01878621746,
+        "amount": 0.018786217,
+        "amountLabel": "$19K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Mexico",
+        "sector": "Business & Other Services",
+        "year": 2020,
+        "amount": 0.018786217,
         "amountLabel": "$19K"
       },
       {
@@ -33208,7 +32977,15 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2023,
-        "amount": 0.018695643192,
+        "amount": 0.018695643,
+        "amountLabel": "$19K"
+      },
+      {
+        "donorCountry": "Spain",
+        "country": "Dominican Republic",
+        "sector": "Business & Other Services",
+        "year": 2022,
+        "amount": 0.018670443,
         "amountLabel": "$19K"
       },
       {
@@ -33248,7 +33025,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2022,
-        "amount": 0.01840645316,
+        "amount": 0.018406453,
         "amountLabel": "$18K"
       },
       {
@@ -33256,7 +33033,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Industry, Mining, Construction",
         "year": 2021,
-        "amount": 0.01831207334,
+        "amount": 0.018312073,
         "amountLabel": "$18K"
       },
       {
@@ -33264,7 +33041,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Other Social Infrastructure & Services",
         "year": 2020,
-        "amount": 0.018138416855999998,
+        "amount": 0.018138417,
         "amountLabel": "$18K"
       },
       {
@@ -33272,7 +33049,15 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Education",
         "year": 2021,
-        "amount": 0.018059493022,
+        "amount": 0.018059493,
+        "amountLabel": "$18K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Tanzania",
+        "sector": "Water Supply & Sanitation",
+        "year": 2023,
+        "amount": 0.018,
         "amountLabel": "$18K"
       },
       {
@@ -33285,14 +33070,6 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "United States",
-        "country": "Tanzania",
-        "sector": "Water Supply & Sanitation",
-        "year": 2023,
-        "amount": 0.018,
-        "amountLabel": "$18K"
-      },
-      {
-        "donorCountry": "United States",
         "country": "Malawi",
         "sector": "Banking & Financial Services",
         "year": 2023,
@@ -33300,11 +33077,11 @@ window.OECD_DATA = {
         "amountLabel": "$18K"
       },
       {
-        "donorCountry": "France",
-        "country": "Rwanda",
-        "sector": "Government & Civil Society",
-        "year": 2022,
-        "amount": 0.01776746964,
+        "donorCountry": "United Kingdom",
+        "country": "South Africa",
+        "sector": "Unallocated / Unspecified",
+        "year": 2023,
+        "amount": 0.017829693,
         "amountLabel": "$18K"
       },
       {
@@ -33312,15 +33089,15 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Industry, Mining, Construction",
         "year": 2022,
-        "amount": 0.01776746964,
+        "amount": 0.01776747,
         "amountLabel": "$18K"
       },
       {
-        "donorCountry": "Belgium",
-        "country": "Ethiopia",
-        "sector": "Reconstruction Relief & Rehabilitation",
-        "year": 2021,
-        "amount": 0.017680622538999997,
+        "donorCountry": "France",
+        "country": "Rwanda",
+        "sector": "Government & Civil Society",
+        "year": 2022,
+        "amount": 0.01776747,
         "amountLabel": "$18K"
       },
       {
@@ -33328,7 +33105,15 @@ window.OECD_DATA = {
         "country": "Ethiopia",
         "sector": "Education",
         "year": 2021,
-        "amount": 0.017680622538999997,
+        "amount": 0.017680622,
+        "amountLabel": "$18K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Ethiopia",
+        "sector": "Reconstruction Relief & Rehabilitation",
+        "year": 2021,
+        "amount": 0.017680622,
         "amountLabel": "$18K"
       },
       {
@@ -33336,31 +33121,15 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Reconstruction Relief & Rehabilitation",
         "year": 2020,
-        "amount": 0.01765969109,
+        "amount": 0.017659691,
         "amountLabel": "$18K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Uganda",
-        "sector": "Other Multisector",
-        "year": 2020,
-        "amount": 0.017495798656,
-        "amountLabel": "$17K"
       },
       {
         "donorCountry": "Belgium",
         "country": "India",
         "sector": "Banking & Financial Services",
         "year": 2022,
-        "amount": 0.01747448085,
-        "amountLabel": "$17K"
-      },
-      {
-        "donorCountry": "France",
-        "country": "India",
-        "sector": "Government & Civil Society",
-        "year": 2022,
-        "amount": 0.01747448085,
+        "amount": 0.017474481,
         "amountLabel": "$17K"
       },
       {
@@ -33368,15 +33137,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Reconstruction Relief & Rehabilitation",
         "year": 2023,
-        "amount": 0.01733443643,
-        "amountLabel": "$17K"
-      },
-      {
-        "donorCountry": "Brazil",
-        "country": "Brazil",
-        "sector": "Health",
-        "year": 2022,
-        "amount": 0.017285689872,
+        "amount": 0.017334436,
         "amountLabel": "$17K"
       },
       {
@@ -33384,7 +33145,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Government & Civil Society",
         "year": 2023,
-        "amount": 0.01713176136,
+        "amount": 0.017131761,
         "amountLabel": "$17K"
       },
       {
@@ -33400,7 +33161,7 @@ window.OECD_DATA = {
         "country": "Zambia",
         "sector": "Unallocated / Unspecified",
         "year": 2021,
-        "amount": 0.01704917173,
+        "amount": 0.017049172,
         "amountLabel": "$17K"
       },
       {
@@ -33412,27 +33173,19 @@ window.OECD_DATA = {
         "amountLabel": "$17K"
       },
       {
+        "donorCountry": "United States",
+        "country": "Brazil",
+        "sector": "General Budget Support",
+        "year": 2021,
+        "amount": 0.016867295,
+        "amountLabel": "$17K"
+      },
+      {
         "donorCountry": "France",
         "country": "India",
         "sector": "Education",
         "year": 2022,
-        "amount": 0.01682210023,
-        "amountLabel": "$17K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "China (People's Republic of)",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 0.01657500688,
-        "amountLabel": "$17K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Democratic Republic of the Congo",
-        "sector": "Development Food Assistance",
-        "year": 2023,
-        "amount": 0.01657500688,
+        "amount": 0.0168221,
         "amountLabel": "$17K"
       },
       {
@@ -33440,7 +33193,23 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Unallocated / Unspecified",
         "year": 2023,
-        "amount": 0.01657500688,
+        "amount": 0.016575007,
+        "amountLabel": "$17K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "China (People's Republic of)",
+        "sector": "Unallocated / Unspecified",
+        "year": 2023,
+        "amount": 0.016575007,
+        "amountLabel": "$17K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Democratic Republic of the Congo",
+        "sector": "Development Food Assistance",
+        "year": 2023,
+        "amount": 0.016575007,
         "amountLabel": "$17K"
       },
       {
@@ -33448,7 +33217,15 @@ window.OECD_DATA = {
         "country": "Dominican Republic",
         "sector": "Education",
         "year": 2020,
-        "amount": 0.01655826159,
+        "amount": 0.016558262,
+        "amountLabel": "$17K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "South Africa",
+        "sector": "General Environment Protection",
+        "year": 2021,
+        "amount": 0.016520016,
         "amountLabel": "$17K"
       },
       {
@@ -33460,19 +33237,11 @@ window.OECD_DATA = {
         "amountLabel": "$16K"
       },
       {
-        "donorCountry": "Belgium",
-        "country": "Rwanda",
-        "sector": "Health",
+        "donorCountry": "Japan",
+        "country": "Nigeria",
+        "sector": "Agriculture, Forestry, Fishing",
         "year": 2021,
-        "amount": 0.016417720929,
-        "amountLabel": "$16K"
-      },
-      {
-        "donorCountry": "United Kingdom",
-        "country": "Brazil",
-        "sector": "Unallocated / Unspecified",
-        "year": 2023,
-        "amount": 0.015919369037,
+        "amount": 0.016100395,
         "amountLabel": "$16K"
       },
       {
@@ -33480,7 +33249,7 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Water Supply & Sanitation",
         "year": 2022,
-        "amount": 0.01587855081,
+        "amount": 0.015878550999999998,
         "amountLabel": "$16K"
       },
       {
@@ -33496,15 +33265,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Government & Civil Society",
         "year": 2023,
-        "amount": 0.015838961850999998,
-        "amountLabel": "$16K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Colombia",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2021,
-        "amount": 0.015786270122,
+        "amount": 0.015838961999999998,
         "amountLabel": "$16K"
       },
       {
@@ -33512,23 +33273,15 @@ window.OECD_DATA = {
         "country": "Ethiopia",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2021,
-        "amount": 0.01578627012,
+        "amount": 0.01578627,
         "amountLabel": "$16K"
       },
       {
         "donorCountry": "Belgium",
         "country": "Colombia",
-        "sector": "Unspecified",
+        "sector": "Other Social Infrastructure & Services",
         "year": 2021,
-        "amount": 0.015786270119,
-        "amountLabel": "$16K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "South Africa",
-        "sector": "Unallocated / Unspecified",
-        "year": 2021,
-        "amount": 0.015711758924,
+        "amount": 0.015786269999999998,
         "amountLabel": "$16K"
       },
       {
@@ -33536,15 +33289,15 @@ window.OECD_DATA = {
         "country": "Zambia",
         "sector": "General Environment Protection",
         "year": 2023,
-        "amount": 0.01569157006,
+        "amount": 0.01569157,
         "amountLabel": "$16K"
       },
       {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "General Budget Support",
+        "donorCountry": "United States",
+        "country": "Malawi",
+        "sector": "Industry, Mining, Construction",
         "year": 2022,
-        "amount": 0.015556697522,
+        "amount": 0.015617461,
         "amountLabel": "$16K"
       },
       {
@@ -33552,7 +33305,15 @@ window.OECD_DATA = {
         "country": "Bangladesh",
         "sector": "Other Social Infrastructure & Services",
         "year": 2020,
-        "amount": 0.01554721445,
+        "amount": 0.015547214,
+        "amountLabel": "$16K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Kenya",
+        "sector": "Unallocated / Unspecified",
+        "year": 2022,
+        "amount": 0.015539019000000001,
         "amountLabel": "$16K"
       },
       {
@@ -33560,7 +33321,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Other Multisector",
         "year": 2021,
-        "amount": 0.01547761243,
+        "amount": 0.015477612,
         "amountLabel": "$15K"
       },
       {
@@ -33568,15 +33329,15 @@ window.OECD_DATA = {
         "country": "Zambia",
         "sector": "General Environment Protection",
         "year": 2022,
-        "amount": 0.01540687697,
+        "amount": 0.015406877,
         "amountLabel": "$15K"
       },
       {
-        "donorCountry": "Belgium",
-        "country": "Uganda",
-        "sector": "Unspecified",
-        "year": 2021,
-        "amount": 0.01528237238,
+        "donorCountry": "United States",
+        "country": "Malawi",
+        "sector": "General Environment Protection",
+        "year": 2020,
+        "amount": 0.015305066,
         "amountLabel": "$15K"
       },
       {
@@ -33584,7 +33345,15 @@ window.OECD_DATA = {
         "country": "Democratic Republic of the Congo",
         "sector": "Other Multisector",
         "year": 2022,
-        "amount": 0.015280268539,
+        "amount": 0.015280268999999999,
+        "amountLabel": "$15K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Tanzania",
+        "sector": "General Budget Support",
+        "year": 2021,
+        "amount": 0.015180565,
         "amountLabel": "$15K"
       },
       {
@@ -33592,7 +33361,7 @@ window.OECD_DATA = {
         "country": "Ethiopia",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2022,
-        "amount": 0.01514455007,
+        "amount": 0.01514455,
         "amountLabel": "$15K"
       },
       {
@@ -33600,13 +33369,13 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2020,
-        "amount": 0.01503934514,
+        "amount": 0.015039345,
         "amountLabel": "$15K"
       },
       {
         "donorCountry": "Japan",
         "country": "Nigeria",
-        "sector": "Reconstruction Relief & Rehabilitation",
+        "sector": "Emergency Response",
         "year": 2023,
         "amount": 0.01500005,
         "amountLabel": "$15K"
@@ -33614,7 +33383,7 @@ window.OECD_DATA = {
       {
         "donorCountry": "Japan",
         "country": "Nigeria",
-        "sector": "Emergency Response",
+        "sector": "Reconstruction Relief & Rehabilitation",
         "year": 2023,
         "amount": 0.01500005,
         "amountLabel": "$15K"
@@ -33632,7 +33401,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Industry, Mining, Construction",
         "year": 2020,
-        "amount": 0.01471640924,
+        "amount": 0.014716409,
         "amountLabel": "$15K"
       },
       {
@@ -33640,7 +33409,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Other Social Infrastructure & Services",
         "year": 2021,
-        "amount": 0.01467549002,
+        "amount": 0.01467549,
         "amountLabel": "$15K"
       },
       {
@@ -33648,7 +33417,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Business & Other Services",
         "year": 2021,
-        "amount": 0.014578936182,
+        "amount": 0.014578937,
         "amountLabel": "$15K"
       },
       {
@@ -33656,7 +33425,7 @@ window.OECD_DATA = {
         "country": "Zambia",
         "sector": "Other Social Infrastructure & Services",
         "year": 2020,
-        "amount": 0.014251613243999999,
+        "amount": 0.014251613,
         "amountLabel": "$14K"
       },
       {
@@ -33672,7 +33441,7 @@ window.OECD_DATA = {
         "country": "Senegal",
         "sector": "Government & Civil Society",
         "year": 2023,
-        "amount": 0.014077705844,
+        "amount": 0.014077706,
         "amountLabel": "$14K"
       },
       {
@@ -33680,23 +33449,15 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Business & Other Services",
         "year": 2021,
-        "amount": 0.01405607916,
-        "amountLabel": "$14K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Tanzania",
-        "sector": "Unallocated / Unspecified",
-        "year": 2022,
-        "amount": 0.01405571488,
+        "amount": 0.014056079,
         "amountLabel": "$14K"
       },
       {
         "donorCountry": "Belgium",
         "country": "Ghana",
-        "sector": "Unspecified",
+        "sector": "Unallocated / Unspecified",
         "year": 2021,
-        "amount": 0.01399421274,
+        "amount": 0.013994213,
         "amountLabel": "$14K"
       },
       {
@@ -33704,7 +33465,7 @@ window.OECD_DATA = {
         "country": "Ghana",
         "sector": "Other Social Infrastructure & Services",
         "year": 2021,
-        "amount": 0.01399421274,
+        "amount": 0.013994213,
         "amountLabel": "$14K"
       },
       {
@@ -33712,15 +33473,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Unallocated / Unspecified",
         "year": 2022,
-        "amount": 0.01397958468,
-        "amountLabel": "$14K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Ethiopia",
-        "sector": "Unspecified",
-        "year": 2022,
-        "amount": 0.01397958468,
+        "amount": 0.013979585,
         "amountLabel": "$14K"
       },
       {
@@ -33736,7 +33489,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Health",
         "year": 2021,
-        "amount": 0.01389191771,
+        "amount": 0.013891918,
         "amountLabel": "$14K"
       },
       {
@@ -33744,7 +33497,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Other Social Infrastructure & Services",
         "year": 2021,
-        "amount": 0.013891917707,
+        "amount": 0.013891918,
         "amountLabel": "$14K"
       },
       {
@@ -33752,7 +33505,7 @@ window.OECD_DATA = {
         "country": "Senegal",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2023,
-        "amount": 0.01385670575,
+        "amount": 0.013856706,
         "amountLabel": "$14K"
       },
       {
@@ -33780,27 +33533,35 @@ window.OECD_DATA = {
         "amountLabel": "$14K"
       },
       {
-        "donorCountry": "Belgium",
-        "country": "South Africa",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2023,
-        "amount": 0.013591505641,
-        "amountLabel": "$14K"
-      },
-      {
         "donorCountry": "China (People's Republic of)",
         "country": "China (People's Republic of)",
         "sector": "Refugees in Donor Countries",
         "year": 2021,
-        "amount": 0.01356430538,
+        "amount": 0.013564305,
         "amountLabel": "$14K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Malawi",
+        "sector": "General Budget Support",
+        "year": 2021,
+        "amount": 0.013493836,
+        "amountLabel": "$13K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Burkina Faso",
+        "sector": "General Environment Protection",
+        "year": 2020,
+        "amount": 0.013443158,
+        "amountLabel": "$13K"
       },
       {
         "donorCountry": "Belgium",
         "country": "Senegal",
         "sector": "Health",
         "year": 2020,
-        "amount": 0.01321513228,
+        "amount": 0.013215132000000001,
         "amountLabel": "$13K"
       },
       {
@@ -33808,7 +33569,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Industry, Mining, Construction",
         "year": 2020,
-        "amount": 0.013169833099,
+        "amount": 0.013169832999999999,
         "amountLabel": "$13K"
       },
       {
@@ -33821,18 +33582,18 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Belgium",
-        "country": "Pakistan",
-        "sector": "Government & Civil Society",
+        "country": "Brazil",
+        "sector": "Health",
         "year": 2020,
-        "amount": 0.01295601204,
+        "amount": 0.012956012,
         "amountLabel": "$13K"
       },
       {
         "donorCountry": "Belgium",
-        "country": "Brazil",
-        "sector": "Health",
+        "country": "Peru",
+        "sector": "Emergency Response",
         "year": 2020,
-        "amount": 0.01295601204,
+        "amount": 0.012956012,
         "amountLabel": "$13K"
       },
       {
@@ -33840,7 +33601,7 @@ window.OECD_DATA = {
         "country": "Democratic Republic of the Congo",
         "sector": "Emergency Response",
         "year": 2020,
-        "amount": 0.01295601204,
+        "amount": 0.012956012,
         "amountLabel": "$13K"
       },
       {
@@ -33848,15 +33609,23 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Emergency Response",
         "year": 2020,
-        "amount": 0.01295601204,
+        "amount": 0.012956012,
+        "amountLabel": "$13K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Pakistan",
+        "sector": "Government & Civil Society",
+        "year": 2020,
+        "amount": 0.012956012,
         "amountLabel": "$13K"
       },
       {
         "donorCountry": "Belgium",
         "country": "Zambia",
-        "sector": "Unspecified",
+        "sector": "Health",
         "year": 2020,
-        "amount": 0.01290289239,
+        "amount": 0.012902892,
         "amountLabel": "$13K"
       },
       {
@@ -33864,7 +33633,7 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Health",
         "year": 2022,
-        "amount": 0.01281461929,
+        "amount": 0.012814619,
         "amountLabel": "$13K"
       },
       {
@@ -33872,7 +33641,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Education",
         "year": 2023,
-        "amount": 0.01273549523,
+        "amount": 0.012735495,
         "amountLabel": "$13K"
       },
       {
@@ -33880,47 +33649,7 @@ window.OECD_DATA = {
         "country": "Malawi",
         "sector": "Emergency Response",
         "year": 2023,
-        "amount": 0.01273549523,
-        "amountLabel": "$13K"
-      },
-      {
-        "donorCountry": "France",
-        "country": "India",
-        "sector": "Government & Civil Society",
-        "year": 2021,
-        "amount": 0.0126290161,
-        "amountLabel": "$13K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Uganda",
-        "sector": "Government & Civil Society",
-        "year": 2021,
-        "amount": 0.0126290161,
-        "amountLabel": "$13K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Uganda",
-        "sector": "Health",
-        "year": 2021,
-        "amount": 0.0126290161,
-        "amountLabel": "$13K"
-      },
-      {
-        "donorCountry": "France",
-        "country": "Malawi",
-        "sector": "Unspecified",
-        "year": 2021,
-        "amount": 0.0126290161,
-        "amountLabel": "$13K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "India",
-        "sector": "Water Supply & Sanitation",
-        "year": 2021,
-        "amount": 0.0126290161,
+        "amount": 0.012735495,
         "amountLabel": "$13K"
       },
       {
@@ -33928,7 +33657,31 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Other Social Infrastructure & Services",
         "year": 2021,
-        "amount": 0.0126290161,
+        "amount": 0.012629016,
+        "amountLabel": "$13K"
+      },
+      {
+        "donorCountry": "France",
+        "country": "India",
+        "sector": "Government & Civil Society",
+        "year": 2021,
+        "amount": 0.012629016,
+        "amountLabel": "$13K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "India",
+        "sector": "Water Supply & Sanitation",
+        "year": 2021,
+        "amount": 0.012629016,
+        "amountLabel": "$13K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Burkina Faso",
+        "sector": "Health",
+        "year": 2021,
+        "amount": 0.012629016,
         "amountLabel": "$13K"
       },
       {
@@ -33936,7 +33689,39 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Government & Civil Society",
         "year": 2021,
-        "amount": 0.012629016098,
+        "amount": 0.012629016,
+        "amountLabel": "$13K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Uganda",
+        "sector": "Health",
+        "year": 2021,
+        "amount": 0.012629016,
+        "amountLabel": "$13K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Kenya",
+        "sector": "Health",
+        "year": 2021,
+        "amount": 0.012629016,
+        "amountLabel": "$13K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Uganda",
+        "sector": "Government & Civil Society",
+        "year": 2021,
+        "amount": 0.012629016,
+        "amountLabel": "$13K"
+      },
+      {
+        "donorCountry": "France",
+        "country": "Malawi",
+        "sector": "Education",
+        "year": 2021,
+        "amount": 0.012629016,
         "amountLabel": "$13K"
       },
       {
@@ -33944,7 +33729,7 @@ window.OECD_DATA = {
         "country": "Pakistan",
         "sector": "Health",
         "year": 2021,
-        "amount": 0.012597443557,
+        "amount": 0.012597443,
         "amountLabel": "$13K"
       },
       {
@@ -33952,7 +33737,7 @@ window.OECD_DATA = {
         "country": "Ghana",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2020,
-        "amount": 0.01251550763,
+        "amount": 0.012515508,
         "amountLabel": "$13K"
       },
       {
@@ -33968,7 +33753,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Government & Civil Society",
         "year": 2023,
-        "amount": 0.012486505182,
+        "amount": 0.012486506,
         "amountLabel": "$12K"
       },
       {
@@ -33976,7 +33761,7 @@ window.OECD_DATA = {
         "country": "Burkina Faso",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2023,
-        "amount": 0.01246440517,
+        "amount": 0.012464405,
         "amountLabel": "$12K"
       },
       {
@@ -33992,21 +33777,21 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Disaster Prevention & Preparedness",
         "year": 2021,
-        "amount": 0.01236934966,
-        "amountLabel": "$12K"
-      },
-      {
-        "donorCountry": "Spain",
-        "country": "Mexico",
-        "sector": "Education",
-        "year": 2020,
-        "amount": 0.012336,
+        "amount": 0.01236935,
         "amountLabel": "$12K"
       },
       {
         "donorCountry": "Spain",
         "country": "Kenya",
         "sector": "Government & Civil Society",
+        "year": 2020,
+        "amount": 0.012336,
+        "amountLabel": "$12K"
+      },
+      {
+        "donorCountry": "Spain",
+        "country": "Mexico",
+        "sector": "Education",
         "year": 2020,
         "amount": 0.012336,
         "amountLabel": "$12K"
@@ -34020,19 +33805,19 @@ window.OECD_DATA = {
         "amountLabel": "$12K"
       },
       {
+        "donorCountry": "Brazil",
+        "country": "Brazil",
+        "sector": "General Budget Support",
+        "year": 2020,
+        "amount": 0.012274796,
+        "amountLabel": "$12K"
+      },
+      {
         "donorCountry": "Belgium",
         "country": "Colombia",
         "sector": "Government & Civil Society",
         "year": 2021,
-        "amount": 0.01225014561,
-        "amountLabel": "$12K"
-      },
-      {
-        "donorCountry": "India",
-        "country": "India",
-        "sector": "Development Food Assistance",
-        "year": 2021,
-        "amount": 0.012166746772,
+        "amount": 0.012250146,
         "amountLabel": "$12K"
       },
       {
@@ -34040,7 +33825,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Transport & Storage",
         "year": 2021,
-        "amount": 0.011881378344999999,
+        "amount": 0.011881377,
         "amountLabel": "$12K"
       },
       {
@@ -34048,7 +33833,7 @@ window.OECD_DATA = {
         "country": "Peru",
         "sector": "Other Multisector",
         "year": 2022,
-        "amount": 0.0118308409679,
+        "amount": 0.011830841,
         "amountLabel": "$12K"
       },
       {
@@ -34064,7 +33849,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Water Supply & Sanitation",
         "year": 2021,
-        "amount": 0.01180613925,
+        "amount": 0.011806139,
         "amountLabel": "$12K"
       },
       {
@@ -34072,15 +33857,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Industry, Mining, Construction",
         "year": 2021,
-        "amount": 0.01180613925,
-        "amountLabel": "$12K"
-      },
-      {
-        "donorCountry": "Nigeria",
-        "country": "Nigeria",
-        "sector": "Population Policies/Programmes & Reproductive Health",
-        "year": 2022,
-        "amount": 0.0117748443425,
+        "amount": 0.011806139,
         "amountLabel": "$12K"
       },
       {
@@ -34088,7 +33865,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Disaster Prevention & Preparedness",
         "year": 2020,
-        "amount": 0.01177312739,
+        "amount": 0.011773127,
         "amountLabel": "$12K"
       },
       {
@@ -34104,7 +33881,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Emergency Response",
         "year": 2020,
-        "amount": 0.011660410836,
+        "amount": 0.01166041,
         "amountLabel": "$12K"
       },
       {
@@ -34116,35 +33893,19 @@ window.OECD_DATA = {
         "amountLabel": "$12K"
       },
       {
+        "donorCountry": "France",
+        "country": "Mexico",
+        "sector": "Unallocated / Unspecified",
+        "year": 2022,
+        "amount": 0.011649654,
+        "amountLabel": "$12K"
+      },
+      {
         "donorCountry": "Belgium",
         "country": "Democratic Republic of the Congo",
         "sector": "Transport & Storage",
         "year": 2022,
-        "amount": 0.0116496539,
-        "amountLabel": "$12K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Ethiopia",
-        "sector": "Health",
-        "year": 2022,
-        "amount": 0.0116496539,
-        "amountLabel": "$12K"
-      },
-      {
-        "donorCountry": "United Kingdom",
-        "country": "Uganda",
-        "sector": "Unspecified",
-        "year": 2022,
-        "amount": 0.01161400012,
-        "amountLabel": "$12K"
-      },
-      {
-        "donorCountry": "Nigeria",
-        "country": "Nigeria",
-        "sector": "Unspecified",
-        "year": 2020,
-        "amount": 0.01155279559,
+        "amount": 0.011649654,
         "amountLabel": "$12K"
       },
       {
@@ -34152,7 +33913,15 @@ window.OECD_DATA = {
         "country": "Peru",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2021,
-        "amount": 0.01149240465,
+        "amount": 0.011492405,
+        "amountLabel": "$11K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Mexico",
+        "sector": "Education",
+        "year": 2020,
+        "amount": 0.011449228,
         "amountLabel": "$11K"
       },
       {
@@ -34168,7 +33937,15 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Energy",
         "year": 2023,
-        "amount": 0.01127100468,
+        "amount": 0.011271005,
+        "amountLabel": "$11K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Brazil",
+        "sector": "Unallocated / Unspecified",
+        "year": 2021,
+        "amount": 0.011244863,
         "amountLabel": "$11K"
       },
       {
@@ -34176,7 +33953,7 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Emergency Response",
         "year": 2021,
-        "amount": 0.01124486333,
+        "amount": 0.011244863,
         "amountLabel": "$11K"
       },
       {
@@ -34189,18 +33966,18 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Belgium",
-        "country": "Colombia",
-        "sector": "Reconstruction Relief & Rehabilitation",
+        "country": "Kenya",
+        "sector": "Education",
         "year": 2023,
-        "amount": 0.01105000459,
+        "amount": 0.011050005,
         "amountLabel": "$11K"
       },
       {
         "donorCountry": "Belgium",
-        "country": "Kenya",
-        "sector": "Education",
+        "country": "Colombia",
+        "sector": "Reconstruction Relief & Rehabilitation",
         "year": 2023,
-        "amount": 0.01105000459,
+        "amount": 0.011050005,
         "amountLabel": "$11K"
       },
       {
@@ -34208,7 +33985,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Government & Civil Society",
         "year": 2023,
-        "amount": 0.01105000459,
+        "amount": 0.011050005,
         "amountLabel": "$11K"
       },
       {
@@ -34224,7 +34001,15 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Transport & Storage",
         "year": 2022,
-        "amount": 0.010922715494,
+        "amount": 0.010922715,
+        "amountLabel": "$11K"
+      },
+      {
+        "donorCountry": "France",
+        "country": "Brazil",
+        "sector": "Unallocated / Unspecified",
+        "year": 2021,
+        "amount": 0.01069804,
         "amountLabel": "$11K"
       },
       {
@@ -34236,27 +34021,19 @@ window.OECD_DATA = {
         "amountLabel": "$11K"
       },
       {
+        "donorCountry": "Spain",
+        "country": "Dominican Republic",
+        "sector": "Business & Other Services",
+        "year": 2023,
+        "amount": 0.010509708,
+        "amountLabel": "$11K"
+      },
+      {
         "donorCountry": "Belgium",
         "country": "Kenya",
         "sector": "Emergency Response",
         "year": 2020,
-        "amount": 0.01036480963,
-        "amountLabel": "$10K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Uganda",
-        "sector": "Government & Civil Society",
-        "year": 2020,
-        "amount": 0.01036480963,
-        "amountLabel": "$10K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Mexico",
-        "sector": "Unspecified",
-        "year": 2020,
-        "amount": 0.01036480963,
+        "amount": 0.01036481,
         "amountLabel": "$10K"
       },
       {
@@ -34264,15 +34041,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Other Social Infrastructure & Services",
         "year": 2022,
-        "amount": 0.01029667474,
-        "amountLabel": "$10K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Kenya",
-        "sector": "Unallocated / Unspecified",
-        "year": 2022,
-        "amount": 0.01029667474,
+        "amount": 0.010296675,
         "amountLabel": "$10K"
       },
       {
@@ -34280,7 +34049,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Education",
         "year": 2020,
-        "amount": 0.01021957437,
+        "amount": 0.010219574,
         "amountLabel": "$10K"
       },
       {
@@ -34296,7 +34065,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Energy",
         "year": 2023,
-        "amount": 0.01010518851,
+        "amount": 0.010105189,
         "amountLabel": "$10K"
       },
       {
@@ -34304,21 +34073,21 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Other Social Infrastructure & Services",
         "year": 2021,
-        "amount": 0.01010321288,
-        "amountLabel": "$10K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Tanzania",
-        "sector": "Emergency Response",
-        "year": 2023,
-        "amount": 0.01,
+        "amount": 0.010103213,
         "amountLabel": "$10K"
       },
       {
         "donorCountry": "United States",
         "country": "Pakistan",
         "sector": "Disaster Prevention & Preparedness",
+        "year": 2023,
+        "amount": 0.01,
+        "amountLabel": "$10K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Tanzania",
+        "sector": "Emergency Response",
         "year": 2023,
         "amount": 0.01,
         "amountLabel": "$10K"
@@ -34332,19 +34101,19 @@ window.OECD_DATA = {
         "amountLabel": "$10K"
       },
       {
+        "donorCountry": "United States",
+        "country": "Malawi",
+        "sector": "Industry, Mining, Construction",
+        "year": 2023,
+        "amount": 0.01,
+        "amountLabel": "$10K"
+      },
+      {
         "donorCountry": "Belgium",
         "country": "Mexico",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2022,
-        "amount": 0.009970938771,
-        "amountLabel": "$10K"
-      },
-      {
-        "donorCountry": "Japan",
-        "country": "Nigeria",
-        "sector": "Education",
-        "year": 2021,
-        "amount": 0.009802147363,
+        "amount": 0.009970939,
         "amountLabel": "$10K"
       },
       {
@@ -34368,7 +34137,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Development Food Assistance",
         "year": 2020,
-        "amount": 0.009627329662,
+        "amount": 0.00962733,
         "amountLabel": "$10K"
       },
       {
@@ -34376,7 +34145,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Transport & Storage",
         "year": 2020,
-        "amount": 0.009589684296,
+        "amount": 0.009589684,
         "amountLabel": "$10K"
       },
       {
@@ -34384,7 +34153,7 @@ window.OECD_DATA = {
         "country": "Ethiopia",
         "sector": "Health",
         "year": 2021,
-        "amount": 0.009471762073,
+        "amount": 0.009471762,
         "amountLabel": "$9K"
       },
       {
@@ -34396,35 +34165,35 @@ window.OECD_DATA = {
         "amountLabel": "$9K"
       },
       {
-        "donorCountry": "Brazil",
-        "country": "Brazil",
-        "sector": "Health",
-        "year": 2021,
-        "amount": 0.009444911398,
-        "amountLabel": "$9K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Malawi",
-        "sector": "General Environment Protection",
-        "year": 2020,
-        "amount": 0.009418501912,
-        "amountLabel": "$9K"
-      },
-      {
         "donorCountry": "Belgium",
         "country": "Brazil",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2023,
-        "amount": 0.009414946457,
+        "amount": 0.009414946,
+        "amountLabel": "$9K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Mexico",
+        "sector": "Agriculture, Forestry, Fishing",
+        "year": 2023,
+        "amount": 0.009392504,
+        "amountLabel": "$9K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Nigeria",
+        "sector": "Health",
+        "year": 2020,
+        "amount": 0.009328329,
         "amountLabel": "$9K"
       },
       {
         "donorCountry": "France",
         "country": "Colombia",
-        "sector": "Unspecified",
+        "sector": "Unallocated / Unspecified",
         "year": 2023,
-        "amount": 0.009143878795,
+        "amount": 0.009143879,
         "amountLabel": "$9K"
       },
       {
@@ -34432,7 +34201,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 0.009133911139,
+        "amount": 0.009133911,
         "amountLabel": "$9K"
       },
       {
@@ -34440,7 +34209,7 @@ window.OECD_DATA = {
         "country": "Zambia",
         "sector": "Other Social Infrastructure & Services",
         "year": 2023,
-        "amount": 0.00906100376,
+        "amount": 0.009061004,
         "amountLabel": "$9K"
       },
       {
@@ -34452,19 +34221,19 @@ window.OECD_DATA = {
         "amountLabel": "$9K"
       },
       {
-        "donorCountry": "Belgium",
-        "country": "Brazil",
+        "donorCountry": "France",
+        "country": "South Africa",
         "sector": "Unallocated / Unspecified",
-        "year": 2022,
-        "amount": 0.0088795059964,
+        "year": 2023,
+        "amount": 0.008867629,
         "amountLabel": "$9K"
       },
       {
-        "donorCountry": "France",
+        "donorCountry": "Belgium",
         "country": "South Africa",
-        "sector": "Unspecified",
+        "sector": "General Budget Support",
         "year": 2023,
-        "amount": 0.00886762868,
+        "amount": 0.008840004,
         "amountLabel": "$9K"
       },
       {
@@ -34472,7 +34241,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Communications",
         "year": 2021,
-        "amount": 0.0086294067,
+        "amount": 0.008629407,
         "amountLabel": "$9K"
       },
       {
@@ -34488,7 +34257,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2021,
-        "amount": 0.008523322964000001,
+        "amount": 0.008523323,
         "amountLabel": "$9K"
       },
       {
@@ -34496,15 +34265,7 @@ window.OECD_DATA = {
         "country": "Senegal",
         "sector": "Water Supply & Sanitation",
         "year": 2020,
-        "amount": 0.008499143898,
-        "amountLabel": "$8K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Mexico",
-        "sector": "Unspecified",
-        "year": 2021,
-        "amount": 0.0083162071,
+        "amount": 0.008499144,
         "amountLabel": "$8K"
       },
       {
@@ -34512,7 +34273,7 @@ window.OECD_DATA = {
         "country": "Pakistan",
         "sector": "Other Social Infrastructure & Services",
         "year": 2023,
-        "amount": 0.008287503439,
+        "amount": 0.008287503,
         "amountLabel": "$8K"
       },
       {
@@ -34520,7 +34281,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Administrative Costs of Donors",
         "year": 2021,
-        "amount": 0.00823179368,
+        "amount": 0.008231794,
         "amountLabel": "$8K"
       },
       {
@@ -34528,7 +34289,31 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "General Environment Protection",
         "year": 2021,
-        "amount": 0.008166469931,
+        "amount": 0.00816647,
+        "amountLabel": "$8K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Senegal",
+        "sector": "Health",
+        "year": 2022,
+        "amount": 0.008154758,
+        "amountLabel": "$8K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Colombia",
+        "sector": "Unallocated / Unspecified",
+        "year": 2023,
+        "amount": 0.008070879999999999,
+        "amountLabel": "$8K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "India",
+        "sector": "Water Supply & Sanitation",
+        "year": 2022,
+        "amount": 0.008038261,
         "amountLabel": "$8K"
       },
       {
@@ -34540,11 +34325,11 @@ window.OECD_DATA = {
         "amountLabel": "$8K"
       },
       {
-        "donorCountry": "Belgium",
-        "country": "Democratic Republic of the Congo",
-        "sector": "General Environment Protection",
+        "donorCountry": "France",
+        "country": "Mexico",
+        "sector": "Business & Other Services",
         "year": 2020,
-        "amount": 0.007773607224,
+        "amount": 0.007773608,
         "amountLabel": "$8K"
       },
       {
@@ -34552,23 +34337,23 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Health",
         "year": 2020,
-        "amount": 0.007773607224,
+        "amount": 0.007773607,
         "amountLabel": "$8K"
       },
       {
-        "donorCountry": "France",
-        "country": "Mexico",
-        "sector": "Business & Other Services",
+        "donorCountry": "Belgium",
+        "country": "Democratic Republic of the Congo",
+        "sector": "General Environment Protection",
         "year": 2020,
-        "amount": 0.007773607224,
+        "amount": 0.007773607,
         "amountLabel": "$8K"
       },
       {
         "donorCountry": "France",
         "country": "Kenya",
-        "sector": "Unspecified",
+        "sector": "Unallocated / Unspecified",
         "year": 2023,
-        "amount": 0.007765943223,
+        "amount": 0.007765943,
         "amountLabel": "$8K"
       },
       {
@@ -34576,7 +34361,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 0.007747019842,
+        "amount": 0.00774702,
         "amountLabel": "$8K"
       },
       {
@@ -34584,7 +34369,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "General Environment Protection",
         "year": 2023,
-        "amount": 0.007641297135,
+        "amount": 0.007641297,
         "amountLabel": "$8K"
       },
       {
@@ -34592,7 +34377,7 @@ window.OECD_DATA = {
         "country": "Pakistan",
         "sector": "Education",
         "year": 2021,
-        "amount": 0.007577409658,
+        "amount": 0.00757741,
         "amountLabel": "$8K"
       },
       {
@@ -34600,7 +34385,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2020,
-        "amount": 0.007519672572,
+        "amount": 0.007519673,
         "amountLabel": "$8K"
       },
       {
@@ -34608,7 +34393,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Transport & Storage",
         "year": 2021,
-        "amount": 0.0073766083028,
+        "amount": 0.007376609,
         "amountLabel": "$7K"
       },
       {
@@ -34624,7 +34409,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Energy",
         "year": 2020,
-        "amount": 0.007203846324,
+        "amount": 0.007203846,
         "amountLabel": "$7K"
       },
       {
@@ -34632,7 +34417,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Education",
         "year": 2023,
-        "amount": 0.007182657681,
+        "amount": 0.007182658,
         "amountLabel": "$7K"
       },
       {
@@ -34640,7 +34425,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Other Social Infrastructure & Services",
         "year": 2022,
-        "amount": 0.007108618808,
+        "amount": 0.007108618000000001,
         "amountLabel": "$7K"
       },
       {
@@ -34648,7 +34433,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2021,
-        "amount": 0.007083683549,
+        "amount": 0.007083684,
         "amountLabel": "$7K"
       },
       {
@@ -34656,7 +34441,15 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Education",
         "year": 2022,
-        "amount": 0.006989792338,
+        "amount": 0.006989792,
+        "amountLabel": "$7K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Kenya",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2022,
+        "amount": 0.006640302000000001,
         "amountLabel": "$7K"
       },
       {
@@ -34672,7 +34465,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Development Food Assistance",
         "year": 2021,
-        "amount": 0.006585434944,
+        "amount": 0.006585435,
         "amountLabel": "$7K"
       },
       {
@@ -34688,7 +34481,7 @@ window.OECD_DATA = {
         "country": "Senegal",
         "sector": "Unallocated / Unspecified",
         "year": 2022,
-        "amount": 0.0064805238293,
+        "amount": 0.006480524,
         "amountLabel": "$6K"
       },
       {
@@ -34696,7 +34489,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Other Social Infrastructure & Services",
         "year": 2020,
-        "amount": 0.00647800602,
+        "amount": 0.006478006,
         "amountLabel": "$6K"
       },
       {
@@ -34704,15 +34497,15 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Government & Civil Society",
         "year": 2020,
-        "amount": 0.00647800602,
+        "amount": 0.006478006,
         "amountLabel": "$6K"
       },
       {
         "donorCountry": "Belgium",
         "country": "Kenya",
-        "sector": "Unallocated / Unspecified",
+        "sector": "Other Social Infrastructure & Services",
         "year": 2020,
-        "amount": 0.00647800602,
+        "amount": 0.006478006,
         "amountLabel": "$6K"
       },
       {
@@ -34720,7 +34513,7 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Other Social Infrastructure & Services",
         "year": 2020,
-        "amount": 0.00647800602,
+        "amount": 0.006478006,
         "amountLabel": "$6K"
       },
       {
@@ -34728,15 +34521,15 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Other Multisector",
         "year": 2020,
-        "amount": 0.00647800602,
+        "amount": 0.006478006,
         "amountLabel": "$6K"
       },
       {
         "donorCountry": "Belgium",
         "country": "Kenya",
-        "sector": "Other Social Infrastructure & Services",
+        "sector": "Unallocated / Unspecified",
         "year": 2020,
-        "amount": 0.00647800602,
+        "amount": 0.006478006,
         "amountLabel": "$6K"
       },
       {
@@ -34744,7 +34537,7 @@ window.OECD_DATA = {
         "country": "Colombia",
         "sector": "Health",
         "year": 2022,
-        "amount": 0.00638284537,
+        "amount": 0.006382845,
         "amountLabel": "$6K"
       },
       {
@@ -34752,7 +34545,7 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Other Social Infrastructure & Services",
         "year": 2020,
-        "amount": 0.006322533876,
+        "amount": 0.006322534,
         "amountLabel": "$6K"
       },
       {
@@ -34760,7 +34553,15 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Banking & Financial Services",
         "year": 2021,
-        "amount": 0.006314508049,
+        "amount": 0.006314508,
+        "amountLabel": "$6K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Kenya",
+        "sector": "Unallocated / Unspecified",
+        "year": 2021,
+        "amount": 0.006314508,
         "amountLabel": "$6K"
       },
       {
@@ -34776,15 +34577,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Water Supply & Sanitation",
         "year": 2023,
-        "amount": 0.006197450782,
-        "amountLabel": "$6K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Democratic Republic of the Congo",
-        "sector": "Unallocated / Unspecified",
-        "year": 2021,
-        "amount": 0.006118758299,
+        "amount": 0.006197451,
         "amountLabel": "$6K"
       },
       {
@@ -34792,15 +34585,23 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Emergency Response",
         "year": 2021,
-        "amount": 0.00607203094,
+        "amount": 0.006072031,
         "amountLabel": "$6K"
       },
       {
         "donorCountry": "France",
         "country": "China (People's Republic of)",
-        "sector": "Unspecified",
+        "sector": "Unallocated / Unspecified",
         "year": 2021,
-        "amount": 0.006044247104,
+        "amount": 0.006044247,
+        "amountLabel": "$6K"
+      },
+      {
+        "donorCountry": "Switzerland",
+        "country": "Tanzania",
+        "sector": "Unallocated / Unspecified",
+        "year": 2022,
+        "amount": 0.006012,
         "amountLabel": "$6K"
       },
       {
@@ -34828,19 +34629,11 @@ window.OECD_DATA = {
         "amountLabel": "$6K"
       },
       {
-        "donorCountry": "Switzerland",
-        "country": "Tanzania",
-        "sector": "Unallocated / Unspecified",
-        "year": 2022,
-        "amount": 0.006012,
-        "amountLabel": "$6K"
-      },
-      {
         "donorCountry": "United Kingdom",
         "country": "Colombia",
         "sector": "Government & Civil Society",
         "year": 2023,
-        "amount": 0.0059856827559999996,
+        "amount": 0.005985683,
         "amountLabel": "$6K"
       },
       {
@@ -34848,7 +34641,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Unallocated / Unspecified",
         "year": 2020,
-        "amount": 0.005927375508,
+        "amount": 0.005927376,
         "amountLabel": "$6K"
       },
       {
@@ -34856,7 +34649,15 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Development Food Assistance",
         "year": 2020,
-        "amount": 0.005886563695,
+        "amount": 0.005886564,
+        "amountLabel": "$6K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Malawi",
+        "sector": "Industry, Mining, Construction",
+        "year": 2020,
+        "amount": 0.005886564,
         "amountLabel": "$6K"
       },
       {
@@ -34880,7 +34681,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Development Food Assistance",
         "year": 2020,
-        "amount": 0.005830205418,
+        "amount": 0.005830205,
         "amountLabel": "$6K"
       },
       {
@@ -34888,7 +34689,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Education",
         "year": 2022,
-        "amount": 0.005824826949,
+        "amount": 0.005824827,
         "amountLabel": "$6K"
       },
       {
@@ -34896,7 +34697,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "General Environment Protection",
         "year": 2022,
-        "amount": 0.005824826949,
+        "amount": 0.005824827,
         "amountLabel": "$6K"
       },
       {
@@ -34904,7 +34705,7 @@ window.OECD_DATA = {
         "country": "Pakistan",
         "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 0.005824826949,
+        "amount": 0.005824827,
         "amountLabel": "$6K"
       },
       {
@@ -34912,7 +34713,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Health",
         "year": 2022,
-        "amount": 0.005763666266,
+        "amount": 0.005763666,
         "amountLabel": "$6K"
       },
       {
@@ -34920,7 +34721,7 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Government & Civil Society",
         "year": 2021,
-        "amount": 0.005683057244,
+        "amount": 0.005683057,
         "amountLabel": "$6K"
       },
       {
@@ -34944,15 +34745,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Water Supply & Sanitation",
         "year": 2022,
-        "amount": 0.00554110322,
-        "amountLabel": "$6K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Ghana",
-        "sector": "Education",
-        "year": 2023,
-        "amount": 0.005525002293,
+        "amount": 0.005541104,
         "amountLabel": "$6K"
       },
       {
@@ -34960,15 +34753,15 @@ window.OECD_DATA = {
         "country": "Indonesia",
         "sector": "Education",
         "year": 2023,
-        "amount": 0.005525002293,
+        "amount": 0.005525002,
         "amountLabel": "$6K"
       },
       {
-        "donorCountry": "France",
-        "country": "India",
-        "sector": "Population Policies/Programmes & Reproductive Health",
+        "donorCountry": "Belgium",
+        "country": "Ghana",
+        "sector": "Education",
         "year": 2023,
-        "amount": 0.005525002293,
+        "amount": 0.005525002,
         "amountLabel": "$6K"
       },
       {
@@ -34980,14 +34773,6 @@ window.OECD_DATA = {
         "amountLabel": "$6K"
       },
       {
-        "donorCountry": "Belgium",
-        "country": "India",
-        "sector": "Water Supply & Sanitation",
-        "year": 2022,
-        "amount": 0.005417089062,
-        "amountLabel": "$5K"
-      },
-      {
         "donorCountry": "Switzerland",
         "country": "Democratic Republic of the Congo",
         "sector": "Health",
@@ -34997,26 +34782,18 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Belgium",
-        "country": "Ghana",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2022,
-        "amount": 0.005242344254,
-        "amountLabel": "$5K"
-      },
-      {
-        "donorCountry": "Belgium",
         "country": "Zambia",
         "sector": "Health",
         "year": 2022,
-        "amount": 0.005242344254,
+        "amount": 0.005242344,
         "amountLabel": "$5K"
       },
       {
         "donorCountry": "Belgium",
-        "country": "Kenya",
+        "country": "Ghana",
         "sector": "Other Social Infrastructure & Services",
         "year": 2022,
-        "amount": 0.005242344254,
+        "amount": 0.005242344,
         "amountLabel": "$5K"
       },
       {
@@ -35048,15 +34825,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Agriculture, Forestry, Fishing",
         "year": 2023,
-        "amount": 0.00509419809,
-        "amountLabel": "$5K"
-      },
-      {
-        "donorCountry": "United Kingdom",
-        "country": "South Africa",
-        "sector": "Unallocated / Unspecified",
-        "year": 2023,
-        "amount": 0.00509419809,
+        "amount": 0.005094198,
         "amountLabel": "$5K"
       },
       {
@@ -35064,7 +34833,15 @@ window.OECD_DATA = {
         "country": "Democratic Republic of the Congo",
         "sector": "Energy",
         "year": 2021,
-        "amount": 0.005051606439,
+        "amount": 0.005051606,
+        "amountLabel": "$5K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Kenya",
+        "sector": "Education",
+        "year": 2021,
+        "amount": 0.005051606,
         "amountLabel": "$5K"
       },
       {
@@ -35072,7 +34849,7 @@ window.OECD_DATA = {
         "country": "Senegal",
         "sector": "Government & Civil Society",
         "year": 2021,
-        "amount": 0.005051606439,
+        "amount": 0.005051606,
         "amountLabel": "$5K"
       },
       {
@@ -35080,7 +34857,7 @@ window.OECD_DATA = {
         "country": "Peru",
         "sector": "Energy",
         "year": 2021,
-        "amount": 0.005051606439,
+        "amount": 0.005051606,
         "amountLabel": "$5K"
       },
       {
@@ -35104,7 +34881,7 @@ window.OECD_DATA = {
         "country": "Zambia",
         "sector": "Health",
         "year": 2023,
-        "amount": 0.004972502064,
+        "amount": 0.004972502,
         "amountLabel": "$5K"
       },
       {
@@ -35120,7 +34897,7 @@ window.OECD_DATA = {
         "country": "Senegal",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2022,
-        "amount": 0.004659861559,
+        "amount": 0.004659862,
         "amountLabel": "$5K"
       },
       {
@@ -35128,15 +34905,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Development Food Assistance",
         "year": 2023,
-        "amount": 0.004649763768,
-        "amountLabel": "$5K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Uganda",
-        "sector": "Unspecified",
-        "year": 2022,
-        "amount": 0.004555014674,
+        "amount": 0.004649764,
         "amountLabel": "$5K"
       },
       {
@@ -35144,7 +34913,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Government & Civil Society",
         "year": 2020,
-        "amount": 0.004424478112,
+        "amount": 0.004424478,
         "amountLabel": "$4K"
       },
       {
@@ -35152,12 +34921,12 @@ window.OECD_DATA = {
         "country": "Zambia",
         "sector": "Water Supply & Sanitation",
         "year": 2023,
-        "amount": 0.004420001834,
+        "amount": 0.004420002,
         "amountLabel": "$4K"
       },
       {
         "donorCountry": "Switzerland",
-        "country": "China (People's Republic of)",
+        "country": "Brazil",
         "sector": "General Environment Protection",
         "year": 2021,
         "amount": 0.004406,
@@ -35165,7 +34934,7 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Switzerland",
-        "country": "Brazil",
+        "country": "China (People's Republic of)",
         "sector": "General Environment Protection",
         "year": 2021,
         "amount": 0.004406,
@@ -35176,7 +34945,7 @@ window.OECD_DATA = {
         "country": "Burkina Faso",
         "sector": "Transport & Storage",
         "year": 2021,
-        "amount": 0.004325438013,
+        "amount": 0.004325438,
         "amountLabel": "$4K"
       },
       {
@@ -35184,7 +34953,7 @@ window.OECD_DATA = {
         "country": "Dominican Republic",
         "sector": "Energy",
         "year": 2022,
-        "amount": 0.004316865427,
+        "amount": 0.004316865,
         "amountLabel": "$4K"
       },
       {
@@ -35192,15 +34961,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Water Supply & Sanitation",
         "year": 2021,
-        "amount": 0.004293865473,
-        "amountLabel": "$4K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Colombia",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 0.004203377544,
+        "amount": 0.004293865,
         "amountLabel": "$4K"
       },
       {
@@ -35208,7 +34969,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Development Food Assistance",
         "year": 2022,
-        "amount": 0.004155827415,
+        "amount": 0.004155827,
         "amountLabel": "$4K"
       },
       {
@@ -35216,15 +34977,15 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Administrative Costs of Donors",
         "year": 2022,
-        "amount": 0.003963303025,
+        "amount": 0.003963303,
         "amountLabel": "$4K"
       },
       {
         "donorCountry": "Belgium",
-        "country": "Colombia",
+        "country": "South Africa",
         "sector": "Unallocated / Unspecified",
         "year": 2023,
-        "amount": 0.003867501605,
+        "amount": 0.003867502,
         "amountLabel": "$4K"
       },
       {
@@ -35232,23 +34993,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Other Multisector",
         "year": 2023,
-        "amount": 0.003867501605,
-        "amountLabel": "$4K"
-      },
-      {
-        "donorCountry": "United Kingdom",
-        "country": "Malawi",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 0.003820648568,
-        "amountLabel": "$4K"
-      },
-      {
-        "donorCountry": "United Kingdom",
-        "country": "Uganda",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 0.003820648568,
+        "amount": 0.003867502,
         "amountLabel": "$4K"
       },
       {
@@ -35256,15 +35001,15 @@ window.OECD_DATA = {
         "country": "Tanzania",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2023,
-        "amount": 0.003820648568,
+        "amount": 0.003820649,
         "amountLabel": "$4K"
       },
       {
-        "donorCountry": "Belgium",
-        "country": "Kenya",
-        "sector": "Other Social Infrastructure & Services",
-        "year": 2021,
-        "amount": 0.003788704829,
+        "donorCountry": "United Kingdom",
+        "country": "Malawi",
+        "sector": "Unallocated / Unspecified",
+        "year": 2023,
+        "amount": 0.003820649,
         "amountLabel": "$4K"
       },
       {
@@ -35272,7 +35017,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Industry, Mining, Construction",
         "year": 2020,
-        "amount": 0.003562903311,
+        "amount": 0.003562903,
         "amountLabel": "$4K"
       },
       {
@@ -35280,7 +35025,7 @@ window.OECD_DATA = {
         "country": "Kenya",
         "sector": "Banking & Financial Services",
         "year": 2020,
-        "amount": 0.003562903311,
+        "amount": 0.003562903,
         "amountLabel": "$4K"
       },
       {
@@ -35288,7 +35033,7 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Business & Other Services",
         "year": 2023,
-        "amount": 0.003315001376,
+        "amount": 0.003315001,
         "amountLabel": "$3K"
       },
       {
@@ -35296,63 +35041,7 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Emergency Response",
         "year": 2020,
-        "amount": 0.00323900301,
-        "amountLabel": "$3K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Peru",
-        "sector": "Education",
-        "year": 2021,
-        "amount": 0.003157254024,
-        "amountLabel": "$3K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Peru",
-        "sector": "Emergency Response",
-        "year": 2021,
-        "amount": 0.003157254024,
-        "amountLabel": "$3K"
-      },
-      {
-        "donorCountry": "Spain",
-        "country": "Peru",
-        "sector": "Agriculture, Forestry, Fishing",
-        "year": 2021,
-        "amount": 0.003134266113,
-        "amountLabel": "$3K"
-      },
-      {
-        "donorCountry": "Brazil",
-        "country": "Brazil",
-        "sector": "Other Multisector",
-        "year": 2023,
-        "amount": 0.003098725391,
-        "amountLabel": "$3K"
-      },
-      {
-        "donorCountry": "Nigeria",
-        "country": "Nigeria",
-        "sector": "Communications",
-        "year": 2021,
-        "amount": 0.00295686029,
-        "amountLabel": "$3K"
-      },
-      {
-        "donorCountry": "United Kingdom",
-        "country": "Kenya",
-        "sector": "Refugees in Donor Countries",
-        "year": 2021,
-        "amount": 0.002935098004,
-        "amountLabel": "$3K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "China (People's Republic of)",
-        "sector": "General Environment Protection",
-        "year": 2022,
-        "amount": 0.002912413474,
+        "amount": 0.003239003,
         "amountLabel": "$3K"
       },
       {
@@ -35360,7 +35049,47 @@ window.OECD_DATA = {
         "country": "Peru",
         "sector": "Other Social Infrastructure & Services",
         "year": 2023,
-        "amount": 0.0028249447224000003,
+        "amount": 0.003204766,
+        "amountLabel": "$3K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Peru",
+        "sector": "Education",
+        "year": 2021,
+        "amount": 0.003157254,
+        "amountLabel": "$3K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Peru",
+        "sector": "Emergency Response",
+        "year": 2021,
+        "amount": 0.003157254,
+        "amountLabel": "$3K"
+      },
+      {
+        "donorCountry": "Nigeria",
+        "country": "Nigeria",
+        "sector": "Communications",
+        "year": 2021,
+        "amount": 0.00295686,
+        "amountLabel": "$3K"
+      },
+      {
+        "donorCountry": "United Kingdom",
+        "country": "Kenya",
+        "sector": "Refugees in Donor Countries",
+        "year": 2021,
+        "amount": 0.002935098,
+        "amountLabel": "$3K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "China (People's Republic of)",
+        "sector": "General Environment Protection",
+        "year": 2022,
+        "amount": 0.002912413,
         "amountLabel": "$3K"
       },
       {
@@ -35374,9 +35103,17 @@ window.OECD_DATA = {
       {
         "donorCountry": "United Kingdom",
         "country": "Ghana",
-        "sector": "Unspecified",
+        "sector": "Government & Civil Society",
         "year": 2022,
-        "amount": 0.002718314832,
+        "amount": 0.002718315,
+        "amountLabel": "$3K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "India",
+        "sector": "Other Multisector",
+        "year": 2022,
+        "amount": 0.002621172,
         "amountLabel": "$3K"
       },
       {
@@ -35384,7 +35121,7 @@ window.OECD_DATA = {
         "country": "Burkina Faso",
         "sector": "Health",
         "year": 2022,
-        "amount": 0.002562923857,
+        "amount": 0.002562924,
         "amountLabel": "$3K"
       },
       {
@@ -35392,7 +35129,15 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Other Multisector",
         "year": 2023,
-        "amount": 0.002547099045,
+        "amount": 0.002547099,
+        "amountLabel": "$3K"
+      },
+      {
+        "donorCountry": "United Kingdom",
+        "country": "South Africa",
+        "sector": "Other Social Infrastructure & Services",
+        "year": 2023,
+        "amount": 0.002547099,
         "amountLabel": "$3K"
       },
       {
@@ -35400,15 +35145,7 @@ window.OECD_DATA = {
         "country": "Senegal",
         "sector": "Unallocated / Unspecified",
         "year": 2023,
-        "amount": 0.002547099045,
-        "amountLabel": "$3K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "South Africa",
-        "sector": "General Environment Protection",
-        "year": 2021,
-        "amount": 0.002525803219,
+        "amount": 0.002547099,
         "amountLabel": "$3K"
       },
       {
@@ -35416,7 +35153,7 @@ window.OECD_DATA = {
         "country": "Indonesia",
         "sector": "Health",
         "year": 2021,
-        "amount": 0.002525803219,
+        "amount": 0.002525803,
         "amountLabel": "$3K"
       },
       {
@@ -35424,7 +35161,7 @@ window.OECD_DATA = {
         "country": "Senegal",
         "sector": "Health",
         "year": 2021,
-        "amount": 0.002525803219,
+        "amount": 0.002525803,
         "amountLabel": "$3K"
       },
       {
@@ -35432,15 +35169,15 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Refugees in Donor Countries",
         "year": 2022,
-        "amount": 0.002315184562,
+        "amount": 0.002315185,
         "amountLabel": "$2K"
       },
       {
-        "donorCountry": "Belgium",
-        "country": "Senegal",
-        "sector": "Education",
-        "year": 2023,
-        "amount": 0.002210000918,
+        "donorCountry": "France",
+        "country": "Colombia",
+        "sector": "Unallocated / Unspecified",
+        "year": 2021,
+        "amount": 0.002158299,
         "amountLabel": "$2K"
       },
       {
@@ -35448,15 +35185,15 @@ window.OECD_DATA = {
         "country": "Uganda",
         "sector": "Water Supply & Sanitation",
         "year": 2023,
-        "amount": 0.00214454069,
+        "amount": 0.002144541,
         "amountLabel": "$2K"
       },
       {
         "donorCountry": "France",
         "country": "South Africa",
-        "sector": "Unspecified",
+        "sector": "Unallocated / Unspecified",
         "year": 2021,
-        "amount": 0.002092627967,
+        "amount": 0.002092628,
         "amountLabel": "$2K"
       },
       {
@@ -35464,7 +35201,7 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Other Multisector",
         "year": 2023,
-        "amount": 0.001989000825,
+        "amount": 0.001989001,
         "amountLabel": "$2K"
       },
       {
@@ -35472,7 +35209,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Industry, Mining, Construction",
         "year": 2021,
-        "amount": 0.0019612862,
+        "amount": 0.001961286,
         "amountLabel": "$2K"
       },
       {
@@ -35480,7 +35217,7 @@ window.OECD_DATA = {
         "country": "South Africa",
         "sector": "Government & Civil Society",
         "year": 2020,
-        "amount": 0.001931066534,
+        "amount": 0.001931067,
         "amountLabel": "$2K"
       },
       {
@@ -35488,7 +35225,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Other Social Infrastructure & Services",
         "year": 2021,
-        "amount": 0.001905660237,
+        "amount": 0.00190566,
         "amountLabel": "$2K"
       },
       {
@@ -35508,11 +35245,19 @@ window.OECD_DATA = {
         "amountLabel": "$2K"
       },
       {
+        "donorCountry": "France",
+        "country": "Kenya",
+        "sector": "Unallocated / Unspecified",
+        "year": 2021,
+        "amount": 0.00183247,
+        "amountLabel": "$2K"
+      },
+      {
         "donorCountry": "Nigeria",
         "country": "Nigeria",
         "sector": "Emergency Response",
         "year": 2021,
-        "amount": 0.001819226403,
+        "amount": 0.001819226,
         "amountLabel": "$2K"
       },
       {
@@ -35520,7 +35265,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Administrative Costs of Donors",
         "year": 2021,
-        "amount": 0.001776902565,
+        "amount": 0.001776903,
         "amountLabel": "$2K"
       },
       {
@@ -35528,7 +35273,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Trade Policies & Regulations",
         "year": 2022,
-        "amount": 0.0013374942,
+        "amount": 0.001337494,
         "amountLabel": "$1K"
       },
       {
@@ -35536,7 +35281,7 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Population Policies/Programmes & Reproductive Health",
         "year": 2022,
-        "amount": 0.001304761237,
+        "amount": 0.001304761,
         "amountLabel": "$1K"
       },
       {
@@ -35544,7 +35289,15 @@ window.OECD_DATA = {
         "country": "Ghana",
         "sector": "Other Multisector",
         "year": 2021,
-        "amount": 0.00126290161,
+        "amount": 0.001262902,
+        "amountLabel": "$1K"
+      },
+      {
+        "donorCountry": "Nigeria",
+        "country": "Nigeria",
+        "sector": "General Budget Support",
+        "year": 2023,
+        "amount": 0.001239937,
         "amountLabel": "$1K"
       },
       {
@@ -35552,7 +35305,15 @@ window.OECD_DATA = {
         "country": "Rwanda",
         "sector": "Education",
         "year": 2020,
-        "amount": 0.00120490912,
+        "amount": 0.001204909,
+        "amountLabel": "$1K"
+      },
+      {
+        "donorCountry": "Belgium",
+        "country": "Brazil",
+        "sector": "Education",
+        "year": 2022,
+        "amount": 0.001164965,
         "amountLabel": "$1K"
       },
       {
@@ -35560,7 +35321,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "General Budget Support",
         "year": 2021,
-        "amount": 0.001136611449,
+        "amount": 0.001136611,
         "amountLabel": "$1K"
       },
       {
@@ -35568,7 +35329,7 @@ window.OECD_DATA = {
         "country": "Nigeria",
         "sector": "Business & Other Services",
         "year": 2022,
-        "amount": 0.001108220644,
+        "amount": 0.001108221,
         "amountLabel": "$1K"
       },
       {
@@ -35576,7 +35337,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Education",
         "year": 2023,
-        "amount": 0.001105000459,
+        "amount": 0.001105,
         "amountLabel": "$1K"
       },
       {
@@ -35589,26 +35350,10 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Belgium",
-        "country": "Mexico",
-        "sector": "Education",
-        "year": 2020,
-        "amount": 0.001084418208,
-        "amountLabel": "$1K"
-      },
-      {
-        "donorCountry": "Belgium",
         "country": "Democratic Republic of the Congo",
         "sector": "Transport & Storage",
         "year": 2021,
-        "amount": 0.0009471762073,
-        "amountLabel": "$1K"
-      },
-      {
-        "donorCountry": "Belgium",
-        "country": "Peru",
-        "sector": "Unspecified",
-        "year": 2023,
-        "amount": 0.0009227195829,
+        "amount": 0.000947176,
         "amountLabel": "$1K"
       },
       {
@@ -35624,7 +35369,7 @@ window.OECD_DATA = {
         "country": "Malawi",
         "sector": "Unallocated / Unspecified",
         "year": 2023,
-        "amount": 0.000773500321,
+        "amount": 0.0007735,
         "amountLabel": "$1K"
       },
       {
@@ -35633,6 +35378,14 @@ window.OECD_DATA = {
         "sector": "Other Social Infrastructure & Services",
         "year": 2020,
         "amount": 0.000633,
+        "amountLabel": "$1K"
+      },
+      {
+        "donorCountry": "United States",
+        "country": "Nigeria",
+        "sector": "Unallocated / Unspecified",
+        "year": 2023,
+        "amount": 0.0006,
         "amountLabel": "$1K"
       },
       {
@@ -35645,10 +35398,10 @@ window.OECD_DATA = {
       },
       {
         "donorCountry": "Belgium",
-        "country": "India",
+        "country": "Peru",
         "sector": "Unallocated / Unspecified",
-        "year": 2021,
-        "amount": 0.0005051606439,
+        "year": 2023,
+        "amount": 0.000542898,
         "amountLabel": "$1K"
       },
       {
@@ -35656,7 +35409,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Unallocated / Unspecified",
         "year": 2021,
-        "amount": 0.0005051606439,
+        "amount": 0.000505161,
         "amountLabel": "$1K"
       },
       {
@@ -35664,7 +35417,7 @@ window.OECD_DATA = {
         "country": "Mexico",
         "sector": "Transport & Storage",
         "year": 2021,
-        "amount": 0.0003949666701,
+        "amount": 0.000394967,
         "amountLabel": "$0K"
       },
       {
@@ -35672,15 +35425,7 @@ window.OECD_DATA = {
         "country": "China (People's Republic of)",
         "sector": "Refugees in Donor Countries",
         "year": 2020,
-        "amount": 0.0002680235278,
-        "amountLabel": "$0K"
-      },
-      {
-        "donorCountry": "United States",
-        "country": "Malawi",
-        "sector": "Unallocated / Unspecified",
-        "year": 2022,
-        "amount": 0.000208232813,
+        "amount": 0.000268024,
         "amountLabel": "$0K"
       },
       {
@@ -35688,7 +35433,7 @@ window.OECD_DATA = {
         "country": "India",
         "sector": "Energy",
         "year": 2021,
-        "amount": 0.0001515481932,
+        "amount": 0.000151548,
         "amountLabel": "$0K"
       },
       {
@@ -35696,7 +35441,7 @@ window.OECD_DATA = {
         "country": "Brazil",
         "sector": "Education",
         "year": 2022,
-        "amount": 0.0001134373398,
+        "amount": 0.000113437,
         "amountLabel": "$0K"
       },
       {
@@ -35716,22 +35461,22 @@ window.OECD_DATA = {
       },
       {
         "label": "South of Sahara, regional",
-        "amount": 3240.7812740617233,
+        "amount": 3240.781274062,
         "amountLabel": "$3.2B"
       },
       {
         "label": "Africa, regional",
-        "amount": 2612.881731117461,
+        "amount": 2612.014108054,
         "amountLabel": "$2.6B"
       },
       {
         "label": "GLOBAL or unspecified",
-        "amount": 496.723892529334,
+        "amount": 496.72389252700003,
         "amountLabel": "$496.7M"
       },
       {
         "label": "Asia, regional",
-        "amount": 390.30246197475,
+        "amount": 390.302461975,
         "amountLabel": "$390.3M"
       }
     ],
@@ -35741,7 +35486,7 @@ window.OECD_DATA = {
     "countries": [
       {
         "label": "Mexico",
-        "count": 28225
+        "count": 28154
       },
       {
         "label": "Bilateral, unspecified",
@@ -35749,11 +35494,11 @@ window.OECD_DATA = {
       },
       {
         "label": "India",
-        "count": 14569
+        "count": 14567
       },
       {
         "label": "China (People's Republic of)",
-        "count": 12355
+        "count": 12360
       },
       {
         "label": "Kenya",
@@ -35761,15 +35506,15 @@ window.OECD_DATA = {
       },
       {
         "label": "Africa, regional",
-        "count": 2576
+        "count": 2553
       },
       {
         "label": "Brazil",
-        "count": 2506
+        "count": 2504
       },
       {
         "label": "Nigeria",
-        "count": 2437
+        "count": 2435
       },
       {
         "label": "South of Sahara, regional",
@@ -35783,43 +35528,43 @@ window.OECD_DATA = {
     "sectors": [
       {
         "label": "Health",
-        "count": 29887
+        "count": 30516
       },
       {
         "label": "Government & Civil Society",
-        "count": 19839
+        "count": 20002
       },
       {
         "label": "Education",
-        "count": 16715
+        "count": 17059
       },
       {
         "label": "Other Social Infrastructure & Services",
-        "count": 8529
+        "count": 9362
       },
       {
         "label": "Population Policies/Programmes & Reproductive Health",
-        "count": 7112
+        "count": 7153
       },
       {
         "label": "Agriculture, Forestry, Fishing",
-        "count": 6176
+        "count": 6251
       },
       {
         "label": "General Environment Protection",
-        "count": 6109
-      },
-      {
-        "label": "Water Supply & Sanitation",
-        "count": 3318
+        "count": 6209
       },
       {
         "label": "Other Multisector",
-        "count": 3073
+        "count": 3888
       },
       {
-        "label": "Emergency Response",
-        "count": 1816
+        "label": "Water Supply & Sanitation",
+        "count": 3438
+      },
+      {
+        "label": "Unallocated / Unspecified",
+        "count": 2040
       }
     ]
   },
@@ -35896,23 +35641,8 @@ window.OECD_DATA = {
           "sector": "Education",
           "subsector": "Primary education",
           "year": 2022,
-          "amount": 0.2787825547,
+          "amount": 0.278782555,
           "amountLabel": "$279K",
-          "relevance": "Similar sector and related project language",
-          "score": 32
-        },
-        {
-          "title": "Rural education and school renovation",
-          "description": "The Association and the China Youth Development Foundation jointly launched the \"Learning Together, Hope Together\" Hope Project online student aid activity. This year, a total of 163 teams provided targeted assistance to 125 project schools, with a total of 756 volunteers participating in teaching. Among them, 107 online teaching teams completed 2,086 online teaching hours, and 56 offline teaching teams completed 1,338 offline teaching hours, totaling 3,424 hours. At the same time, support rural schools to carry out campus repairs to provide teachers and students with a good learning environment.",
-          "donor": "Shenzhen Ping An Charity Foundation",
-          "donorCountry": "China (People's Republic of)",
-          "country": "China (People's Republic of)",
-          "region": "Far East Asia",
-          "sector": "Education",
-          "subsector": "Teacher training",
-          "year": 2021,
-          "amount": 0.273289275,
-          "amountLabel": "$273K",
           "relevance": "Similar sector and related project language",
           "score": 32
         },
@@ -35932,6 +35662,21 @@ window.OECD_DATA = {
           "score": 32
         },
         {
+          "title": "Rural education and school renovation",
+          "description": "The Association and the China Youth Development Foundation jointly launched the \"Learning Together, Hope Together\" Hope Project online student aid activity. This year, a total of 163 teams provided targeted assistance to 125 project schools, with a total of 756 volunteers participating in teaching. Among them, 107 online teaching teams completed 2,086 online teaching hours, and 56 offline teaching teams completed 1,338 offline teaching hours, totaling 3,424 hours. At the same time, support rural schools to carry out campus repairs to provide teachers and students with a good learning environment.",
+          "donor": "Shenzhen Ping An Charity Foundation",
+          "donorCountry": "China (People's Republic of)",
+          "country": "China (People's Republic of)",
+          "region": "Far East Asia",
+          "sector": "Education",
+          "subsector": "Teacher training",
+          "year": 2021,
+          "amount": 0.273289275,
+          "amountLabel": "$273K",
+          "relevance": "Similar sector and related project language",
+          "score": 32
+        },
+        {
           "title": "Jiangxi Province Wan'an County Rural Reading Promotion Project",
           "description": "In-depth promotion project of rural reading in Wan'an County, Jiangxi Province: After basically achieving the coverage of class book corners in rural primary schools throughout the county and consolidating the reading infrastructure of rural primary schools, the Guofu Foundation shifted the focus of rural education projects from reading hardware construction to the training of reading teachers and the in-depth cultivation of reading courses to achieve the step-by-step growth of teachers. On the one hand, for seed teachers with a certain foundation in the county and surrounding schools, the Dosida Reading Dialogue Studio was introduced. Tan Li, a senior reading promoter, set up three co-learning groups for picture book reading teaching, whole book reading teaching, and interdisciplinary teaching and research of natural education. Through offline workshops and online supervision once a month, teachers are supported to improve their theoretical and practical skills in reading education and to develop their own reading teaching methods; on the other hand, the responsible persons continue to take action towards remote rural schools, conduct reading demonstration classes and seminars through field visits, mobilize more teachers to participate in the primary certification course of Oak Academy, encourage more teachers to try reading teaching practices, and expand the seed teacher community. On June 1, 2023, the \"Stubborn Turtle Cup\" Rural Children's Poetry Creation Competition announced the winning works. 524 teachers in Wan'an County guided 4,043 works in 515 classes to participate in the competition, ranking first in the number of participants; 25 primary school students won awards, including 1 gold medal, 1 silver medal, 6 bronze medals, 12 excellent awards, and 5 nomination awards; 5 schools including Park Central Primary School, Shaping Central Primary School, Wushu School, Experimental Primary School, and Xiazao Central Primary School won the Special Action Award, and the County Education and Sports Bureau won the Excellent Organization Award. As of December 22, 2023, a total of 354 teachers and 13 parents in the county have completed the primary course of Oak Academy and obtained the primary certification of children's reading instructors; the participation of parents is an unexpected gain, and reading promotion has begun to expand from school to family parent-child reading. As of June 30, 2023, a total of 36 teachers have participated in the intermediate course of Oak Academy, of which 16 have completed the corresponding courses and obtained 20 course certificates. As of December 18, 2023, a total of 385 teachers have led their classes to participate in the Oak Classroom, with a total of 3,090 classes, of which 242 teachers have completed all 10 courses, and 3 and 9 teachers have won the Model Class Nomination Award and the Deep Participation Award respectively. In addition, in addition to the 430 class book corners donated by the Guofu Foundation, with the support of the Responsible Action, teachers have raised resources to build 115 class book corners (packages).",
           "donor": "Zhejiang Guofu Charity Foundation",
@@ -35941,7 +35686,7 @@ window.OECD_DATA = {
           "sector": "Education",
           "subsector": "Primary education",
           "year": 2023,
-          "amount": 0.09534101573,
+          "amount": 0.095341016,
           "amountLabel": "$95K",
           "relevance": "Similar sector and related project language",
           "score": 32
@@ -35979,7 +35724,7 @@ window.OECD_DATA = {
       ],
       "potentialFunders": [
         {
-          "name": "EAA",
+          "name": "Ecobank Foundation",
           "fit": "High",
           "reason": "Historical OECD records include 57 related grants touching education themes in Cameroon, Chad, Iraq.",
           "amountLabel": "$51.5M"
@@ -36011,9 +35756,9 @@ window.OECD_DATA = {
       ],
       "gapSignal": {
         "label": "Medium",
-        "countrySectorAmount": 538.782546627373,
+        "countrySectorAmount": 538.782546629,
         "countrySectorAmountLabel": "$538.8M",
-        "sectorMedianCountryAmount": 6.085493141200001,
+        "sectorMedianCountryAmount": 6.091971147500001,
         "sectorMedianCountryAmountLabel": "$6.1M",
         "sectorMatchedCountries": 142,
         "countryRank": 7,
@@ -36137,7 +35882,7 @@ window.OECD_DATA = {
           "sector": "Health",
           "subsector": "Medical services",
           "year": 2022,
-          "amount": 0.0521622738,
+          "amount": 0.052162274,
           "amountLabel": "$52K",
           "relevance": "Same recipient country and similar sector and related project language",
           "score": 24
@@ -36145,14 +35890,14 @@ window.OECD_DATA = {
         {
           "title": "Rural poor",
           "description": "Support for creating village isolation centres, home isolation support for mild patients,providing protective gear to health workers and providing food to the needy, medical equipment to care centres",
-          "donor": "Arghyam",
+          "donor": "Arghyam Trust",
           "donorCountry": "India",
           "country": "India",
           "region": "South & Central Asia",
           "sector": "Health",
           "subsector": "COVID-19 control",
           "year": 2021,
-          "amount": 0.03362163476,
+          "amount": 0.033621635,
           "amountLabel": "$34K",
           "relevance": "Same recipient country and similar sector and related project language",
           "score": 24
@@ -36189,7 +35934,7 @@ window.OECD_DATA = {
         {
           "name": "Finolex Industries",
           "fit": "High",
-          "reason": "Historical OECD records include 6 related grants touching health themes in India.",
+          "reason": "Historical OECD records include 7 related grants touching health themes in India.",
           "amountLabel": "$1.2M"
         },
         {
@@ -36207,12 +35952,12 @@ window.OECD_DATA = {
       ],
       "gapSignal": {
         "label": "Medium",
-        "countrySectorAmount": 1932.4306077488702,
-        "countrySectorAmountLabel": "$1.9B",
-        "sectorMedianCountryAmount": 9.1415809962,
-        "sectorMedianCountryAmountLabel": "$9.1M",
-        "sectorMatchedCountries": 155,
-        "countryRank": 4,
+        "countrySectorAmount": 2271.30597681,
+        "countrySectorAmountLabel": "$2.3B",
+        "sectorMedianCountryAmount": 8.904307975,
+        "sectorMedianCountryAmountLabel": "$8.9M",
+        "sectorMatchedCountries": 156,
+        "countryRank": 3,
         "interpretation": "This is a funding-pattern signal for further review, not a conclusion about merit or investability."
       }
     },
@@ -36403,12 +36148,12 @@ window.OECD_DATA = {
       ],
       "gapSignal": {
         "label": "Medium",
-        "countrySectorAmount": 255.43570681094,
+        "countrySectorAmount": 255.43570681,
         "countrySectorAmountLabel": "$255.4M",
-        "sectorMedianCountryAmount": 4.349085471567999,
+        "sectorMedianCountryAmount": 4.3490854715000005,
         "sectorMedianCountryAmountLabel": "$4.3M",
         "sectorMatchedCountries": 130,
-        "countryRank": 9,
+        "countryRank": 10,
         "interpretation": "This is a funding-pattern signal for further review, not a conclusion about merit or investability."
       }
     },
@@ -36431,15 +36176,30 @@ window.OECD_DATA = {
         },
         {
           "title": "Freeheart Africa Reach Out Foundation (FAROF)",
+          "description": "The project seeks to strengthen the primary health care system for an improved maternal and child health among 1,000 women and children in Kaduna State through increasing the capacity of health workers to effectively provide high quality child health services; increasing knowledge and awareness of community members on maternal and child health; and, increasing uptake of ANC and delivery services at the PHC.",
+          "donor": "TY Danjuma Foundation",
+          "donorCountry": "Nigeria",
+          "country": "Nigeria",
+          "region": "Western Africa",
+          "sector": "Population Policies/Programmes & Reproductive Health",
+          "subsector": "Reproductive health care",
+          "year": 2021,
+          "amount": 0.024695381,
+          "amountLabel": "$25K",
+          "relevance": "Same recipient country and similar sector and related project language",
+          "score": 24
+        },
+        {
+          "title": "Freeheart Africa Reach Out Foundation (FAROF)",
           "description": "Strengthening Primary Health Care system for an improved Maternal and Child health (SPHEC-MCH) in Kaduna state. To improve the coverage and quality of maternal and child health services delivery in 7 LGAs of Kaduna state through increasing the capacity of health workers to effectively provide high quality child health services, increase knowledge and awareness of community members on maternal and child health and increase uptake of ANC and delivery services at the PHC. No of Beneficiaries: 3000 No of Health workers to be trained: 25\tKaduna\t2022\tMain Grants",
-          "donor": "TY Danjuma",
+          "donor": "TY Danjuma Foundation",
           "donorCountry": "Nigeria",
           "country": "Nigeria",
           "region": "Western Africa",
           "sector": "Health",
           "subsector": "Health policy and administrative management",
           "year": 2022,
-          "amount": 0.02077913708,
+          "amount": 0.020779137,
           "amountLabel": "$21K",
           "relevance": "Same recipient country and similar sector and related project language",
           "score": 24
@@ -36447,14 +36207,14 @@ window.OECD_DATA = {
         {
           "title": "Centre for Family Health Initiative",
           "description": "Improving Maternal and Child Health through Capacity Building and Community Awareness (C2) Approach in Imo State:The proposal seeks to reduce the proportion of women and their new-borns without basic and emergency care in Imo State by building the capacity of 250 unskilled birth attendants and creating awareness on quality maternal and child healthcare to 1000 women.",
-          "donor": "TY Danjuma",
+          "donor": "TY Danjuma Foundation",
           "donorCountry": "Nigeria",
           "country": "Nigeria",
           "region": "Western Africa",
           "sector": "Health",
           "subsector": "Basic health care",
           "year": 2020,
-          "amount": 0.01925465932,
+          "amount": 0.019254659,
           "amountLabel": "$19K",
           "relevance": "Same recipient country and similar sector and related project language",
           "score": 24
@@ -36462,14 +36222,14 @@ window.OECD_DATA = {
         {
           "title": "Women of Valour Initiative for Development and Empowerment (WOVIDE)",
           "description": "Mitigate cases of maternal and infant mortality and increase demand for hospital based delivery through training of 20 Health workers, 20 TBAs, and 23 Community Volunteers.\n\n\n\n\n\n\n\n\n\nThe project will promote referrals between the TBAs and Health workers at the RDM and the 11 wards of Takum LGA.",
-          "donor": "TY Danjuma",
+          "donor": "TY Danjuma Foundation",
           "donorCountry": "Nigeria",
           "country": "Nigeria",
           "region": "Western Africa",
           "sector": "Health",
           "subsector": "Medical services",
           "year": 2021,
-          "amount": 0.004939076208,
+          "amount": 0.004939076,
           "amountLabel": "$5K",
           "relevance": "Same recipient country and similar sector and related project language",
           "score": 24
@@ -36499,7 +36259,7 @@ window.OECD_DATA = {
           "sector": "Health",
           "subsector": "Medical education/training",
           "year": 2023,
-          "amount": 0.5248607243,
+          "amount": 0.524860724,
           "amountLabel": "$525K",
           "relevance": "Similar sector and related project language",
           "score": 23
@@ -36529,7 +36289,7 @@ window.OECD_DATA = {
           "sector": "Health",
           "subsector": "Medical services",
           "year": 2021,
-          "amount": 0.05031414805,
+          "amount": 0.050314148,
           "amountLabel": "$50K",
           "relevance": "Similar sector and related project language",
           "score": 23
@@ -36544,23 +36304,8 @@ window.OECD_DATA = {
           "sector": "Health",
           "subsector": "Medical services",
           "year": 2022,
-          "amount": 0.04910997556,
+          "amount": 0.049109976,
           "amountLabel": "$49K",
-          "relevance": "Similar sector and related project language",
-          "score": 23
-        },
-        {
-          "title": "Hospital Quality Improvement Public Welfare Project",
-          "description": "By funding this public welfare project, we aim to improve the medical safety (including checking system, surgical safety, patient informed consent, clinical critical values, anesthesia resuscitation, medication safety, blood safety, hospital infection monitoring, etc.) provided to patients by non-profit medical institutions, reduce the medical risks of patients, ease doctor-patient conflicts, and provide patients with safe and effective treatment.",
-          "donor": "Beijing Huatong Guokang Charity Foundation",
-          "donorCountry": "China (People's Republic of)",
-          "country": "China (People's Republic of)",
-          "region": "Far East Asia",
-          "sector": "Health",
-          "subsector": "Health policy and administrative management",
-          "year": 2020,
-          "amount": 0.0209250216,
-          "amountLabel": "$21K",
           "relevance": "Similar sector and related project language",
           "score": 23
         }
@@ -36579,31 +36324,31 @@ window.OECD_DATA = {
           "amountLabel": "$5.4M"
         },
         {
-          "name": "TY Danjuma",
+          "name": "TY Danjuma Foundation",
           "fit": "High",
-          "reason": "Historical OECD records include 9 related grants touching civic tech / health themes in Nigeria.",
-          "amountLabel": "$922K"
+          "reason": "Historical OECD records include 11 related grants touching civic tech / health themes in Nigeria.",
+          "amountLabel": "$952K"
         },
         {
           "name": "Wellcome Trust",
           "fit": "High",
-          "reason": "Historical OECD records include 8 related grants touching civic tech / health themes in Bilateral, unspecified, Kenya, Nigeria.",
-          "amountLabel": "$9.3M"
+          "reason": "Historical OECD records include 7 related grants touching civic tech / health themes in Bilateral, unspecified, Kenya, Nigeria.",
+          "amountLabel": "$7.1M"
         },
         {
           "name": "SF Charity Foundation",
           "fit": "High",
-          "reason": "Historical OECD records include 6 related grants touching civic tech / health themes in China (People's Republic of).",
-          "amountLabel": "$21.0M"
+          "reason": "Historical OECD records include 5 related grants touching civic tech / health themes in China (People's Republic of).",
+          "amountLabel": "$18.6M"
         }
       ],
       "gapSignal": {
         "label": "Medium",
-        "countrySectorAmount": 843.2094192545825,
-        "countrySectorAmountLabel": "$843.2M",
-        "sectorMedianCountryAmount": 9.1415809962,
-        "sectorMedianCountryAmountLabel": "$9.1M",
-        "sectorMatchedCountries": 155,
+        "countrySectorAmount": 843.351991675,
+        "countrySectorAmountLabel": "$843.4M",
+        "sectorMedianCountryAmount": 8.904307975,
+        "sectorMedianCountryAmountLabel": "$8.9M",
+        "sectorMatchedCountries": 156,
         "countryRank": 8,
         "interpretation": "This is a funding-pattern signal for further review, not a conclusion about merit or investability."
       }
@@ -36746,17 +36491,17 @@ window.OECD_DATA = {
           "score": 23
         },
         {
-          "title": "Karma Healthcare Trust",
-          "description": "Grant to enable access to affordable quality primary healthcare to 100 000 Indians through a nurse assisted telemedicine clinics in rural India.",
-          "donor": "Swiss Re Foundation",
-          "donorCountry": "Switzerland",
-          "country": "India",
-          "region": "South & Central Asia",
+          "title": "Rural Doctor Project",
+          "description": "In December 2017, Shanghai Fosun Charity Foundation, China Guangcai Foundation and China Population Welfare Foundation jointly launched the Rural Doctor Project. The project focuses on the three major directions of protecting, empowering and motivating village doctors. It dispatches corporate employees and recruits volunteers from the Western Plan to station in project counties, and provides practical assistance to grassroots village doctors through the \"Five Ones\" project (carrying out a rural doctor guarantee work, withdrawing from a rural doctor capacity improvement project, rescuing a group of seriously ill patients, organizing a group of warm-hearted rural doctor selection, and upgrading a group of smart clinics). The project aims to train and retain qualified rural doctors in rural areas, improve the capacity and accessibility of grassroots medical and health services, reduce the rate of poverty and re-poverty due to illness, and help the national rural revitalization strategy. Since the project was launched, the Rural Doctor Project has covered 78 counties in 16 provinces, municipalities and autonomous regions, benefiting nearly 24,000 rural doctors and 3 million grassroots families.",
+          "donor": "Shanghai Fosun Charity Foundation",
+          "donorCountry": "China (People's Republic of)",
+          "country": "China (People's Republic of)",
+          "region": "Far East Asia",
           "sector": "Health",
-          "subsector": "Basic health care",
-          "year": 2022,
-          "amount": 0.3644074228,
-          "amountLabel": "$364K",
+          "subsector": "Basic health infrastructure",
+          "year": 2023,
+          "amount": 1.416722183,
+          "amountLabel": "$1.4M",
           "relevance": "Similar sector and related project language",
           "score": 23
         }
@@ -36795,11 +36540,11 @@ window.OECD_DATA = {
       ],
       "gapSignal": {
         "label": "Medium",
-        "countrySectorAmount": 106.704654678519,
-        "countrySectorAmountLabel": "$106.7M",
-        "sectorMedianCountryAmount": 9.1415809962,
-        "sectorMedianCountryAmountLabel": "$9.1M",
-        "sectorMatchedCountries": 155,
+        "countrySectorAmount": 106.887813043,
+        "countrySectorAmountLabel": "$106.9M",
+        "sectorMedianCountryAmount": 8.904307975,
+        "sectorMedianCountryAmountLabel": "$8.9M",
+        "sectorMatchedCountries": 156,
         "countryRank": 26,
         "interpretation": "This is a funding-pattern signal for further review, not a conclusion about merit or investability."
       }
