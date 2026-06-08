@@ -5,10 +5,9 @@ from pathlib import Path
 import pandas as pd
 
 
-SOURCE = Path("/Users/jominseo/Downloads/OECD Dataset.xlsx")
-SHEET = "complete_p4d3_df"
+SOURCE = Path(__file__).resolve().parents[1] / "data" / "Complete_dataset.csv"
+SHEET = None  # not used anymore for CSV
 OUT = Path(__file__).resolve().parents[1] / "data" / "oecd-data.js"
-CSV_SOURCE = OUT.parent / "OECD Dataset.xlsx - complete_p4d3_df.csv"
 
 USECOLS = [
     "year",
@@ -439,10 +438,7 @@ def gap_signal(df, project):
 
 
 def main():
-    if CSV_SOURCE.exists():
-        df = pd.read_csv(CSV_SOURCE, usecols=lambda c: c in USECOLS)
-    else:
-        df = pd.read_excel(SOURCE, sheet_name=SHEET, usecols=lambda c: c in USECOLS)
+    df = pd.read_csv(SOURCE, usecols=lambda c: c in USECOLS)
     df["usd_disbursements_defl"] = pd.to_numeric(df["usd_disbursements_defl"], errors="coerce").fillna(0)
     df["_year_numeric"] = clean_year_series(df["year"])
     df = df[df["usd_disbursements_defl"] >= 0].copy()
