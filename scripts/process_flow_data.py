@@ -59,7 +59,7 @@ COORDS = {
     'Guyana': (4.9, -58.9), 'Montenegro': (42.7, 19.4), 'Jamaica': (18.1, -77.3),
     'North Macedonia': (41.6, 21.7), 'Vanuatu': (-15.4, 166.9),
     'Maldives': (1.9, 73.5), 'Samoa': (-13.8, -172.1), 'Turkmenistan': (38.9, 59.6),
-    'São Tomé and Príncipe': (0.2, 6.6), 'Saint Lucia': (13.9, -60.9),
+    'Sao Tome and Principe': (0.2, 6.6), 'Saint Lucia': (13.9, -60.9),
     'Suriname': (3.9, -56.0), 'Equatorial Guinea': (1.7, 10.3),
     'Solomon Islands': (-9.6, 160.2), "Democratic People's Republic of Korea": (40.3, 127.5),
     'Marshall Islands': (7.1, 171.2), 'Dominica': (15.4, -61.4),
